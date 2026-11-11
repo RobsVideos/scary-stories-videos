@@ -1,0 +1,177 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 8.385,
+   "text": "The first night I babysat for the Hales, they left me one strange rule."
+  },
+  {
+   "i": 1,
+   "start": 8.985,
+   "end": 14.127,
+   "text": "If the baby monitor ever shows two cribs... don't go upstairs. Just call us."
+  },
+  {
+   "i": 2,
+   "start": 14.927,
+   "end": 19.449,
+   "text": "I laughed. One baby. One crib. One little camera on the shelf."
+  },
+  {
+   "i": 3,
+   "start": 20.149,
+   "end": 24.693,
+   "text": "By nine, she was asleep. The house was quiet, except for the rain."
+  },
+  {
+   "i": 4,
+   "start": 25.493,
+   "end": 28.331,
+   "text": "Around eleven, the screen flickered."
+  },
+  {
+   "i": 5,
+   "start": 29.931,
+   "end": 31.104,
+   "text": "Two cribs."
+  },
+  {
+   "i": 6,
+   "start": 32.504,
+   "end": 38.008,
+   "text": "In the second one, something was sitting up. Too long to be a baby. Too still to be a toy."
+  },
+  {
+   "i": 7,
+   "start": 38.808,
+   "end": 42.605,
+   "text": "I called the Hales. It rang... and rang... and rang."
+  },
+  {
+   "i": 8,
+   "start": 45.205,
+   "end": 50.667,
+   "text": "I didn't go upstairs. I just sat on the couch, staring at that grainy gray picture."
+  },
+  {
+   "i": 9,
+   "start": 51.367,
+   "end": 54.204,
+   "text": "Then I noticed what was wrong with it."
+  },
+  {
+   "i": 10,
+   "start": 55.404,
+   "end": 58.604,
+   "text": "The second crib wasn't in the nursery."
+  },
+  {
+   "i": 11,
+   "start": 59.604,
+   "end": 63.124,
+   "text": "It was in the living room... right behind my couch."
+  },
+  {
+   "i": 12,
+   "start": 64.924,
+   "end": 66.887,
+   "text": "And it was empty now."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 1120,
+   "bed": "rain",
+   "start": 3.5,
+   "end": 14.677
+  },
+  {
+   "id": "s2",
+   "from_line": 2,
+   "cx": 900,
+   "bed": "rain",
+   "start": 14.677,
+   "end": 25.243
+  },
+  {
+   "id": "s3",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "room",
+   "start": 25.243,
+   "end": 29.031,
+   "fade_out": false
+  },
+  {
+   "id": "s3b",
+   "at": {
+    "line": 4,
+    "edge": "end",
+    "offset": 0.7
+   },
+   "cx": 960,
+   "bed": "drone",
+   "cut": true,
+   "start": 29.031,
+   "end": 32.254,
+   "fade_in": false
+  },
+  {
+   "id": "s4",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 32.254,
+   "end": 38.558
+  },
+  {
+   "id": "s5",
+   "from_line": 7,
+   "cx": 900,
+   "bed": "room",
+   "start": 38.558,
+   "end": 44.955
+  },
+  {
+   "id": "s6",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "rain",
+   "start": 44.955,
+   "end": 55.154
+  },
+  {
+   "id": "s7",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 55.154,
+   "end": 64.674,
+   "fade_out": false
+  },
+  {
+   "id": "s7b",
+   "from_line": 12,
+   "cx": 960,
+   "bed": "drone_deep",
+   "cut": true,
+   "start": 64.674,
+   "end": 67.287,
+   "fade_in": false
+  },
+  {
+   "id": "_end",
+   "start": 67.287,
+   "end": 71.087
+  }
+ ],
+ "total": 71.087
+}

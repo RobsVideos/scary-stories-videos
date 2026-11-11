@@ -1,0 +1,43 @@
+{
+ "title": "The Second Crib",
+ "slug": "2026-11-11-the-second-crib",
+ "hook": "The parents gave me one rule: if the baby monitor ever shows two cribs, don't go upstairs.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "The first night I babysat for the Hales, they left me one strange rule.",
+  "If the baby monitor ever shows two cribs... don't go upstairs. Just call us.",
+  "I laughed. One baby. One crib. One little camera on the shelf.",
+  "By nine, she was asleep. The house was quiet, except for the rain.",
+  "Around eleven, the screen flickered.",
+  "Two cribs.",
+  "In the second one, something was sitting up. Too long to be a baby. Too still to be a toy.",
+  "I called the Hales. It rang... and rang... and rang.",
+  "I didn't go upstairs. I just sat on the couch, staring at that grainy gray picture.",
+  "Then I noticed what was wrong with it.",
+  "The second crib wasn't in the nursery.",
+  "It was in the living room... right behind my couch.",
+  "And it was empty now."
+ ],
+ "pauses": {"0": 0.6, "1": 0.8, "2": 0.7, "3": 0.8, "4": 1.6, "5": 1.4, "6": 0.8, "7": 2.6, "8": 0.7, "9": 1.2, "10": 1.0, "11": 1.8},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 1120, "bed": "rain"},
+  {"id": "s2", "from_line": 2, "cx": 900, "bed": "rain"},
+  {"id": "s3", "from_line": 4, "cx": 960, "bed": "room"},
+  {"id": "s3b", "at": {"line": 4, "edge": "end", "offset": 0.7}, "cx": 960, "bed": "drone", "cut": true},
+  {"id": "s4", "from_line": 6, "cx": 960, "bed": "drone_rise"},
+  {"id": "s5", "from_line": 7, "cx": 900, "bed": "room"},
+  {"id": "s6", "from_line": 8, "cx": 960, "bed": "rain"},
+  {"id": "s7", "from_line": 10, "cx": 960, "bed": "drone_rise"},
+  {"id": "s7b", "from_line": 12, "cx": 960, "bed": "drone_deep", "cut": true}
+ ],
+ "events": [
+  {"sfx": "static", "at": {"line": 4, "edge": "end", "offset": 0.1}, "dur": 1.2, "gain": -3},
+  {"sfx": "hit", "at": {"line": 5, "edge": "start", "offset": -0.1}},
+  {"sfx": "phone", "at": {"line": 7, "edge": "start", "offset": 0.6}, "dur": 6.0, "pan": 0.3},
+  {"sfx": "heartbeat", "at": {"line": 9, "edge": "start", "offset": 0.0}, "dur": 7.0},
+  {"sfx": "creak", "at": {"line": 11, "edge": "end", "offset": 0.3}, "dur": 1.6, "pan": -0.5}
+ ],
+ "end_card": ["Two cribs on the monitor?", "Don't go upstairs.", "It already came down."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}
