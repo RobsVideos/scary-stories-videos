@@ -1,0 +1,187 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 8.535,
+   "text": "The lake had one rule for lifeguards. It was painted on the back of my chair."
+  },
+  {
+   "i": 1,
+   "start": 9.135,
+   "end": 15.385,
+   "text": "Count the swimmers at sunset. If the number goes up by one... clear the water. Never count again."
+  },
+  {
+   "i": 2,
+   "start": 16.185,
+   "end": 21.241,
+   "text": "All summer, the numbers matched. I figured it was an old joke for new guards."
+  },
+  {
+   "i": 3,
+   "start": 21.941,
+   "end": 27.36,
+   "text": "Then, on the last night of August, I counted eleven heads bobbing in the dark water."
+  },
+  {
+   "i": 4,
+   "start": 27.96,
+   "end": 30.349,
+   "text": "I counted again. Twelve."
+  },
+  {
+   "i": 5,
+   "start": 32.349,
+   "end": 37.512,
+   "text": "I blew the whistle. Everyone swam in, laughing, complaining about the cold."
+  },
+  {
+   "i": 6,
+   "start": 38.212,
+   "end": 41.348,
+   "text": "Eleven people stood dripping on the sand."
+  },
+  {
+   "i": 7,
+   "start": 42.348,
+   "end": 47.34,
+   "text": "Out past the rope, one dark head stayed above the water... perfectly still."
+  },
+  {
+   "i": 8,
+   "start": 49.34,
+   "end": 52.839,
+   "text": "It didn't swim. It didn't sink. It just watched me."
+  },
+  {
+   "i": 9,
+   "start": 53.839,
+   "end": 57.209,
+   "text": "Then it slipped under... without a single ripple."
+  },
+  {
+   "i": 10,
+   "start": 58.809,
+   "end": 62.799,
+   "text": "And I broke the rule. I counted the beach one more time."
+  },
+  {
+   "i": 11,
+   "start": 63.999,
+   "end": 64.878,
+   "text": "Twelve."
+  },
+  {
+   "i": 12,
+   "start": 67.278,
+   "end": 70.841,
+   "text": "Eleven of them were shivering in the cold night air."
+  },
+  {
+   "i": 13,
+   "start": 71.841,
+   "end": 76.534,
+   "text": "One of them wasn't. It just smiled at me... and asked for a ride home."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 1010,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 21.691
+  },
+  {
+   "id": "s2",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "wind",
+   "start": 21.691,
+   "end": 29.749,
+   "fade_out": false
+  },
+  {
+   "id": "s2b",
+   "at": {
+    "line": 4,
+    "edge": "end",
+    "offset": -0.6
+   },
+   "cx": 960,
+   "bed": "drone",
+   "cut": true,
+   "start": 29.749,
+   "end": 32.099,
+   "fade_in": false
+  },
+  {
+   "id": "s3",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "wind",
+   "start": 32.099,
+   "end": 37.962
+  },
+  {
+   "id": "s4",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "drone",
+   "start": 37.962,
+   "end": 49.09
+  },
+  {
+   "id": "s5",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 49.09,
+   "end": 55.039,
+   "fade_out": false
+  },
+  {
+   "id": "s5b",
+   "at": {
+    "line": 9,
+    "edge": "start",
+    "offset": 1.2
+   },
+   "cx": 960,
+   "bed": "drone_rise",
+   "cut": true,
+   "start": 55.039,
+   "end": 58.559,
+   "fade_in": false
+  },
+  {
+   "id": "s6",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "drone",
+   "start": 58.559,
+   "end": 67.028
+  },
+  {
+   "id": "s7",
+   "from_line": 12,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 67.028,
+   "end": 76.93400000000001
+  },
+  {
+   "id": "_end",
+   "start": 76.93400000000001,
+   "end": 80.73400000000001
+  }
+ ],
+ "total": 80.73400000000001
+}

@@ -1,0 +1,45 @@
+{
+ "title": "The Dusk Count",
+ "slug": "2026-11-11-the-dusk-count",
+ "hook": "The lake had one rule for lifeguards: count the swimmers at sunset, and if there's one more... never count again.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "The lake had one rule for lifeguards. It was painted on the back of my chair.",
+  "Count the swimmers at sunset. If the number goes up by one... clear the water. Never count again.",
+  "All summer, the numbers matched. I figured it was an old joke for new guards.",
+  "Then, on the last night of August, I counted eleven heads bobbing in the dark water.",
+  "I counted again. Twelve.",
+  "I blew the whistle. Everyone swam in, laughing, complaining about the cold.",
+  "Eleven people stood dripping on the sand.",
+  "Out past the rope, one dark head stayed above the water... perfectly still.",
+  "It didn't swim. It didn't sink. It just watched me.",
+  "Then it slipped under... without a single ripple.",
+  "And I broke the rule. I counted the beach one more time.",
+  "Twelve.",
+  "Eleven of them were shivering in the cold night air.",
+  "One of them wasn't. It just smiled at me... and asked for a ride home."
+ ],
+ "pauses": {"0": 0.6, "1": 0.8, "2": 0.7, "3": 0.6, "4": 2.0, "5": 0.7, "6": 1.0, "7": 2.0, "8": 1.0, "9": 1.6, "10": 1.2, "11": 2.4, "12": 1.0},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 1010, "bed": "wind"},
+  {"id": "s2", "from_line": 3, "cx": 960, "bed": "wind"},
+  {"id": "s2b", "at": {"line": 4, "edge": "end", "offset": -0.6}, "cx": 960, "bed": "drone", "cut": true},
+  {"id": "s3", "from_line": 5, "cx": 960, "bed": "wind"},
+  {"id": "s4", "from_line": 6, "cx": 960, "bed": "drone"},
+  {"id": "s5", "from_line": 8, "cx": 960, "bed": "drone_rise"},
+  {"id": "s5b", "at": {"line": 9, "edge": "start", "offset": 1.2}, "cx": 960, "bed": "drone_rise", "cut": true},
+  {"id": "s6", "from_line": 10, "cx": 960, "bed": "drone"},
+  {"id": "s7", "from_line": 12, "cx": 960, "bed": "drone_deep"}
+ ],
+ "events": [
+  {"sfx": "hit", "at": {"line": 4, "edge": "end", "offset": -0.5}},
+  {"sfx": "riser", "at": {"line": 7, "edge": "start", "offset": 0.0}, "dur": 4.0},
+  {"sfx": "whisper", "at": {"line": 8, "edge": "end", "offset": 0.2}, "dur": 2.2, "pan": -0.4},
+  {"sfx": "heartbeat", "at": {"line": 10, "edge": "start", "offset": 0.0}, "dur": 6.5, "every": 0.9},
+  {"sfx": "boom", "at": {"line": 11, "edge": "end", "offset": 0.1}},
+  {"sfx": "hit", "at": {"line": 13, "edge": "end", "offset": 0.2}}
+ ],
+ "end_card": ["Never count", "the swimmers", "twice."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}
