@@ -1,0 +1,185 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 9.452,
+   "text": "Every Thanksgiving, Dad drove us home through the mountains. And every year, the same warning."
+  },
+  {
+   "i": 1,
+   "start": 10.052,
+   "end": 15.599,
+   "text": "After the tunnel, never look in the rearview mirror. And if you do... don't let her see you look."
+  },
+  {
+   "i": 2,
+   "start": 16.499,
+   "end": 18.909,
+   "text": "He never said who she was."
+  },
+  {
+   "i": 3,
+   "start": 19.909,
+   "end": 25.584,
+   "text": "This year, Dad was too tired, so I drove. He was asleep before we reached the tunnel."
+  },
+  {
+   "i": 4,
+   "start": 26.284,
+   "end": 30.529,
+   "text": "When we came out the other side, I checked the mirror. Just habit."
+  },
+  {
+   "i": 5,
+   "start": 31.529,
+   "end": 34.239,
+   "text": "There was a woman in the back seat."
+  },
+  {
+   "i": 6,
+   "start": 35.639,
+   "end": 41.655,
+   "text": "Gray coat. Soaking wet. Long black hair hanging over her face... staring down at the floor."
+  },
+  {
+   "i": 7,
+   "start": 42.455,
+   "end": 47.724,
+   "text": "I snapped my eyes back to the road. I drove twenty miles without breathing."
+  },
+  {
+   "i": 8,
+   "start": 48.424,
+   "end": 52.264,
+   "text": "Behind me, I could hear water... dripping onto the seat."
+  },
+  {
+   "i": 9,
+   "start": 54.264,
+   "end": 59.043,
+   "text": "At the first gas station, I shook Dad awake and told him everything."
+  },
+  {
+   "i": 10,
+   "start": 59.743,
+   "end": 62.452,
+   "text": "He went pale. Did she see you look?"
+  },
+  {
+   "i": 11,
+   "start": 63.652,
+   "end": 66.425,
+   "text": "No, I said. She never looked up."
+  },
+  {
+   "i": 12,
+   "start": 67.425,
+   "end": 71.564,
+   "text": "Dad closed his eyes... and let out a long, slow breath."
+  },
+  {
+   "i": 13,
+   "start": 72.964,
+   "end": 76.164,
+   "text": "Then I glanced at the mirror one last time."
+  },
+  {
+   "i": 14,
+   "start": 77.764,
+   "end": 82.585,
+   "text": "Her head was up now. And through all that wet hair... she was smiling at me."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 1080,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 9.802
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 900,
+   "bed": "room",
+   "start": 9.802,
+   "end": 19.659
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 980,
+   "bed": "room",
+   "start": 19.659,
+   "end": 26.034
+  },
+  {
+   "id": "s4",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "drone",
+   "start": 26.034,
+   "end": 31.279,
+   "fade_out": false
+  },
+  {
+   "id": "s5",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "drone_rise",
+   "cut": true,
+   "start": 31.279,
+   "end": 48.174,
+   "fade_in": false
+  },
+  {
+   "id": "s6",
+   "from_line": 8,
+   "cx": 980,
+   "bed": "drone_deep",
+   "start": 48.174,
+   "end": 54.014
+  },
+  {
+   "id": "s7",
+   "from_line": 9,
+   "cx": 1060,
+   "bed": "wind",
+   "start": 54.014,
+   "end": 72.714
+  },
+  {
+   "id": "s5",
+   "from_line": 13,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 72.714,
+   "end": 77.514,
+   "fade_out": false
+  },
+  {
+   "id": "s8",
+   "from_line": 14,
+   "cx": 960,
+   "bed": "drone_deep",
+   "cut": true,
+   "start": 77.514,
+   "end": 82.985,
+   "fade_in": false
+  },
+  {
+   "id": "_end",
+   "start": 82.985,
+   "end": 86.785
+  }
+ ],
+ "total": 86.785
+}

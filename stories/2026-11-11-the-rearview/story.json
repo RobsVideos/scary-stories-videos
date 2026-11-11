@@ -1,0 +1,167 @@
+{
+ "title": "The Rearview",
+ "slug": "2026-11-11-the-rearview",
+ "hook": "My dad's one rule for the drive home: after the tunnel, never look in the rearview mirror.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "Every Thanksgiving, Dad drove us home through the mountains. And every year, the same warning.",
+  "After the tunnel, never look in the rearview mirror. And if you do... don't let her see you look.",
+  "He never said who she was.",
+  "This year, Dad was too tired, so I drove. He was asleep before we reached the tunnel.",
+  "When we came out the other side, I checked the mirror. Just habit.",
+  "There was a woman in the back seat.",
+  "Gray coat. Soaking wet. Long black hair hanging over her face... staring down at the floor.",
+  "I snapped my eyes back to the road. I drove twenty miles without breathing.",
+  "Behind me, I could hear water... dripping onto the seat.",
+  "At the first gas station, I shook Dad awake and told him everything.",
+  "He went pale. Did she see you look?",
+  "No, I said. She never looked up.",
+  "Dad closed his eyes... and let out a long, slow breath.",
+  "Then I glanced at the mirror one last time.",
+  "Her head was up now. And through all that wet hair... she was smiling at me."
+ ],
+ "pauses": {
+  "0": 0.6,
+  "1": 0.9,
+  "2": 1.0,
+  "3": 0.7,
+  "4": 1.0,
+  "5": 1.4,
+  "6": 0.8,
+  "7": 0.7,
+  "8": 2.0,
+  "9": 0.7,
+  "10": 1.2,
+  "11": 1.0,
+  "12": 1.4,
+  "13": 1.6
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 1080,
+   "bed": "wind"
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 900,
+   "bed": "room"
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 980,
+   "bed": "room"
+  },
+  {
+   "id": "s4",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "drone"
+  },
+  {
+   "id": "s5",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "drone_rise",
+   "cut": true
+  },
+  {
+   "id": "s6",
+   "from_line": 8,
+   "cx": 980,
+   "bed": "drone_deep"
+  },
+  {
+   "id": "s7",
+   "from_line": 9,
+   "cx": 1060,
+   "bed": "wind"
+  },
+  {
+   "id": "s5",
+   "from_line": 13,
+   "cx": 960,
+   "bed": "drone_rise"
+  },
+  {
+   "id": "s8",
+   "from_line": 14,
+   "cx": 960,
+   "bed": "drone_deep",
+   "cut": true
+  }
+ ],
+ "events": [
+  {
+   "sfx": "hit",
+   "at": {
+    "line": 5,
+    "edge": "start",
+    "offset": -0.1
+   }
+  },
+  {
+   "sfx": "heartbeat",
+   "at": {
+    "line": 7,
+    "edge": "start",
+    "offset": 0.0
+   },
+   "dur": 8.0
+  },
+  {
+   "sfx": "whisper",
+   "at": {
+    "line": 8,
+    "edge": "end",
+    "offset": 0.2
+   },
+   "dur": 2.0,
+   "pan": -0.4,
+   "gain": -4
+  },
+  {
+   "sfx": "lock",
+   "at": {
+    "line": 9,
+    "edge": "start",
+    "offset": 0.1
+   },
+   "pan": 0.3
+  },
+  {
+   "sfx": "riser",
+   "at": {
+    "line": 13,
+    "edge": "start",
+    "offset": 0.0
+   },
+   "dur": 3.5
+  },
+  {
+   "sfx": "hit",
+   "at": {
+    "line": 14,
+    "edge": "start",
+    "offset": -0.1
+   }
+  }
+ ],
+ "end_card": [
+  "After the tunnel,",
+  "don't look in the mirror.",
+  "She already saw you."
+ ],
+ "hashtags": [
+  "#scarystories",
+  "#horrorstories",
+  "#creepy",
+  "#scary",
+  "#horrortok",
+  "#fyp"
+ ]
+}
