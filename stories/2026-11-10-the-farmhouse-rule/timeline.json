@@ -1,0 +1,160 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 7.169,
+   "text": "My grandmother had one rule about the farmhouse."
+  },
+  {
+   "i": 1,
+   "start": 7.769,
+   "end": 13.657,
+   "text": "Never answer the door after midnight. Not for the police. Not for family. Not even for her."
+  },
+  {
+   "i": 2,
+   "start": 14.257,
+   "end": 17.628,
+   "text": "She died in March. I moved in that June."
+  },
+  {
+   "i": 3,
+   "start": 18.328,
+   "end": 23.832,
+   "text": "For months, nothing happened. Then, on the first cold night of October, someone knocked."
+  },
+  {
+   "i": 4,
+   "start": 24.332,
+   "end": 26.039,
+   "text": "Three slow knocks."
+  },
+  {
+   "i": 5,
+   "start": 29.039,
+   "end": 31.641,
+   "text": "I didn't move. I didn't breathe."
+  },
+  {
+   "i": 6,
+   "start": 32.741,
+   "end": 39.12,
+   "text": "And then I heard her voice. Soft. Patient. Exactly the way she used to call me in from the yard."
+  },
+  {
+   "i": 7,
+   "start": 39.72,
+   "end": 42.941,
+   "text": "Sweetheart... it's cold out here. Let me in."
+  },
+  {
+   "i": 8,
+   "start": 44.341,
+   "end": 52.597,
+   "text": "My hand was already on the lock when I remembered the last thing she ever said to me, in the hospital, gripping my wrist so hard it bruised."
+  },
+  {
+   "i": 9,
+   "start": 53.297,
+   "end": 56.327,
+   "text": "When I'm gone... it will know my voice."
+  },
+  {
+   "i": 10,
+   "start": 58.927,
+   "end": 61.359,
+   "text": "That was eleven nights ago."
+  },
+  {
+   "i": 11,
+   "start": 62.959,
+   "end": 66.159,
+   "text": "Last night, it started using my mother's."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 1010,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 14.007
+  },
+  {
+   "id": "s2",
+   "from_line": 2,
+   "cx": 1020,
+   "bed": "wind",
+   "start": 14.007,
+   "end": 18.078
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "room",
+   "start": 18.078,
+   "end": 32.491
+  },
+  {
+   "id": "s4",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "drone",
+   "start": 32.491,
+   "end": 44.091
+  },
+  {
+   "id": "s5",
+   "from_line": 8,
+   "cx": 1150,
+   "bed": "drone_rise",
+   "start": 44.091,
+   "end": 53.047
+  },
+  {
+   "id": "s6",
+   "from_line": 9,
+   "cx": 960,
+   "bed": "room",
+   "start": 53.047,
+   "end": 56.626999999999995,
+   "fade_out": false
+  },
+  {
+   "id": "s6b",
+   "at": {
+    "line": 9,
+    "edge": "end",
+    "offset": 0.3
+   },
+   "cx": 960,
+   "bed": "room",
+   "cut": true,
+   "start": 56.626999999999995,
+   "end": 58.677,
+   "fade_in": false
+  },
+  {
+   "id": "s7",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 58.677,
+   "end": 66.55900000000001
+  },
+  {
+   "id": "_end",
+   "start": 66.55900000000001,
+   "end": 70.35900000000001
+  }
+ ],
+ "total": 70.35900000000001
+}

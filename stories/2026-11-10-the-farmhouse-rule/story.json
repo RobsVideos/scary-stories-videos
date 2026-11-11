@@ -1,0 +1,143 @@
+{
+ "title": "The Farmhouse Rule",
+ "slug": "2026-11-10-the-farmhouse-rule",
+ "hook": "My grandmother had one rule about the farmhouse: never answer the door after midnight.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "My grandmother had one rule about the farmhouse.",
+  "Never answer the door after midnight. Not for the police. Not for family. Not even for her.",
+  "She died in March. I moved in that June.",
+  "For months, nothing happened. Then, on the first cold night of October, someone knocked.",
+  "Three slow knocks.",
+  "I didn't move. I didn't breathe.",
+  "And then I heard her voice. Soft. Patient. Exactly the way she used to call me in from the yard.",
+  "Sweetheart... it's cold out here. Let me in.",
+  "My hand was already on the lock when I remembered the last thing she ever said to me, in the hospital, gripping my wrist so hard it bruised.",
+  "When I'm gone... it will know my voice.",
+  "That was eleven nights ago.",
+  "Last night, it started using my mother's."
+ ],
+ "pauses": {
+  "0": 0.6,
+  "1": 0.6,
+  "2": 0.7,
+  "3": 0.5,
+  "4": 3.0,
+  "5": 1.1,
+  "6": 0.6,
+  "7": 1.4,
+  "8": 0.7,
+  "9": 2.6,
+  "10": 1.6
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 1010,
+   "bed": "wind"
+  },
+  {
+   "id": "s2",
+   "from_line": 2,
+   "cx": 1020,
+   "bed": "wind"
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "room"
+  },
+  {
+   "id": "s4",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "drone"
+  },
+  {
+   "id": "s5",
+   "from_line": 8,
+   "cx": 1150,
+   "bed": "drone_rise"
+  },
+  {
+   "id": "s6",
+   "from_line": 9,
+   "cx": 960,
+   "bed": "room"
+  },
+  {
+   "id": "s6b",
+   "at": {
+    "line": 9,
+    "edge": "end",
+    "offset": 0.3
+   },
+   "cx": 960,
+   "bed": "room",
+   "cut": true
+  },
+  {
+   "id": "s7",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "drone_deep"
+  }
+ ],
+ "events": [
+  {
+   "sfx": "clock",
+   "at": {
+    "line": 3,
+    "edge": "start",
+    "offset": 0.3
+   },
+   "dur": 7.5,
+   "pan": 0.55
+  },
+  {
+   "sfx": "knock3",
+   "at": {
+    "line": 4,
+    "edge": "end",
+    "offset": 0.3
+   }
+  },
+  {
+   "sfx": "lock",
+   "at": {
+    "line": 8,
+    "edge": "start",
+    "offset": 0.9
+   },
+   "pan": 0.25
+  },
+  {
+   "sfx": "monitor",
+   "at": {
+    "line": 9,
+    "edge": "start",
+    "offset": -0.3
+   },
+   "dur": 3.4,
+   "pan": 0.35
+  },
+  {
+   "sfx": "flatline",
+   "at": {
+    "line": 9,
+    "edge": "end",
+    "offset": 0.3
+   },
+   "dur": 2.2,
+   "pan": 0.35
+  }
+ ],
+ "end_card": [
+  "Never answer",
+  "the door",
+  "after midnight."
+ ]
+}

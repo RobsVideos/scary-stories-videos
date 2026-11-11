@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<defs><linearGradient id="door" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#160e0b"/><stop offset="1" stop-color="#2a1a13"/></linearGradient>
+<linearGradient id="spillU" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c2362b" stop-opacity="0.45"/><stop offset="1" stop-color="#c2362b" stop-opacity="0"/></linearGradient>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter>
+</defs>
+
+<rect width="1920" height="1080" fill="#0b0707"/>
+<rect x="160" y="0" width="1600" height="770" fill="url(#door)"/>
+<rect x="260" y="60" width="600" height="560" fill="none" stroke="#120b09" stroke-width="10"/><rect x="1060" y="60" width="600" height="560" fill="none" stroke="#120b09" stroke-width="10"/>
+<rect x="160" y="770" width="1600" height="36" fill="#c2362b"/>
+<rect x="160" y="770" width="1600" height="36" fill="#c2362b" filter="url(#blur8)"/>
+<rect x="410" y="770" width="95" height="36" fill="#050303"/><rect x="535" y="770" width="95" height="36" fill="#050303"/><rect x="835" y="770" width="110" height="36" fill="#050303"/><rect x="975" y="770" width="110" height="36" fill="#050303"/><rect x="1290" y="770" width="95" height="36" fill="#050303"/><rect x="1415" y="770" width="95" height="36" fill="#050303"/><rect x="655" y="770" width="70" height="36" fill="#050303"/><rect x="755" y="770" width="70" height="36" fill="#050303"/><rect x="1095" y="770" width="70" height="36" fill="#050303"/><rect x="1195" y="770" width="70" height="36" fill="#050303"/>
+<polygon points="160,806 1760,806 2100,1080 -180,1080" fill="url(#spillU)"/>
+<polygon points="410,806 505,806 278,1080 135,1080" fill="#000" opacity="0.75"/><polygon points="535,806 630,806 465,1080 322,1080" fill="#000" opacity="0.75"/><polygon points="835,806 945,806 938,1080 772,1080" fill="#000" opacity="0.75"/><polygon points="975,806 1085,806 1148,1080 982,1080" fill="#000" opacity="0.75"/><polygon points="1290,806 1385,806 1598,1080 1455,1080" fill="#000" opacity="0.75"/><polygon points="1415,806 1510,806 1785,1080 1642,1080" fill="#000" opacity="0.75"/><polygon points="655,806 725,806 608,1080 502,1080" fill="#000" opacity="0.75"/><polygon points="755,806 825,806 758,1080 652,1080" fill="#000" opacity="0.75"/><polygon points="1095,806 1165,806 1268,1080 1162,1080" fill="#000" opacity="0.75"/><polygon points="1195,806 1265,806 1418,1080 1312,1080" fill="#000" opacity="0.75"/>
+<rect x="0" y="806" width="1920" height="286" fill="#120a08" opacity="0.55"/>
+<g stroke="#000" stroke-width="3" opacity="0.6"><line x1="0" y1="860" x2="1920" y2="860"/><line x1="0" y1="950" x2="1920" y2="950"/><line x1="0" y1="1050" x2="1920" y2="1050"/></g>
+<rect x="0" y="0" width="160" height="806" fill="#070404"/><rect x="1760" y="0" width="160" height="806" fill="#070404"/>
+
+
+<rect width="1920" height="1080" fill="url(#vig)"/>
+</svg>
