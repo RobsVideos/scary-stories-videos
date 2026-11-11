@@ -1,0 +1,174 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 8.065,
+   "text": "The summer I was nineteen, I ran the midnight swim at a lake camp."
+  },
+  {
+   "i": 1,
+   "start": 8.665,
+   "end": 14.959,
+   "text": "There was one rule. Count them going in. Count them coming out. And if the numbers don't match... don't go looking."
+  },
+  {
+   "i": 2,
+   "start": 15.759,
+   "end": 20.111,
+   "text": "All summer, it was easy. Twelve kids in. Twelve kids out."
+  },
+  {
+   "i": 3,
+   "start": 20.811,
+   "end": 26.571,
+   "text": "Then came the last night of August. No wind. The lake was flat and black, like glass."
+  },
+  {
+   "i": 4,
+   "start": 27.271,
+   "end": 30.108,
+   "text": "Twelve went in. I counted twice."
+  },
+  {
+   "i": 5,
+   "start": 31.008,
+   "end": 35.744,
+   "text": "When I blew the whistle, they waded back up the beach, laughing and shivering."
+  },
+  {
+   "i": 6,
+   "start": 37.144,
+   "end": 38.189,
+   "text": "Thirteen."
+  },
+  {
+   "i": 7,
+   "start": 39.789,
+   "end": 45.784,
+   "text": "I counted again. Thirteen dripping kids in towels... and every one of them was smiling at me."
+  },
+  {
+   "i": 8,
+   "start": 46.584,
+   "end": 52.643,
+   "text": "So I did what the rule said. I didn't look closer. I walked them to the cabins and locked the door."
+  },
+  {
+   "i": 9,
+   "start": 53.343,
+   "end": 58.207,
+   "text": "All night, I heard small wet footsteps, walking circles around the cabin."
+  },
+  {
+   "i": 10,
+   "start": 60.407,
+   "end": 64.46,
+   "text": "In the morning, I told the director we had an extra camper."
+  },
+  {
+   "i": 11,
+   "start": 65.06,
+   "end": 68.943,
+   "text": "She looked at her clipboard. Then at me. Very slowly."
+  },
+  {
+   "i": 12,
+   "start": 70.243,
+   "end": 73.763,
+   "text": "Honey... we've only had eleven campers all summer."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 1000,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 15.509
+  },
+  {
+   "id": "s2",
+   "from_line": 2,
+   "cx": 960,
+   "bed": "wind",
+   "start": 15.509,
+   "end": 20.561
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 1000,
+   "bed": "drone",
+   "start": 20.561,
+   "end": 27.021
+  },
+  {
+   "id": "s4",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "drone",
+   "start": 27.021,
+   "end": 30.758
+  },
+  {
+   "id": "s5",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 30.758,
+   "end": 42.989000000000004,
+   "fade_out": false
+  },
+  {
+   "id": "s5b",
+   "at": {
+    "line": 7,
+    "edge": "start",
+    "offset": 3.2
+   },
+   "cx": 960,
+   "bed": "drone_rise",
+   "cut": true,
+   "start": 42.989000000000004,
+   "end": 46.334,
+   "fade_in": false
+  },
+  {
+   "id": "s6",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "room",
+   "start": 46.334,
+   "end": 60.157
+  },
+  {
+   "id": "s7",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "room",
+   "start": 60.157,
+   "end": 69.993
+  },
+  {
+   "id": "s8",
+   "from_line": 12,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 69.993,
+   "end": 74.16300000000001
+  },
+  {
+   "id": "_end",
+   "start": 74.16300000000001,
+   "end": 77.96300000000001
+  }
+ ],
+ "total": 77.96300000000001
+}

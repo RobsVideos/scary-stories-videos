@@ -1,0 +1,44 @@
+{
+ "title": "The Head Count",
+ "slug": "2026-11-11-the-head-count",
+ "hook": "At the lake camp, the rule for the midnight swim was simple: count them going in, count them coming out.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "The summer I was nineteen, I ran the midnight swim at a lake camp.",
+  "There was one rule. Count them going in. Count them coming out. And if the numbers don't match... don't go looking.",
+  "All summer, it was easy. Twelve kids in. Twelve kids out.",
+  "Then came the last night of August. No wind. The lake was flat and black, like glass.",
+  "Twelve went in. I counted twice.",
+  "When I blew the whistle, they waded back up the beach, laughing and shivering.",
+  "Thirteen.",
+  "I counted again. Thirteen dripping kids in towels... and every one of them was smiling at me.",
+  "So I did what the rule said. I didn't look closer. I walked them to the cabins and locked the door.",
+  "All night, I heard small wet footsteps, walking circles around the cabin.",
+  "In the morning, I told the director we had an extra camper.",
+  "She looked at her clipboard. Then at me. Very slowly.",
+  "Honey... we've only had eleven campers all summer."
+ ],
+ "pauses": {"0": 0.6, "1": 0.8, "2": 0.7, "3": 0.7, "4": 0.9, "5": 1.4, "6": 1.6, "7": 0.8, "8": 0.7, "9": 2.2, "10": 0.6, "11": 1.3},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 1000, "bed": "wind"},
+  {"id": "s2", "from_line": 2, "cx": 960, "bed": "wind"},
+  {"id": "s3", "from_line": 3, "cx": 1000, "bed": "drone"},
+  {"id": "s4", "from_line": 4, "cx": 960, "bed": "drone"},
+  {"id": "s5", "from_line": 5, "cx": 960, "bed": "drone_rise"},
+  {"id": "s5b", "at": {"line": 7, "edge": "start", "offset": 3.2}, "cx": 960, "bed": "drone_rise", "cut": true},
+  {"id": "s6", "from_line": 8, "cx": 960, "bed": "room"},
+  {"id": "s7", "from_line": 10, "cx": 960, "bed": "room"},
+  {"id": "s8", "from_line": 12, "cx": 960, "bed": "drone_deep"}
+ ],
+ "events": [
+  {"sfx": "creak", "at": {"line": 3, "edge": "start", "offset": 1.5}, "dur": 1.6, "pan": -0.3, "gain": -4},
+  {"sfx": "hit", "at": {"line": 6, "edge": "start", "offset": -0.1}},
+  {"sfx": "heartbeat", "at": {"line": 7, "edge": "start", "offset": 0.2}, "dur": 6.5},
+  {"sfx": "lock", "at": {"line": 8, "edge": "end", "offset": -0.4}, "pan": 0.25},
+  {"sfx": "footsteps", "at": {"line": 9, "edge": "start", "offset": 0.4}, "dur": 6.5, "every": 0.62, "pan": -0.4},
+  {"sfx": "whisper", "at": {"line": 12, "edge": "end", "offset": 0.3}, "dur": 2.0, "gain": -6}
+ ],
+ "end_card": ["Count them in.", "Count them out.", "Don't go looking."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}

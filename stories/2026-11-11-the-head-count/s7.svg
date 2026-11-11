@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter></defs>
+<rect width="1920" height="1080" fill="#1a1e26"/>
+<rect x="1180" y="0" width="740" height="760" fill="#3c4a5e"/>
+<rect x="1220" y="40" width="660" height="680" fill="#8fa3bb" opacity="0.6"/>
+<rect x="1220" y="40" width="660" height="680" fill="#c9d4e2" opacity="0.4" filter="url(#blur60)"/>
+<line x1="1550" y1="40" x2="1550" y2="720" stroke="#3c4a5e" stroke-width="16"/><line x1="1220" y1="380" x2="1880" y2="380" stroke="#3c4a5e" stroke-width="16"/>
+<polygon points="1220,720 1880,720 1500,1080 700,1080" fill="#c9d4e2" opacity="0.07"/>
+<rect x="0" y="780" width="1920" height="300" fill="#2a221c"/>
+<g transform="rotate(3 960 560)">
+<rect x="660" y="110" width="600" height="900" rx="26" fill="#5a3b22"/>
+<rect x="700" y="180" width="520" height="800" fill="#a8a59d"/>
+<rect x="840" y="88" width="240" height="70" rx="14" fill="#9a9aa4"/>
+<text x="960" y="270" text-anchor="middle" font-family="Inter, DejaVu Sans, sans-serif" font-size="44" font-weight="bold" fill="#2a2a33" letter-spacing="4">CAMPERS</text>
+<line x1="740" y1="298" x2="1180" y2="298" stroke="#2a2a33" stroke-width="3"/>
+<text x="745" y="360" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#3a3a44">1.</text><rect x="800" y="338" width="300" height="16" rx="8" fill="#5a5b68" opacity="0.55"/><text x="745" y="412" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#3a3a44">2.</text><rect x="800" y="390" width="260" height="16" rx="8" fill="#5a5b68" opacity="0.55"/><text x="745" y="464" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#3a3a44">3.</text><rect x="800" y="442" width="340" height="16" rx="8" fill="#5a5b68" opacity="0.55"/><text x="745" y="516" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#3a3a44">4.</text><rect x="800" y="494" width="220" height="16" rx="8" fill="#5a5b68" opacity="0.55"/><text x="745" y="568" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#3a3a44">5.</text><rect x="800" y="546" width="310" height="16" rx="8" fill="#5a5b68" opacity="0.55"/><text x="745" y="620" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#3a3a44">6.</text><rect x="800" y="598" width="280" height="16" rx="8" fill="#5a5b68" opacity="0.55"/><text x="745" y="672" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#3a3a44">7.</text><rect x="800" y="650" width="250" height="16" rx="8" fill="#5a5b68" opacity="0.55"/><text x="745" y="724" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#3a3a44">8.</text><rect x="800" y="702" width="330" height="16" rx="8" fill="#5a5b68" opacity="0.55"/><text x="745" y="776" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#3a3a44">9.</text><rect x="800" y="754" width="290" height="16" rx="8" fill="#5a5b68" opacity="0.55"/><text x="745" y="828" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#3a3a44">10.</text><rect x="800" y="806" width="240" height="16" rx="8" fill="#5a5b68" opacity="0.55"/><text x="745" y="880" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#3a3a44">11.</text><rect x="800" y="858" width="300" height="16" rx="8" fill="#5a5b68" opacity="0.55"/>
+<g stroke="#c3c0b8" stroke-width="3"><line x1="740" y1="908" x2="1180" y2="908"/><line x1="740" y1="960" x2="1180" y2="960"/></g>
+<ellipse cx="760" cy="880" rx="44" ry="30" fill="none" stroke="#b3261e" stroke-width="6"/>
+</g>
+<circle cx="1500" cy="300" r="260" fill="#dfe7f2" opacity="0.12" filter="url(#blur30)"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>
