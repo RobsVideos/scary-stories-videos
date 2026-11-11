@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter></defs>
+<rect width="1920" height="1080" fill="#0d0f12"/>
+<ellipse cx="760" cy="420" rx="520" ry="420" fill="#ffcf8a" opacity="0.10" filter="url(#blur60)"/>
+<g fill="#030304">
+<path d="M1220 1080 C1210 900 1180 820 1120 760 C1170 720 1190 650 1180 600 C1205 590 1210 570 1195 552 C1210 540 1205 520 1188 510 C1200 470 1192 440 1170 420 C1180 330 1130 250 1040 230 C930 205 820 260 790 360 C770 430 780 520 830 590 C860 640 860 720 820 800 C780 880 740 960 740 1080Z"/>
+<path d="M780 330 C800 220 960 170 1080 210 C1150 230 1190 280 1200 320 C1100 290 920 290 780 330Z" fill="#0a0a0d"/>
+<path d="M770 335 C900 300 1100 300 1230 336 L1240 352 C1100 330 900 330 770 352Z" fill="#0a0a0d"/>
+</g>
+<path d="M1040 230 C930 205 820 260 790 360 C770 430 780 520 830 590" fill="none" stroke="#ffcf8a" stroke-width="5" opacity="0.35"/>
+<ellipse cx="900" cy="470" rx="26" ry="38" fill="#0d0d10" stroke="#262028" stroke-width="3"/>
+<g opacity="0.85">
+<ellipse cx="700" cy="470" rx="60" ry="74" fill="#c8ccd2"/>
+<ellipse cx="700" cy="470" rx="60" ry="74" fill="#c8ccd2" filter="url(#blur30)" opacity="0.6"/>
+<ellipse cx="676" cy="462" rx="13" ry="24" fill="#050506"/>
+<ellipse cx="722" cy="462" rx="13" ry="24" fill="#050506"/>
+<ellipse cx="750" cy="510" rx="9" ry="12" fill="#050506" opacity="0.9"/>
+<path d="M640 540 C620 620 610 720 600 1080 H800 C790 720 780 620 760 540Z" fill="#8a9098" opacity="0.35"/>
+</g>
+<circle cx="700" cy="470" r="140" fill="#c8ccd2" opacity="0.15" filter="url(#blur30)"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

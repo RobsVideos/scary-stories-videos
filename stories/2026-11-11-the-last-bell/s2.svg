@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter></defs>
+<rect width="1920" height="1080" fill="#17130f"/>
+<rect x="520" y="0" width="880" height="1080" fill="#2a2219"/>
+<g stroke="#1d1712" stroke-width="3"><line x1="520" y1="60" x2="1400" y2="60"/><line x1="520" y1="130" x2="1400" y2="130"/><line x1="520" y1="200" x2="1400" y2="200"/><line x1="520" y1="270" x2="1400" y2="270"/><line x1="520" y1="340" x2="1400" y2="340"/><line x1="520" y1="410" x2="1400" y2="410"/><line x1="520" y1="480" x2="1400" y2="480"/><line x1="520" y1="550" x2="1400" y2="550"/><line x1="520" y1="620" x2="1400" y2="620"/><line x1="520" y1="690" x2="1400" y2="690"/><line x1="520" y1="760" x2="1400" y2="760"/><line x1="520" y1="830" x2="1400" y2="830"/></g>
+<rect x="520" y="860" width="880" height="220" fill="#120e0b"/>
+<rect x="560" y="300" width="800" height="18" fill="#0d0a08"/>
+<g fill="#0d0a08"><rect x="590" y="220" width="60" height="80"/><rect x="670" y="240" width="44" height="60"/><rect x="1230" y="210" width="90" height="90"/><rect x="1180" y="250" width="40" height="50"/></g>
+<line x1="960" y1="0" x2="960" y2="110" stroke="#0a0806" stroke-width="4"/>
+<circle cx="960" cy="128" r="20" fill="#ffd88a"/>
+<circle cx="960" cy="140" r="230" fill="#ffc66a" opacity="0.35" filter="url(#blur30)"/>
+<polygon points="960,140 1360,1080 560,1080" fill="#ffc66a" opacity="0.05"/>
+<g transform="rotate(-3 960 520)">
+<rect x="770" y="380" width="380" height="300" fill="#e4dcc4"/>
+<rect x="770" y="380" width="380" height="300" fill="#7a6a45" opacity="0.25"/>
+<rect x="930" y="364" width="60" height="30" fill="#c9c2a8" opacity="0.8" transform="rotate(8 960 380)"/>
+<text x="960" y="440" text-anchor="middle" font-family="DejaVu Serif, serif" font-size="30" fill="#2a1d14">IF THE BELL RINGS</text>
+<text x="960" y="480" text-anchor="middle" font-family="DejaVu Serif, serif" font-size="30" fill="#2a1d14">AFTER MIDNIGHT</text>
+<text x="960" y="550" text-anchor="middle" font-family="DejaVu Serif, serif" font-size="40" font-weight="bold" fill="#8a1410">DON'T MOVE.</text>
+<text x="1110" y="640" text-anchor="end" font-family="DejaVu Serif, serif" font-style="italic" font-size="34" fill="#2a1d14">— Walt</text>
+</g>
+<line x1="640" y1="420" x2="654" y2="780" stroke="#050407" stroke-width="9" stroke-linecap="round"/><path d="M620 780 q34 -26 68 0 l10 40 q-44 14 -88 0z" fill="#050407"/><line x1="618" y1="810" x2="600.0" y2="842" stroke="#050407" stroke-width="7" stroke-linecap="round"/><line x1="634" y1="810" x2="624.0" y2="842" stroke="#050407" stroke-width="7" stroke-linecap="round"/><line x1="648" y1="810" x2="645.0" y2="842" stroke="#050407" stroke-width="7" stroke-linecap="round"/><line x1="662" y1="810" x2="666.0" y2="842" stroke="#050407" stroke-width="7" stroke-linecap="round"/><line x1="676" y1="810" x2="687.0" y2="842" stroke="#050407" stroke-width="7" stroke-linecap="round"/><line x1="690" y1="810" x2="708.0" y2="842" stroke="#050407" stroke-width="7" stroke-linecap="round"/>
+<g transform="translate(1180 760)"><path d="M0 0 h150 l-14 130 h-122z" fill="#3a2e10"/><rect x="-6" y="-8" width="162" height="16" rx="5" fill="#1a1406"/><path d="M10 -6 q65 -70 130 0" stroke="#1a1406" stroke-width="6" fill="none"/></g>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

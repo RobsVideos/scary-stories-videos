@@ -1,0 +1,178 @@
+{
+ "title": "The Last Bell",
+ "slug": "2026-11-11-the-last-bell",
+ "hook": "I clean an old high school at night. The janitor before me left one rule: if the bell rings after midnight, don't move.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "I clean an old high school at night. The janitor before me left one rule, taped inside the supply closet, signed... Walt.",
+  "If the bell rings after midnight, don't move. Not one step. Wait until it rings again.",
+  "For two years, it never rang. Just me, my cart, and the hum of the vending machines.",
+  "Then last Tuesday, at twelve-forty, the bell rang.",
+  "Down the hall, every classroom door clicked open... all at once.",
+  "Lockers slammed. Sneakers squeaked. Hundreds of footsteps rushed past me, laughing.",
+  "But the hallway was completely empty.",
+  "Then the footsteps stopped. All of them. Right around me.",
+  "And a small voice whispered in my ear... you're late.",
+  "I didn't move until the second bell rang, just before dawn.",
+  "This morning, the librarian showed me an old yearbook she found in the basement.",
+  "The class of nineteen sixty-two. Rows of smiling kids on the bleachers.",
+  "And in the back row, holding a mop, stood a man with no smile at all.",
+  "The name sewn on his shirt... was Walt."
+ ],
+ "pauses": {
+  "0": 0.7,
+  "1": 0.8,
+  "2": 0.7,
+  "3": 1.8,
+  "4": 1.0,
+  "5": 0.6,
+  "6": 1.0,
+  "7": 0.8,
+  "8": 1.8,
+  "9": 1.0,
+  "10": 0.6,
+  "11": 0.8,
+  "12": 1.2
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind"
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 960,
+   "bed": "room"
+  },
+  {
+   "id": "s3",
+   "from_line": 2,
+   "cx": 1060,
+   "bed": "room"
+  },
+  {
+   "id": "s4",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "room"
+  },
+  {
+   "id": "s5",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "drone"
+  },
+  {
+   "id": "s5b",
+   "from_line": 7,
+   "cx": 960,
+   "bed": "drone_rise",
+   "cut": true
+  },
+  {
+   "id": "s6",
+   "from_line": 8,
+   "cx": 900,
+   "bed": "drone"
+  },
+  {
+   "id": "s7",
+   "from_line": 10,
+   "cx": 1000,
+   "bed": "room"
+  },
+  {
+   "id": "s8",
+   "from_line": 12,
+   "cx": 960,
+   "bed": "drone_deep"
+  }
+ ],
+ "events": [
+  {
+   "sfx": "clock",
+   "at": {
+    "line": 2,
+    "edge": "start",
+    "offset": 0.3
+   },
+   "dur": 7.0,
+   "pan": 0.5
+  },
+  {
+   "sfx": "phone",
+   "at": {
+    "line": 3,
+    "edge": "end",
+    "offset": 0.2
+   },
+   "dur": 2.0,
+   "gain": 2
+  },
+  {
+   "sfx": "creak",
+   "at": {
+    "line": 4,
+    "edge": "start",
+    "offset": 0.6
+   },
+   "dur": 1.6,
+   "pan": -0.4
+  },
+  {
+   "sfx": "footsteps",
+   "at": {
+    "line": 5,
+    "edge": "start",
+    "offset": 0.0
+   },
+   "dur": 4.5,
+   "every": 0.22,
+   "gain": -3
+  },
+  {
+   "sfx": "whisper",
+   "at": {
+    "line": 8,
+    "edge": "end",
+    "offset": 0.1
+   },
+   "dur": 2.0,
+   "pan": -0.6
+  },
+  {
+   "sfx": "heartbeat",
+   "at": {
+    "line": 12,
+    "edge": "start",
+    "offset": 0.0
+   },
+   "dur": 6.0,
+   "every": 0.85
+  },
+  {
+   "sfx": "hit",
+   "at": {
+    "line": 13,
+    "edge": "end",
+    "offset": 0.2
+   }
+  }
+ ],
+ "end_card": [
+  "If the bell rings,",
+  "don't move."
+ ],
+ "hashtags": [
+  "#scarystories",
+  "#horrorstories",
+  "#creepy",
+  "#scary",
+  "#horrortok",
+  "#fyp"
+ ]
+}

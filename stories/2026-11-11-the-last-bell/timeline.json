@@ -1,0 +1,176 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 11.5,
+   "text": "I clean an old high school at night. The janitor before me left one rule, taped inside the supply closet, signed... Walt."
+  },
+  {
+   "i": 1,
+   "start": 12.2,
+   "end": 17.832,
+   "text": "If the bell rings after midnight, don't move. Not one step. Wait until it rings again."
+  },
+  {
+   "i": 2,
+   "start": 18.632,
+   "end": 24.093,
+   "text": "For two years, it never rang. Just me, my cart, and the hum of the vending machines."
+  },
+  {
+   "i": 3,
+   "start": 24.793,
+   "end": 28.527,
+   "text": "Then last Tuesday, at twelve-forty, the bell rang."
+  },
+  {
+   "i": 4,
+   "start": 30.327,
+   "end": 34.828,
+   "text": "Down the hall, every classroom door clicked open... all at once."
+  },
+  {
+   "i": 5,
+   "start": 35.828,
+   "end": 41.545,
+   "text": "Lockers slammed. Sneakers squeaked. Hundreds of footsteps rushed past me, laughing."
+  },
+  {
+   "i": 6,
+   "start": 42.145,
+   "end": 45.239,
+   "text": "But the hallway was completely empty."
+  },
+  {
+   "i": 7,
+   "start": 46.239,
+   "end": 49.801,
+   "text": "Then the footsteps stopped. All of them. Right around me."
+  },
+  {
+   "i": 8,
+   "start": 50.601,
+   "end": 54.271,
+   "text": "And a small voice whispered in my ear... you're late."
+  },
+  {
+   "i": 9,
+   "start": 56.071,
+   "end": 60.167,
+   "text": "I didn't move until the second bell rang, just before dawn."
+  },
+  {
+   "i": 10,
+   "start": 61.167,
+   "end": 66.18,
+   "text": "This morning, the librarian showed me an old yearbook she found in the basement."
+  },
+  {
+   "i": 11,
+   "start": 66.78,
+   "end": 72.092,
+   "text": "The class of nineteen sixty-two. Rows of smiling kids on the bleachers."
+  },
+  {
+   "i": 12,
+   "start": 72.892,
+   "end": 77.585,
+   "text": "And in the back row, holding a mop, stood a man with no smile at all."
+  },
+  {
+   "i": 13,
+   "start": 78.785,
+   "end": 81.9,
+   "text": "The name sewn on his shirt... was Walt."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 11.95
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 960,
+   "bed": "room",
+   "start": 11.95,
+   "end": 18.382
+  },
+  {
+   "id": "s3",
+   "from_line": 2,
+   "cx": 1060,
+   "bed": "room",
+   "start": 18.382,
+   "end": 24.543
+  },
+  {
+   "id": "s4",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "room",
+   "start": 24.543,
+   "end": 30.077
+  },
+  {
+   "id": "s5",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "drone",
+   "start": 30.077,
+   "end": 45.989,
+   "fade_out": false
+  },
+  {
+   "id": "s5b",
+   "from_line": 7,
+   "cx": 960,
+   "bed": "drone_rise",
+   "cut": true,
+   "start": 45.989,
+   "end": 50.351,
+   "fade_in": false
+  },
+  {
+   "id": "s6",
+   "from_line": 8,
+   "cx": 900,
+   "bed": "drone",
+   "start": 50.351,
+   "end": 60.917
+  },
+  {
+   "id": "s7",
+   "from_line": 10,
+   "cx": 1000,
+   "bed": "room",
+   "start": 60.917,
+   "end": 72.642
+  },
+  {
+   "id": "s8",
+   "from_line": 12,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 72.642,
+   "end": 82.30000000000001
+  },
+  {
+   "id": "_end",
+   "start": 82.30000000000001,
+   "end": 86.10000000000001
+  }
+ ],
+ "total": 86.10000000000001
+}
