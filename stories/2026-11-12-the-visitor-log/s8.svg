@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter></defs>
+<rect width="1920" height="1080" fill="#07090d"/>
+<polygon points="0,0 1920,0 1160,360 760,360" fill="#0c0f15"/>
+<polygon points="0,1080 1920,1080 1160,700 760,700" fill="#11151c"/>
+<polygon points="0,0 760,360 760,700 0,1080" fill="#0e1218"/>
+<polygon points="1920,0 1160,360 1160,700 1920,1080" fill="#0e1218"/>
+<rect x="760" y="360" width="400" height="340" fill="#05060a"/>
+<rect x="880" y="372" width="160" height="14" rx="4" fill="#dff3ee" opacity="0.25"/><rect x="850" y="352" width="220" height="60" fill="#dff3ee" opacity="0.06" filter="url(#blur30)"/>
+<rect x="380" y="380" width="110" height="300" fill="#0d1016"/><rect x="1430" y="380" width="110" height="300" fill="#0d1016"/>
+<polygon points="600,250 720,320 720,760 600,860" fill="#130a0a"/>
+<polygon points="620,264 700,312 700,752 620,838" fill="#ff2a1a" opacity="0.45"/>
+<circle cx="680" cy="560" r="200" fill="#ff2a1a" opacity="0.35" filter="url(#blur30)"/>
+<polygon points="720,760 600,860 900,1080 1100,1080" fill="#ff2a1a" opacity="0.08"/>
+<rect x="612" y="190" width="100" height="44" fill="#d8dde4"/><text x="662" y="224" text-anchor="middle" font-family="Inter, DejaVu Sans, sans-serif" font-weight="bold" font-size="32" fill="#1a1d22">412</text>
+<rect x="1000" y="420" width="60" height="44" fill="#1a0606"/><circle cx="1030" cy="442" r="10" fill="#ff3b2f"/><circle cx="1030" cy="442" r="30" fill="#ff3b2f" opacity="0.6" filter="url(#blur30)"/>
+<g fill="#05060a"><rect x="1210" y="700" width="160" height="16"/><rect x="1220" y="716" width="8" height="70"/><rect x="1350" y="716" width="8" height="70"/>
+<rect x="1240" y="560" width="10" height="140"/><circle cx="1245" cy="550" r="12"/></g>
+<ellipse cx="960" cy="820" rx="1250" ry="110" fill="#c06060" opacity="0.06" filter="url(#blur60)"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

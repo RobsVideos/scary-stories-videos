@@ -1,0 +1,188 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 9.495,
+   "text": "My first night on the hospital front desk, the old guard slid the visitor log across to me."
+  },
+  {
+   "i": 1,
+   "start": 10.095,
+   "end": 13.977,
+   "text": "After two a.m., everyone signs in. Everyone."
+  },
+  {
+   "i": 2,
+   "start": 14.777,
+   "end": 20.196,
+   "text": "And if someone signs a patient's name... instead of their own... you do not let them up."
+  },
+  {
+   "i": 3,
+   "start": 21.096,
+   "end": 26.963,
+   "text": "For three weeks, that log stayed empty. Just humming lights, and rain against the glass doors."
+  },
+  {
+   "i": 4,
+   "start": 27.863,
+   "end": 31.276,
+   "text": "Then, at two-fifteen, the doors slid open."
+  },
+  {
+   "i": 5,
+   "start": 32.876,
+   "end": 38.764,
+   "text": "An old woman shuffled in. Barefoot. Soaking wet. A hospital bracelet on her wrist."
+  },
+  {
+   "i": 6,
+   "start": 39.564,
+   "end": 43.383,
+   "text": "She signed the log without a word... and smiled at me."
+  },
+  {
+   "i": 7,
+   "start": 44.383,
+   "end": 47.113,
+   "text": "Ruth Ellery. Room four-twelve."
+  },
+  {
+   "i": 8,
+   "start": 48.513,
+   "end": 53.292,
+   "text": "I checked the screen. Ruth Ellery was upstairs. Fourth floor. Asleep."
+  },
+  {
+   "i": 9,
+   "start": 54.292,
+   "end": 57.215,
+   "text": "I'm sorry, ma'am... I can't let you up."
+  },
+  {
+   "i": 10,
+   "start": 58.515,
+   "end": 63.208,
+   "text": "Her smile went away. She turned... and walked back out into the rain."
+  },
+  {
+   "i": 11,
+   "start": 66.208,
+   "end": 71.733,
+   "text": "At three, the fourth floor called down. Ruth Ellery had passed away... in her sleep."
+  },
+  {
+   "i": 12,
+   "start": 73.133,
+   "end": 79.64,
+   "text": "At dawn, I went to close the log. Under her name, in the same shaky handwriting, was a second line."
+  },
+  {
+   "i": 13,
+   "start": 80.64,
+   "end": 83.328,
+   "text": "My name... Room four-thirteen."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "rain",
+   "start": 3.5,
+   "end": 9.845
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 1000,
+   "bed": "room",
+   "start": 9.845,
+   "end": 20.846
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "rain",
+   "start": 20.846,
+   "end": 27.613
+  },
+  {
+   "id": "s4",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "drone",
+   "start": 27.613,
+   "end": 39.314
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "room",
+   "start": 39.314,
+   "end": 48.263
+  },
+  {
+   "id": "s6",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "drone",
+   "start": 48.263,
+   "end": 58.265
+  },
+  {
+   "id": "s7",
+   "from_line": 10,
+   "cx": 980,
+   "bed": "rain",
+   "start": 58.265,
+   "end": 65.958
+  },
+  {
+   "id": "s8",
+   "from_line": 11,
+   "cx": 880,
+   "bed": "drone_rise",
+   "start": 65.958,
+   "end": 72.883
+  },
+  {
+   "id": "s9",
+   "from_line": 12,
+   "cx": 960,
+   "bed": "drone",
+   "start": 72.883,
+   "end": 79.94,
+   "fade_out": false
+  },
+  {
+   "id": "s9b",
+   "at": {
+    "line": 12,
+    "edge": "end",
+    "offset": 0.3
+   },
+   "cx": 960,
+   "bed": "drone_deep",
+   "cut": true,
+   "start": 79.94,
+   "end": 83.72800000000001,
+   "fade_in": false
+  },
+  {
+   "id": "_end",
+   "start": 83.72800000000001,
+   "end": 87.528
+  }
+ ],
+ "total": 87.528
+}

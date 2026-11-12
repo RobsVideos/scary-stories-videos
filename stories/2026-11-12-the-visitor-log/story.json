@@ -1,0 +1,46 @@
+{
+ "title": "The Visitor Log",
+ "slug": "2026-11-12-the-visitor-log",
+ "hook": "Night desk rule at the hospital: if a visitor signs in with a patient's name, you do not let them up.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "My first night on the hospital front desk, the old guard slid the visitor log across to me.",
+  "After two a.m., everyone signs in. Everyone.",
+  "And if someone signs a patient's name... instead of their own... you do not let them up.",
+  "For three weeks, that log stayed empty. Just humming lights, and rain against the glass doors.",
+  "Then, at two-fifteen, the doors slid open.",
+  "An old woman shuffled in. Barefoot. Soaking wet. A hospital bracelet on her wrist.",
+  "She signed the log without a word... and smiled at me.",
+  "Ruth Ellery. Room four-twelve.",
+  "I checked the screen. Ruth Ellery was upstairs. Fourth floor. Asleep.",
+  "I'm sorry, ma'am... I can't let you up.",
+  "Her smile went away. She turned... and walked back out into the rain.",
+  "At three, the fourth floor called down. Ruth Ellery had passed away... in her sleep.",
+  "At dawn, I went to close the log. Under her name, in the same shaky handwriting, was a second line.",
+  "My name... Room four-thirteen."
+ ],
+ "pauses": {"0": 0.6, "1": 0.8, "2": 0.9, "3": 0.9, "4": 1.6, "5": 0.8, "6": 1.0, "7": 1.4, "8": 1.0, "9": 1.3, "10": 3.0, "11": 1.4, "12": 1.0, "13": 2.0},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 960, "bed": "rain"},
+  {"id": "s2", "from_line": 1, "cx": 1000, "bed": "room"},
+  {"id": "s3", "from_line": 3, "cx": 960, "bed": "rain"},
+  {"id": "s4", "from_line": 4, "cx": 960, "bed": "drone"},
+  {"id": "s5", "from_line": 6, "cx": 960, "bed": "room"},
+  {"id": "s6", "from_line": 8, "cx": 960, "bed": "drone"},
+  {"id": "s7", "from_line": 10, "cx": 980, "bed": "rain"},
+  {"id": "s8", "from_line": 11, "cx": 880, "bed": "drone_rise"},
+  {"id": "s9", "from_line": 12, "cx": 960, "bed": "drone"},
+  {"id": "s9b", "at": {"line": 12, "edge": "end", "offset": 0.3}, "cx": 960, "bed": "drone_deep", "cut": true}
+ ],
+ "events": [
+  {"sfx": "clock", "at": {"line": 3, "edge": "start", "offset": 0.3}, "dur": 6.0, "pan": 0.5},
+  {"sfx": "footsteps", "at": {"line": 5, "edge": "start", "offset": 0.0}, "dur": 2.6, "every": 0.75, "pan": 0.2, "gain": -4},
+  {"sfx": "hit", "at": {"line": 7, "edge": "end", "offset": 0.2}},
+  {"sfx": "monitor", "at": {"line": 8, "edge": "start", "offset": 0.0}, "dur": 3.5, "pan": 0.3},
+  {"sfx": "phone", "at": {"line": 10, "edge": "end", "offset": 0.3}, "dur": 2.4, "pan": -0.3},
+  {"sfx": "boom", "at": {"line": 13, "edge": "end", "offset": 0.2}}
+ ],
+ "end_card": ["Make them sign in.", "Read every name.", "Even your own."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}
