@@ -1,0 +1,173 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 8.108,
+   "text": "The cabin I rented had an old rotary phone on the kitchen wall."
+  },
+  {
+   "i": 1,
+   "start": 8.708,
+   "end": 12.868,
+   "text": "Its cord had been cut. It just hung there... like a dead tail."
+  },
+  {
+   "i": 2,
+   "start": 13.668,
+   "end": 17.209,
+   "text": "The guestbook had one rule, underlined twice."
+  },
+  {
+   "i": 3,
+   "start": 17.809,
+   "end": 23.015,
+   "text": "If the phone rings, don't answer it. And never say your name inside this cabin."
+  },
+  {
+   "i": 4,
+   "start": 23.915,
+   "end": 28.352,
+   "text": "The first night was perfect. Snow. Firewood. Total silence."
+  },
+  {
+   "i": 5,
+   "start": 29.252,
+   "end": 32.281,
+   "text": "Then, at three in the morning... it rang."
+  },
+  {
+   "i": 6,
+   "start": 34.881,
+   "end": 39.809,
+   "text": "That old metal bell shook the whole wall. Twelve times. Then it stopped."
+  },
+  {
+   "i": 7,
+   "start": 41.009,
+   "end": 45.297,
+   "text": "And from the dark kitchen, very quietly... someone picked it up."
+  },
+  {
+   "i": 8,
+   "start": 46.697,
+   "end": 50.495,
+   "text": "A man's voice said, Yes. She's here. She's asleep."
+  },
+  {
+   "i": 9,
+   "start": 51.495,
+   "end": 55.633,
+   "text": "Footsteps crossed the floor. My bedroom door creaked open."
+  },
+  {
+   "i": 10,
+   "start": 57.033,
+   "end": 60.831,
+   "text": "He leaned over my bed and whispered... What's your name?"
+  },
+  {
+   "i": 11,
+   "start": 62.631,
+   "end": 66.407,
+   "text": "I didn't answer. I didn't breathe. At dawn, he was gone."
+  },
+  {
+   "i": 12,
+   "start": 67.407,
+   "end": 72.847,
+   "text": "I packed fast. On my way out, I signed the guestbook... out of habit. My full name."
+  },
+  {
+   "i": 13,
+   "start": 74.247,
+   "end": 79.687,
+   "text": "That night, at home, my phone started ringing. The caller I.D. just said... Cabin."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 8.458
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 980,
+   "bed": "room",
+   "start": 8.458,
+   "end": 13.418
+  },
+  {
+   "id": "s3",
+   "from_line": 2,
+   "cx": 1000,
+   "bed": "room",
+   "start": 13.418,
+   "end": 23.665
+  },
+  {
+   "id": "s4",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "wind",
+   "start": 23.665,
+   "end": 29.002
+  },
+  {
+   "id": "s5",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "drone",
+   "start": 29.002,
+   "end": 40.759
+  },
+  {
+   "id": "s6",
+   "from_line": 7,
+   "cx": 980,
+   "bed": "drone_rise",
+   "start": 40.759,
+   "end": 51.245
+  },
+  {
+   "id": "s7",
+   "from_line": 9,
+   "cx": 1000,
+   "bed": "drone",
+   "start": 51.245,
+   "end": 67.157
+  },
+  {
+   "id": "s8",
+   "from_line": 12,
+   "cx": 1000,
+   "bed": "wind",
+   "start": 67.157,
+   "end": 73.997
+  },
+  {
+   "id": "s9",
+   "from_line": 13,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 73.997,
+   "end": 80.087
+  },
+  {
+   "id": "_end",
+   "start": 80.087,
+   "end": 83.887
+  }
+ ],
+ "total": 83.887
+}

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter><linearGradient id="scr" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5a1a1c"/><stop offset="1" stop-color="#1a0a0c"/></linearGradient></defs>
+<rect width="1920" height="1080" fill="#06070c"/>
+<rect x="0" y="0" width="1920" height="620" fill="#0b0d16"/>
+<g fill="#10131e"><rect x="180" y="120" width="220" height="300" rx="6"/><rect x="1520" y="120" width="220" height="300" rx="6"/></g>
+<rect x="0" y="620" width="1920" height="40" fill="#1a1d28"/>
+<rect x="0" y="660" width="1920" height="420" fill="#0c0e15"/>
+<circle cx="960" cy="560" r="360" fill="#ff3b2f" opacity="0.22" filter="url(#blur30)"/>
+<g transform="translate(960 560) rotate(-8)">
+<rect x="-150" y="-280" width="300" height="560" rx="44" fill="#050608"/>
+<rect x="-132" y="-258" width="264" height="516" rx="30" fill="#140a0c"/>
+<rect x="-132" y="-258" width="264" height="516" rx="30" fill="url(#scr)"/>
+<text x="0" y="-150" text-anchor="middle" font-family="Inter, DejaVu Sans, sans-serif" font-size="22" fill="#e9d7d4" opacity="0.7" letter-spacing="3">INCOMING CALL</text>
+<text x="0" y="-80" text-anchor="middle" font-family="Inter, DejaVu Sans, sans-serif" font-size="56" font-weight="bold" fill="#fff4f0">CABIN</text>
+<circle cx="0" cy="40" r="56" fill="#3a1414"/>
+<circle cx="0" cy="22" r="22" fill="#6a2a2a"/><path d="M-34 78 C-30 46 30 46 34 78Z" fill="#6a2a2a"/>
+<circle cx="-70" cy="190" r="34" fill="#c0302a"/><circle cx="70" cy="190" r="34" fill="#2aa04a"/>
+<rect x="-86" y="184" width="32" height="12" rx="6" fill="#fff" transform="rotate(-20 -70 190)"/>
+<rect x="54" y="184" width="32" height="12" rx="6" fill="#fff"/>
+</g>
+<g stroke="#ff5a3c" stroke-width="5" fill="none" opacity="0.6" stroke-linecap="round">
+<path d="M700 420 q-30 80 0 160"/><path d="M660 400 q-40 100 0 200"/><path d="M1220 420 q30 80 0 160"/><path d="M1260 400 q40 100 0 200"/></g>
+<path d="M1500 660 L1500 600 L1560 600 L1560 660" fill="#14161f"/><rect x="1480" y="560" width="100" height="44" rx="10" fill="#14161f"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

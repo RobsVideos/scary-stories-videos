@@ -1,0 +1,45 @@
+{
+ "title": "The Cabin Phone",
+ "slug": "2026-11-12-the-cabin-phone",
+ "hook": "The cabin's old phone had no cord. The guestbook said: if it rings, don't answer, and never say your name inside.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "The cabin I rented had an old rotary phone on the kitchen wall.",
+  "Its cord had been cut. It just hung there... like a dead tail.",
+  "The guestbook had one rule, underlined twice.",
+  "If the phone rings, don't answer it. And never say your name inside this cabin.",
+  "The first night was perfect. Snow. Firewood. Total silence.",
+  "Then, at three in the morning... it rang.",
+  "That old metal bell shook the whole wall. Twelve times. Then it stopped.",
+  "And from the dark kitchen, very quietly... someone picked it up.",
+  "A man's voice said, Yes. She's here. She's asleep.",
+  "Footsteps crossed the floor. My bedroom door creaked open.",
+  "He leaned over my bed and whispered... What's your name?",
+  "I didn't answer. I didn't breathe. At dawn, he was gone.",
+  "I packed fast. On my way out, I signed the guestbook... out of habit. My full name.",
+  "That night, at home, my phone started ringing. The caller I.D. just said... Cabin."
+ ],
+ "pauses": {"0": 0.6, "1": 0.8, "2": 0.6, "3": 0.9, "4": 0.9, "5": 2.6, "6": 1.2, "7": 1.4, "8": 1.0, "9": 1.4, "10": 1.8, "11": 1.0, "12": 1.4, "13": 2.0},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 960, "bed": "wind"},
+  {"id": "s2", "from_line": 1, "cx": 980, "bed": "room"},
+  {"id": "s3", "from_line": 2, "cx": 1000, "bed": "room"},
+  {"id": "s4", "from_line": 4, "cx": 960, "bed": "wind"},
+  {"id": "s5", "from_line": 5, "cx": 960, "bed": "drone"},
+  {"id": "s6", "from_line": 7, "cx": 980, "bed": "drone_rise"},
+  {"id": "s7", "from_line": 9, "cx": 1000, "bed": "drone"},
+  {"id": "s8", "from_line": 12, "cx": 1000, "bed": "wind"},
+  {"id": "s9", "from_line": 13, "cx": 960, "bed": "drone_deep"}
+ ],
+ "events": [
+  {"sfx": "phone", "at": {"line": 5, "edge": "end", "offset": 0.2}, "dur": 7.5, "pan": 0.3},
+  {"sfx": "hit", "at": {"line": 7, "edge": "end", "offset": 0.2}},
+  {"sfx": "footsteps", "at": {"line": 9, "edge": "start", "offset": 0.0}, "dur": 2.4, "every": 0.6, "pan": -0.3},
+  {"sfx": "creak", "at": {"line": 9, "edge": "end", "offset": 0.1}, "dur": 1.4, "pan": 0.4},
+  {"sfx": "whisper", "at": {"line": 10, "edge": "end", "offset": 0.1}, "dur": 1.6, "pan": -0.4},
+  {"sfx": "phone", "at": {"line": 13, "edge": "end", "offset": 0.3}, "dur": 3.5, "pan": 0.2}
+ ],
+ "end_card": ["If the phone rings,", "don't answer.", "It already knows your name."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}
