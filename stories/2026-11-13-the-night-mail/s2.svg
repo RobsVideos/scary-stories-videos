@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter></defs>
+<rect width="1920" height="1080" fill="#140e0b"/>
+<g transform="translate(960 540) scale(1.9) translate(-960 -560)"><rect x="738" y="128" width="444" height="782" fill="#0f0a07"/><rect x="760" y="150" width="400" height="760" fill="#2a1b12"/><rect x="800" y="203" width="136" height="228" fill="#22160f" stroke="#120b07" stroke-width="6"/><rect x="800" y="606" width="136" height="228" fill="#22160f" stroke="#120b07" stroke-width="6"/><rect x="984" y="203" width="136" height="228" fill="#22160f" stroke="#120b07" stroke-width="6"/><rect x="984" y="606" width="136" height="228" fill="#22160f" stroke="#120b07" stroke-width="6"/><circle cx="1104" cy="545" r="14" fill="#c9953f"/><circle cx="960" cy="302" r="7" fill="#c9953f" opacity="0.8"/><rect x="852" y="465" width="216" height="77" rx="8" fill="#8a6326"/><rect x="864" y="477" width="192" height="53" fill="#050403"/><rect x="864" y="477" width="192" height="53" fill="#c9953f"/><rect x="864" y="477" width="192" height="6" fill="#f1cf86" opacity="0.6"/></g>
+<circle cx="1300" cy="160" r="380" fill="#ffb54a" opacity="0.25" filter="url(#blur30)"/>
+<g transform="rotate(-3 960 300)">
+<rect x="700" y="130" width="520" height="330" fill="#000" opacity="0.4" filter="url(#blur8)"/>
+<rect x="690" y="120" width="520" height="330" fill="#e2d6b8"/>
+<rect x="890" y="104" width="140" height="40" fill="#cfc59a" opacity="0.8"/>
+<text x="950" y="210" text-anchor="middle" font-family="DejaVu Serif, serif" font-style="italic" font-size="44" fill="#2a1d14">Mail comes in</text>
+<text x="950" y="266" text-anchor="middle" font-family="DejaVu Serif, serif" font-style="italic" font-size="44" fill="#2a1d14">the MORNING.</text>
+<text x="950" y="340" text-anchor="middle" font-family="DejaVu Serif, serif" font-style="italic" font-size="40" fill="#2a1d14">After dark —</text>
+<text x="950" y="410" text-anchor="middle" font-family="DejaVu Serif, serif" font-weight="bold" font-style="italic" font-size="54" fill="#9a1610">BURN IT.</text>
+<line x1="800" y1="424" x2="1100" y2="420" stroke="#9a1610" stroke-width="4"/>
+</g>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

@@ -1,0 +1,169 @@
+{
+ "title": "The Night Mail",
+ "slug": "2026-11-13-the-night-mail",
+ "hook": "My landlord had one rule about the mail slot: if anything comes through after dark, don't open it. Burn it.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "My new apartment had a brass mail slot in the front door... and one rule from the landlord.",
+  "Mail only comes in the morning. If anything drops through after dark... don't open it. Burn it.",
+  "For a whole month, that slot never moved after sunset.",
+  "Then, one night, in the middle of a thunderstorm... I heard it creak open.",
+  "A single envelope slid onto the floor.",
+  "No stamp. No address. Just my name... written in my own handwriting.",
+  "I knelt down. The brass flap was still being held open... from the hallway.",
+  "Something out there was breathing through it. Slow. Patient. Waiting for me to read.",
+  "I burned that letter in the sink, unopened. The flap snapped shut. Footsteps went down the stairs.",
+  "For three nights... nothing came.",
+  "This morning, my neighbor knocked. She was holding an open envelope. Her hands were shaking.",
+  "It came through my slot last night, she whispered. In your handwriting. It says... she won't read mine.",
+  "Then she leaned in close... breathing slow and patient... and asked if she could come in."
+ ],
+ "pauses": {
+  "0": 0.5,
+  "1": 0.8,
+  "2": 0.7,
+  "3": 2.4,
+  "4": 0.8,
+  "5": 1.1,
+  "6": 0.8,
+  "7": 1.2,
+  "8": 1.1,
+  "9": 2.6,
+  "10": 0.8,
+  "11": 1.3,
+  "12": 1.8
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "room"
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 960,
+   "bed": "room"
+  },
+  {
+   "id": "s3",
+   "from_line": 2,
+   "cx": 980,
+   "bed": "rain"
+  },
+  {
+   "id": "s4",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "drone"
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "drone_rise"
+  },
+  {
+   "id": "s6",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "room"
+  },
+  {
+   "id": "s7",
+   "from_line": 9,
+   "cx": 1000,
+   "bed": "drone"
+  },
+  {
+   "id": "s8",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "room"
+  },
+  {
+   "id": "s8b",
+   "at": {
+    "line": 11,
+    "edge": "end",
+    "offset": 0.3
+   },
+   "cx": 960,
+   "bed": "drone_deep",
+   "cut": true
+  }
+ ],
+ "events": [
+  {
+   "sfx": "thunder",
+   "at": {
+    "line": 3,
+    "edge": "start",
+    "offset": 0.2
+   }
+  },
+  {
+   "sfx": "creak",
+   "at": {
+    "line": 3,
+    "edge": "end",
+    "offset": 0.3
+   },
+   "dur": 1.8,
+   "pan": 0.2
+  },
+  {
+   "sfx": "whisper",
+   "at": {
+    "line": 7,
+    "edge": "start",
+    "offset": 0.4
+   },
+   "dur": 3.0,
+   "gain": -6
+  },
+  {
+   "sfx": "footsteps",
+   "at": {
+    "line": 8,
+    "edge": "end",
+    "offset": 0.1
+   },
+   "dur": 2.4,
+   "every": 0.6,
+   "pan": -0.4,
+   "gain": -4
+  },
+  {
+   "sfx": "knock3",
+   "at": {
+    "line": 9,
+    "edge": "end",
+    "offset": 0.3
+   }
+  },
+  {
+   "sfx": "boom",
+   "at": {
+    "line": 12,
+    "edge": "end",
+    "offset": 0.2
+   }
+  }
+ ],
+ "end_card": [
+  "If it comes after dark,",
+  "burn it.",
+  "Never let anyone read it for you."
+ ],
+ "hashtags": [
+  "#scarystories",
+  "#horrorstories",
+  "#creepy",
+  "#scary",
+  "#horrortok",
+  "#fyp"
+ ]
+}

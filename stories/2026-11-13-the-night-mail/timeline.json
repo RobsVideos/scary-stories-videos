@@ -1,0 +1,174 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 9.495,
+   "text": "My new apartment had a brass mail slot in the front door... and one rule from the landlord."
+  },
+  {
+   "i": 1,
+   "start": 9.995,
+   "end": 15.968,
+   "text": "Mail only comes in the morning. If anything drops through after dark... don't open it. Burn it."
+  },
+  {
+   "i": 2,
+   "start": 16.768,
+   "end": 20.864,
+   "text": "For a whole month, that slot never moved after sunset."
+  },
+  {
+   "i": 3,
+   "start": 21.564,
+   "end": 26.279,
+   "text": "Then, one night, in the middle of a thunderstorm... I heard it creak open."
+  },
+  {
+   "i": 4,
+   "start": 28.679,
+   "end": 31.836,
+   "text": "A single envelope slid onto the floor."
+  },
+  {
+   "i": 5,
+   "start": 32.636,
+   "end": 37.692,
+   "text": "No stamp. No address. Just my name... written in my own handwriting."
+  },
+  {
+   "i": 6,
+   "start": 38.792,
+   "end": 43.763,
+   "text": "I knelt down. The brass flap was still being held open... from the hallway."
+  },
+  {
+   "i": 7,
+   "start": 44.563,
+   "end": 49.747,
+   "text": "Something out there was breathing through it. Slow. Patient. Waiting for me to read."
+  },
+  {
+   "i": 8,
+   "start": 50.947,
+   "end": 56.963,
+   "text": "I burned that letter in the sink, unopened. The flap snapped shut. Footsteps went down the stairs."
+  },
+  {
+   "i": 9,
+   "start": 58.063,
+   "end": 60.772,
+   "text": "For three nights... nothing came."
+  },
+  {
+   "i": 10,
+   "start": 63.372,
+   "end": 69.068,
+   "text": "This morning, my neighbor knocked. She was holding an open envelope. Her hands were shaking."
+  },
+  {
+   "i": 11,
+   "start": 69.868,
+   "end": 76.268,
+   "text": "It came through my slot last night, she whispered. In your handwriting. It says... she won't read mine."
+  },
+  {
+   "i": 12,
+   "start": 77.568,
+   "end": 82.965,
+   "text": "Then she leaned in close... breathing slow and patient... and asked if she could come in."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "room",
+   "start": 3.5,
+   "end": 9.745
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 960,
+   "bed": "room",
+   "start": 9.745,
+   "end": 16.518
+  },
+  {
+   "id": "s3",
+   "from_line": 2,
+   "cx": 980,
+   "bed": "rain",
+   "start": 16.518,
+   "end": 28.429
+  },
+  {
+   "id": "s4",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "drone",
+   "start": 28.429,
+   "end": 38.542
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 38.542,
+   "end": 50.697
+  },
+  {
+   "id": "s6",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "room",
+   "start": 50.697,
+   "end": 57.813
+  },
+  {
+   "id": "s7",
+   "from_line": 9,
+   "cx": 1000,
+   "bed": "drone",
+   "start": 57.813,
+   "end": 63.122
+  },
+  {
+   "id": "s8",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "room",
+   "start": 63.122,
+   "end": 76.568,
+   "fade_out": false
+  },
+  {
+   "id": "s8b",
+   "at": {
+    "line": 11,
+    "edge": "end",
+    "offset": 0.3
+   },
+   "cx": 960,
+   "bed": "drone_deep",
+   "cut": true,
+   "start": 76.568,
+   "end": 83.36500000000001,
+   "fade_in": false
+  },
+  {
+   "id": "_end",
+   "start": 83.36500000000001,
+   "end": 87.165
+  }
+ ],
+ "total": 87.165
+}
