@@ -1,0 +1,180 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 9.068,
+   "text": "The old hotel in the mountains had one elevator... and one card taped inside it."
+  },
+  {
+   "i": 1,
+   "start": 9.668,
+   "end": 16.239,
+   "text": "After midnight, if this elevator stops on the fifth floor, don't step out. And don't let anyone step in."
+  },
+  {
+   "i": 2,
+   "start": 17.039,
+   "end": 20.068,
+   "text": "I laughed. There were only four buttons."
+  },
+  {
+   "i": 3,
+   "start": 21.168,
+   "end": 26.949,
+   "text": "My first night, I went down for ice around one a.m. The whole hotel was asleep."
+  },
+  {
+   "i": 4,
+   "start": 27.549,
+   "end": 32.093,
+   "text": "On the way back up, the elevator passed four... and kept climbing."
+  },
+  {
+   "i": 5,
+   "start": 33.693,
+   "end": 34.448,
+   "text": "Ding."
+  },
+  {
+   "i": 6,
+   "start": 35.848,
+   "end": 42.333,
+   "text": "The doors opened on a hallway I'd never seen. Green wallpaper. One bare bulb, swinging slowly."
+  },
+  {
+   "i": 7,
+   "start": 43.133,
+   "end": 48.765,
+   "text": "A bellhop stood there in an old red uniform, holding a suitcase. My suitcase."
+  },
+  {
+   "i": 8,
+   "start": 49.665,
+   "end": 52.822,
+   "text": "Your room is ready, he said. Just step out."
+  },
+  {
+   "i": 9,
+   "start": 54.122,
+   "end": 58.922,
+   "text": "I didn't move. I pressed the close button... again, and again, and again."
+  },
+  {
+   "i": 10,
+   "start": 59.722,
+   "end": 64.458,
+   "text": "He never stepped forward. He just smiled... as the doors slid shut."
+  },
+  {
+   "i": 11,
+   "start": 65.658,
+   "end": 70.629,
+   "text": "The elevator sank back down to four. I let out a breath. I was alone."
+  },
+  {
+   "i": 12,
+   "start": 71.629,
+   "end": 77.432,
+   "text": "The doors opened on my floor... and from the corner right behind me, a polite voice said..."
+  },
+  {
+   "i": 13,
+   "start": 79.032,
+   "end": 80.141,
+   "text": "After you."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 9.418
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 960,
+   "bed": "room",
+   "start": 9.418,
+   "end": 20.918
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 900,
+   "bed": "room",
+   "start": 20.918,
+   "end": 27.299
+  },
+  {
+   "id": "s4",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 27.299,
+   "end": 35.598
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "drone",
+   "start": 35.598,
+   "end": 42.883
+  },
+  {
+   "id": "s6",
+   "from_line": 7,
+   "cx": 960,
+   "bed": "drone",
+   "start": 42.883,
+   "end": 53.872
+  },
+  {
+   "id": "s7",
+   "from_line": 9,
+   "cx": 1250,
+   "bed": "drone_rise",
+   "start": 53.872,
+   "end": 65.408
+  },
+  {
+   "id": "s8",
+   "from_line": 11,
+   "cx": 960,
+   "bed": "room",
+   "start": 65.408,
+   "end": 77.732,
+   "fade_out": false
+  },
+  {
+   "id": "s8b",
+   "at": {
+    "line": 12,
+    "edge": "end",
+    "offset": 0.3
+   },
+   "cx": 960,
+   "bed": "drone_deep",
+   "cut": true,
+   "start": 77.732,
+   "end": 80.54100000000001,
+   "fade_in": false
+  },
+  {
+   "id": "_end",
+   "start": 80.54100000000001,
+   "end": 84.34100000000001
+  }
+ ],
+ "total": 84.34100000000001
+}

@@ -1,0 +1,45 @@
+{
+ "title": "The Fifth Floor",
+ "slug": "2026-11-13-the-fifth-floor",
+ "hook": "The old hotel's elevator had one rule: if it stops on the fifth floor after midnight, don't step out... and don't let anyone step in.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "The old hotel in the mountains had one elevator... and one card taped inside it.",
+  "After midnight, if this elevator stops on the fifth floor, don't step out. And don't let anyone step in.",
+  "I laughed. There were only four buttons.",
+  "My first night, I went down for ice around one a.m. The whole hotel was asleep.",
+  "On the way back up, the elevator passed four... and kept climbing.",
+  "Ding.",
+  "The doors opened on a hallway I'd never seen. Green wallpaper. One bare bulb, swinging slowly.",
+  "A bellhop stood there in an old red uniform, holding a suitcase. My suitcase.",
+  "Your room is ready, he said. Just step out.",
+  "I didn't move. I pressed the close button... again, and again, and again.",
+  "He never stepped forward. He just smiled... as the doors slid shut.",
+  "The elevator sank back down to four. I let out a breath. I was alone.",
+  "The doors opened on my floor... and from the corner right behind me, a polite voice said...",
+  "After you."
+ ],
+ "pauses": {"0": 0.6, "1": 0.8, "2": 1.1, "3": 0.6, "4": 1.6, "5": 1.4, "6": 0.8, "7": 0.9, "8": 1.3, "9": 0.8, "10": 1.2, "11": 1.0, "12": 1.6, "13": 1.8},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 960, "bed": "wind"},
+  {"id": "s2", "from_line": 1, "cx": 960, "bed": "room"},
+  {"id": "s3", "from_line": 3, "cx": 900, "bed": "room"},
+  {"id": "s4", "from_line": 4, "cx": 960, "bed": "drone_rise"},
+  {"id": "s5", "from_line": 6, "cx": 960, "bed": "drone"},
+  {"id": "s6", "from_line": 7, "cx": 960, "bed": "drone"},
+  {"id": "s7", "from_line": 9, "cx": 1250, "bed": "drone_rise"},
+  {"id": "s8", "from_line": 11, "cx": 960, "bed": "room"},
+  {"id": "s8b", "at": {"line": 12, "edge": "end", "offset": 0.3}, "cx": 960, "bed": "drone_deep", "cut": true}
+ ],
+ "events": [
+  {"sfx": "riser", "at": {"line": 4, "edge": "start", "offset": 0.2}, "dur": 4.5, "gain": -4},
+  {"sfx": "hit", "at": {"line": 5, "edge": "start", "offset": -0.15}},
+  {"sfx": "creak", "at": {"line": 6, "edge": "start", "offset": 0.0}, "dur": 1.8, "gain": -3},
+  {"sfx": "heartbeat", "at": {"line": 9, "edge": "start", "offset": 0.2}, "dur": 6.0, "every": 0.85, "gain": -3},
+  {"sfx": "whisper", "at": {"line": 12, "edge": "end", "offset": 0.1}, "dur": 1.6, "gain": -8, "pan": -0.4},
+  {"sfx": "boom", "at": {"line": 13, "edge": "end", "offset": 0.2}}
+ ],
+ "end_card": ["If it stops on five,", "don't step out.", "Or let anyone in."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}

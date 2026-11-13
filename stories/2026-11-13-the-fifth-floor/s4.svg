@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter><linearGradient id="doorSheen" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000" stop-opacity="0.35"/>
+<stop offset="0.5" stop-color="#ffe0a0" stop-opacity="0.12"/><stop offset="1" stop-color="#000" stop-opacity="0.35"/></linearGradient></defs>
+<rect width="1920" height="1080" fill="#1a110a"/>
+<rect x="0" y="760" width="1920" height="320" fill="#6e5532"/>
+<rect x="0" y="760" width="1920" height="320" fill="url(#doorSheen)"/>
+<rect x="955" y="760" width="10" height="320" fill="#1a110a"/>
+<path d="M560 700 A400 400 0 0 1 1360 700 Z" fill="#8a6326"/>
+<path d="M600 690 A360 360 0 0 1 1320 690 Z" fill="#e8d6a6"/>
+<path d="M600 690 A360 360 0 0 1 1320 690 Z" fill="url(#doorSheen)"/>
+<text x="678" y="555" text-anchor="middle" font-family="DejaVu Serif, serif" font-size="56" fill="#3a2a14">L</text><text x="767" y="428" text-anchor="middle" font-family="DejaVu Serif, serif" font-size="56" fill="#3a2a14">1</text><text x="908" y="363" text-anchor="middle" font-family="DejaVu Serif, serif" font-size="56" fill="#3a2a14">2</text><text x="1063" y="376" text-anchor="middle" font-family="DejaVu Serif, serif" font-size="56" fill="#3a2a14">3</text><text x="1190" y="465" text-anchor="middle" font-family="DejaVu Serif, serif" font-size="56" fill="#3a2a14">4</text>
+<path d="M1220 560 A300 300 0 0 1 1270 690" stroke="#9a1610" stroke-width="10" fill="none" opacity="0.6"/>
+<line x1="960" y1="660" x2="1279" y2="575" stroke="#120806" stroke-width="12" stroke-linecap="round"/>
+<circle cx="960" cy="660" r="30" fill="#120806"/><circle cx="960" cy="660" r="12" fill="#c9953f"/>
+<circle cx="1270" cy="600" r="120" fill="#ff3b2f" opacity="0.5" filter="url(#blur30)"/>
+<circle cx="1360" cy="380" r="20" fill="#ff3b2f"/><circle cx="1360" cy="380" r="60" fill="#ff3b2f" opacity="0.6" filter="url(#blur30)"/>
+<rect x="540" y="690" width="840" height="30" fill="#5a3f1e"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>
