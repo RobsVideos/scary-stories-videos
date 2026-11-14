@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter></defs>
+<rect width="1920" height="1080" fill="#08090b"/>
+<rect x="430" y="0" width="1060" height="1080" fill="#22272e"/>
+<rect x="430" y="0" width="1060" height="120" fill="#16191f"/>
+<text x="560" y="88" font-family="DejaVu Sans Mono, monospace" font-size="64" fill="#d43a2e">9</text>
+<!-- dark open drum -->
+<circle cx="960" cy="560" r="320" fill="#0b0c0f"/>
+<circle cx="960" cy="560" r="300" fill="#000"/>
+<circle cx="960" cy="600" r="140" fill="#5a0a08" opacity="0.6" filter="url(#blur30)"/>
+<g fill="#ff3b2f"><circle cx="905.0" cy="550" r="11"/><circle cx="975.0" cy="550" r="11"/></g><g fill="#ff3b2f" opacity="0.6" filter="url(#blur8)"><circle cx="905.0" cy="550" r="27.5"/><circle cx="975.0" cy="550" r="27.5"/></g>
+<!-- pale fingers curled over the left rim -->
+<g fill="#c4bdae">
+<rect x="590" y="530" width="120" height="32" rx="16"/><rect x="590" y="572" width="120" height="32" rx="16"/><rect x="590" y="614" width="120" height="32" rx="16"/><rect x="590" y="656" width="120" height="32" rx="16"/>
+<rect x="640" y="490" width="40" height="230" rx="20" opacity="0.0"/>
+</g>
+<g fill="#8f8677"><rect x="590" y="534" width="22" height="24" rx="8"/><rect x="590" y="576" width="22" height="24" rx="8"/><rect x="590" y="618" width="22" height="24" rx="8"/><rect x="590" y="660" width="22" height="24" rx="8"/></g>
+<g stroke="#000" stroke-opacity="0.35" stroke-width="3"><line x1="640" y1="534" x2="640" y2="558"/><line x1="640" y1="576" x2="640" y2="600"/><line x1="640" y1="618" x2="640" y2="642"/><line x1="640" y1="660" x2="640" y2="684"/></g>
+<path d="M700 520 C780 540 800 680 710 720" fill="#2a2724" opacity="0.8"/>
+<!-- door swinging open, seen edge-on -->
+<g transform="translate(1270 560)">
+<ellipse cx="90" cy="0" rx="90" ry="326" fill="#9aa1ad"/>
+<ellipse cx="96" cy="0" rx="70" ry="296" fill="#1a0505"/>
+<ellipse cx="96" cy="0" rx="70" ry="296" fill="#3a0907" opacity="0.6"/>
+</g>
+<rect x="1250" y="520" width="30" height="80" fill="#5e636c"/>
+<g opacity="0.85"><g transform="rotate(8 1280 170)"><rect x="1166.0" y="123.0" width="240" height="110" fill="#000" opacity="0.4" filter="url(#blur8)"/><rect x="1160.0" y="115.0" width="240" height="110" fill="#e8e2cf"/><text x="1280" y="179" text-anchor="middle" font-family="Inter, DejaVu Sans, sans-serif" font-weight="bold" font-size="26" fill="#141414" letter-spacing="2">OUT OF ORDER</text><rect x="1140.0" y="101.0" width="90" height="30" fill="#d9d2b0" opacity="0.75" transform="rotate(-25 1185.0 116.0)"/><rect x="1330.0" y="101.0" width="90" height="30" fill="#d9d2b0" opacity="0.75" transform="rotate(25 1375.0 116.0)"/></g></g>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

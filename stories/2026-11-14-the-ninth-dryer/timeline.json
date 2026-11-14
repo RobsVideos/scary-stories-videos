@@ -1,0 +1,176 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 9.089,
+   "text": "The all-night laundromat on Elm Street has nine dryers... and only eight of them work."
+  },
+  {
+   "i": 1,
+   "start": 9.689,
+   "end": 14.404,
+   "text": "Number nine has a sign taped to its door, in thick black marker."
+  },
+  {
+   "i": 2,
+   "start": 14.904,
+   "end": 19.555,
+   "text": "Out of order. If it's ever running... don't open it. Don't even look inside."
+  },
+  {
+   "i": 3,
+   "start": 20.455,
+   "end": 24.999,
+   "text": "I do my laundry there on Thursdays, after midnight, when it's empty."
+  },
+  {
+   "i": 4,
+   "start": 25.599,
+   "end": 30.42,
+   "text": "For a whole year, number nine just sat there. Cold. Silent. Dark."
+  },
+  {
+   "i": 5,
+   "start": 31.12,
+   "end": 35.92,
+   "text": "Then last Thursday, while I was folding towels... it started to spin."
+  },
+  {
+   "i": 6,
+   "start": 36.72,
+   "end": 41.883,
+   "text": "No coins. No plug. Just a slow, heavy tumble. Thump... thump... thump."
+  },
+  {
+   "i": 7,
+   "start": 42.583,
+   "end": 47.02,
+   "text": "Like something soft and heavy, rolling over and over in the dark."
+  },
+  {
+   "i": 8,
+   "start": 47.62,
+   "end": 51.481,
+   "text": "I kept folding. I didn't look. Then the thumping stopped."
+  },
+  {
+   "i": 9,
+   "start": 53.681,
+   "end": 58.908,
+   "text": "And very slowly... from the inside... the little round door began to open."
+  },
+  {
+   "i": 10,
+   "start": 60.108,
+   "end": 65.697,
+   "text": "I ran. I left everything behind. My basket. My towels. Even my keys."
+  },
+  {
+   "i": 11,
+   "start": 66.697,
+   "end": 70.772,
+   "text": "My landlord let me in the next morning. Nothing was missing."
+  },
+  {
+   "i": 12,
+   "start": 71.572,
+   "end": 77.353,
+   "text": "Then I opened my bedroom closet. My towels were in there... folded, and still warm."
+  },
+  {
+   "i": 13,
+   "start": 78.353,
+   "end": 83.857,
+   "text": "And taped to the inside of the closet door, in thick black marker... Out of order."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 900,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 9.439
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 960,
+   "bed": "room",
+   "start": 9.439,
+   "end": 20.205
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 1080,
+   "bed": "room",
+   "start": 20.205,
+   "end": 30.87
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "drone",
+   "start": 30.87,
+   "end": 42.333
+  },
+  {
+   "id": "s5",
+   "from_line": 7,
+   "cx": 1050,
+   "bed": "drone_rise",
+   "start": 42.333,
+   "end": 53.431
+  },
+  {
+   "id": "s6",
+   "from_line": 9,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 53.431,
+   "end": 59.858
+  },
+  {
+   "id": "s7",
+   "from_line": 10,
+   "cx": 1150,
+   "bed": "wind",
+   "start": 59.858,
+   "end": 66.447
+  },
+  {
+   "id": "s8",
+   "from_line": 11,
+   "cx": 1180,
+   "bed": "room",
+   "start": 66.447,
+   "end": 78.103,
+   "fade_out": false
+  },
+  {
+   "id": "s9",
+   "from_line": 13,
+   "cx": 1180,
+   "bed": "drone_deep",
+   "cut": true,
+   "start": 78.103,
+   "end": 84.257,
+   "fade_in": false
+  },
+  {
+   "id": "_end",
+   "start": 84.257,
+   "end": 88.057
+  }
+ ],
+ "total": 88.057
+}
