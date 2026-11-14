@@ -1,0 +1,176 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 10.241,
+   "text": "Nobody listens to a tiny country radio station at three in the morning. At least, that's what I thought."
+  },
+  {
+   "i": 1,
+   "start": 10.841,
+   "end": 15.172,
+   "text": "The old night host left one sticky note on my microphone."
+  },
+  {
+   "i": 2,
+   "start": 15.672,
+   "end": 21.475,
+   "text": "If the request line lights up after three... don't answer. And never put the caller on the air."
+  },
+  {
+   "i": 3,
+   "start": 22.275,
+   "end": 27.331,
+   "text": "All winter, that line stayed dark. Just me, the snow, and sad old songs."
+  },
+  {
+   "i": 4,
+   "start": 28.031,
+   "end": 32.809,
+   "text": "Then, one night, at three-oh-six... the little red light started blinking."
+  },
+  {
+   "i": 5,
+   "start": 35.609,
+   "end": 38.681,
+   "text": "I let it ring. Through two whole songs."
+  },
+  {
+   "i": 6,
+   "start": 39.481,
+   "end": 42.511,
+   "text": "Then it stopped... and so did the music."
+  },
+  {
+   "i": 7,
+   "start": 43.911,
+   "end": 48.839,
+   "text": "I grabbed my headphones. And I heard my own voice. Live. On the air."
+  },
+  {
+   "i": 8,
+   "start": 49.739,
+   "end": 53.749,
+   "text": "We've got a caller on the line, folks. Go ahead... you're on."
+  },
+  {
+   "i": 9,
+   "start": 54.949,
+   "end": 58.811,
+   "text": "Something breathed into the line. Slow. Wet. Patient."
+  },
+  {
+   "i": 10,
+   "start": 59.811,
+   "end": 64.461,
+   "text": "Then it asked for a dedication... for the man alone in the studio."
+  },
+  {
+   "i": 11,
+   "start": 65.061,
+   "end": 67.429,
+   "text": "Tell him I'm on the stairs."
+  },
+  {
+   "i": 12,
+   "start": 70.029,
+   "end": 74.595,
+   "text": "I yanked every cable out of the board. Dead air. Total silence."
+  },
+  {
+   "i": 13,
+   "start": 75.995,
+   "end": 81.691,
+   "text": "Then the stairwell door creaked open behind me... and my own voice whispered... You're on."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 10.591
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 1000,
+   "bed": "room",
+   "start": 10.591,
+   "end": 22.025
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 1050,
+   "bed": "room",
+   "start": 22.025,
+   "end": 27.781
+  },
+  {
+   "id": "s4",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "drone",
+   "start": 27.781,
+   "end": 39.231
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 1100,
+   "bed": "drone_rise",
+   "start": 39.231,
+   "end": 49.489
+  },
+  {
+   "id": "s6",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "drone",
+   "start": 49.489,
+   "end": 59.561
+  },
+  {
+   "id": "s7",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 59.561,
+   "end": 69.779
+  },
+  {
+   "id": "s8",
+   "from_line": 12,
+   "cx": 960,
+   "bed": "none",
+   "start": 69.779,
+   "end": 75.745,
+   "fade_out": false
+  },
+  {
+   "id": "s9",
+   "from_line": 13,
+   "cx": 1300,
+   "bed": "drone_deep",
+   "cut": true,
+   "start": 75.745,
+   "end": 82.09100000000001,
+   "fade_in": false
+  },
+  {
+   "id": "_end",
+   "start": 82.09100000000001,
+   "end": 85.891
+  }
+ ],
+ "total": 85.891
+}

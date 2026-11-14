@@ -1,0 +1,45 @@
+{
+ "title": "The Request Line",
+ "slug": "2026-11-14-the-request-line",
+ "hook": "The old night host left one note on the microphone: if the request line lights up after three, don't answer.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "Nobody listens to a tiny country radio station at three in the morning. At least, that's what I thought.",
+  "The old night host left one sticky note on my microphone.",
+  "If the request line lights up after three... don't answer. And never put the caller on the air.",
+  "All winter, that line stayed dark. Just me, the snow, and sad old songs.",
+  "Then, one night, at three-oh-six... the little red light started blinking.",
+  "I let it ring. Through two whole songs.",
+  "Then it stopped... and so did the music.",
+  "I grabbed my headphones. And I heard my own voice. Live. On the air.",
+  "We've got a caller on the line, folks. Go ahead... you're on.",
+  "Something breathed into the line. Slow. Wet. Patient.",
+  "Then it asked for a dedication... for the man alone in the studio.",
+  "Tell him I'm on the stairs.",
+  "I yanked every cable out of the board. Dead air. Total silence.",
+  "Then the stairwell door creaked open behind me... and my own voice whispered... You're on."
+ ],
+ "pauses": {"0": 0.6, "1": 0.5, "2": 0.8, "3": 0.7, "4": 2.8, "5": 0.8, "6": 1.4, "7": 0.9, "8": 1.2, "9": 1.0, "10": 0.6, "11": 2.6, "12": 1.4},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 960, "bed": "wind"},
+  {"id": "s2", "from_line": 1, "cx": 1000, "bed": "room"},
+  {"id": "s3", "from_line": 3, "cx": 1050, "bed": "room"},
+  {"id": "s4", "from_line": 4, "cx": 960, "bed": "drone"},
+  {"id": "s5", "from_line": 6, "cx": 1100, "bed": "drone_rise"},
+  {"id": "s6", "from_line": 8, "cx": 960, "bed": "drone"},
+  {"id": "s7", "from_line": 10, "cx": 960, "bed": "drone_deep"},
+  {"id": "s8", "from_line": 12, "cx": 960, "bed": "none"},
+  {"id": "s9", "from_line": 13, "cx": 1300, "bed": "drone_deep", "cut": true}
+ ],
+ "events": [
+  {"sfx": "phone", "at": {"line": 4, "edge": "end", "offset": 0.2}, "dur": 4.5, "pan": -0.3},
+  {"sfx": "static", "at": {"line": 7, "edge": "start", "offset": 1.6}, "dur": 2.0, "gain": -6},
+  {"sfx": "whisper", "at": {"line": 9, "edge": "start", "offset": 0.0}, "dur": 3.5},
+  {"sfx": "footsteps", "at": {"line": 11, "edge": "end", "offset": 0.3}, "dur": 2.4, "every": 0.6, "pan": 0.5},
+  {"sfx": "hit", "at": {"line": 12, "edge": "start", "offset": 0.4}},
+  {"sfx": "creak", "at": {"line": 13, "edge": "start", "offset": 0.6}, "dur": 2.2, "pan": 0.45}
+ ],
+ "end_card": ["If the request line", "lights up after three...", "don't answer."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}
