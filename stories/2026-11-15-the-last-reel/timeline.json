@@ -1,0 +1,189 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 8.236,
+   "text": "I run the projector at an old drive-in, out past the edge of town."
+  },
+  {
+   "i": 1,
+   "start": 8.836,
+   "end": 16.964,
+   "text": "The owner had one rule. If a car stays in the back row after the last movie... don't walk over to it. Just shut down, and go home."
+  },
+  {
+   "i": 2,
+   "start": 17.564,
+   "end": 20.999,
+   "text": "For three summers, every car left on time."
+  },
+  {
+   "i": 3,
+   "start": 21.599,
+   "end": 26.868,
+   "text": "Then, on closing night, one stayed. Back row. Engine off. Windows fogged white."
+  },
+  {
+   "i": 4,
+   "start": 27.668,
+   "end": 31.316,
+   "text": "I shut off the projector. The big screen went black."
+  },
+  {
+   "i": 5,
+   "start": 32.216,
+   "end": 34.264,
+   "text": "Then it flickered back on."
+  },
+  {
+   "i": 6,
+   "start": 36.464,
+   "end": 42.608,
+   "text": "There was no film in the machine. But the screen was showing the parking lot... filmed from that back row."
+  },
+  {
+   "i": 7,
+   "start": 43.308,
+   "end": 47.255,
+   "text": "Nothing moved. Just moths, circling the speaker poles."
+  },
+  {
+   "i": 8,
+   "start": 48.755,
+   "end": 55.837,
+   "text": "Then, on the screen, my booth door opened. And I watched myself walk out... across the gravel... toward that car."
+  },
+  {
+   "i": 9,
+   "start": 56.637,
+   "end": 60.243,
+   "text": "But I hadn't moved. My hand was still on the switch."
+  },
+  {
+   "i": 10,
+   "start": 61.043,
+   "end": 65.608,
+   "text": "On the screen, I climbed into that car... and everything went black."
+  },
+  {
+   "i": 11,
+   "start": 67.408,
+   "end": 73.488,
+   "text": "I locked the booth until sunrise. At dawn, the car was gone. I went down to drive home."
+  },
+  {
+   "i": 12,
+   "start": 74.588,
+   "end": 82.887,
+   "text": "My car wasn't where I'd parked it. It was in the back row now... windows fogged white. And someone in the driver's seat... was waving at me."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 920,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 21.349
+  },
+  {
+   "id": "s2",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "wind",
+   "start": 21.349,
+   "end": 27.418
+  },
+  {
+   "id": "s3",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "drone",
+   "start": 27.418,
+   "end": 32.316,
+   "fade_out": false
+  },
+  {
+   "id": "s3b",
+   "at": {
+    "line": 5,
+    "edge": "start",
+    "offset": 0.1
+   },
+   "cx": 960,
+   "bed": "drone",
+   "cut": true,
+   "start": 32.316,
+   "end": 36.214,
+   "fade_in": false
+  },
+  {
+   "id": "s4",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "drone",
+   "start": 36.214,
+   "end": 48.505
+  },
+  {
+   "id": "s5",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 48.505,
+   "end": 56.387
+  },
+  {
+   "id": "s6",
+   "from_line": 9,
+   "cx": 960,
+   "bed": "room",
+   "start": 56.387,
+   "end": 65.708,
+   "fade_out": false
+  },
+  {
+   "id": "s6b",
+   "at": {
+    "line": 10,
+    "edge": "end",
+    "offset": 0.1
+   },
+   "cx": 960,
+   "bed": "room",
+   "cut": true,
+   "start": 65.708,
+   "end": 67.158,
+   "fade_in": false
+  },
+  {
+   "id": "s7",
+   "from_line": 11,
+   "cx": 960,
+   "bed": "wind",
+   "start": 67.158,
+   "end": 74.338
+  },
+  {
+   "id": "s8",
+   "from_line": 12,
+   "cx": 1000,
+   "bed": "drone_deep",
+   "start": 74.338,
+   "end": 83.287
+  },
+  {
+   "id": "_end",
+   "start": 83.287,
+   "end": 87.087
+  }
+ ],
+ "total": 87.087
+}

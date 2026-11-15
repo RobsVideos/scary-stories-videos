@@ -1,0 +1,177 @@
+{
+ "title": "The Last Reel",
+ "slug": "2026-11-15-the-last-reel",
+ "hook": "I run the projector at an old drive-in. One rule: if a car stays in the back row after the last movie, don't walk over to it.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "I run the projector at an old drive-in, out past the edge of town.",
+  "The owner had one rule. If a car stays in the back row after the last movie... don't walk over to it. Just shut down, and go home.",
+  "For three summers, every car left on time.",
+  "Then, on closing night, one stayed. Back row. Engine off. Windows fogged white.",
+  "I shut off the projector. The big screen went black.",
+  "Then it flickered back on.",
+  "There was no film in the machine. But the screen was showing the parking lot... filmed from that back row.",
+  "Nothing moved. Just moths, circling the speaker poles.",
+  "Then, on the screen, my booth door opened. And I watched myself walk out... across the gravel... toward that car.",
+  "But I hadn't moved. My hand was still on the switch.",
+  "On the screen, I climbed into that car... and everything went black.",
+  "I locked the booth until sunrise. At dawn, the car was gone. I went down to drive home.",
+  "My car wasn't where I'd parked it. It was in the back row now... windows fogged white. And someone in the driver's seat... was waving at me."
+ ],
+ "pauses": {
+  "3": 0.8,
+  "4": 0.9,
+  "5": 2.2,
+  "6": 0.7,
+  "7": 1.5,
+  "8": 0.8,
+  "9": 0.8,
+  "10": 1.8,
+  "11": 1.1
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 920,
+   "bed": "wind"
+  },
+  {
+   "id": "s2",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "wind"
+  },
+  {
+   "id": "s3",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "drone"
+  },
+  {
+   "id": "s3b",
+   "at": {
+    "line": 5,
+    "edge": "start",
+    "offset": 0.1
+   },
+   "cx": 960,
+   "bed": "drone",
+   "cut": true
+  },
+  {
+   "id": "s4",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "drone"
+  },
+  {
+   "id": "s5",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "drone_rise"
+  },
+  {
+   "id": "s6",
+   "from_line": 9,
+   "cx": 960,
+   "bed": "room"
+  },
+  {
+   "id": "s6b",
+   "at": {
+    "line": 10,
+    "edge": "end",
+    "offset": 0.1
+   },
+   "cx": 960,
+   "bed": "room",
+   "cut": true
+  },
+  {
+   "id": "s7",
+   "from_line": 11,
+   "cx": 960,
+   "bed": "wind"
+  },
+  {
+   "id": "s8",
+   "from_line": 12,
+   "cx": 1000,
+   "bed": "drone_deep"
+  }
+ ],
+ "events": [
+  {
+   "sfx": "lock",
+   "at": {
+    "line": 4,
+    "edge": "start",
+    "offset": 1.0
+   },
+   "pan": 0.3
+  },
+  {
+   "sfx": "static",
+   "at": {
+    "line": 5,
+    "edge": "start",
+    "offset": 0.0
+   },
+   "dur": 3.6,
+   "gain": -4
+  },
+  {
+   "sfx": "footsteps",
+   "at": {
+    "line": 8,
+    "edge": "start",
+    "offset": 2.8
+   },
+   "dur": 4.5,
+   "every": 0.62,
+   "pan": -0.3
+  },
+  {
+   "sfx": "creak",
+   "at": {
+    "line": 10,
+    "edge": "start",
+    "offset": 1.0
+   },
+   "dur": 1.6,
+   "pan": 0.2
+  },
+  {
+   "sfx": "hit",
+   "at": {
+    "line": 10,
+    "edge": "end",
+    "offset": 0.1
+   }
+  },
+  {
+   "sfx": "riser",
+   "at": {
+    "line": 12,
+    "edge": "start",
+    "offset": 2.5
+   },
+   "dur": 6.0
+  }
+ ],
+ "end_card": [
+  "If a car stays",
+  "in the back row...",
+  "don't walk over."
+ ],
+ "hashtags": [
+  "#scarystories",
+  "#horrorstories",
+  "#creepy",
+  "#scary",
+  "#horrortok",
+  "#fyp"
+ ]
+}
