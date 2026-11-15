@@ -1,0 +1,165 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 7.703,
+   "text": "The old lift operator gave me one rule on my first day."
+  },
+  {
+   "i": 1,
+   "start": 8.303,
+   "end": 14.788,
+   "text": "After closing, if a chair comes down the mountain with someone in it... don't help them off. Let it go around."
+  },
+  {
+   "i": 2,
+   "start": 15.588,
+   "end": 20.687,
+   "text": "My first night alone, the snow fell so thick I couldn't see the top towers."
+  },
+  {
+   "i": 3,
+   "start": 21.287,
+   "end": 27.089,
+   "text": "At nine, I shut the lift down. The empty chairs swayed to a stop, creaking in the wind."
+  },
+  {
+   "i": 4,
+   "start": 27.789,
+   "end": 31.715,
+   "text": "Then, somewhere up in the dark, the cable started to hum."
+  },
+  {
+   "i": 5,
+   "start": 33.915,
+   "end": 37.925,
+   "text": "One chair was coming down. Slowly. With the motor off."
+  },
+  {
+   "i": 6,
+   "start": 38.725,
+   "end": 43.205,
+   "text": "Someone was sitting in it. Bar down. Head bowed. Covered in snow."
+  },
+  {
+   "i": 7,
+   "start": 44.205,
+   "end": 47.384,
+   "text": "It stopped right in front of me... and waited."
+  },
+  {
+   "i": 8,
+   "start": 49.984,
+   "end": 54.315,
+   "text": "I didn't move. I didn't speak. I kept my hands in my pockets."
+  },
+  {
+   "i": 9,
+   "start": 55.515,
+   "end": 60.528,
+   "text": "After a long time, the cable groaned... and carried it back up into the snow."
+  },
+  {
+   "i": 10,
+   "start": 61.728,
+   "end": 66.933,
+   "text": "I grabbed the radio and called the top hut. Did someone just ride down?"
+  },
+  {
+   "i": 11,
+   "start": 67.833,
+   "end": 72.655,
+   "text": "Nobody up here, kid. But a chair just came over the top... and it's empty."
+  },
+  {
+   "i": 12,
+   "start": 74.255,
+   "end": 75.134,
+   "text": "Empty."
+  },
+  {
+   "i": 13,
+   "start": 76.734,
+   "end": 83.731,
+   "text": "Then I turned around. A line of fresh footprints crossed the snow... right into my little hut. And none came back out."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 800,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 15.338
+  },
+  {
+   "id": "s2",
+   "from_line": 2,
+   "cx": 1000,
+   "bed": "wind",
+   "start": 15.338,
+   "end": 21.037
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 1000,
+   "bed": "wind",
+   "start": 21.037,
+   "end": 33.665
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "drone",
+   "start": 33.665,
+   "end": 43.955
+  },
+  {
+   "id": "s5",
+   "from_line": 7,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 43.955,
+   "end": 55.265
+  },
+  {
+   "id": "s6",
+   "from_line": 9,
+   "cx": 1100,
+   "bed": "wind",
+   "start": 55.265,
+   "end": 61.478
+  },
+  {
+   "id": "s7",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "room",
+   "start": 61.478,
+   "end": 76.484
+  },
+  {
+   "id": "s8",
+   "from_line": 13,
+   "cx": 1010,
+   "bed": "drone_deep",
+   "start": 76.484,
+   "end": 84.131
+  },
+  {
+   "id": "_end",
+   "start": 84.131,
+   "end": 87.931
+  }
+ ],
+ "total": 87.931
+}

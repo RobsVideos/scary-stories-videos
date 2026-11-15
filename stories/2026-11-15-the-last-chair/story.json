@@ -1,0 +1,150 @@
+{
+ "title": "The Last Chair",
+ "slug": "2026-11-15-the-last-chair",
+ "hook": "The old lift operator had one rule: if a chair comes down after closing with someone in it, don't help them off.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "The old lift operator gave me one rule on my first day.",
+  "After closing, if a chair comes down the mountain with someone in it... don't help them off. Let it go around.",
+  "My first night alone, the snow fell so thick I couldn't see the top towers.",
+  "At nine, I shut the lift down. The empty chairs swayed to a stop, creaking in the wind.",
+  "Then, somewhere up in the dark, the cable started to hum.",
+  "One chair was coming down. Slowly. With the motor off.",
+  "Someone was sitting in it. Bar down. Head bowed. Covered in snow.",
+  "It stopped right in front of me... and waited.",
+  "I didn't move. I didn't speak. I kept my hands in my pockets.",
+  "After a long time, the cable groaned... and carried it back up into the snow.",
+  "I grabbed the radio and called the top hut. Did someone just ride down?",
+  "Nobody up here, kid. But a chair just came over the top... and it's empty.",
+  "Empty.",
+  "Then I turned around. A line of fresh footprints crossed the snow... right into my little hut. And none came back out."
+ ],
+ "pauses": {
+  "0": 0.6,
+  "1": 0.8,
+  "2": 0.6,
+  "3": 0.7,
+  "4": 2.2,
+  "5": 0.8,
+  "6": 1.0,
+  "7": 2.6,
+  "8": 1.2,
+  "9": 1.2,
+  "10": 0.9,
+  "11": 1.6,
+  "12": 1.6
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 800,
+   "bed": "wind"
+  },
+  {
+   "id": "s2",
+   "from_line": 2,
+   "cx": 1000,
+   "bed": "wind"
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 1000,
+   "bed": "wind"
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "drone"
+  },
+  {
+   "id": "s5",
+   "from_line": 7,
+   "cx": 960,
+   "bed": "drone_rise"
+  },
+  {
+   "id": "s6",
+   "from_line": 9,
+   "cx": 1100,
+   "bed": "wind"
+  },
+  {
+   "id": "s7",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "room"
+  },
+  {
+   "id": "s8",
+   "from_line": 13,
+   "cx": 1010,
+   "bed": "drone_deep"
+  }
+ ],
+ "events": [
+  {
+   "sfx": "creak",
+   "at": {
+    "line": 3,
+    "edge": "start",
+    "offset": 2.4
+   },
+   "dur": 3.5,
+   "pan": -0.3
+  },
+  {
+   "sfx": "riser",
+   "at": {
+    "line": 4,
+    "edge": "start",
+    "offset": 0.6
+   },
+   "dur": 4.5
+  },
+  {
+   "sfx": "creak",
+   "at": {
+    "line": 9,
+    "edge": "start",
+    "offset": 1.4
+   },
+   "dur": 3.0,
+   "pan": 0.3
+  },
+  {
+   "sfx": "static",
+   "at": {
+    "line": 11,
+    "edge": "start",
+    "offset": -0.5
+   },
+   "dur": 1.0,
+   "pan": 0.2
+  },
+  {
+   "sfx": "hit",
+   "at": {
+    "line": 13,
+    "edge": "start",
+    "offset": 1.1
+   }
+  }
+ ],
+ "end_card": [
+  "If a chair comes down",
+  "after closing...",
+  "don't look behind you."
+ ],
+ "hashtags": [
+  "#scarystories",
+  "#horrorstories",
+  "#creepy",
+  "#scary",
+  "#horrortok",
+  "#fyp"
+ ]
+}
