@@ -1,0 +1,180 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 10.049,
+   "text": "Every winter, my grandfather fished the same frozen lake, from the same little shack, over the same hole."
+  },
+  {
+   "i": 1,
+   "start": 10.749,
+   "end": 15.677,
+   "text": "He had one rule. If something knocks from under the ice... you never knock back."
+  },
+  {
+   "i": 2,
+   "start": 16.677,
+   "end": 23.419,
+   "text": "This was my first winter out there alone. Just me, a lantern, and a hole drilled through two feet of ice."
+  },
+  {
+   "i": 3,
+   "start": 24.119,
+   "end": 28.769,
+   "text": "Around midnight, my line went slack. Then, right under my boots..."
+  },
+  {
+   "i": 4,
+   "start": 29.769,
+   "end": 31.049,
+   "text": "Knock. Knock."
+  },
+  {
+   "i": 5,
+   "start": 32.849,
+   "end": 37.5,
+   "text": "I stepped back toward the door. The knocking followed me. Step for step."
+  },
+  {
+   "i": 6,
+   "start": 38.3,
+   "end": 43.271,
+   "text": "I told myself it was the ice settling. Lakes crack and groan all winter."
+  },
+  {
+   "i": 7,
+   "start": 44.071,
+   "end": 47.1,
+   "text": "Then I looked down into the fishing hole."
+  },
+  {
+   "i": 8,
+   "start": 48.3,
+   "end": 53.271,
+   "text": "A face was pressed up under the water. Pale. Eyes open. Smiling."
+  },
+  {
+   "i": 9,
+   "start": 54.471,
+   "end": 60.273,
+   "text": "It was my grandfather. He went through the ice eleven winters ago. We never found him."
+  },
+  {
+   "i": 10,
+   "start": 61.273,
+   "end": 66.628,
+   "text": "His knuckles rapped the underside of the ice, right beside my boot. Knock. Knock."
+  },
+  {
+   "i": 11,
+   "start": 67.828,
+   "end": 71.113,
+   "text": "And my hand... my own hand... knocked back."
+  },
+  {
+   "i": 12,
+   "start": 72.913,
+   "end": 78.289,
+   "text": "The ice around the shack split, in a perfect circle. And the cold pulled me down."
+  },
+  {
+   "i": 13,
+   "start": 79.489,
+   "end": 85.569,
+   "text": "So if you're ever out on the ice, and something knocks from below... don't knock back. It's probably me."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 16.427
+  },
+  {
+   "id": "s2",
+   "from_line": 2,
+   "cx": 960,
+   "bed": "room",
+   "start": 16.427,
+   "end": 23.869
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "drone",
+   "start": 23.869,
+   "end": 32.599
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 32.599,
+   "end": 43.821
+  },
+  {
+   "id": "s5",
+   "from_line": 7,
+   "cx": 960,
+   "bed": "room",
+   "start": 43.821,
+   "end": 48.199999999999996,
+   "fade_out": false
+  },
+  {
+   "id": "s6",
+   "at": {
+    "line": 8,
+    "edge": "start",
+    "offset": -0.1
+   },
+   "cx": 960,
+   "bed": "drone_deep",
+   "cut": true,
+   "start": 48.199999999999996,
+   "end": 61.023,
+   "fade_in": false
+  },
+  {
+   "id": "s7",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 61.023,
+   "end": 72.663
+  },
+  {
+   "id": "s8",
+   "from_line": 12,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 72.663,
+   "end": 79.239
+  },
+  {
+   "id": "s9",
+   "from_line": 13,
+   "cx": 960,
+   "bed": "wind",
+   "start": 79.239,
+   "end": 85.96900000000001
+  },
+  {
+   "id": "_end",
+   "start": 85.96900000000001,
+   "end": 89.769
+  }
+ ],
+ "total": 89.769
+}

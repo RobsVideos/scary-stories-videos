@@ -1,0 +1,50 @@
+{
+ "title": "The Knock Below",
+ "slug": "2026-11-16-the-knock-below",
+ "hook": "My grandfather's one rule for ice fishing: if something knocks from under the ice, never knock back.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "Every winter, my grandfather fished the same frozen lake, from the same little shack, over the same hole.",
+  "He had one rule. If something knocks from under the ice... you never knock back.",
+  "This was my first winter out there alone. Just me, a lantern, and a hole drilled through two feet of ice.",
+  "Around midnight, my line went slack. Then, right under my boots...",
+  "Knock. Knock.",
+  "I stepped back toward the door. The knocking followed me. Step for step.",
+  "I told myself it was the ice settling. Lakes crack and groan all winter.",
+  "Then I looked down into the fishing hole.",
+  "A face was pressed up under the water. Pale. Eyes open. Smiling.",
+  "It was my grandfather. He went through the ice eleven winters ago. We never found him.",
+  "His knuckles rapped the underside of the ice, right beside my boot. Knock. Knock.",
+  "And my hand... my own hand... knocked back.",
+  "The ice around the shack split, in a perfect circle. And the cold pulled me down.",
+  "So if you're ever out on the ice, and something knocks from below... don't knock back. It's probably me."
+ ],
+ "pauses": {"0": 0.7, "1": 1.0, "2": 0.7, "3": 1.0, "4": 1.8, "5": 0.8, "6": 0.8, "7": 1.2, "8": 1.2, "9": 1.0, "10": 1.2, "11": 1.8, "12": 1.2},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 960, "bed": "wind"},
+  {"id": "s2", "from_line": 2, "cx": 960, "bed": "room"},
+  {"id": "s3", "from_line": 3, "cx": 960, "bed": "drone"},
+  {"id": "s4", "from_line": 5, "cx": 960, "bed": "drone_rise"},
+  {"id": "s5", "from_line": 7, "cx": 960, "bed": "room"},
+  {"id": "s6", "at": {"line": 8, "edge": "start", "offset": -0.1}, "cx": 960, "bed": "drone_deep", "cut": true},
+  {"id": "s7", "from_line": 10, "cx": 960, "bed": "drone_deep"},
+  {"id": "s8", "from_line": 12, "cx": 960, "bed": "drone_rise"},
+  {"id": "s9", "from_line": 13, "cx": 960, "bed": "wind"}
+ ],
+ "events": [
+  {"sfx": "creak", "at": {"line": 2, "edge": "start", "offset": 0.8}, "dur": 2.4, "pan": -0.3},
+  {"sfx": "knock3", "at": {"line": 4, "edge": "start", "offset": -0.1}, "gain": -2},
+  {"sfx": "footsteps", "at": {"line": 5, "edge": "start", "offset": 0.3}, "dur": 2.6, "every": 0.7, "pan": 0.2},
+  {"sfx": "knock", "at": {"line": 5, "edge": "end", "offset": -0.2}, "gain": -6},
+  {"sfx": "hit", "at": {"line": 8, "edge": "start", "offset": -0.1}},
+  {"sfx": "heartbeat", "at": {"line": 9, "edge": "start", "offset": 0.0}, "dur": 6.0, "every": 0.85},
+  {"sfx": "knock3", "at": {"line": 10, "edge": "end", "offset": -1.6}, "gain": -4},
+  {"sfx": "knock", "at": {"line": 11, "edge": "end", "offset": 0.3}, "gain": 0},
+  {"sfx": "thunder", "at": {"line": 12, "edge": "start", "offset": 1.0}},
+  {"sfx": "whisper", "at": {"line": 13, "edge": "start", "offset": 0.5}, "dur": 3.0}
+ ],
+ "end_card": ["If something knocks", "from under the ice...", "don't knock back."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}
+
