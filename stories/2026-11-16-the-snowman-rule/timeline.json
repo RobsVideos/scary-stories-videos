@@ -1,0 +1,176 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 8.364,
+   "text": "Every year, on the first snow, everyone on my street builds a snowman."
+  },
+  {
+   "i": 1,
+   "start": 9.064,
+   "end": 13.757,
+   "text": "And every year, old Mrs. Pell from next door repeats the same rule."
+  },
+  {
+   "i": 2,
+   "start": 14.457,
+   "end": 18.575,
+   "text": "Always build it facing the road... never facing the house."
+  },
+  {
+   "i": 3,
+   "start": 19.775,
+   "end": 24.319,
+   "text": "This was my first winter on Birch Lane, so I built mine alone."
+  },
+  {
+   "i": 4,
+   "start": 25.019,
+   "end": 29.072,
+   "text": "Coal for eyes. A crooked carrot. My old red scarf."
+  },
+  {
+   "i": 5,
+   "start": 29.872,
+   "end": 33.157,
+   "text": "I turned it toward the road, just like she said."
+  },
+  {
+   "i": 6,
+   "start": 34.157,
+   "end": 39.725,
+   "text": "Around three a.m., I woke up shivering. The heat was off... and the house was silent."
+  },
+  {
+   "i": 7,
+   "start": 40.625,
+   "end": 42.972,
+   "text": "I went to the front window."
+  },
+  {
+   "i": 8,
+   "start": 44.172,
+   "end": 46.924,
+   "text": "The snowman was facing the house."
+  },
+  {
+   "i": 9,
+   "start": 49.324,
+   "end": 54.039,
+   "text": "I told myself it was just kids. So I went outside, and turned it back."
+  },
+  {
+   "i": 10,
+   "start": 55.039,
+   "end": 58.025,
+   "text": "The next night, I woke up cold again."
+  },
+  {
+   "i": 11,
+   "start": 59.025,
+   "end": 65.788,
+   "text": "This time, the yard was empty. Just round, heavy prints in the snow... leading right up to my front door."
+  },
+  {
+   "i": 12,
+   "start": 66.988,
+   "end": 68.481,
+   "text": "None going back."
+  },
+  {
+   "i": 13,
+   "start": 70.481,
+   "end": 78.097,
+   "text": "This morning, Mrs. Pell asked me where my snowman went. I didn't tell her it's standing in my hallway... facing my bedroom door."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 8.814
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 960,
+   "bed": "wind",
+   "start": 8.814,
+   "end": 19.525
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "wind",
+   "start": 19.525,
+   "end": 33.907
+  },
+  {
+   "id": "s4",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "room",
+   "start": 33.907,
+   "end": 44.071999999999996
+  },
+  {
+   "id": "s5",
+   "at": {
+    "line": 8,
+    "edge": "start",
+    "offset": -0.1
+   },
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 44.071999999999996,
+   "end": 51.524,
+   "fade_out": false
+  },
+  {
+   "id": "s5b",
+   "at": {
+    "line": 9,
+    "edge": "start",
+    "offset": 2.2
+   },
+   "cx": 960,
+   "bed": "wind",
+   "cut": true,
+   "start": 51.524,
+   "end": 58.775,
+   "fade_in": false
+  },
+  {
+   "id": "s6",
+   "from_line": 11,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 58.775,
+   "end": 70.231
+  },
+  {
+   "id": "s7",
+   "from_line": 13,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 70.231,
+   "end": 78.497
+  },
+  {
+   "id": "_end",
+   "start": 78.497,
+   "end": 82.297
+  }
+ ],
+ "total": 82.297
+}

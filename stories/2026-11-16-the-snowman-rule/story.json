@@ -1,0 +1,44 @@
+{
+ "title": "The Snowman Rule",
+ "slug": "2026-11-16-the-snowman-rule",
+ "hook": "My neighbor's one rule for the first snow: build your snowman facing the road... never facing the house.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "Every year, on the first snow, everyone on my street builds a snowman.",
+  "And every year, old Mrs. Pell from next door repeats the same rule.",
+  "Always build it facing the road... never facing the house.",
+  "This was my first winter on Birch Lane, so I built mine alone.",
+  "Coal for eyes. A crooked carrot. My old red scarf.",
+  "I turned it toward the road, just like she said.",
+  "Around three a.m., I woke up shivering. The heat was off... and the house was silent.",
+  "I went to the front window.",
+  "The snowman was facing the house.",
+  "I told myself it was just kids. So I went outside, and turned it back.",
+  "The next night, I woke up cold again.",
+  "This time, the yard was empty. Just round, heavy prints in the snow... leading right up to my front door.",
+  "None going back.",
+  "This morning, Mrs. Pell asked me where my snowman went. I didn't tell her it's standing in my hallway... facing my bedroom door."
+ ],
+ "pauses": {"0": 0.7, "1": 0.7, "2": 1.2, "3": 0.7, "4": 0.8, "5": 1.0, "6": 0.9, "7": 1.2, "8": 2.4, "9": 1.0, "10": 1.0, "11": 1.2, "12": 2.0},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 960, "bed": "wind"},
+  {"id": "s2", "from_line": 1, "cx": 960, "bed": "wind"},
+  {"id": "s3", "from_line": 3, "cx": 960, "bed": "wind"},
+  {"id": "s4", "from_line": 6, "cx": 960, "bed": "room"},
+  {"id": "s5", "at": {"line": 8, "edge": "start", "offset": -0.1}, "cx": 960, "bed": "drone_deep"},
+  {"id": "s5b", "at": {"line": 9, "edge": "start", "offset": 2.2}, "cx": 960, "bed": "wind", "cut": true},
+  {"id": "s6", "from_line": 11, "cx": 960, "bed": "drone_rise"},
+  {"id": "s7", "from_line": 13, "cx": 960, "bed": "drone_deep"}
+ ],
+ "events": [
+  {"sfx": "creak", "at": {"line": 7, "edge": "start", "offset": 0.0}, "dur": 2.0, "pan": -0.2},
+  {"sfx": "hit", "at": {"line": 8, "edge": "start", "offset": -0.1}},
+  {"sfx": "heartbeat", "at": {"line": 8, "edge": "end", "offset": 0.2}, "dur": 4.5, "every": 0.85},
+  {"sfx": "footsteps", "at": {"line": 11, "edge": "start", "offset": 2.5}, "dur": 3.5, "every": 0.9, "gain": -3},
+  {"sfx": "lock", "at": {"line": 12, "edge": "end", "offset": 0.4}},
+  {"sfx": "whisper", "at": {"line": 13, "edge": "end", "offset": -1.5}, "dur": 2.5}
+ ],
+ "end_card": ["Build it facing the road.", "Never", "facing the house."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}
