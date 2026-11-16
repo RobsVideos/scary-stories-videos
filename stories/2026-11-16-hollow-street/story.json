@@ -1,0 +1,162 @@
+{
+ "title": "Hollow Street",
+ "slug": "2026-11-16-hollow-street",
+ "hook": "The night bus driver had one rule: if we ever stop at Hollow Street, keep your eyes down and don't let anything sit next to you.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "I ride the last bus home every night, all the way to the end of the line.",
+  "The driver, an old man named Ray, gave me one rule on my first ride.",
+  "If this bus ever stops at Hollow Street... keep your eyes down. And don't let anything sit next to you.",
+  "There is no Hollow Street. Not on any map.",
+  "For a whole year, we never stopped there. Just rain, empty seats, and Ray humming to the radio.",
+  "Then, one night, the bus slowed down... between two black fields.",
+  "The doors hissed open. Ray didn't say a word.",
+  "I stared at my shoes. Slow, wet footsteps came up the steps... and down the aisle.",
+  "They stopped right beside me.",
+  "I put my bag on the empty seat. And I didn't breathe.",
+  "After a long time, the footsteps turned... and went back to the front.",
+  "As we pulled away, I saw Ray through the back window... standing in the rain at Hollow Street, waving goodbye.",
+  "The driver never turned around. He just said, in Ray's voice...",
+  "Don't worry. I know where you live."
+ ],
+ "pauses": {
+  "0": 0.7,
+  "1": 0.7,
+  "2": 0.8,
+  "3": 0.7,
+  "4": 0.8,
+  "5": 0.6,
+  "6": 1.0,
+  "7": 2.0,
+  "8": 1.2,
+  "9": 1.2,
+  "10": 0.8,
+  "11": 1.2,
+  "12": 1.2
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 1000,
+   "bed": "rain"
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 1060,
+   "bed": "rain"
+  },
+  {
+   "id": "s3",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "rain"
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 1000,
+   "bed": "drone"
+  },
+  {
+   "id": "s5",
+   "from_line": 7,
+   "cx": 960,
+   "bed": "drone_rise"
+  },
+  {
+   "id": "s6",
+   "from_line": 9,
+   "cx": 900,
+   "bed": "drone"
+  },
+  {
+   "id": "s7",
+   "from_line": 11,
+   "cx": 960,
+   "bed": "rain"
+  },
+  {
+   "id": "s8",
+   "from_line": 12,
+   "cx": 1080,
+   "bed": "drone_deep"
+  },
+  {
+   "id": "s8b",
+   "at": {
+    "line": 13,
+    "edge": "start",
+    "offset": -0.2
+   },
+   "cx": 1080,
+   "bed": "drone_deep",
+   "cut": true
+  }
+ ],
+ "events": [
+  {
+   "sfx": "creak",
+   "at": {
+    "line": 6,
+    "edge": "start",
+    "offset": 0.0
+   },
+   "dur": 2.0,
+   "pan": -0.3
+  },
+  {
+   "sfx": "footsteps",
+   "at": {
+    "line": 7,
+    "edge": "start",
+    "offset": 1.4
+   },
+   "dur": 5.5,
+   "every": 0.75,
+   "pan": -0.2
+  },
+  {
+   "sfx": "heartbeat",
+   "at": {
+    "line": 8,
+    "edge": "start",
+    "offset": 0.2
+   },
+   "dur": 6.0,
+   "every": 0.85
+  },
+  {
+   "sfx": "riser",
+   "at": {
+    "line": 12,
+    "edge": "start",
+    "offset": 0.3
+   },
+   "dur": 4.0
+  },
+  {
+   "sfx": "hit",
+   "at": {
+    "line": 13,
+    "edge": "start",
+    "offset": -0.2
+   }
+  }
+ ],
+ "end_card": [
+  "If the bus stops",
+  "at Hollow Street...",
+  "keep your eyes down."
+ ],
+ "hashtags": [
+  "#scarystories",
+  "#horrorstories",
+  "#creepy",
+  "#scary",
+  "#horrortok",
+  "#fyp"
+ ]
+}

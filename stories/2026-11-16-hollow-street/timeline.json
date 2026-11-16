@@ -1,0 +1,180 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 8.321,
+   "text": "I ride the last bus home every night, all the way to the end of the line."
+  },
+  {
+   "i": 1,
+   "start": 9.021,
+   "end": 14.141,
+   "text": "The driver, an old man named Ray, gave me one rule on my first ride."
+  },
+  {
+   "i": 2,
+   "start": 14.841,
+   "end": 21.156,
+   "text": "If this bus ever stops at Hollow Street... keep your eyes down. And don't let anything sit next to you."
+  },
+  {
+   "i": 3,
+   "start": 21.956,
+   "end": 25.199,
+   "text": "There is no Hollow Street. Not on any map."
+  },
+  {
+   "i": 4,
+   "start": 25.899,
+   "end": 32.235,
+   "text": "For a whole year, we never stopped there. Just rain, empty seats, and Ray humming to the radio."
+  },
+  {
+   "i": 5,
+   "start": 33.035,
+   "end": 37.387,
+   "text": "Then, one night, the bus slowed down... between two black fields."
+  },
+  {
+   "i": 6,
+   "start": 37.987,
+   "end": 41.528,
+   "text": "The doors hissed open. Ray didn't say a word."
+  },
+  {
+   "i": 7,
+   "start": 42.528,
+   "end": 47.861,
+   "text": "I stared at my shoes. Slow, wet footsteps came up the steps... and down the aisle."
+  },
+  {
+   "i": 8,
+   "start": 49.861,
+   "end": 52.421,
+   "text": "They stopped right beside me."
+  },
+  {
+   "i": 9,
+   "start": 53.621,
+   "end": 57.589,
+   "text": "I put my bag on the empty seat. And I didn't breathe."
+  },
+  {
+   "i": 10,
+   "start": 58.789,
+   "end": 63.163,
+   "text": "After a long time, the footsteps turned... and went back to the front."
+  },
+  {
+   "i": 11,
+   "start": 63.963,
+   "end": 70.619,
+   "text": "As we pulled away, I saw Ray through the back window... standing in the rain at Hollow Street, waving goodbye."
+  },
+  {
+   "i": 12,
+   "start": 71.819,
+   "end": 76.235,
+   "text": "The driver never turned around. He just said, in Ray's voice..."
+  },
+  {
+   "i": 13,
+   "start": 77.435,
+   "end": 79.995,
+   "text": "Don't worry. I know where you live."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 1000,
+   "bed": "rain",
+   "start": 3.5,
+   "end": 8.771
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 1060,
+   "bed": "rain",
+   "start": 8.771,
+   "end": 25.649
+  },
+  {
+   "id": "s3",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "rain",
+   "start": 25.649,
+   "end": 32.785
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 1000,
+   "bed": "drone",
+   "start": 32.785,
+   "end": 42.278
+  },
+  {
+   "id": "s5",
+   "from_line": 7,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 42.278,
+   "end": 53.371
+  },
+  {
+   "id": "s6",
+   "from_line": 9,
+   "cx": 900,
+   "bed": "drone",
+   "start": 53.371,
+   "end": 63.713
+  },
+  {
+   "id": "s7",
+   "from_line": 11,
+   "cx": 960,
+   "bed": "rain",
+   "start": 63.713,
+   "end": 71.569
+  },
+  {
+   "id": "s8",
+   "from_line": 12,
+   "cx": 1080,
+   "bed": "drone_deep",
+   "start": 71.569,
+   "end": 77.235,
+   "fade_out": false
+  },
+  {
+   "id": "s8b",
+   "at": {
+    "line": 13,
+    "edge": "start",
+    "offset": -0.2
+   },
+   "cx": 1080,
+   "bed": "drone_deep",
+   "cut": true,
+   "start": 77.235,
+   "end": 80.39500000000001,
+   "fade_in": false
+  },
+  {
+   "id": "_end",
+   "start": 80.39500000000001,
+   "end": 84.19500000000001
+  }
+ ],
+ "total": 84.19500000000001
+}

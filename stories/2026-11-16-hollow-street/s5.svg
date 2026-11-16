@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="60"/></filter></defs>
+<rect width="1920" height="1080" fill="#14110f"/>
+<polygon points="760,0 1160,0 1500,1080 420,1080" fill="#2a2420"/>
+<g stroke="#100d0b" stroke-width="5"><line x1="716" y1="140" x2="1204" y2="140"/><line x1="656" y1="330" x2="1264" y2="330"/><line x1="584" y1="560" x2="1336" y2="560"/><line x1="499" y1="830" x2="1421" y2="830"/></g>
+<ellipse cx="920" cy="560" rx="20" ry="34" fill="#4a6280" opacity="0.25"/><ellipse cx="996" cy="630" rx="23" ry="38" fill="#4a6280" opacity="0.30"/><ellipse cx="912" cy="700" rx="26" ry="42" fill="#4a6280" opacity="0.35"/><ellipse cx="988" cy="770" rx="29" ry="46" fill="#4a6280" opacity="0.40"/><ellipse cx="904" cy="840" rx="32" ry="50" fill="#4a6280" opacity="0.45"/><ellipse cx="980" cy="910" rx="35" ry="54" fill="#4a6280" opacity="0.50"/>
+<path d="M960 0 C980 200 1080 500 1260 1080 L1700 1080 C1400 600 1100 250 1000 0Z" fill="#000" opacity="0.55" filter="url(#blur30)"/>
+<path d="M300 1080 L300 780 L560 780 L560 1080Z" fill="#2a1a1c"/>
+<g fill="#0b0b0e"><path d="M640 1080 C640 960 660 900 700 880 L790 880 C830 900 840 960 830 1080Z"/>
+<path d="M880 1080 C880 960 900 900 940 880 L1030 880 C1070 900 1080 960 1070 1080Z"/></g>
+<g fill="#1a1a20"><ellipse cx="735" cy="1000" rx="70" ry="38"/><ellipse cx="975" cy="1000" rx="70" ry="38"/></g>
+<rect x="1500" y="0" width="420" height="1080" fill="#1c1517"/>
+<rect x="1490" y="0" width="14" height="1080" fill="#7d838e" opacity="0.5"/>
+<circle cx="960" cy="0" r="260" fill="#ffe2b0" opacity="0.08" filter="url(#blur30)"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>
