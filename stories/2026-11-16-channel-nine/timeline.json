@@ -1,0 +1,173 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 9.068,
+   "text": "When I was ten, Dad bought my brother and me two old walkie-talkies at a yard sale."
+  },
+  {
+   "i": 1,
+   "start": 9.568,
+   "end": 13.92,
+   "text": "Inside one battery door was a note, in a kid's handwriting."
+  },
+  {
+   "i": 2,
+   "start": 14.32,
+   "end": 20.059,
+   "text": "Never use channel nine after dark. And if anyone asks where you are... don't tell them."
+  },
+  {
+   "i": 3,
+   "start": 20.859,
+   "end": 26.448,
+   "text": "Every night, Danny and I talked from our beds, across the hall. Always on channel two."
+  },
+  {
+   "i": 4,
+   "start": 27.048,
+   "end": 30.867,
+   "text": "Then, one night, in a thunderstorm, the static changed."
+  },
+  {
+   "i": 5,
+   "start": 32.167,
+   "end": 35.516,
+   "text": "My dial clicked to nine... all by itself."
+  },
+  {
+   "i": 6,
+   "start": 36.316,
+   "end": 40.049,
+   "text": "A small voice whispered, Is anyone there? I'm lost."
+  },
+  {
+   "i": 7,
+   "start": 41.049,
+   "end": 44.292,
+   "text": "I didn't answer. I just listened to it breathe."
+  },
+  {
+   "i": 8,
+   "start": 45.292,
+   "end": 49.473,
+   "text": "Then Danny cut in, on channel nine. I'm scared. Where are you?"
+  },
+  {
+   "i": 9,
+   "start": 50.173,
+   "end": 53.8,
+   "text": "I pressed the button. My room, I whispered. Come here."
+  },
+  {
+   "i": 10,
+   "start": 55.0,
+   "end": 61.528,
+   "text": "I ran across the hall. Danny was fast asleep. His walkie-talkie sat on the dresser... with no batteries."
+  },
+  {
+   "i": 11,
+   "start": 62.528,
+   "end": 68.757,
+   "text": "Behind me, my radio crackled. Thank you, it said, in Danny's voice. Now I know which room."
+  },
+  {
+   "i": 12,
+   "start": 70.257,
+   "end": 74.225,
+   "text": "We moved away that week. Nothing came for twenty years."
+  },
+  {
+   "i": 13,
+   "start": 75.225,
+   "end": 83.801,
+   "text": "Last night, my daughter found them in the attic. She asked who the little boy on channel nine is... and why he keeps asking which room is mine now."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 900,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 9.318
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 960,
+   "bed": "room",
+   "start": 9.318,
+   "end": 20.609
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "room",
+   "start": 20.609,
+   "end": 26.798
+  },
+  {
+   "id": "s4",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "rain",
+   "start": 26.798,
+   "end": 31.917
+  },
+  {
+   "id": "s5",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "drone",
+   "start": 31.917,
+   "end": 45.042
+  },
+  {
+   "id": "s6",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 45.042,
+   "end": 54.75
+  },
+  {
+   "id": "s7",
+   "from_line": 10,
+   "cx": 1120,
+   "bed": "rain",
+   "start": 54.75,
+   "end": 62.278
+  },
+  {
+   "id": "s8",
+   "from_line": 11,
+   "cx": 1010,
+   "bed": "drone_deep",
+   "start": 62.278,
+   "end": 70.007
+  },
+  {
+   "id": "s9",
+   "from_line": 12,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 70.007,
+   "end": 84.20100000000001
+  },
+  {
+   "id": "_end",
+   "start": 84.20100000000001,
+   "end": 88.001
+  }
+ ],
+ "total": 88.001
+}
