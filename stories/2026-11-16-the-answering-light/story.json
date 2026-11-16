@@ -1,0 +1,162 @@
+{
+ "title": "The Answering Light",
+ "slug": "2026-11-16-the-answering-light",
+ "hook": "The lighthouse logbook had one rule: if a light ever flashes back at you from the water, do not answer it.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "I took a winter job keeping an old lighthouse. The logbook had one rule, on the very first page.",
+  "Keep the lamp turning. And if a light ever flashes back at you from the water... do not answer it.",
+  "No boats come out in winter. It was just me, the wind, and the beam going round and round.",
+  "On my ninth night, far past the rocks, a small light started blinking. Three short. Three long. Three short.",
+  "S. O. S.",
+  "I grabbed the signal lamp and aimed it at the water. My thumb was already on the switch.",
+  "Then I flipped back through the logbook, looking for the coast guard's number.",
+  "Every keeper before me had an entry for their ninth night. All of them said the same thing.",
+  "Light on the water. Not answered.",
+  "Every keeper... except the last one. His entry was just one word. Answered.",
+  "Underneath, in shaky pencil: Someone is rowing in.",
+  "There's nothing after that. Not one page. Until tonight.",
+  "I haven't written a word tonight. But tonight's page is already filled in... in my handwriting.",
+  "Answered. He's on the stairs."
+ ],
+ "pauses": {
+  "0": 0.7,
+  "1": 0.8,
+  "2": 0.7,
+  "3": 0.6,
+  "4": 2.0,
+  "5": 0.8,
+  "6": 0.7,
+  "7": 0.6,
+  "8": 1.5,
+  "9": 1.0,
+  "10": 1.6,
+  "11": 1.0,
+  "12": 1.4
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 930,
+   "bed": "wind"
+  },
+  {
+   "id": "s2",
+   "from_line": 2,
+   "cx": 960,
+   "bed": "wind"
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 1020,
+   "bed": "drone"
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 1060,
+   "bed": "drone_rise"
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "room"
+  },
+  {
+   "id": "s5b",
+   "at": {
+    "line": 9,
+    "edge": "end",
+    "offset": -0.9
+   },
+   "cx": 960,
+   "bed": "room",
+   "cut": true
+  },
+  {
+   "id": "s6",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "drone"
+  },
+  {
+   "id": "s7",
+   "from_line": 11,
+   "cx": 960,
+   "bed": "drone_deep"
+  },
+  {
+   "id": "s8",
+   "from_line": 13,
+   "cx": 960,
+   "bed": "drone_deep"
+  }
+ ],
+ "events": [
+  {
+   "sfx": "creak",
+   "at": {
+    "line": 2,
+    "edge": "start",
+    "offset": 0.5
+   },
+   "dur": 3.0,
+   "pan": -0.3
+  },
+  {
+   "sfx": "heartbeat",
+   "at": {
+    "line": 5,
+    "edge": "start",
+    "offset": 0.2
+   },
+   "dur": 7.0,
+   "every": 0.85
+  },
+  {
+   "sfx": "hit",
+   "at": {
+    "line": 9,
+    "edge": "end",
+    "offset": -0.9
+   }
+  },
+  {
+   "sfx": "riser",
+   "at": {
+    "line": 12,
+    "edge": "start",
+    "offset": 0.5
+   },
+   "dur": 5.0
+  },
+  {
+   "sfx": "footsteps",
+   "at": {
+    "line": 13,
+    "edge": "start",
+    "offset": 0.6
+   },
+   "dur": 3.5,
+   "every": 0.6,
+   "pan": 0.2
+  }
+ ],
+ "end_card": [
+  "If the water",
+  "flashes at you...",
+  "don't answer."
+ ],
+ "hashtags": [
+  "#scarystories",
+  "#horrorstories",
+  "#creepy",
+  "#scary",
+  "#horrortok",
+  "#fyp"
+ ]
+}

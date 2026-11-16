@@ -1,0 +1,180 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 9.943,
+   "text": "I took a winter job keeping an old lighthouse. The logbook had one rule, on the very first page."
+  },
+  {
+   "i": 1,
+   "start": 10.643,
+   "end": 16.509,
+   "text": "Keep the lamp turning. And if a light ever flashes back at you from the water... do not answer it."
+  },
+  {
+   "i": 2,
+   "start": 17.309,
+   "end": 23.155,
+   "text": "No boats come out in winter. It was just me, the wind, and the beam going round and round."
+  },
+  {
+   "i": 3,
+   "start": 23.855,
+   "end": 30.937,
+   "text": "On my ninth night, far past the rocks, a small light started blinking. Three short. Three long. Three short."
+  },
+  {
+   "i": 4,
+   "start": 31.537,
+   "end": 33.031,
+   "text": "S. O. S."
+  },
+  {
+   "i": 5,
+   "start": 35.031,
+   "end": 40.855,
+   "text": "I grabbed the signal lamp and aimed it at the water. My thumb was already on the switch."
+  },
+  {
+   "i": 6,
+   "start": 41.655,
+   "end": 46.092,
+   "text": "Then I flipped back through the logbook, looking for the coast guard's number."
+  },
+  {
+   "i": 7,
+   "start": 46.792,
+   "end": 52.509,
+   "text": "Every keeper before me had an entry for their ninth night. All of them said the same thing."
+  },
+  {
+   "i": 8,
+   "start": 53.109,
+   "end": 55.819,
+   "text": "Light on the water. Not answered."
+  },
+  {
+   "i": 9,
+   "start": 57.319,
+   "end": 62.481,
+   "text": "Every keeper... except the last one. His entry was just one word. Answered."
+  },
+  {
+   "i": 10,
+   "start": 63.481,
+   "end": 67.471,
+   "text": "Underneath, in shaky pencil: Someone is rowing in."
+  },
+  {
+   "i": 11,
+   "start": 69.071,
+   "end": 73.039,
+   "text": "There's nothing after that. Not one page. Until tonight."
+  },
+  {
+   "i": 12,
+   "start": 74.039,
+   "end": 79.777,
+   "text": "I haven't written a word tonight. But tonight's page is already filled in... in my handwriting."
+  },
+  {
+   "i": 13,
+   "start": 81.177,
+   "end": 83.673,
+   "text": "Answered. He's on the stairs."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 930,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 17.059
+  },
+  {
+   "id": "s2",
+   "from_line": 2,
+   "cx": 960,
+   "bed": "wind",
+   "start": 17.059,
+   "end": 23.605
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 1020,
+   "bed": "drone",
+   "start": 23.605,
+   "end": 34.781
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 1060,
+   "bed": "drone_rise",
+   "start": 34.781,
+   "end": 41.405
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "room",
+   "start": 41.405,
+   "end": 61.581,
+   "fade_out": false
+  },
+  {
+   "id": "s5b",
+   "at": {
+    "line": 9,
+    "edge": "end",
+    "offset": -0.9
+   },
+   "cx": 960,
+   "bed": "room",
+   "cut": true,
+   "start": 61.581,
+   "end": 63.231,
+   "fade_in": false
+  },
+  {
+   "id": "s6",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "drone",
+   "start": 63.231,
+   "end": 68.821
+  },
+  {
+   "id": "s7",
+   "from_line": 11,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 68.821,
+   "end": 80.927
+  },
+  {
+   "id": "s8",
+   "from_line": 13,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 80.927,
+   "end": 84.07300000000001
+  },
+  {
+   "id": "_end",
+   "start": 84.07300000000001,
+   "end": 87.873
+  }
+ ],
+ "total": 87.873
+}
