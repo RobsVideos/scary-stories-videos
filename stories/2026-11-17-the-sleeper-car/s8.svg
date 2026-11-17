@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="60"/></filter><linearGradient id="night" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#03040a"/><stop offset="0.55" stop-color="#101a2e"/><stop offset="1" stop-color="#28324a"/></linearGradient><linearGradient id="dawn" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1a2236"/><stop offset="0.55" stop-color="#3a4258"/><stop offset="1" stop-color="#5a5a68"/></linearGradient><linearGradient id="cab" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#120d0b"/><stop offset="0.55" stop-color="#1e1510"/><stop offset="1" stop-color="#0c0806"/></linearGradient><linearGradient id="curt" x1="0" x2="1"><stop offset="0" stop-color="#3a0e12"/><stop offset="0.5" stop-color="#5a161b"/><stop offset="1" stop-color="#2a090c"/></linearGradient><linearGradient id="curtlit" x1="0" x2="1"><stop offset="0" stop-color="#5a1a16"/><stop offset="0.5" stop-color="#8a2a22"/><stop offset="1" stop-color="#4a120e"/></linearGradient><linearGradient id="floor" x1="0" y1="0" y2="1"><stop offset="0" stop-color="#1a1210"/><stop offset="1" stop-color="#2e1f18"/></linearGradient><linearGradient id="blanket" x1="0" y1="0" y2="1"><stop offset="0" stop-color="#3a3f5a"/><stop offset="1" stop-color="#1c1f30"/></linearGradient></defs>
+<rect width="1920" height="1080" fill="#0a0708"/>
+<rect x="470" y="120" width="980" height="560" fill="url(#curtlit)"/>
+<path d="M568 120 q12 280 -4 560" stroke="#1a0406" stroke-width="26" fill="none" opacity="0.5"/><path d="M666 120 q12 280 -4 560" stroke="#1a0406" stroke-width="26" fill="none" opacity="0.5"/><path d="M764 120 q12 280 -4 560" stroke="#1a0406" stroke-width="26" fill="none" opacity="0.5"/><path d="M862 120 q12 280 -4 560" stroke="#1a0406" stroke-width="26" fill="none" opacity="0.5"/><path d="M960 120 q12 280 -4 560" stroke="#1a0406" stroke-width="26" fill="none" opacity="0.5"/><path d="M1058 120 q12 280 -4 560" stroke="#1a0406" stroke-width="26" fill="none" opacity="0.5"/><path d="M1156 120 q12 280 -4 560" stroke="#1a0406" stroke-width="26" fill="none" opacity="0.5"/><path d="M1254 120 q12 280 -4 560" stroke="#1a0406" stroke-width="26" fill="none" opacity="0.5"/><path d="M1352 120 q12 280 -4 560" stroke="#1a0406" stroke-width="26" fill="none" opacity="0.5"/>
+<rect x="450" y="104" width="1020" height="14" rx="7" fill="#8a7a58"/>
+<circle cx="470" cy="112" r="8" fill="#b0a070"/><circle cx="568" cy="112" r="8" fill="#b0a070"/><circle cx="666" cy="112" r="8" fill="#b0a070"/><circle cx="764" cy="112" r="8" fill="#b0a070"/><circle cx="862" cy="112" r="8" fill="#b0a070"/><circle cx="960" cy="112" r="8" fill="#b0a070"/><circle cx="1058" cy="112" r="8" fill="#b0a070"/><circle cx="1156" cy="112" r="8" fill="#b0a070"/><circle cx="1254" cy="112" r="8" fill="#b0a070"/><circle cx="1352" cy="112" r="8" fill="#b0a070"/><circle cx="1450" cy="112" r="8" fill="#b0a070"/>
+<rect x="440" y="680" width="1040" height="60" fill="#2a1d14"/>
+<path d="M440 1080 L1480 1080 L1480 740 L440 740Z" fill="url(#floor)"/>
+<g fill="#1a1414"><path d="M640 960 q0 -60 60 -60 l60 0 q40 0 60 40 l30 30 q10 30 -30 30 l-180 0 z"/>
+<path d="M800 990 q0 -60 60 -60 l60 0 q40 0 60 40 l30 30 q10 30 -30 30 l-180 0 z"/></g>
+<g fill="#cfd4dc" opacity="0.9"><path d="M1060 950 q0 -50 50 -50 l50 0 q36 0 54 34 l26 26 q8 26 -26 26 l-154 0 z"/>
+<path d="M1210 985 q0 -50 50 -50 l50 0 q36 0 54 34 l26 26 q8 26 -26 26 l-154 0 z"/></g>
+<g fill="#6a6e78"><rect x="1060" y="986" width="200" height="10"/><rect x="1210" y="1021" width="200" height="10"/></g>
+<circle cx="1240" cy="960" r="220" fill="#9fb8d8" opacity="0.18" filter="url(#blur30)"/>
+<circle cx="960" cy="380" r="380" fill="#ffb54a" opacity="0.18" filter="url(#blur30)"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

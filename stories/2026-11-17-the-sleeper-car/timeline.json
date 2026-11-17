@@ -1,0 +1,167 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 8.3,
+   "text": "The night train had one rule, printed on a card in every sleeper berth."
+  },
+  {
+   "i": 1,
+   "start": 8.7,
+   "end": 13.863,
+   "text": "If the train stops between stations after midnight... keep your curtain closed."
+  },
+  {
+   "i": 2,
+   "start": 14.563,
+   "end": 20.237,
+   "text": "I left mine open to watch the snow... and fell asleep to the rocking of the wheels."
+  },
+  {
+   "i": 3,
+   "start": 20.837,
+   "end": 26.448,
+   "text": "I woke to silence. The train had stopped. Outside... just snow, and black pines."
+  },
+  {
+   "i": 4,
+   "start": 27.248,
+   "end": 31.024,
+   "text": "Then, at the far end of the car, the door slid open."
+  },
+  {
+   "i": 5,
+   "start": 33.224,
+   "end": 38.536,
+   "text": "Slow footsteps came down the aisle. And one by one... the curtains scraped open."
+  },
+  {
+   "i": 6,
+   "start": 39.136,
+   "end": 41.973,
+   "text": "Something was looking into every berth."
+  },
+  {
+   "i": 7,
+   "start": 42.873,
+   "end": 48.164,
+   "text": "The footsteps stopped outside mine. I gripped my curtain shut... and didn't breathe."
+  },
+  {
+   "i": 8,
+   "start": 50.164,
+   "end": 54.068,
+   "text": "At last, they moved on. And the wheels began to turn."
+  },
+  {
+   "i": 9,
+   "start": 54.968,
+   "end": 59.277,
+   "text": "In the morning, everyone in my car was there. Nobody missing."
+  },
+  {
+   "i": 10,
+   "start": 59.877,
+   "end": 64.891,
+   "text": "The porter smiled when I told him. Good. It can't open a closed curtain."
+  },
+  {
+   "i": 11,
+   "start": 65.891,
+   "end": 70.179,
+   "text": "Then I remembered. When I fell asleep... my curtain was open."
+  },
+  {
+   "i": 12,
+   "start": 71.479,
+   "end": 76.961,
+   "text": "So who closed it? Behind me, under the blanket, something cold whispered... I did."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 8.45
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 960,
+   "bed": "room",
+   "start": 8.45,
+   "end": 20.587
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "wind",
+   "start": 20.587,
+   "end": 26.998
+  },
+  {
+   "id": "s4",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "drone",
+   "start": 26.998,
+   "end": 32.974
+  },
+  {
+   "id": "s5",
+   "from_line": 5,
+   "cx": 900,
+   "bed": "drone",
+   "start": 32.974,
+   "end": 42.623
+  },
+  {
+   "id": "s6",
+   "from_line": 7,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 42.623,
+   "end": 54.718
+  },
+  {
+   "id": "s7",
+   "from_line": 9,
+   "cx": 980,
+   "bed": "room",
+   "start": 54.718,
+   "end": 65.641
+  },
+  {
+   "id": "s8",
+   "from_line": 11,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 65.641,
+   "end": 71.229
+  },
+  {
+   "id": "s9",
+   "from_line": 12,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 71.229,
+   "end": 77.361
+  },
+  {
+   "id": "_end",
+   "start": 77.361,
+   "end": 81.161
+  }
+ ],
+ "total": 81.161
+}
