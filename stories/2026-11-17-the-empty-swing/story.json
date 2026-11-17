@@ -1,0 +1,45 @@
+{
+ "title": "The Empty Swing",
+ "slug": "2026-11-17-the-empty-swing",
+ "hook": "Every kid in my hometown knows the rule: if a swing is moving on its own, never push it.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "In the little town where I grew up, there's an old swing set in the park... and every kid there knows the rule.",
+  "If a swing is moving on its own... never push it.",
+  "My grandmother used to say it like a prayer. Because if you push it... it pushes back.",
+  "I moved away at eighteen. Last fall, after she died, I came home to empty out her house.",
+  "The shortcut from the store cuts right through that park.",
+  "One night, there was no wind at all... but the middle swing was moving.",
+  "Back... and forth. Back... and forth. A little higher every time.",
+  "Then, from the empty seat, a small voice whispered...",
+  "Push me.",
+  "I didn't. I walked home fast, and I never looked back.",
+  "Around three a.m., a sound woke me. Grandma's porch swing... creaking.",
+  "I opened the front door. The porch swing was empty... and perfectly still.",
+  "Then two small, cold hands pressed flat against my back...",
+  "and a little voice said... my turn."
+ ],
+ "pauses": {"1": 1.0, "2": 0.8, "3": 0.7, "5": 1.0, "6": 0.9, "7": 1.2, "8": 2.4, "9": 1.0, "10": 2.0, "11": 1.4, "12": 1.2},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 950, "bed": "wind"},
+  {"id": "s2", "from_line": 2, "cx": 1150, "bed": "wind"},
+  {"id": "s3", "from_line": 3, "cx": 1000, "bed": "wind"},
+  {"id": "s4", "from_line": 4, "cx": 990, "bed": "drone"},
+  {"id": "s5", "from_line": 6, "cx": 980, "bed": "drone_rise"},
+  {"id": "s5b", "from_line": 8, "cx": 980, "bed": "drone_deep", "cut": true},
+  {"id": "s6", "from_line": 9, "cx": 960, "bed": "wind"},
+  {"id": "s7", "from_line": 10, "cx": 960, "bed": "room"},
+  {"id": "s8", "from_line": 12, "cx": 960, "bed": "drone_deep", "cut": true}
+ ],
+ "events": [
+  {"sfx": "creak", "at": {"line": 6, "edge": "start", "offset": -0.2}, "dur": 6.0, "pan": 0.3},
+  {"sfx": "whisper", "at": {"line": 7, "edge": "end", "offset": 0.2}, "dur": 2.0, "pan": 0.2},
+  {"sfx": "footsteps", "at": {"line": 9, "edge": "start", "offset": 0.6}, "dur": 3.0, "every": 0.35},
+  {"sfx": "creak", "at": {"line": 10, "edge": "end", "offset": 0.2}, "dur": 2.0, "pan": -0.3},
+  {"sfx": "heartbeat", "at": {"line": 11, "edge": "end", "offset": 0.1}, "dur": 3.0, "every": 0.8},
+  {"sfx": "hit", "at": {"line": 12, "edge": "start", "offset": -0.1}}
+ ],
+ "end_card": ["If it swings alone,", "never push it.", "It pushes back."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}

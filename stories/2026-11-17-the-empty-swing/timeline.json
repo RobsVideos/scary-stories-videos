@@ -1,0 +1,179 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 10.092,
+   "text": "In the little town where I grew up, there's an old swing set in the park... and every kid there knows the rule."
+  },
+  {
+   "i": 1,
+   "start": 10.692,
+   "end": 14.34,
+   "text": "If a swing is moving on its own... never push it."
+  },
+  {
+   "i": 2,
+   "start": 15.34,
+   "end": 20.673,
+   "text": "My grandmother used to say it like a prayer. Because if you push it... it pushes back."
+  },
+  {
+   "i": 3,
+   "start": 21.473,
+   "end": 27.511,
+   "text": "I moved away at eighteen. Last fall, after she died, I came home to empty out her house."
+  },
+  {
+   "i": 4,
+   "start": 28.211,
+   "end": 31.923,
+   "text": "The shortcut from the store cuts right through that park."
+  },
+  {
+   "i": 5,
+   "start": 32.523,
+   "end": 37.003,
+   "text": "One night, there was no wind at all... but the middle swing was moving."
+  },
+  {
+   "i": 6,
+   "start": 38.003,
+   "end": 42.419,
+   "text": "Back... and forth. Back... and forth. A little higher every time."
+  },
+  {
+   "i": 7,
+   "start": 43.319,
+   "end": 47.095,
+   "text": "Then, from the empty seat, a small voice whispered..."
+  },
+  {
+   "i": 8,
+   "start": 48.295,
+   "end": 49.249,
+   "text": "Push me."
+  },
+  {
+   "i": 9,
+   "start": 51.649,
+   "end": 55.553,
+   "text": "I didn't. I walked home fast, and I never looked back."
+  },
+  {
+   "i": 10,
+   "start": 56.553,
+   "end": 61.737,
+   "text": "Around three a.m., a sound woke me. Grandma's porch swing... creaking."
+  },
+  {
+   "i": 11,
+   "start": 63.737,
+   "end": 68.558,
+   "text": "I opened the front door. The porch swing was empty... and perfectly still."
+  },
+  {
+   "i": 12,
+   "start": 69.958,
+   "end": 74.182,
+   "text": "Then two small, cold hands pressed flat against my back..."
+  },
+  {
+   "i": 13,
+   "start": 75.382,
+   "end": 78.22,
+   "text": "and a little voice said... my turn."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 950,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 15.09
+  },
+  {
+   "id": "s2",
+   "from_line": 2,
+   "cx": 1150,
+   "bed": "wind",
+   "start": 15.09,
+   "end": 21.223
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 1000,
+   "bed": "wind",
+   "start": 21.223,
+   "end": 27.961
+  },
+  {
+   "id": "s4",
+   "from_line": 4,
+   "cx": 990,
+   "bed": "drone",
+   "start": 27.961,
+   "end": 37.753
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 980,
+   "bed": "drone_rise",
+   "start": 37.753,
+   "end": 48.045,
+   "fade_out": false
+  },
+  {
+   "id": "s5b",
+   "from_line": 8,
+   "cx": 980,
+   "bed": "drone_deep",
+   "cut": true,
+   "start": 48.045,
+   "end": 51.399,
+   "fade_in": false
+  },
+  {
+   "id": "s6",
+   "from_line": 9,
+   "cx": 960,
+   "bed": "wind",
+   "start": 51.399,
+   "end": 56.303
+  },
+  {
+   "id": "s7",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "room",
+   "start": 56.303,
+   "end": 69.708,
+   "fade_out": false
+  },
+  {
+   "id": "s8",
+   "from_line": 12,
+   "cx": 960,
+   "bed": "drone_deep",
+   "cut": true,
+   "start": 69.708,
+   "end": 78.62,
+   "fade_in": false
+  },
+  {
+   "id": "_end",
+   "start": 78.62,
+   "end": 82.42
+  }
+ ],
+ "total": 82.42
+}
