@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="60"/></filter></defs>
+<rect width="1920" height="1080" fill="#0a0810"/>
+<rect x="0" y="0" width="1920" height="240" fill="#07060a"/>
+<rect x="760" y="120" width="400" height="130" fill="#d07a3a"/>
+<rect x="760" y="120" width="400" height="130" fill="#ff9a4a" filter="url(#blur30)" opacity="0.6"/>
+<rect x="760" y="120" width="400" height="130" fill="none" stroke="#050407" stroke-width="16"/>
+<circle cx="960" cy="180" r="220" fill="#ff9a4a" opacity="0.25" filter="url(#blur30)"/>
+<polygon points="880,250 1040,250 1180,1000 740,1000" fill="#ff9a4a" opacity="0.06"/>
+<g stroke="#1a120c" stroke-width="26" stroke-linecap="round">
+<line x1="860" y1="250" x2="740" y2="1010"/><line x1="1060" y1="250" x2="1180" y2="1010"/></g>
+<g stroke="#2a1d12" stroke-width="18"><line x1="846" y1="340" x2="1074" y2="340"/><line x1="828" y1="450" x2="1092" y2="450"/><line x1="811" y1="560" x2="1109" y2="560"/><line x1="794" y1="670" x2="1126" y2="670"/><line x1="776" y1="780" x2="1144" y2="780"/><line x1="759" y1="890" x2="1161" y2="890"/></g>
+<rect x="0" y="1000" width="1920" height="80" fill="#060509"/>
+<g fill="#05040a"><rect x="180" y="300" width="20" height="700"/><rect x="1720" y="300" width="20" height="700"/></g>
+<g fill="#030204"><ellipse cx="1520" cy="703" rx="23" ry="30"/><path d="M1484 1000 L1491 818 C1476 762 1487 736 1520 733 C1553 736 1564 762 1549 818 L1556 1000 Z"/><path d="M1482 762 L1466 901" stroke="#030204" stroke-width="10" stroke-linecap="round"/><path d="M1558 762 L1574 901" stroke="#030204" stroke-width="10" stroke-linecap="round"/></g>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

@@ -1,0 +1,45 @@
+{
+ "title": "The Attic Box",
+ "slug": "2026-11-17-the-attic-box",
+ "hook": "Our new house came with one box in the attic... and a note that said never close it.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "The house we bought came with one thing the old owners wouldn't take. A cardboard box in the attic.",
+  "Taped to its lid was a note. Never close this box. And whatever ends up inside it... let it keep.",
+  "I laughed. It was just a box, sitting open in the dust.",
+  "A week later, my reading glasses went missing. I found them in the box.",
+  "Then my watch. Then my keys. Then my wedding ring.",
+  "Every time, I took them back. And every night, the attic floor creaked a little longer.",
+  "So one night... I taped the box shut.",
+  "The creaking stopped. For six days, the house was perfectly quiet.",
+  "Then my wife asked who I'd been whispering with in the attic every night.",
+  "I went up. The tape was split... from the inside.",
+  "The box was full. My shoes. My coat. Every photo of me... face scratched out.",
+  "Downstairs, I heard my wife laugh... and say my name. To someone in the kitchen.",
+  "I've been up here for a while now. She hasn't noticed I'm gone.",
+  "And the box keeps telling me... there's room."
+ ],
+ "pauses": {"0": 0.8, "1": 1.0, "2": 0.8, "3": 0.7, "4": 0.9, "5": 2.2, "6": 1.2, "7": 1.2, "8": 1.6, "9": 1.4, "10": 1.0, "11": 1.6, "12": 1.0},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 960, "bed": "wind"},
+  {"id": "s2", "from_line": 1, "cx": 960, "bed": "room"},
+  {"id": "s3", "from_line": 3, "cx": 960, "bed": "drone"},
+  {"id": "s4", "from_line": 5, "cx": 960, "bed": "room"},
+  {"id": "s5", "from_line": 6, "cx": 960, "bed": "drone_deep"},
+  {"id": "s6", "from_line": 8, "cx": 960, "bed": "drone_rise"},
+  {"id": "s6b", "at": {"line": 9, "edge": "start", "offset": 1.1}, "cx": 960, "bed": "drone_deep"},
+  {"id": "s7", "from_line": 10, "cx": 960, "bed": "drone"},
+  {"id": "s8", "from_line": 11, "cx": 960, "bed": "room"},
+  {"id": "s9", "from_line": 12, "cx": 960, "bed": "drone_deep"}
+ ],
+ "events": [
+  {"sfx": "creak", "at": {"line": 5, "edge": "end", "offset": 0.1}, "dur": 2.0, "pan": 0.2},
+  {"sfx": "footsteps", "at": {"line": 9, "edge": "start", "offset": -0.3}, "dur": 1.6, "every": 0.5, "gain": -3},
+  {"sfx": "hit", "at": {"line": 9, "edge": "start", "offset": 1.1}},
+  {"sfx": "heartbeat", "at": {"line": 11, "edge": "start", "offset": 0.5}, "dur": 5.0, "every": 0.85},
+  {"sfx": "whisper", "at": {"line": 13, "edge": "end", "offset": -0.8}, "dur": 2.5}
+ ],
+ "end_card": ["Never close", "the box.", "There's always room."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}

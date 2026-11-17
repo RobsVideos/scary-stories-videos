@@ -1,0 +1,185 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 9.836,
+   "text": "The house we bought came with one thing the old owners wouldn't take. A cardboard box in the attic."
+  },
+  {
+   "i": 1,
+   "start": 10.636,
+   "end": 17.057,
+   "text": "Taped to its lid was a note. Never close this box. And whatever ends up inside it... let it keep."
+  },
+  {
+   "i": 2,
+   "start": 18.057,
+   "end": 22.089,
+   "text": "I laughed. It was just a box, sitting open in the dust."
+  },
+  {
+   "i": 3,
+   "start": 22.889,
+   "end": 27.775,
+   "text": "A week later, my reading glasses went missing. I found them in the box."
+  },
+  {
+   "i": 4,
+   "start": 28.475,
+   "end": 32.208,
+   "text": "Then my watch. Then my keys. Then my wedding ring."
+  },
+  {
+   "i": 5,
+   "start": 33.108,
+   "end": 38.633,
+   "text": "Every time, I took them back. And every night, the attic floor creaked a little longer."
+  },
+  {
+   "i": 6,
+   "start": 40.833,
+   "end": 43.799,
+   "text": "So one night... I taped the box shut."
+  },
+  {
+   "i": 7,
+   "start": 44.999,
+   "end": 49.713,
+   "text": "The creaking stopped. For six days, the house was perfectly quiet."
+  },
+  {
+   "i": 8,
+   "start": 50.913,
+   "end": 55.479,
+   "text": "Then my wife asked who I'd been whispering with in the attic every night."
+  },
+  {
+   "i": 9,
+   "start": 57.079,
+   "end": 60.62,
+   "text": "I went up. The tape was split... from the inside."
+  },
+  {
+   "i": 10,
+   "start": 62.02,
+   "end": 67.524,
+   "text": "The box was full. My shoes. My coat. Every photo of me... face scratched out."
+  },
+  {
+   "i": 11,
+   "start": 68.524,
+   "end": 73.985,
+   "text": "Downstairs, I heard my wife laugh... and say my name. To someone in the kitchen."
+  },
+  {
+   "i": 12,
+   "start": 75.585,
+   "end": 79.703,
+   "text": "I've been up here for a while now. She hasn't noticed I'm gone."
+  },
+  {
+   "i": 13,
+   "start": 80.703,
+   "end": 83.903,
+   "text": "And the box keeps telling me... there's room."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 10.386
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 960,
+   "bed": "room",
+   "start": 10.386,
+   "end": 22.639
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "drone",
+   "start": 22.639,
+   "end": 32.858
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "room",
+   "start": 32.858,
+   "end": 40.583
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 40.583,
+   "end": 50.663
+  },
+  {
+   "id": "s6",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 50.663,
+   "end": 58.179
+  },
+  {
+   "id": "s6b",
+   "at": {
+    "line": 9,
+    "edge": "start",
+    "offset": 1.1
+   },
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 58.179,
+   "end": 61.77
+  },
+  {
+   "id": "s7",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "drone",
+   "start": 61.77,
+   "end": 68.274
+  },
+  {
+   "id": "s8",
+   "from_line": 11,
+   "cx": 960,
+   "bed": "room",
+   "start": 68.274,
+   "end": 75.335
+  },
+  {
+   "id": "s9",
+   "from_line": 12,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 75.335,
+   "end": 84.30300000000001
+  },
+  {
+   "id": "_end",
+   "start": 84.30300000000001,
+   "end": 88.10300000000001
+  }
+ ],
+ "total": 88.10300000000001
+}
