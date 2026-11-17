@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="60"/></filter><linearGradient id="night" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#04050c"/><stop offset="0.55" stop-color="#141a30"/><stop offset="1" stop-color="#2a2a40"/></linearGradient><linearGradient id="ir" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#141a17"/><stop offset="0.55" stop-color="#2c3530"/><stop offset="1" stop-color="#3e4842"/></linearGradient><filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="4"/><feColorMatrix values="0 0 0 0 0.8  0 0 0 0 0.9  0 0 0 0 0.85  0 0 0 0.16 0"/></filter><radialGradient id="flash" cx="0.5" cy="0.55" r="0.6"><stop offset="0" stop-color="#d7e3dc" stop-opacity="0.22"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient><linearGradient id="wood" x1="0" x2="1"><stop offset="0" stop-color="#1a120c"/><stop offset="1" stop-color="#2b1d13"/></linearGradient></defs>
+<rect width="1920" height="1080" fill="#0a0a10"/>
+<rect x="600" y="100" width="720" height="980" fill="#1b1714"/>
+<rect x="660" y="140" width="600" height="940" fill="#2a211a"/>
+<rect x="720" y="190" width="480" height="300" fill="#0d1222"/>
+<rect x="720" y="190" width="480" height="300" fill="#7f97c8" opacity="0.18"/>
+<clipPath id="dw"><rect x="720" y="190" width="480" height="300"/></clipPath><g clip-path="url(#dw)"><g fill="#06070c"><circle cx="807" cy="412" r="112"/><circle cx="910" cy="247" r="72"/><circle cx="909" cy="307" r="88"/><circle cx="1292" cy="246" r="115"/><circle cx="1120" cy="416" r="114"/><circle cx="1301" cy="278" r="112"/><circle cx="985" cy="332" r="131"/><circle cx="782" cy="358" r="140"/><circle cx="1214" cy="342" r="116"/><circle cx="1285" cy="340" r="86"/><circle cx="1008" cy="204" r="130"/><circle cx="852" cy="385" r="89"/><circle cx="1393" cy="316" r="121"/><circle cx="842" cy="214" r="87"/><circle cx="875" cy="230" r="139"/><circle cx="1263" cy="304" r="93"/><circle cx="1015" cy="387" r="89"/><circle cx="931" cy="282" r="137"/><circle cx="779" cy="379" r="101"/><circle cx="1202" cy="455" r="97"/><circle cx="1401" cy="376" r="119"/><circle cx="1221" cy="308" r="111"/><circle cx="777" cy="255" r="71"/><circle cx="817" cy="405" r="114"/><circle cx="811" cy="316" r="118"/><circle cx="1169" cy="392" r="98"/><circle cx="781" cy="328" r="72"/><circle cx="1018" cy="422" r="100"/><path d="M1025 560 C1040 360 1030 200 1060 410 L1110 410 C1130 200 1125 360 1145 560 Z"/><path d="M1050 230 C940 160 860 130 780 40" stroke="#06070c" stroke-width="34" fill="none"/><path d="M1110 180 C1220 120 1310 90 1390 0" stroke="#06070c" stroke-width="30" fill="none"/><path d="M1020 560 q-50 10 -90 8 M1140 560 q50 10 90 6" stroke="#06070c" stroke-width="18" fill="none"/></g></g>
+<line x1="960" y1="190" x2="960" y2="490" stroke="#2a211a" stroke-width="12"/><line x1="720" y1="340" x2="1200" y2="340" stroke="#2a211a" stroke-width="12"/>
+<rect x="730" y="560" width="200" height="440" fill="none" stroke="#1e1712" stroke-width="8"/>
+<rect x="990" y="560" width="200" height="440" fill="none" stroke="#1e1712" stroke-width="8"/>
+<polygon points="720,490 1200,490 1360,1080 560,1080" fill="#9fb4e8" opacity="0.05"/>
+<rect x="1150" y="600" width="80" height="60" rx="8" fill="#5a4a2e"/><rect x="1172" y="620" width="56" height="18" rx="9" fill="#b89a5a"/>
+<rect x="1240" y="610" width="60" height="44" fill="#3a3024"/>
+<circle cx="1190" cy="760" r="30" fill="#b89a5a"/><circle cx="1190" cy="760" r="30" fill="none" stroke="#5a4a2e" stroke-width="6"/>
+<path d="M1220 500 q-40 40 -20 80 q15 30 -10 60" stroke="#a88c50" stroke-width="7" fill="none" stroke-dasharray="14 6"/>
+<rect x="1205" y="480" width="40" height="22" fill="#5a4a2e"/>
+<circle cx="1190" cy="700" r="120" fill="#d9b46a" opacity="0.15" filter="url(#blur30)"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

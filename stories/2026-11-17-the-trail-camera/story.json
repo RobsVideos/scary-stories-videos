@@ -1,0 +1,182 @@
+{
+ "title": "The Trail Camera",
+ "slug": "2026-11-17-the-trail-camera",
+ "hook": "My neighbor had one rule about my new trail camera: if it ever takes a picture of you, don't go out to check it.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "Something kept digging up my garden at night. So I strapped a trail camera to the old oak in my yard.",
+  "My neighbor, old Mr. Dale, watched from his porch... and gave me one rule.",
+  "If that camera ever takes a picture of you... don't go out to check it.",
+  "For two weeks, it sent photos to my phone every night. Deer. Raccoons. A fox.",
+  "Then, at three-twelve a.m., my phone buzzed.",
+  "It was me. Barefoot. In my pajamas. Standing in the wet grass... staring into the lens.",
+  "I don't sleepwalk. And every door was still locked... from the inside.",
+  "The next night, another photo. Me again. Closer. Smiling.",
+  "So tonight, I sat on my bed in the dark, holding my phone.",
+  "At three-twelve... it buzzed.",
+  "The photo was of my bedroom window. Taken from the oak tree.",
+  "And sitting on my bed, behind the glass, holding a phone... was me.",
+  "I looked up. Out in the yard, the camera's red light was blinking.",
+  "And beside it, in my pajamas, wearing my face... something waved me outside."
+ ],
+ "pauses": {
+  "0": 0.5,
+  "1": 0.6,
+  "2": 1.1,
+  "3": 0.7,
+  "4": 2.2,
+  "5": 0.9,
+  "6": 1.1,
+  "7": 1.3,
+  "8": 0.7,
+  "9": 2.2,
+  "10": 0.7,
+  "11": 1.5,
+  "12": 0.9
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 880,
+   "bed": "wind"
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 980,
+   "bed": "wind"
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "room"
+  },
+  {
+   "id": "s4",
+   "at": {
+    "line": 4,
+    "edge": "end",
+    "offset": 1.2
+   },
+   "cx": 960,
+   "bed": "drone",
+   "cut": true
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "room"
+  },
+  {
+   "id": "s6",
+   "from_line": 7,
+   "cx": 960,
+   "bed": "drone_deep"
+  },
+  {
+   "id": "s7",
+   "from_line": 8,
+   "cx": 1000,
+   "bed": "room"
+  },
+  {
+   "id": "s8",
+   "at": {
+    "line": 9,
+    "edge": "end",
+    "offset": 1.0
+   },
+   "cx": 960,
+   "bed": "drone_rise",
+   "cut": true
+  },
+  {
+   "id": "s9",
+   "from_line": 12,
+   "cx": 960,
+   "bed": "drone_deep"
+  }
+ ],
+ "events": [
+  {
+   "sfx": "phone",
+   "at": {
+    "line": 4,
+    "edge": "end",
+    "offset": 0.1
+   },
+   "dur": 1.0,
+   "gain": -4
+  },
+  {
+   "sfx": "hit",
+   "at": {
+    "line": 4,
+    "edge": "end",
+    "offset": 1.2
+   }
+  },
+  {
+   "sfx": "lock",
+   "at": {
+    "line": 6,
+    "edge": "start",
+    "offset": 2.0
+   }
+  },
+  {
+   "sfx": "heartbeat",
+   "at": {
+    "line": 8,
+    "edge": "start",
+    "offset": 1.0
+   },
+   "dur": 6.0,
+   "every": 0.85
+  },
+  {
+   "sfx": "phone",
+   "at": {
+    "line": 9,
+    "edge": "end",
+    "offset": 0.1
+   },
+   "dur": 1.0,
+   "gain": -4
+  },
+  {
+   "sfx": "boom",
+   "at": {
+    "line": 11,
+    "edge": "end",
+    "offset": 0.2
+   }
+  },
+  {
+   "sfx": "whisper",
+   "at": {
+    "line": 13,
+    "edge": "end",
+    "offset": -0.8
+   },
+   "dur": 2.5
+  }
+ ],
+ "end_card": [
+  "If the camera",
+  "takes your picture...",
+  "don't go check."
+ ],
+ "hashtags": [
+  "#scarystories",
+  "#horrorstories",
+  "#creepy",
+  "#scary",
+  "#horrortok",
+  "#fyp"
+ ]
+}

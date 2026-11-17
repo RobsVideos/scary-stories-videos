@@ -1,0 +1,187 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 9.985,
+   "text": "Something kept digging up my garden at night. So I strapped a trail camera to the old oak in my yard."
+  },
+  {
+   "i": 1,
+   "start": 10.485,
+   "end": 15.584,
+   "text": "My neighbor, old Mr. Dale, watched from his porch... and gave me one rule."
+  },
+  {
+   "i": 2,
+   "start": 16.184,
+   "end": 20.707,
+   "text": "If that camera ever takes a picture of you... don't go out to check it."
+  },
+  {
+   "i": 3,
+   "start": 21.807,
+   "end": 27.503,
+   "text": "For two weeks, it sent photos to my phone every night. Deer. Raccoons. A fox."
+  },
+  {
+   "i": 4,
+   "start": 28.203,
+   "end": 31.68,
+   "text": "Then, at three-twelve a.m., my phone buzzed."
+  },
+  {
+   "i": 5,
+   "start": 33.88,
+   "end": 39.405,
+   "text": "It was me. Barefoot. In my pajamas. Standing in the wet grass... staring into the lens."
+  },
+  {
+   "i": 6,
+   "start": 40.305,
+   "end": 44.849,
+   "text": "I don't sleepwalk. And every door was still locked... from the inside."
+  },
+  {
+   "i": 7,
+   "start": 45.949,
+   "end": 50.024,
+   "text": "The next night, another photo. Me again. Closer. Smiling."
+  },
+  {
+   "i": 8,
+   "start": 51.324,
+   "end": 55.527,
+   "text": "So tonight, I sat on my bed in the dark, holding my phone."
+  },
+  {
+   "i": 9,
+   "start": 56.227,
+   "end": 58.616,
+   "text": "At three-twelve... it buzzed."
+  },
+  {
+   "i": 10,
+   "start": 60.816,
+   "end": 65.36,
+   "text": "The photo was of my bedroom window. Taken from the oak tree."
+  },
+  {
+   "i": 11,
+   "start": 66.06,
+   "end": 70.647,
+   "text": "And sitting on my bed, behind the glass, holding a phone... was me."
+  },
+  {
+   "i": 12,
+   "start": 72.147,
+   "end": 76.669,
+   "text": "I looked up. Out in the yard, the camera's red light was blinking."
+  },
+  {
+   "i": 13,
+   "start": 77.569,
+   "end": 82.796,
+   "text": "And beside it, in my pajamas, wearing my face... something waved me outside."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 880,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 10.235
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 980,
+   "bed": "wind",
+   "start": 10.235,
+   "end": 21.557
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "room",
+   "start": 21.557,
+   "end": 32.88,
+   "fade_out": false
+  },
+  {
+   "id": "s4",
+   "at": {
+    "line": 4,
+    "edge": "end",
+    "offset": 1.2
+   },
+   "cx": 960,
+   "bed": "drone",
+   "cut": true,
+   "start": 32.88,
+   "end": 40.055,
+   "fade_in": false
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "room",
+   "start": 40.055,
+   "end": 45.699
+  },
+  {
+   "id": "s6",
+   "from_line": 7,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 45.699,
+   "end": 51.074
+  },
+  {
+   "id": "s7",
+   "from_line": 8,
+   "cx": 1000,
+   "bed": "room",
+   "start": 51.074,
+   "end": 59.616,
+   "fade_out": false
+  },
+  {
+   "id": "s8",
+   "at": {
+    "line": 9,
+    "edge": "end",
+    "offset": 1.0
+   },
+   "cx": 960,
+   "bed": "drone_rise",
+   "cut": true,
+   "start": 59.616,
+   "end": 71.897,
+   "fade_in": false
+  },
+  {
+   "id": "s9",
+   "from_line": 12,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 71.897,
+   "end": 83.19600000000001
+  },
+  {
+   "id": "_end",
+   "start": 83.19600000000001,
+   "end": 86.99600000000001
+  }
+ ],
+ "total": 86.99600000000001
+}
