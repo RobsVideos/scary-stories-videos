@@ -1,0 +1,173 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 8.535,
+   "text": "I work the night shift at a twenty-four hour car wash, out by the highway."
+  },
+  {
+   "i": 1,
+   "start": 9.035,
+   "end": 15.2,
+   "text": "The owner gave me one rule. If a car ever comes through with its headlights off... don't look inside."
+  },
+  {
+   "i": 2,
+   "start": 16.1,
+   "end": 19.727,
+   "text": "For three weeks, nothing. Just truckers, and rain."
+  },
+  {
+   "i": 3,
+   "start": 20.927,
+   "end": 25.535,
+   "text": "Then, last night, just after three, the tunnel started up on its own."
+  },
+  {
+   "i": 4,
+   "start": 26.335,
+   "end": 29.748,
+   "text": "Brushes spinning. Dryers roaring at nothing."
+  },
+  {
+   "i": 5,
+   "start": 30.648,
+   "end": 35.107,
+   "text": "And a long black car rolled out of the dark... no lights at all."
+  },
+  {
+   "i": 6,
+   "start": 36.107,
+   "end": 40.587,
+   "text": "I kept my eyes on the register. I counted the drawer... twice."
+  },
+  {
+   "i": 7,
+   "start": 41.487,
+   "end": 45.796,
+   "text": "It stopped right outside my window. And it just... sat there."
+  },
+  {
+   "i": 8,
+   "start": 46.996,
+   "end": 51.732,
+   "text": "Then something tapped on the glass beside my head. Three slow taps."
+  },
+  {
+   "i": 9,
+   "start": 54.232,
+   "end": 58.435,
+   "text": "I didn't look. I didn't breathe. Finally... I heard it pull away."
+  },
+  {
+   "i": 10,
+   "start": 59.735,
+   "end": 63.873,
+   "text": "This morning, I pulled up the camera, to see who'd been driving."
+  },
+  {
+   "i": 11,
+   "start": 64.673,
+   "end": 67.98,
+   "text": "Nobody. The car was empty. Every seat."
+  },
+  {
+   "i": 12,
+   "start": 69.18,
+   "end": 72.892,
+   "text": "But the camera over my booth showed who'd been tapping."
+  },
+  {
+   "i": 13,
+   "start": 73.892,
+   "end": 79.737,
+   "text": "Something tall, standing inside, right behind my chair... waiting for me to turn around."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "rain",
+   "start": 3.5,
+   "end": 8.785
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 960,
+   "bed": "room",
+   "start": 8.785,
+   "end": 20.677
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "drone",
+   "start": 20.677,
+   "end": 30.398
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 30.398,
+   "end": 35.857
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "room",
+   "start": 35.857,
+   "end": 41.237
+  },
+  {
+   "id": "s6",
+   "from_line": 7,
+   "cx": 960,
+   "bed": "rain",
+   "start": 41.237,
+   "end": 46.746
+  },
+  {
+   "id": "s7",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "drone",
+   "start": 46.746,
+   "end": 59.485
+  },
+  {
+   "id": "s8",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "room",
+   "start": 59.485,
+   "end": 68.93
+  },
+  {
+   "id": "s9",
+   "from_line": 12,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 68.93,
+   "end": 80.137
+  },
+  {
+   "id": "_end",
+   "start": 80.137,
+   "end": 83.937
+  }
+ ],
+ "total": 83.937
+}
