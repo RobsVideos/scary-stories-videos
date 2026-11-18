@@ -1,0 +1,45 @@
+{
+ "title": "The Gray Portrait",
+ "slug": "2026-11-18-the-gray-portrait",
+ "hook": "The old museum guard left me one rule: if the woman in the gray portrait ever looks at you, don't look away first.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "I guard a small art museum at night. Forty paintings, one long hallway... and me.",
+  "The old guard left me one rule, scratched into the back of my badge.",
+  "The woman in the gray portrait always looks at the window. If she ever looks at you... don't look away first.",
+  "For two months, she just stared at that window. Pale face. Gray dress. Hands folded in her lap.",
+  "Then, one rainy night, I swept my flashlight across her frame...",
+  "And her eyes were on me.",
+  "I froze. I stared back. My eyes burned, and watered... and I didn't dare blink.",
+  "Then my radio crackled, right on my belt.",
+  "I looked down. Just for a second.",
+  "When I looked up... the frame was empty.",
+  "Then everything went cold. And still. And I couldn't lift my hands from my lap.",
+  "They hired a new guard this week. Young. Nervous. He reads the back of his badge every night.",
+  "Tonight, he walked past with his flashlight... and I turned my eyes from the window... to him.",
+  "Please... don't look away first."
+ ],
+ "pauses": {"0": 0.6, "1": 0.6, "2": 0.9, "3": 0.7, "4": 0.9, "5": 1.6, "6": 0.8, "7": 2.0, "8": 0.9, "9": 2.2, "10": 1.6, "11": 0.8, "12": 1.4},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 960, "bed": "rain"},
+  {"id": "s2", "from_line": 1, "cx": 960, "bed": "room"},
+  {"id": "s3", "from_line": 2, "cx": 790, "bed": "rain"},
+  {"id": "s4", "from_line": 4, "cx": 620, "bed": "rain"},
+  {"id": "s5", "from_line": 5, "cx": 960, "bed": "drone"},
+  {"id": "s6", "from_line": 7, "cx": 1080, "bed": "drone_rise"},
+  {"id": "s7", "from_line": 9, "cx": 960, "bed": "drone_deep"},
+  {"id": "s8", "from_line": 11, "cx": 960, "bed": "room"},
+  {"id": "s9", "from_line": 12, "cx": 960, "bed": "drone_deep", "at": {"line": 12, "edge": "start", "offset": 2.6}}
+ ],
+ "events": [
+  {"sfx": "footsteps", "at": {"line": 4, "edge": "start", "offset": 0.0}, "dur": 3.5, "every": 0.7, "pan": -0.2},
+  {"sfx": "hit", "at": {"line": 5, "edge": "start", "offset": 0.1}},
+  {"sfx": "heartbeat", "at": {"line": 6, "edge": "start", "offset": 0.0}, "dur": 5.5, "every": 0.9},
+  {"sfx": "static", "at": {"line": 7, "edge": "end", "offset": 0.2}, "dur": 1.6, "pan": 0.4},
+  {"sfx": "boom", "at": {"line": 9, "edge": "end", "offset": 0.3}},
+  {"sfx": "footsteps", "at": {"line": 11, "edge": "end", "offset": 0.2}, "dur": 4.0, "every": 0.8, "pan": 0.3}
+ ],
+ "end_card": ["If she looks at you...", "don't look", "away first."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}
