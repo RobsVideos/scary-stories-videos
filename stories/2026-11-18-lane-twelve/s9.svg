@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter><radialGradient id="ball" cx="0.35" cy="0.3" r="0.8"><stop offset="0" stop-color="#5a1e2a"/><stop offset="0.6" stop-color="#2a0c14"/><stop offset="1" stop-color="#0a0306"/></radialGradient></defs>
+<rect width="1920" height="1080" fill="#07060b"/>
+<circle cx="960" cy="520" r="300" fill="#7a1a14" opacity="0.35" filter="url(#blur30)"/>
+<rect x="0" y="760" width="1920" height="320" fill="#0d0b12"/>
+<path d="M560 760 L560 520 C560 380 1360 380 1360 520 L1360 760Z" fill="#1b1824"/>
+<path d="M620 760 L620 540 C620 430 1300 430 1300 540 L1300 760Z" fill="#0b0a10"/>
+<rect x="520" y="740" width="880" height="60" rx="18" fill="#22202c"/>
+<path d="M640 700 L1300 700 L1300 760 L640 760Z" fill="#141220"/>
+<circle cx="900" cy="640" r="120" fill="url(#ball)"/>
+<circle cx="870" cy="590" r="12" fill="#050408"/><circle cx="910" cy="585" r="12" fill="#050408"/><circle cx="890" cy="625" r="14" fill="#050408"/>
+<circle cx="900" cy="640" r="150" fill="#ff3b2f" opacity="0.12" filter="url(#blur30)"/>
+<path d="M900 760 C900 760 1000 800 1100 790" stroke="#ffd9a0" stroke-width="3" fill="none" opacity="0.15"/>
+<g fill="#030204">
+<path d="M1560 1080 C1500 960 1400 900 1260 880 C1210 872 1150 860 1100 840 C1080 832 1080 812 1100 808 C1150 800 1200 812 1250 820 L1240 790 C1236 770 1256 764 1266 780 L1300 830 L1310 780 C1314 760 1336 760 1336 782 L1336 840 L1360 790 C1370 772 1392 778 1386 798 L1370 860 C1440 880 1600 960 1680 1080Z"/>
+</g>
+<ellipse cx="960" cy="820" rx="1250" ry="70" fill="#8a7fa0" opacity="0.08" filter="url(#blur60)"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

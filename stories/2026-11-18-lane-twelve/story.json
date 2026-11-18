@@ -1,0 +1,46 @@
+{
+ "title": "Lane Twelve",
+ "slug": "2026-11-18-lane-twelve",
+ "hook": "If the pins on lane twelve ever set themselves up after closing... don't bowl.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "I close up an old bowling alley at the edge of town. Alone. Every night.",
+  "The owner, Mr. Briggs, gave me one rule on my first shift.",
+  "If the pins on lane twelve ever set themselves up after closing... don't bowl. Just kill the lights, and leave.",
+  "For a whole month... nothing happened.",
+  "Then one night, while I was mopping, the machine on lane twelve hummed to life.",
+  "Ten white pins dropped into place... standing perfectly still in the dark.",
+  "The little score screen above the lane blinked on. One player. The name just said... NEXT.",
+  "I didn't bowl. I didn't look back. I just left.",
+  "The next night, the screen had two players. NEXT... and Briggs.",
+  "Mr. Briggs didn't come in the next morning. Or the morning after that.",
+  "Tonight, when I unlocked the doors, the pins on twelve were already standing.",
+  "The screen showed one player...",
+  "Me.",
+  "And the ball return rumbled... and slowly rolled a ball up to my hand. Still warm."
+ ],
+ "pauses": {"0": 0.7, "2": 0.8, "3": 0.6, "4": 2.6, "5": 1.0, "6": 1.4, "7": 1.0, "8": 1.0, "9": 1.4, "10": 1.0, "11": 1.2, "12": 1.6},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 1000, "bed": "wind"},
+  {"id": "s2", "from_line": 2, "cx": 960, "bed": "room"},
+  {"id": "s3", "from_line": 4, "cx": 1040, "bed": "drone"},
+  {"id": "s4", "from_line": 6, "cx": 960, "bed": "drone"},
+  {"id": "s5", "from_line": 7, "cx": 900, "bed": "wind"},
+  {"id": "s6", "from_line": 8, "cx": 960, "bed": "drone_rise"},
+  {"id": "s7", "from_line": 10, "cx": 1000, "bed": "drone"},
+  {"id": "s8", "from_line": 11, "cx": 960, "bed": "drone_deep"},
+  {"id": "s9", "from_line": 13, "cx": 1000, "bed": "drone_deep"}
+ ],
+ "events": [
+  {"sfx": "creak", "at": {"line": 4, "edge": "end", "offset": 0.2}, "dur": 2.0, "gain": -2},
+  {"sfx": "hit", "at": {"line": 5, "edge": "start", "offset": 1.2}, "gain": -4},
+  {"sfx": "static", "at": {"line": 6, "edge": "start", "offset": 0.2}, "dur": 1.2, "gain": -8},
+  {"sfx": "footsteps", "at": {"line": 7, "edge": "start", "offset": 0.0}, "dur": 3.0, "every": 0.5, "pan": -0.3},
+  {"sfx": "lock", "at": {"line": 10, "edge": "start", "offset": 0.4}, "pan": 0.3},
+  {"sfx": "heartbeat", "at": {"line": 11, "edge": "start", "offset": 0.0}, "dur": 4.5, "every": 0.85},
+  {"sfx": "boom", "at": {"line": 13, "edge": "start", "offset": 1.4}, "gain": -3}
+ ],
+ "end_card": ["If the pins", "set themselves...", "don't take your turn."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}
