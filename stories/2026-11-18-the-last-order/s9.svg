@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter><linearGradient id="wall9" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0a090d"/><stop offset="0.5" stop-color="#17131a"/><stop offset="1" stop-color="#0a090d"/></linearGradient><clipPath id="side9"><rect x="1150" y="200" width="150" height="760"/></clipPath></defs>
+<rect width="1920" height="1080" fill="#08070b"/>
+<rect x="0" y="0" width="1920" height="1080" fill="url(#wall9)"/>
+<rect x="680" y="140" width="420" height="860" fill="#1c1517"/>
+<rect x="700" y="160" width="380" height="840" fill="#251b1c"/>
+<rect x="740" y="200" width="300" height="330" fill="none" stroke="#150f10" stroke-width="8"/>
+<rect x="740" y="580" width="300" height="380" fill="none" stroke="#150f10" stroke-width="8"/>
+<circle cx="1040" cy="580" r="13" fill="#a7853f"/>
+<rect x="1010" y="520" width="16" height="30" rx="4" fill="#3a3030"/>
+<rect x="1150" y="200" width="150" height="760" fill="#0c0e18"/>
+<rect x="1150" y="200" width="150" height="760" fill="#5a6a9a" opacity="0.12"/>
+<circle cx="1225" cy="560" r="120" fill="#ff3a2a" opacity="0.18" filter="url(#blur30)"/>
+<g clip-path="url(#side9)">
+<g fill="#000"><ellipse cx="1190" cy="384" rx="45" ry="58"/><path d="M1120 960 L1134 608 C1106 499 1127 448 1190 442 C1253 448 1274 499 1246 608 L1260 960 Z"/><path d="M1116 499 L1084 768" stroke="#000" stroke-width="19" stroke-linecap="round"/><path d="M1264 499 L1296 768" stroke="#000" stroke-width="19" stroke-linecap="round"/></g>
+<g fill="#020102"><ellipse cx="1270" cy="450" rx="42" ry="54"/><path d="M1204 990 L1217 660 C1191 558 1211 510 1270 504 C1329 510 1349 558 1323 660 L1336 990 Z"/><path d="M1201 558 L1171 810" stroke="#020102" stroke-width="18" stroke-linecap="round"/><path d="M1339 558 L1369 810" stroke="#020102" stroke-width="18" stroke-linecap="round"/></g>
+</g>
+<rect x="1150" y="200" width="150" height="760" fill="none" stroke="#1c1517" stroke-width="16"/>
+<line x1="1225" y1="200" x2="1225" y2="960" stroke="#1c1517" stroke-width="8"/>
+<rect x="580" y="480" width="40" height="60" rx="8" fill="#141016"/>
+<circle cx="600" cy="510" r="10" fill="#ff4a3a"/><circle cx="600" cy="510" r="40" fill="#ff4a3a" opacity="0.6" filter="url(#blur30)"/>
+<polygon points="680,1000 1100,1000 1240,1080 540,1080" fill="#ff8a6a" opacity="0.05"/>
+<rect x="0" y="1000" width="1920" height="80" fill="#0a080b"/>
+<rect x="760" y="1010" width="260" height="40" rx="6" fill="#2a1418"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

@@ -1,0 +1,179 @@
+{
+ "title": "The Last Order",
+ "slug": "2026-11-18-the-last-order",
+ "hook": "Every night delivery driver in town knows one rule: if the app sends you to 14 Larkin Road after midnight, cancel it.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "I deliver food at night, and the other drivers warned me about one address.",
+  "Fourteen Larkin Road. If the app ever sends you there after midnight... cancel it.",
+  "And if you can't cancel... leave the bag on the step, and never look in the window.",
+  "For weeks, it never came up. Just burgers, and empty streets.",
+  "Then, at two-forty one morning, my phone chimed. Fourteen Larkin Road.",
+  "I tapped cancel. Nothing happened. The button had gone gray.",
+  "The house sat alone at the end of a dirt road. Every window dark.",
+  "I set the bag on the step... and I looked.",
+  "The living room was full of people. Standing perfectly still. All of them... facing the door.",
+  "I walked back to my car... and drove home with the radio off.",
+  "At three a.m., my phone chimed again.",
+  "Not an order for me to deliver. An order on its way... to me.",
+  "Driver... Fourteen Larkin Road. Arriving now.",
+  "Then my doorbell rang. And a note lit up my screen. Please don't look in the window."
+ ],
+ "pauses": {
+  "0": 0.5,
+  "1": 0.6,
+  "2": 0.8,
+  "3": 1.8,
+  "4": 0.7,
+  "5": 0.9,
+  "6": 0.8,
+  "7": 1.2,
+  "8": 1.0,
+  "9": 0.8,
+  "10": 1.6,
+  "11": 0.9,
+  "12": 1.2
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind"
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 960,
+   "bed": "room"
+  },
+  {
+   "id": "s3",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "drone"
+  },
+  {
+   "id": "s4",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "wind"
+  },
+  {
+   "id": "s5",
+   "from_line": 7,
+   "cx": 960,
+   "bed": "drone"
+  },
+  {
+   "id": "s6",
+   "at": {
+    "line": 7,
+    "edge": "end",
+    "offset": 0.3
+   },
+   "cx": 960,
+   "bed": "drone_rise",
+   "cut": true
+  },
+  {
+   "id": "s7",
+   "from_line": 9,
+   "cx": 960,
+   "bed": "room"
+  },
+  {
+   "id": "s8",
+   "from_line": 11,
+   "cx": 960,
+   "bed": "drone_deep"
+  },
+  {
+   "id": "s9",
+   "from_line": 13,
+   "cx": 980,
+   "bed": "drone_deep"
+  }
+ ],
+ "events": [
+  {
+   "sfx": "phone",
+   "at": {
+    "line": 3,
+    "edge": "end",
+    "offset": 0.3
+   },
+   "dur": 1.4,
+   "gain": -4
+  },
+  {
+   "sfx": "footsteps",
+   "at": {
+    "line": 6,
+    "edge": "end",
+    "offset": 0.1
+   },
+   "dur": 3.5,
+   "every": 0.8
+  },
+  {
+   "sfx": "hit",
+   "at": {
+    "line": 7,
+    "edge": "end",
+    "offset": 0.3
+   }
+  },
+  {
+   "sfx": "heartbeat",
+   "at": {
+    "line": 8,
+    "edge": "start",
+    "offset": 0.3
+   },
+   "dur": 8.0,
+   "every": 0.85
+  },
+  {
+   "sfx": "phone",
+   "at": {
+    "line": 10,
+    "edge": "end",
+    "offset": 0.2
+   },
+   "dur": 1.4,
+   "gain": -4
+  },
+  {
+   "sfx": "riser",
+   "at": {
+    "line": 12,
+    "edge": "start",
+    "offset": 0.0
+   },
+   "dur": 4.5
+  },
+  {
+   "sfx": "hit",
+   "at": {
+    "line": 13,
+    "edge": "end",
+    "offset": 0.2
+   }
+  }
+ ],
+ "end_card": [
+  "Never look",
+  "in the",
+  "window."
+ ],
+ "hashtags": [
+  "#scarystories",
+  "#horrorstories",
+  "#creepy",
+  "#scary",
+  "#horrortok",
+  "#fyp"
+ ]
+}
