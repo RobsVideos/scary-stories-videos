@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter></defs>
+<rect width="1920" height="1080" fill="#06070c"/>
+<rect x="0" y="0" width="1920" height="1080" fill="#7d8fbf" opacity="0.08"/>
+<path d="M300 500 C300 420 1620 420 1620 500 L1660 1080 L260 1080 Z" fill="#1a1d2a"/>
+<path d="M420 360 C460 260 1460 260 1500 360 C1540 470 1480 620 1440 640 C1100 690 820 690 480 640 C440 620 380 470 420 360Z" fill="#2c3042"/>
+<path d="M480 380 C700 330 1200 330 1440 380" stroke="#3a3f55" stroke-width="10" fill="none"/>
+<path d="M600 560 C800 590 1100 590 1320 560" stroke="#1d2030" stroke-width="16" fill="none"/>
+<path d="M260 780 C700 720 1200 720 1660 780 L1660 1080 L260 1080Z" fill="#232739"/>
+<g transform="translate(960 480) scale(1.45) translate(-960 -470) rotate(8 960 470)">
+<rect x="870" y="360" width="190" height="230" fill="#ece6da"/>
+<rect x="882" y="372" width="166" height="190" fill="#3a3a40"/>
+<path d="M882 520 C930 480 1000 480 1048 510 L1048 562 L882 562Z" fill="#6a6a74"/>
+<ellipse cx="935" cy="470" rx="32" ry="24" fill="#8a8a92"/>
+<rect x="882" y="372" width="166" height="190" fill="#ffffff" opacity="0.15"/>
+</g>
+<circle cx="960" cy="470" r="160" fill="#dfe6ff" opacity="0.12" filter="url(#blur60)"/>
+<polygon points="1500,0 1800,0 1500,1080 1100,1080" fill="#9fb4e8" opacity="0.05"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

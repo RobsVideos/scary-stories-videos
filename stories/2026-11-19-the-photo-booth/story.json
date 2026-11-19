@@ -1,0 +1,45 @@
+{
+ "title": "The Photo Booth",
+ "slug": "2026-11-19-the-photo-booth",
+ "hook": "The arcade owner had one rule: once the boardwalk lights go out, never sit in the photo booth.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "The old arcade on the boardwalk has a photo booth in the back corner.",
+  "The owner had one rule for whoever closes up: once the boardwalk lights go out, never sit in that booth.",
+  "All summer, I never did.",
+  "Then, on the last night of the season, the lights went dark... and behind me, the booth started up on its own.",
+  "Flash. Flash. Flash.",
+  "Nobody was inside. But the curtain was swaying, like someone had just stood up.",
+  "A strip of photos dropped into the tray.",
+  "Three pictures of the empty seat... and in each one, the curtain was pulled open a little wider.",
+  "In the last one, a pale hand was holding it open.",
+  "I left the keys on the counter and walked home without looking back.",
+  "It wasn't until I got into bed that I remembered... that booth always prints four pictures.",
+  "This morning, the fourth one was on my pillow.",
+  "It was me, asleep... taken from right beside my bed."
+ ],
+ "pauses": {"0": 0.6, "1": 0.7, "2": 1.0, "3": 0.8, "4": 1.6, "5": 0.7, "6": 1.2, "7": 0.7, "8": 2.4, "9": 1.0, "10": 1.6, "11": 1.2},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 960, "bed": "wind"},
+  {"id": "s2", "from_line": 1, "cx": 960, "bed": "room"},
+  {"id": "s3", "from_line": 3, "cx": 960, "bed": "drone"},
+  {"id": "s3b", "from_line": 4, "cx": 960, "bed": "drone", "cut": true},
+  {"id": "s4", "from_line": 5, "cx": 1000, "bed": "drone"},
+  {"id": "s5", "from_line": 6, "cx": 960, "bed": "drone_rise"},
+  {"id": "s6", "from_line": 8, "cx": 960, "bed": "drone_rise"},
+  {"id": "s7", "from_line": 9, "cx": 1050, "bed": "wind"},
+  {"id": "s8", "from_line": 11, "cx": 960, "bed": "room"},
+  {"id": "s8b", "from_line": 12, "cx": 960, "bed": "drone_deep", "cut": true}
+ ],
+ "events": [
+  {"sfx": "static", "at": {"line": 3, "edge": "end", "offset": -1.2}, "dur": 1.4, "gain": -6},
+  {"sfx": "hit", "at": {"line": 4, "edge": "start", "offset": 0.05}, "gain": -4},
+  {"sfx": "creak", "at": {"line": 5, "edge": "start", "offset": 1.2}, "dur": 2.5, "pan": 0.4},
+  {"sfx": "riser", "at": {"line": 7, "edge": "start", "offset": 0.5}, "dur": 6.0},
+  {"sfx": "footsteps", "at": {"line": 9, "edge": "start", "offset": 0.3}, "dur": 4.0, "every": 0.6, "gain": -4},
+  {"sfx": "heartbeat", "at": {"line": 10, "edge": "end", "offset": 0.2}, "dur": 6.0, "every": 0.9}
+ ],
+ "end_card": ["Photo booths", "always print", "four pictures."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}

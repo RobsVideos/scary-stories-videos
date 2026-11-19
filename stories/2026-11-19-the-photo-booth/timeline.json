@@ -1,0 +1,181 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 8.215,
+   "text": "The old arcade on the boardwalk has a photo booth in the back corner."
+  },
+  {
+   "i": 1,
+   "start": 8.815,
+   "end": 15.407,
+   "text": "The owner had one rule for whoever closes up: once the boardwalk lights go out, never sit in that booth."
+  },
+  {
+   "i": 2,
+   "start": 16.107,
+   "end": 18.347,
+   "text": "All summer, I never did."
+  },
+  {
+   "i": 3,
+   "start": 19.347,
+   "end": 25.96,
+   "text": "Then, on the last night of the season, the lights went dark... and behind me, the booth started up on its own."
+  },
+  {
+   "i": 4,
+   "start": 26.76,
+   "end": 29.021,
+   "text": "Flash. Flash. Flash."
+  },
+  {
+   "i": 5,
+   "start": 30.621,
+   "end": 35.741,
+   "text": "Nobody was inside. But the curtain was swaying, like someone had just stood up."
+  },
+  {
+   "i": 6,
+   "start": 36.441,
+   "end": 39.705,
+   "text": "A strip of photos dropped into the tray."
+  },
+  {
+   "i": 7,
+   "start": 40.905,
+   "end": 46.751,
+   "text": "Three pictures of the empty seat... and in each one, the curtain was pulled open a little wider."
+  },
+  {
+   "i": 8,
+   "start": 47.451,
+   "end": 51.141,
+   "text": "In the last one, a pale hand was holding it open."
+  },
+  {
+   "i": 9,
+   "start": 53.541,
+   "end": 57.915,
+   "text": "I left the keys on the counter and walked home without looking back."
+  },
+  {
+   "i": 10,
+   "start": 58.915,
+   "end": 64.525,
+   "text": "It wasn't until I got into bed that I remembered... that booth always prints four pictures."
+  },
+  {
+   "i": 11,
+   "start": 66.125,
+   "end": 69.432,
+   "text": "This morning, the fourth one was on my pillow."
+  },
+  {
+   "i": 12,
+   "start": 70.632,
+   "end": 74.515,
+   "text": "It was me, asleep... taken from right beside my bed."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 8.565
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 960,
+   "bed": "room",
+   "start": 8.565,
+   "end": 19.097
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "drone",
+   "start": 19.097,
+   "end": 26.51,
+   "fade_out": false
+  },
+  {
+   "id": "s3b",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "drone",
+   "cut": true,
+   "start": 26.51,
+   "end": 30.371,
+   "fade_in": false
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 1000,
+   "bed": "drone",
+   "start": 30.371,
+   "end": 36.191
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 36.191,
+   "end": 47.201
+  },
+  {
+   "id": "s6",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 47.201,
+   "end": 53.291
+  },
+  {
+   "id": "s7",
+   "from_line": 9,
+   "cx": 1050,
+   "bed": "wind",
+   "start": 53.291,
+   "end": 65.875
+  },
+  {
+   "id": "s8",
+   "from_line": 11,
+   "cx": 960,
+   "bed": "room",
+   "start": 65.875,
+   "end": 70.382,
+   "fade_out": false
+  },
+  {
+   "id": "s8b",
+   "from_line": 12,
+   "cx": 960,
+   "bed": "drone_deep",
+   "cut": true,
+   "start": 70.382,
+   "end": 74.915,
+   "fade_in": false
+  },
+  {
+   "id": "_end",
+   "start": 74.915,
+   "end": 78.715
+  }
+ ],
+ "total": 78.715
+}

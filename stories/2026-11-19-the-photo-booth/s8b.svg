@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter><radialGradient id="fl" cx="0.45" cy="0.42" r="0.75"><stop offset="0.3" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient></defs>
+<rect width="1920" height="1080" fill="#0a0809"/>
+<rect x="540" y="40" width="840" height="1000" fill="#ece6da"/>
+<rect x="570" y="70" width="780" height="900" fill="#15161d"/>
+<path d="M570 600 C800 520 1150 520 1350 580 L1350 970 L570 970Z" fill="#4e5262"/>
+<path d="M570 600 C800 520 1150 520 1350 580" stroke="#6b7083" stroke-width="10" fill="none"/>
+<path d="M600 420 C620 340 900 330 960 400 C980 460 920 520 800 520 C680 520 590 490 600 420Z" fill="#9a9caa"/>
+<ellipse cx="900" cy="470" rx="110" ry="78" fill="#d8cfc4"/>
+<path d="M800 430 C820 380 980 370 1010 440 C980 420 880 410 820 450Z" fill="#2a2420"/>
+<path d="M860 480 q14 6 28 0" stroke="#3a2e28" stroke-width="5" fill="none"/>
+<path d="M930 478 q14 6 28 0" stroke="#3a2e28" stroke-width="5" fill="none"/>
+<path d="M1000 540 C1050 560 1100 600 1110 640" stroke="#d8cfc4" stroke-width="40" stroke-linecap="round" fill="none"/>
+<circle cx="900" cy="470" r="300" fill="#ffffff" opacity="0.28" filter="url(#blur60)"/>
+<rect x="570" y="70" width="780" height="900" fill="url(#fl)"/>
+<text x="1330" y="1010" text-anchor="end" font-family="DejaVu Sans Mono, monospace" font-size="26" fill="#8e1b22">4</text>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

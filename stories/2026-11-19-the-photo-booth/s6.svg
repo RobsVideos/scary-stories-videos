@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter><radialGradient id="grain" cx="0.5" cy="0.5" r="0.7"><stop offset="0.4" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.9"/></radialGradient></defs>
+<rect width="1920" height="1080" fill="#0b0809"/>
+<rect x="540" y="60" width="840" height="960" fill="#e6e0d4"/>
+<rect x="570" y="90" width="780" height="900" fill="#4c4843"/>
+<rect x="570" y="90" width="420" height="900" fill="#0d0c0b"/>
+<g stroke="#000" stroke-opacity="0.3" stroke-width="8"><line x1="600" y1="90" x2="606" y2="990"/><line x1="645" y1="90" x2="651" y2="990"/><line x1="690" y1="90" x2="696" y2="990"/><line x1="735" y1="90" x2="741" y2="990"/><line x1="780" y1="90" x2="786" y2="990"/><line x1="825" y1="90" x2="831" y2="990"/><line x1="870" y1="90" x2="876" y2="990"/><line x1="915" y1="90" x2="921" y2="990"/><line x1="960" y1="90" x2="966" y2="990"/></g>
+<rect x="990" y="90" width="20" height="900" fill="#26231f"/>
+<ellipse cx="1170" cy="760" rx="130" ry="26" fill="#22201c"/><rect x="1160" y="760" width="20" height="230" fill="#22201c"/>
+<g fill="#f1ece2">
+<rect x="955" y="330" width="120" height="44" rx="22"/><rect x="955" y="384" width="140" height="44" rx="22"/>
+<rect x="955" y="438" width="132" height="44" rx="22"/><rect x="955" y="492" width="110" height="40" rx="20"/>
+<path d="M985 520 C1000 600 1040 640 1080 660 L1100 600 C1060 570 1040 540 1035 520 Z" opacity="0.9"/>
+<rect x="940" y="300" width="120" height="40" rx="20" transform="rotate(-20 1000 320)"/>
+</g>
+<g fill="#1a1816" opacity="0.35"><rect x="1050" y="330" width="22" height="44" rx="10"/><rect x="1070" y="384" width="22" height="44" rx="10"/><rect x="1062" y="438" width="22" height="44" rx="10"/></g>
+<rect x="540" y="60" width="840" height="960" fill="#ffd9a0" opacity="0.06"/>
+<rect x="570" y="90" width="780" height="900" fill="url(#grain)" opacity="0.4"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>
