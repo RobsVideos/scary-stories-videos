@@ -1,0 +1,47 @@
+{
+ "title": "The Maze Bell",
+ "slug": "2026-11-19-the-maze-bell",
+ "hook": "The corn maze had one rule after dark: if someone calls for help from inside, don't go in.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "Every October, I ran the corn maze at the Marsh farm, out past the edge of town.",
+  "Old Mr. Marsh gave me one rule on my first night.",
+  "After the lights go off, if someone calls for help from inside the maze... don't go in.",
+  "Ring the bell by the gate. And let them find their own way out.",
+  "All season, the maze was empty by ten. My count always matched.",
+  "Then, on the last night, a couple came running out of the corn. Their little girl was gone.",
+  "Yellow raincoat. Six years old. The mother couldn't stop shaking.",
+  "And deep in the rows... a tiny voice. Help me... I'm lost.",
+  "I rang the bell. Again. And again.",
+  "The voice stopped. The wind stopped. Even the corn went still.",
+  "Please, the mother whispered. Just go get her.",
+  "So I grabbed my flashlight... and checked my ticket log one last time.",
+  "That couple came in at eight. Two tickets. No child.",
+  "And when I looked up... they were standing at the gate, smiling. Waiting for me to go in."
+ ],
+ "pauses": {"0": 0.6, "1": 0.6, "2": 0.6, "3": 0.9, "4": 0.7, "5": 0.6, "6": 0.7, "7": 1.6, "8": 3.0, "9": 1.6, "10": 1.0, "11": 0.8, "12": 2.0},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 1000, "bed": "wind"},
+  {"id": "s2", "from_line": 2, "cx": 1020, "bed": "wind"},
+  {"id": "s3", "from_line": 4, "cx": 960, "bed": "room"},
+  {"id": "s4", "from_line": 5, "cx": 980, "bed": "wind"},
+  {"id": "s5", "from_line": 7, "cx": 960, "bed": "drone"},
+  {"id": "s6", "from_line": 8, "cx": 960, "bed": "drone"},
+  {"id": "s6b", "from_line": 9, "cx": 960, "bed": "none", "cut": true},
+  {"id": "s7", "from_line": 10, "cx": 1000, "bed": "drone_rise"},
+  {"id": "s8", "from_line": 11, "cx": 960, "bed": "room"},
+  {"id": "s9", "from_line": 13, "cx": 960, "bed": "drone_deep"}
+ ],
+ "events": [
+  {"sfx": "footsteps", "at": {"line": 5, "edge": "start", "offset": 1.8}, "dur": 2.6, "every": 0.32, "gain": -4},
+  {"sfx": "whisper", "at": {"line": 7, "edge": "end", "offset": 0.1}, "dur": 1.6, "pan": -0.4},
+  {"sfx": "glass", "at": {"line": 8, "edge": "end", "offset": 0.2}, "gain": 2},
+  {"sfx": "glass", "at": {"line": 8, "edge": "end", "offset": 1.1}, "gain": 2},
+  {"sfx": "glass", "at": {"line": 8, "edge": "end", "offset": 2.0}, "gain": 2},
+  {"sfx": "heartbeat", "at": {"line": 11, "edge": "start", "offset": 0.0}, "dur": 9.0, "every": 0.8},
+  {"sfx": "hit", "at": {"line": 12, "edge": "end", "offset": 0.2}}
+ ],
+ "end_card": ["Never go in", "after the lights", "go off."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#cornmaze", "#horrortok", "#fyp"]
+}

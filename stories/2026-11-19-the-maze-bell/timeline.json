@@ -1,0 +1,184 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 9.111,
+   "text": "Every October, I ran the corn maze at the Marsh farm, out past the edge of town."
+  },
+  {
+   "i": 1,
+   "start": 9.711,
+   "end": 13.785,
+   "text": "Old Mr. Marsh gave me one rule on my first night."
+  },
+  {
+   "i": 2,
+   "start": 14.385,
+   "end": 19.975,
+   "text": "After the lights go off, if someone calls for help from inside the maze... don't go in."
+  },
+  {
+   "i": 3,
+   "start": 20.575,
+   "end": 24.671,
+   "text": "Ring the bell by the gate. And let them find their own way out."
+  },
+  {
+   "i": 4,
+   "start": 25.571,
+   "end": 30.307,
+   "text": "All season, the maze was empty by ten. My count always matched."
+  },
+  {
+   "i": 5,
+   "start": 31.007,
+   "end": 36.553,
+   "text": "Then, on the last night, a couple came running out of the corn. Their little girl was gone."
+  },
+  {
+   "i": 6,
+   "start": 37.153,
+   "end": 41.612,
+   "text": "Yellow raincoat. Six years old. The mother couldn't stop shaking."
+  },
+  {
+   "i": 7,
+   "start": 42.312,
+   "end": 46.536,
+   "text": "And deep in the rows... a tiny voice. Help me... I'm lost."
+  },
+  {
+   "i": 8,
+   "start": 48.136,
+   "end": 51.101,
+   "text": "I rang the bell. Again. And again."
+  },
+  {
+   "i": 9,
+   "start": 54.101,
+   "end": 58.389,
+   "text": "The voice stopped. The wind stopped. Even the corn went still."
+  },
+  {
+   "i": 10,
+   "start": 59.989,
+   "end": 63.275,
+   "text": "Please, the mother whispered. Just go get her."
+  },
+  {
+   "i": 11,
+   "start": 64.275,
+   "end": 69.267,
+   "text": "So I grabbed my flashlight... and checked my ticket log one last time."
+  },
+  {
+   "i": 12,
+   "start": 70.067,
+   "end": 73.992,
+   "text": "That couple came in at eight. Two tickets. No child."
+  },
+  {
+   "i": 13,
+   "start": 75.992,
+   "end": 81.347,
+   "text": "And when I looked up... they were standing at the gate, smiling. Waiting for me to go in."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 1000,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 14.135
+  },
+  {
+   "id": "s2",
+   "from_line": 2,
+   "cx": 1020,
+   "bed": "wind",
+   "start": 14.135,
+   "end": 25.321
+  },
+  {
+   "id": "s3",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "room",
+   "start": 25.321,
+   "end": 30.757
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 980,
+   "bed": "wind",
+   "start": 30.757,
+   "end": 42.062
+  },
+  {
+   "id": "s5",
+   "from_line": 7,
+   "cx": 960,
+   "bed": "drone",
+   "start": 42.062,
+   "end": 47.886
+  },
+  {
+   "id": "s6",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "drone",
+   "start": 47.886,
+   "end": 53.851,
+   "fade_out": false
+  },
+  {
+   "id": "s6b",
+   "from_line": 9,
+   "cx": 960,
+   "bed": "none",
+   "cut": true,
+   "start": 53.851,
+   "end": 59.739,
+   "fade_in": false
+  },
+  {
+   "id": "s7",
+   "from_line": 10,
+   "cx": 1000,
+   "bed": "drone_rise",
+   "start": 59.739,
+   "end": 64.025
+  },
+  {
+   "id": "s8",
+   "from_line": 11,
+   "cx": 960,
+   "bed": "room",
+   "start": 64.025,
+   "end": 75.742
+  },
+  {
+   "id": "s9",
+   "from_line": 13,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 75.742,
+   "end": 81.747
+  },
+  {
+   "id": "_end",
+   "start": 81.747,
+   "end": 85.547
+  }
+ ],
+ "total": 85.547
+}
