@@ -1,0 +1,44 @@
+{
+ "title": "The Tent Count",
+ "slug": "2026-11-19-the-tent-count",
+ "hook": "The ranger at Pine Hollow had one rule: if your tent zipper opens after the fire's out, don't sit up. Just count heads.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "The summer after graduation, my three best friends and I went camping at Pine Hollow.",
+  "The old ranger counted us at the gate... and gave us one rule.",
+  "If you hear your tent zipper open after the fire's out... don't sit up. Don't turn on a light. Just count heads, in the dark.",
+  "We joked about it all through dinner.",
+  "Marco kept zipping the tent open and shut, just to make Jess scream.",
+  "Then the fire burned down to coals... and the four of us squeezed into one small tent.",
+  "Sometime after two, I woke up. Everyone was breathing slow.",
+  "And then I heard it. The zipper. Opening... one tooth at a time.",
+  "Cold air slid across my face. Something crawled in... and lay down, very carefully, beside me.",
+  "I didn't sit up. I reached out in the dark, and counted.",
+  "Jess. Marco. Tyler. Me.",
+  "Four. Everyone was here. Everyone was asleep.",
+  "Then, right beside my ear... a soft voice kept counting.",
+  "Five."
+ ],
+ "pauses": {"0": 0.6, "1": 0.5, "2": 1.0, "3": 0.5, "4": 0.8, "5": 1.2, "6": 0.8, "7": 2.6, "8": 1.2, "9": 0.8, "10": 1.0, "11": 1.4, "12": 1.8, "13": 1.5},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 960, "bed": "wind"},
+  {"id": "s2", "from_line": 1, "cx": 860, "bed": "wind"},
+  {"id": "s3", "from_line": 3, "cx": 960, "bed": "wind"},
+  {"id": "s4", "from_line": 5, "cx": 900, "bed": "drone"},
+  {"id": "s5", "from_line": 6, "cx": 960, "bed": "drone"},
+  {"id": "s6", "from_line": 8, "cx": 1180, "bed": "drone_rise"},
+  {"id": "s7", "from_line": 9, "cx": 1010, "bed": "drone"},
+  {"id": "s7b", "at": {"line": 12, "edge": "end", "offset": 0.3}, "cx": 1010, "bed": "drone_deep", "cut": true}
+ ],
+ "events": [
+  {"sfx": "creak", "at": {"line": 7, "edge": "start", "offset": 1.0}, "dur": 3.5, "pan": 0.1},
+  {"sfx": "footsteps", "at": {"line": 8, "edge": "start", "offset": 0.3}, "dur": 2.5, "every": 0.6, "gain": -8},
+  {"sfx": "heartbeat", "at": {"line": 9, "edge": "start", "offset": 0.0}, "dur": 10.0, "every": 0.85},
+  {"sfx": "riser", "at": {"line": 11, "edge": "end", "offset": 0.0}, "dur": 4.0},
+  {"sfx": "whisper", "at": {"line": 12, "edge": "end", "offset": 0.2}, "dur": 1.6, "pan": 0.6},
+  {"sfx": "hit", "at": {"line": 13, "edge": "start", "offset": 0.0}}
+ ],
+ "end_card": ["If the zipper opens...", "count heads.", "Don't count past four."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}

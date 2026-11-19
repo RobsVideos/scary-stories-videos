@@ -1,0 +1,172 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 9.367,
+   "text": "The summer after graduation, my three best friends and I went camping at Pine Hollow."
+  },
+  {
+   "i": 1,
+   "start": 9.967,
+   "end": 14.425,
+   "text": "The old ranger counted us at the gate... and gave us one rule."
+  },
+  {
+   "i": 2,
+   "start": 14.925,
+   "end": 22.285,
+   "text": "If you hear your tent zipper open after the fire's out... don't sit up. Don't turn on a light. Just count heads, in the dark."
+  },
+  {
+   "i": 3,
+   "start": 23.285,
+   "end": 25.952,
+   "text": "We joked about it all through dinner."
+  },
+  {
+   "i": 4,
+   "start": 26.452,
+   "end": 31.167,
+   "text": "Marco kept zipping the tent open and shut, just to make Jess scream."
+  },
+  {
+   "i": 5,
+   "start": 31.967,
+   "end": 37.577,
+   "text": "Then the fire burned down to coals... and the four of us squeezed into one small tent."
+  },
+  {
+   "i": 6,
+   "start": 38.777,
+   "end": 43.257,
+   "text": "Sometime after two, I woke up. Everyone was breathing slow."
+  },
+  {
+   "i": 7,
+   "start": 44.057,
+   "end": 48.345,
+   "text": "And then I heard it. The zipper. Opening... one tooth at a time."
+  },
+  {
+   "i": 8,
+   "start": 50.945,
+   "end": 57.409,
+   "text": "Cold air slid across my face. Something crawled in... and lay down, very carefully, beside me."
+  },
+  {
+   "i": 9,
+   "start": 58.609,
+   "end": 62.471,
+   "text": "I didn't sit up. I reached out in the dark, and counted."
+  },
+  {
+   "i": 10,
+   "start": 63.271,
+   "end": 65.895,
+   "text": "Jess. Marco. Tyler. Me."
+  },
+  {
+   "i": 11,
+   "start": 66.895,
+   "end": 70.585,
+   "text": "Four. Everyone was here. Everyone was asleep."
+  },
+  {
+   "i": 12,
+   "start": 71.985,
+   "end": 76.209,
+   "text": "Then, right beside my ear... a soft voice kept counting."
+  },
+  {
+   "i": 13,
+   "start": 78.009,
+   "end": 78.889,
+   "text": "Five."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 9.717
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 860,
+   "bed": "wind",
+   "start": 9.717,
+   "end": 23.035
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "wind",
+   "start": 23.035,
+   "end": 31.717
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 900,
+   "bed": "drone",
+   "start": 31.717,
+   "end": 38.527
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "drone",
+   "start": 38.527,
+   "end": 50.695
+  },
+  {
+   "id": "s6",
+   "from_line": 8,
+   "cx": 1180,
+   "bed": "drone_rise",
+   "start": 50.695,
+   "end": 58.359
+  },
+  {
+   "id": "s7",
+   "from_line": 9,
+   "cx": 1010,
+   "bed": "drone",
+   "start": 58.359,
+   "end": 76.509,
+   "fade_out": false
+  },
+  {
+   "id": "s7b",
+   "at": {
+    "line": 12,
+    "edge": "end",
+    "offset": 0.3
+   },
+   "cx": 1010,
+   "bed": "drone_deep",
+   "cut": true,
+   "start": 76.509,
+   "end": 79.289,
+   "fade_in": false
+  },
+  {
+   "id": "_end",
+   "start": 79.289,
+   "end": 83.089
+  }
+ ],
+ "total": 83.089
+}
