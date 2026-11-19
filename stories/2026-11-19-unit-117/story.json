@@ -1,0 +1,44 @@
+{
+ "title": "Unit 117",
+ "slug": "2026-11-19-unit-117",
+ "hook": "The night guard at the storage place left one rule: if unit 117 is ever unlocked, lock it... and don't look inside.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "I work nights at a self-storage place off the highway. Rows and rows of metal doors.",
+  "The guard before me left one rule, taped to the monitor.",
+  "If unit one-seventeen is ever unlocked... lock it. Do not look inside.",
+  "For weeks, every lock was shut. I walked the rows at two a.m. and heard nothing but the wind rattling the doors.",
+  "Then one night, the padlock on one-seventeen was hanging open.",
+  "The door was up a few inches. Warm light spilled out underneath... like someone had a lamp on in there.",
+  "I knelt to pull it down. I didn't mean to look.",
+  "A rug. A little table. And my coffee mug... the chipped one from my kitchen.",
+  "I slammed the door and snapped the lock shut.",
+  "Back in the office, I pulled the rental file for one-seventeen.",
+  "My name. My signature. My handwriting.",
+  "Move-in date... tonight.",
+  "Behind me, the office door swung shut... and I heard a padlock click."
+ ],
+ "pauses": {"0": 0.6, "1": 0.5, "2": 1.0, "3": 0.6, "4": 1.6, "5": 0.6, "6": 1.4, "7": 0.8, "8": 1.6, "9": 0.8, "10": 1.0, "11": 2.2},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 1060, "bed": "wind"},
+  {"id": "s2", "from_line": 1, "cx": 1090, "bed": "room"},
+  {"id": "s3", "from_line": 3, "cx": 960, "bed": "wind"},
+  {"id": "s4", "from_line": 4, "cx": 960, "bed": "drone"},
+  {"id": "s5", "from_line": 5, "cx": 960, "bed": "drone"},
+  {"id": "s6", "from_line": 7, "cx": 960, "bed": "drone_rise"},
+  {"id": "s7", "from_line": 9, "cx": 960, "bed": "room"},
+  {"id": "s7b", "at": {"line": 11, "edge": "start", "offset": 1.3}, "cx": 960, "bed": "room", "cut": true},
+  {"id": "s8", "from_line": 12, "cx": 960, "bed": "drone_deep"}
+ ],
+ "events": [
+  {"sfx": "footsteps", "at": {"line": 3, "edge": "start", "offset": 0.4}, "dur": 6.0, "every": 0.7, "gain": -4},
+  {"sfx": "creak", "at": {"line": 5, "edge": "start", "offset": 0.2}, "dur": 2.0, "pan": 0.2},
+  {"sfx": "heartbeat", "at": {"line": 6, "edge": "start", "offset": 0.0}, "dur": 6.5, "every": 0.85},
+  {"sfx": "lock", "at": {"line": 8, "edge": "end", "offset": 0.2}, "pan": 0.2},
+  {"sfx": "hit", "at": {"line": 11, "edge": "start", "offset": 1.3}},
+  {"sfx": "lock", "at": {"line": 12, "edge": "end", "offset": 0.3}, "pan": -0.3}
+ ],
+ "end_card": ["If 117 is unlocked...", "lock it.", "Don't look inside."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}

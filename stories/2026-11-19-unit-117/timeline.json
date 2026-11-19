@@ -1,0 +1,174 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 9.623,
+   "text": "I work nights at a self-storage place off the highway. Rows and rows of metal doors."
+  },
+  {
+   "i": 1,
+   "start": 10.223,
+   "end": 14.169,
+   "text": "The guard before me left one rule, taped to the monitor."
+  },
+  {
+   "i": 2,
+   "start": 14.669,
+   "end": 19.832,
+   "text": "If unit one-seventeen is ever unlocked... lock it. Do not look inside."
+  },
+  {
+   "i": 3,
+   "start": 20.832,
+   "end": 28.213,
+   "text": "For weeks, every lock was shut. I walked the rows at two a.m. and heard nothing but the wind rattling the doors."
+  },
+  {
+   "i": 4,
+   "start": 28.813,
+   "end": 33.229,
+   "text": "Then one night, the padlock on one-seventeen was hanging open."
+  },
+  {
+   "i": 5,
+   "start": 34.829,
+   "end": 41.059,
+   "text": "The door was up a few inches. Warm light spilled out underneath... like someone had a lamp on in there."
+  },
+  {
+   "i": 6,
+   "start": 41.659,
+   "end": 44.795,
+   "text": "I knelt to pull it down. I didn't mean to look."
+  },
+  {
+   "i": 7,
+   "start": 46.195,
+   "end": 51.315,
+   "text": "A rug. A little table. And my coffee mug... the chipped one from my kitchen."
+  },
+  {
+   "i": 8,
+   "start": 52.115,
+   "end": 55.485,
+   "text": "I slammed the door and snapped the lock shut."
+  },
+  {
+   "i": 9,
+   "start": 57.085,
+   "end": 61.544,
+   "text": "Back in the office, I pulled the rental file for one-seventeen."
+  },
+  {
+   "i": 10,
+   "start": 62.344,
+   "end": 65.629,
+   "text": "My name. My signature. My handwriting."
+  },
+  {
+   "i": 11,
+   "start": 66.629,
+   "end": 68.677,
+   "text": "Move-in date... tonight."
+  },
+  {
+   "i": 12,
+   "start": 70.877,
+   "end": 75.699,
+   "text": "Behind me, the office door swung shut... and I heard a padlock click."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 1060,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 9.973
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 1090,
+   "bed": "room",
+   "start": 9.973,
+   "end": 20.582
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "wind",
+   "start": 20.582,
+   "end": 28.563
+  },
+  {
+   "id": "s4",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "drone",
+   "start": 28.563,
+   "end": 34.579
+  },
+  {
+   "id": "s5",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "drone",
+   "start": 34.579,
+   "end": 45.945
+  },
+  {
+   "id": "s6",
+   "from_line": 7,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 45.945,
+   "end": 56.835
+  },
+  {
+   "id": "s7",
+   "from_line": 9,
+   "cx": 960,
+   "bed": "room",
+   "start": 56.835,
+   "end": 67.929,
+   "fade_out": false
+  },
+  {
+   "id": "s7b",
+   "at": {
+    "line": 11,
+    "edge": "start",
+    "offset": 1.3
+   },
+   "cx": 960,
+   "bed": "room",
+   "cut": true,
+   "start": 67.929,
+   "end": 70.627,
+   "fade_in": false
+  },
+  {
+   "id": "s8",
+   "from_line": 12,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 70.627,
+   "end": 76.099
+  },
+  {
+   "id": "_end",
+   "start": 76.099,
+   "end": 79.899
+  }
+ ],
+ "total": 79.899
+}

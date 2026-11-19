@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter></defs>
+<rect width="1920" height="1080" fill="#120c08"/>
+<rect x="0" y="0" width="1920" height="1080" fill="#3a2414" opacity="0.6"/>
+<g stroke="#2a1a0e" stroke-width="3"><path d="M0 60 C600 80 1300 40 1920 60" fill="none"/><path d="M0 150 C600 170 1300 130 1920 150" fill="none"/><path d="M0 240 C600 260 1300 220 1920 240" fill="none"/><path d="M0 330 C600 350 1300 310 1920 330" fill="none"/><path d="M0 420 C600 440 1300 400 1920 420" fill="none"/><path d="M0 510 C600 530 1300 490 1920 510" fill="none"/><path d="M0 600 C600 620 1300 580 1920 600" fill="none"/><path d="M0 690 C600 710 1300 670 1920 690" fill="none"/><path d="M0 780 C600 800 1300 760 1920 780" fill="none"/><path d="M0 870 C600 890 1300 850 1920 870" fill="none"/><path d="M0 960 C600 980 1300 940 1920 960" fill="none"/><path d="M0 1050 C600 1070 1300 1030 1920 1050" fill="none"/></g>
+<polygon points="470,120 1100,90 1480,140 1470,780 450,800" fill="#c79b4e"/>
+<g transform="rotate(-2 960 560)">
+<rect x="560" y="170" width="800" height="560" fill="#ece5d2"/>
+<text x="600" y="240" font-family="Inter, DejaVu Sans, sans-serif" font-weight="bold" font-size="40" fill="#1b1b20">RENTAL AGREEMENT</text>
+<text x="1320" y="240" text-anchor="end" font-family="Inter, DejaVu Sans, sans-serif" font-weight="bold" font-size="40" fill="#8a1a14">#117</text>
+<line x1="600" y1="265" x2="1320" y2="265" stroke="#1b1b20" stroke-width="3"/>
+<line x1="640" y1="430" x2="1280" y2="430" stroke="#b9b09a" stroke-width="2"/><line x1="640" y1="480" x2="1280" y2="480" stroke="#b9b09a" stroke-width="2"/><line x1="640" y1="530" x2="1280" y2="530" stroke="#b9b09a" stroke-width="2"/>
+<text x="600" y="330" font-family="Inter, DejaVu Sans, sans-serif" font-size="26" fill="#55504a">TENANT NAME</text>
+<path d="M600 390 c30 -40 50 -40 60 0 s40 -50 60 -10 s30 20 60 -20 s50 30 90 0 s40 -30 80 10" stroke="#1d2a6a" stroke-width="5" fill="none"/>
+<text x="600" y="600" font-family="Inter, DejaVu Sans, sans-serif" font-size="26" fill="#55504a">SIGNATURE</text>
+<path d="M610 670 c20 -60 50 -70 60 -10 c10 40 30 -60 60 -40 c30 20 10 60 50 30 c40 -30 60 -50 90 -10 c20 30 60 -20 110 -10 l120 -6" stroke="#1d2a6a" stroke-width="6" fill="none"/>
+<text x="1000" y="600" font-family="Inter, DejaVu Sans, sans-serif" font-size="26" fill="#55504a">MOVE-IN DATE</text>
+<text x="1000" y="672" font-family="DejaVu Serif, serif" font-weight="bold" font-size="46" fill="#b3261e">TONIGHT</text>
+</g>
+<g transform="translate(1340 420) rotate(30)"><rect x="0" y="0" width="420" height="22" rx="8" fill="#0d0d12"/><polygon points="420,0 470,11 420,22" fill="#c9b48a"/></g>
+
+<circle cx="960" cy="560" r="380" fill="#ffc46b" opacity="0.12" filter="url(#blur30)"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>
