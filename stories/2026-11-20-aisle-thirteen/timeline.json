@@ -1,0 +1,188 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 8.151,
+   "text": "I stock shelves overnight at a grocery store on the edge of town."
+  },
+  {
+   "i": 1,
+   "start": 8.751,
+   "end": 12.591,
+   "text": "Twelve aisles. Humming lights. And nobody else... ever."
+  },
+  {
+   "i": 2,
+   "start": 13.391,
+   "end": 17.017,
+   "text": "My manager gave me one rule on my first shift."
+  },
+  {
+   "i": 3,
+   "start": 17.617,
+   "end": 23.42,
+   "text": "If the intercom ever pages you to aisle thirteen... don't go. Just clock out, and leave."
+  },
+  {
+   "i": 4,
+   "start": 24.22,
+   "end": 27.996,
+   "text": "For two months, that intercom never made a sound."
+  },
+  {
+   "i": 5,
+   "start": 28.696,
+   "end": 32.429,
+   "text": "Then, last night, at three a.m.... it crackled."
+  },
+  {
+   "i": 6,
+   "start": 35.029,
+   "end": 39.424,
+   "text": "A soft voice. Almost kind. Cleanup... on aisle thirteen."
+  },
+  {
+   "i": 7,
+   "start": 40.624,
+   "end": 45.125,
+   "text": "I looked down the row of signs. One through twelve. Like always."
+  },
+  {
+   "i": 8,
+   "start": 45.725,
+   "end": 53.0,
+   "text": "But past the freezers, at the far back wall, a thirteenth sign was swinging... over a dark aisle I had never seen."
+  },
+  {
+   "i": 9,
+   "start": 54.0,
+   "end": 57.648,
+   "text": "I didn't go. I clocked out, and ran for the doors."
+  },
+  {
+   "i": 10,
+   "start": 58.148,
+   "end": 59.577,
+   "text": "They wouldn't open."
+  },
+  {
+   "i": 11,
+   "start": 61.777,
+   "end": 66.94,
+   "text": "Behind me, one by one, the aisle lights started going dark... coming closer."
+  },
+  {
+   "i": 12,
+   "start": 67.94,
+   "end": 71.801,
+   "text": "I backed into the last lit aisle, right by the doors."
+  },
+  {
+   "i": 13,
+   "start": 73.201,
+   "end": 77.191,
+   "text": "And the soft voice came back... Cleanup... on aisle one."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 8.501
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 960,
+   "bed": "room",
+   "start": 8.501,
+   "end": 13.141
+  },
+  {
+   "id": "s3",
+   "from_line": 2,
+   "cx": 960,
+   "bed": "room",
+   "start": 13.141,
+   "end": 28.446
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "drone",
+   "start": 28.446,
+   "end": 40.374
+  },
+  {
+   "id": "s5",
+   "from_line": 7,
+   "cx": 920,
+   "bed": "drone",
+   "start": 40.374,
+   "end": 45.475
+  },
+  {
+   "id": "s6",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 45.475,
+   "end": 53.75
+  },
+  {
+   "id": "s7",
+   "from_line": 9,
+   "cx": 960,
+   "bed": "room",
+   "start": 53.75,
+   "end": 61.527
+  },
+  {
+   "id": "s8",
+   "from_line": 11,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 61.527,
+   "end": 67.69
+  },
+  {
+   "id": "s9",
+   "from_line": 12,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 67.69,
+   "end": 75.50099999999999,
+   "fade_out": false
+  },
+  {
+   "id": "s9b",
+   "at": {
+    "line": 13,
+    "edge": "start",
+    "offset": 2.3
+   },
+   "cx": 960,
+   "bed": "drone_deep",
+   "cut": true,
+   "start": 75.50099999999999,
+   "end": 77.59100000000001,
+   "fade_in": false
+  },
+  {
+   "id": "_end",
+   "start": 77.59100000000001,
+   "end": 81.391
+  }
+ ],
+ "total": 81.391
+}
