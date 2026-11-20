@@ -1,0 +1,159 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 9.58,
+   "text": "The ice cream truck in my grandmother's little town played one song... and came with one rule."
+  },
+  {
+   "i": 1,
+   "start": 10.28,
+   "end": 15.336,
+   "text": "It rolled down Maple Street every summer afternoon, at four o'clock sharp."
+  },
+  {
+   "i": 2,
+   "start": 15.936,
+   "end": 21.312,
+   "text": "But if you ever hear its song after dark... turn off your lights. And never, ever wave."
+  },
+  {
+   "i": 3,
+   "start": 22.212,
+   "end": 25.988,
+   "text": "I spent one summer with her, the year my parents split up."
+  },
+  {
+   "i": 4,
+   "start": 26.588,
+   "end": 32.476,
+   "text": "Every night, the street was silent. Just crickets, moths, and Grandma's porch light buzzing."
+  },
+  {
+   "i": 5,
+   "start": 33.276,
+   "end": 38.012,
+   "text": "Then, in the last week of August, I woke up after midnight... to music."
+  },
+  {
+   "i": 6,
+   "start": 40.612,
+   "end": 44.9,
+   "text": "That same tired song. Slow. Out of tune. Getting closer."
+  },
+  {
+   "i": 7,
+   "start": 45.9,
+   "end": 51.191,
+   "text": "I crept to the window. The truck was parked right outside, glowing pink in the dark."
+  },
+  {
+   "i": 8,
+   "start": 51.991,
+   "end": 54.657,
+   "text": "Nobody was behind the wheel."
+  },
+  {
+   "i": 9,
+   "start": 56.257,
+   "end": 60.076,
+   "text": "I kept my hands flat on the sill. I didn't breathe."
+  },
+  {
+   "i": 10,
+   "start": 62.476,
+   "end": 68.705,
+   "text": "Then the little service window slid open... and a small, pale hand reached out, and waved at me."
+  },
+  {
+   "i": 11,
+   "start": 69.905,
+   "end": 72.785,
+   "text": "I didn't wave back. I swear I didn't."
+  },
+  {
+   "i": 12,
+   "start": 74.185,
+   "end": 78.751,
+   "text": "But in the glass, I could see my reflection... smiling. And waving."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 940,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 15.686
+  },
+  {
+   "id": "s2",
+   "from_line": 2,
+   "cx": 960,
+   "bed": "wind",
+   "start": 15.686,
+   "end": 21.962
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "wind",
+   "start": 21.962,
+   "end": 33.026
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 900,
+   "bed": "room",
+   "start": 33.026,
+   "end": 45.65
+  },
+  {
+   "id": "s5",
+   "from_line": 7,
+   "cx": 960,
+   "bed": "drone",
+   "start": 45.65,
+   "end": 56.007
+  },
+  {
+   "id": "s6",
+   "from_line": 9,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 56.007,
+   "end": 62.226
+  },
+  {
+   "id": "s7",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 62.226,
+   "end": 73.935
+  },
+  {
+   "id": "s8",
+   "from_line": 12,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 73.935,
+   "end": 79.15100000000001
+  },
+  {
+   "id": "_end",
+   "start": 79.15100000000001,
+   "end": 82.95100000000001
+  }
+ ],
+ "total": 82.95100000000001
+}

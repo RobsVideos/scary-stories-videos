@@ -1,0 +1,42 @@
+{
+ "title": "The Midnight Truck",
+ "slug": "2026-11-20-the-midnight-truck",
+ "hook": "The ice cream truck in my grandmother's town had one rule: if you hear its song after dark, never wave.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "The ice cream truck in my grandmother's little town played one song... and came with one rule.",
+  "It rolled down Maple Street every summer afternoon, at four o'clock sharp.",
+  "But if you ever hear its song after dark... turn off your lights. And never, ever wave.",
+  "I spent one summer with her, the year my parents split up.",
+  "Every night, the street was silent. Just crickets, moths, and Grandma's porch light buzzing.",
+  "Then, in the last week of August, I woke up after midnight... to music.",
+  "That same tired song. Slow. Out of tune. Getting closer.",
+  "I crept to the window. The truck was parked right outside, glowing pink in the dark.",
+  "Nobody was behind the wheel.",
+  "I kept my hands flat on the sill. I didn't breathe.",
+  "Then the little service window slid open... and a small, pale hand reached out, and waved at me.",
+  "I didn't wave back. I swear I didn't.",
+  "But in the glass, I could see my reflection... smiling. And waving."
+ ],
+ "pauses": {"0": 0.7, "2": 0.9, "4": 0.8, "5": 2.6, "6": 1.0, "7": 0.8, "8": 1.6, "9": 2.4, "10": 1.2, "11": 1.4},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 940, "bed": "wind"},
+  {"id": "s2", "from_line": 2, "cx": 960, "bed": "wind"},
+  {"id": "s3", "from_line": 3, "cx": 960, "bed": "wind"},
+  {"id": "s4", "from_line": 5, "cx": 900, "bed": "room"},
+  {"id": "s5", "from_line": 7, "cx": 960, "bed": "drone"},
+  {"id": "s6", "from_line": 9, "cx": 960, "bed": "drone_rise"},
+  {"id": "s7", "from_line": 10, "cx": 960, "bed": "drone_rise"},
+  {"id": "s8", "from_line": 12, "cx": 960, "bed": "drone_deep"}
+ ],
+ "events": [
+  {"sfx": "whisper", "at": {"line": 5, "edge": "end", "offset": 0.2}, "dur": 2.2, "pan": -0.4, "gain": -6},
+  {"sfx": "creak", "at": {"line": 7, "edge": "start", "offset": 0.2}, "dur": 1.6, "pan": 0.3},
+  {"sfx": "heartbeat", "at": {"line": 9, "edge": "start", "offset": 0.0}, "dur": 5.0, "every": 0.9},
+  {"sfx": "lock", "at": {"line": 10, "edge": "start", "offset": 1.6}, "pan": 0.2},
+  {"sfx": "hit", "at": {"line": 12, "edge": "start", "offset": 2.2}}
+ ],
+ "end_card": ["If it plays", "after dark...", "never wave."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#icecreamtruck", "#fyp"]
+}
