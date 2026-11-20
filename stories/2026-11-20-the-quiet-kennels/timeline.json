@@ -1,0 +1,184 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 8.62,
+   "text": "I work the overnight shift at an animal shelter, way out on a county road."
+  },
+  {
+   "i": 1,
+   "start": 9.22,
+   "end": 13.465,
+   "text": "Forty dogs. And all night long... they never stop barking."
+  },
+  {
+   "i": 2,
+   "start": 14.265,
+   "end": 17.551,
+   "text": "The woman who trained me gave me one rule."
+  },
+  {
+   "i": 3,
+   "start": 18.051,
+   "end": 22.424,
+   "text": "If the dogs ever go quiet all at once... don't walk the kennels."
+  },
+  {
+   "i": 4,
+   "start": 23.124,
+   "end": 27.86,
+   "text": "Stay in the office. Keep the light on. And wait for them to start again."
+  },
+  {
+   "i": 5,
+   "start": 28.66,
+   "end": 32.841,
+   "text": "For two months, they barked till sunrise. Every single night."
+  },
+  {
+   "i": 6,
+   "start": 33.541,
+   "end": 39.024,
+   "text": "Then, last night, just after three... all forty stopped. At the exact same second."
+  },
+  {
+   "i": 7,
+   "start": 40.224,
+   "end": 43.509,
+   "text": "I sat at my desk... and listened to nothing."
+  },
+  {
+   "i": 8,
+   "start": 46.109,
+   "end": 50.419,
+   "text": "Then, at the far end of the row, the last kennel gate creaked open."
+  },
+  {
+   "i": 9,
+   "start": 51.019,
+   "end": 55.989,
+   "text": "Slow footsteps. Bare feet on wet concrete... coming toward the office."
+  },
+  {
+   "i": 10,
+   "start": 56.989,
+   "end": 59.315,
+   "text": "Then the footsteps stopped."
+  },
+  {
+   "i": 11,
+   "start": 61.515,
+   "end": 66.357,
+   "text": "I looked up at the security monitor... at the camera above my own desk."
+  },
+  {
+   "i": 12,
+   "start": 67.157,
+   "end": 72.853,
+   "text": "Something tall was standing right behind my chair, holding one long finger to its lips."
+  },
+  {
+   "i": 13,
+   "start": 74.453,
+   "end": 78.613,
+   "text": "The dogs hadn't gone quiet on their own... it had asked them to."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 920,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 8.97
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 960,
+   "bed": "room",
+   "start": 8.97,
+   "end": 14.015
+  },
+  {
+   "id": "s3",
+   "from_line": 2,
+   "cx": 960,
+   "bed": "room",
+   "start": 14.015,
+   "end": 28.41
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 1000,
+   "bed": "wind",
+   "start": 28.41,
+   "end": 33.291
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "drone",
+   "start": 33.291,
+   "end": 39.974
+  },
+  {
+   "id": "s6",
+   "from_line": 7,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 39.974,
+   "end": 45.859
+  },
+  {
+   "id": "s7",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "drone",
+   "start": 45.859,
+   "end": 56.739
+  },
+  {
+   "id": "s8",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 56.739,
+   "end": 66.907,
+   "fade_out": false
+  },
+  {
+   "id": "s8b",
+   "from_line": 12,
+   "cx": 960,
+   "bed": "drone_rise",
+   "cut": true,
+   "start": 66.907,
+   "end": 74.203,
+   "fade_in": false
+  },
+  {
+   "id": "s9",
+   "from_line": 13,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 74.203,
+   "end": 79.013
+  },
+  {
+   "id": "_end",
+   "start": 79.013,
+   "end": 82.813
+  }
+ ],
+ "total": 82.813
+}

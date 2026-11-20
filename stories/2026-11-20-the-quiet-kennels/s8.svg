@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter><pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#000" opacity="0.25"/></pattern></defs>
+<rect width="1920" height="1080" fill="#070806"/>
+<rect x="0" y="760" width="1920" height="320" fill="#120c07"/>
+<rect x="0" y="750" width="1920" height="20" fill="#24180e"/>
+<g transform="translate(540 190)">
+<rect x="-40" y="-40" width="920" height="560" rx="26" fill="#121412"/>
+<rect x="0" y="0" width="840" height="480" rx="10" fill="#020403"/>
+<g transform="translate(40 20)"><rect width="760" height="440" fill="#0d1a14"/><rect x="0" y="0" width="760" height="440" fill="url(#scan)"/><polygon points="140,300 620,300 700,440 60,440" fill="#24382d"/><rect x="250" y="240" width="260" height="60" fill="#162a20"/><rect x="262" y="250" width="236" height="40" fill="#5aa47c" opacity="0.6"/><g fill="#07100b"><rect x="300" y="300" width="160" height="140" rx="20"/><ellipse cx="380" cy="300" rx="44" ry="50"/><path d="M300 360 Q380 320 460 360 L470 440 L290 440 Z"/></g><rect x="0" y="0" width="760" height="230" fill="#13241b"/><rect x="560" y="40" width="110" height="190" fill="#06100a"/><text x="18" y="34" font-family="DejaVu Sans Mono, monospace" font-size="24" fill="#9fd6b8">CAM 4  OFFICE</text><text x="742" y="34" text-anchor="end" font-family="DejaVu Sans Mono, monospace" font-size="24" fill="#9fd6b8">03:07</text><circle cx="24" cy="416" r="8" fill="#ff3b2f"/><text x="40" y="424" font-family="DejaVu Sans Mono, monospace" font-size="20" fill="#ff3b2f">REC</text></g>
+<rect x="0" y="0" width="840" height="480" rx="10" fill="#9fd6b8" opacity="0.05"/>
+<rect x="380" y="520" width="80" height="60" fill="#121412"/><rect x="300" y="575" width="240" height="18" rx="8" fill="#121412"/>
+</g>
+<circle cx="960" cy="430" r="420" fill="#7fd6a8" opacity="0.12" filter="url(#blur30)"/>
+<polygon points="580,710 1340,710 1500,1080 420,1080" fill="#7fd6a8" opacity="0.05"/>
+<g fill="#030302"><rect x="300" y="700" width="160" height="60" rx="6"/><rect x="1450" y="640" width="70" height="120" rx="10"/></g>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>
