@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter></defs>
+<rect width="1920" height="1080" fill="#120f0e"/>
+<rect x="0" y="0" width="1920" height="660" fill="#1b1716"/>
+<g stroke="#241e1c" stroke-width="2"><line x1="30" y1="0" x2="30" y2="660"/><line x1="110" y1="0" x2="110" y2="660"/><line x1="190" y1="0" x2="190" y2="660"/><line x1="270" y1="0" x2="270" y2="660"/><line x1="350" y1="0" x2="350" y2="660"/><line x1="430" y1="0" x2="430" y2="660"/><line x1="510" y1="0" x2="510" y2="660"/><line x1="590" y1="0" x2="590" y2="660"/><line x1="670" y1="0" x2="670" y2="660"/><line x1="750" y1="0" x2="750" y2="660"/><line x1="830" y1="0" x2="830" y2="660"/><line x1="910" y1="0" x2="910" y2="660"/><line x1="990" y1="0" x2="990" y2="660"/><line x1="1070" y1="0" x2="1070" y2="660"/><line x1="1150" y1="0" x2="1150" y2="660"/><line x1="1230" y1="0" x2="1230" y2="660"/><line x1="1310" y1="0" x2="1310" y2="660"/><line x1="1390" y1="0" x2="1390" y2="660"/><line x1="1470" y1="0" x2="1470" y2="660"/><line x1="1550" y1="0" x2="1550" y2="660"/><line x1="1630" y1="0" x2="1630" y2="660"/><line x1="1710" y1="0" x2="1710" y2="660"/><line x1="1790" y1="0" x2="1790" y2="660"/><line x1="1870" y1="0" x2="1870" y2="660"/></g>
+<rect x="420" y="40" width="1080" height="300" fill="#0b0f1a"/>
+<rect x="420" y="40" width="1080" height="300" fill="#aab6c8" opacity="0.10"/>
+<ellipse cx="960" cy="260" rx="1250" ry="80" fill="#aab6c8" opacity="0.15" filter="url(#blur60)"/>
+<rect x="410" y="30" width="1100" height="320" fill="none" stroke="#2a2d36" stroke-width="20"/>
+<rect x="0" y="640" width="1920" height="40" fill="#3a3d46"/><rect x="0" y="680" width="1920" height="400" fill="#23252c"/>
+<g transform="translate(700 700)">
+<rect x="0" y="0" width="420" height="120" rx="14" fill="#565b66"/><rect x="18" y="16" width="384" height="88" rx="10" fill="#2e3139"/>
+<circle cx="120" cy="60" r="26" fill="#c9ccd3"/><circle cx="120" cy="60" r="21" fill="none" stroke="#8d929c" stroke-width="2"/><circle cx="117" cy="59" r="11" fill="#a8adb6"/><circle cx="190" cy="70" r="22" fill="#c9ccd3"/><circle cx="190" cy="70" r="18" fill="none" stroke="#8d929c" stroke-width="2"/><circle cx="188" cy="69" r="9" fill="#a8adb6"/><circle cx="280" cy="58" r="20" fill="#b38a4a"/>
+</g>
+<g transform="rotate(-3 900 480)">
+<rect x="620" y="370" width="560" height="250" fill="#ece3c2"/>
+<rect x="840" y="352" width="120" height="38" fill="#d6cfb2" opacity="0.85"/>
+<text x="900" y="440" text-anchor="middle" font-family="DejaVu Serif, serif" font-weight="bold" font-size="46" fill="#1a1612">SILVER DOLLAR?</text>
+<text x="900" y="505" text-anchor="middle" font-family="DejaVu Serif, serif" font-size="40" fill="#1a1612">Lift the gate.</text>
+<text x="900" y="572" text-anchor="middle" font-family="DejaVu Serif, serif" font-weight="bold" font-size="40" fill="#8a1a14">DON'T LOOK INSIDE.</text>
+<text x="1110" y="605" text-anchor="end" font-family="DejaVu Serif, serif" font-style="italic" font-size="26" fill="#4a4238">— Gus</text>
+</g>
+<rect x="1300" y="730" width="200" height="180" rx="12" fill="#1a1b20"/><line x1="1340" y1="760" x2="1340" y2="880" stroke="#ff6a2a" stroke-width="7"/><line x1="1358" y1="760" x2="1358" y2="880" stroke="#ff6a2a" stroke-width="7"/><line x1="1376" y1="760" x2="1376" y2="880" stroke="#ff6a2a" stroke-width="7"/><line x1="1394" y1="760" x2="1394" y2="880" stroke="#ff6a2a" stroke-width="7"/><line x1="1412" y1="760" x2="1412" y2="880" stroke="#ff6a2a" stroke-width="7"/><line x1="1430" y1="760" x2="1430" y2="880" stroke="#ff6a2a" stroke-width="7"/><line x1="1448" y1="760" x2="1448" y2="880" stroke="#ff6a2a" stroke-width="7"/><line x1="1466" y1="760" x2="1466" y2="880" stroke="#ff6a2a" stroke-width="7"/>
+<circle cx="1410" cy="820" r="140" fill="#ff5a1e" opacity="0.45" filter="url(#blur30)"/>
+<g transform="translate(470 760)"><rect x="0" y="0" width="90" height="110" rx="10" fill="#3b2a20"/><path d="M90 25 c40 0 40 60 0 60" stroke="#3b2a20" stroke-width="12" fill="none"/>
+<path d="M30 -10 c-10 -30 20 -40 10 -70" stroke="#c9c2b0" stroke-width="4" fill="none" opacity="0.35"/></g>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

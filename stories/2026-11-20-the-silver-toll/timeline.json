@@ -1,0 +1,167 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 7.767,
+   "text": "I work nights in the last toll booth before the mountain pass."
+  },
+  {
+   "i": 1,
+   "start": 8.367,
+   "end": 13.167,
+   "text": "The old collector, Gus, left me one rule, taped above the coin tray."
+  },
+  {
+   "i": 2,
+   "start": 13.767,
+   "end": 19.164,
+   "text": "If anyone pays with a silver dollar... lift the gate. And don't look inside the car."
+  },
+  {
+   "i": 3,
+   "start": 20.164,
+   "end": 24.815,
+   "text": "For a month, it was only truckers, fog, and the hum of my little heater."
+  },
+  {
+   "i": 4,
+   "start": 25.515,
+   "end": 30.827,
+   "text": "Then, at three a.m., a long gray station wagon rolled up. Headlights off."
+  },
+  {
+   "i": 5,
+   "start": 32.027,
+   "end": 37.787,
+   "text": "The window cranked down. A hand, white as frost, dropped a silver dollar in my tray."
+  },
+  {
+   "i": 6,
+   "start": 38.387,
+   "end": 39.191,
+   "text": "Clink."
+  },
+  {
+   "i": 7,
+   "start": 40.591,
+   "end": 44.218,
+   "text": "I kept my eyes on the coin. I lifted the gate."
+  },
+  {
+   "i": 8,
+   "start": 45.018,
+   "end": 49.007,
+   "text": "But as it rolled past... I glanced at the back windows."
+  },
+  {
+   "i": 9,
+   "start": 50.007,
+   "end": 55.02,
+   "text": "Faces. Pale and still. Every one of them pressed to the glass... watching me."
+  },
+  {
+   "i": 10,
+   "start": 56.22,
+   "end": 61.212,
+   "text": "And in the last seat, I saw Gus. The man who quit without saying goodbye."
+  },
+  {
+   "i": 11,
+   "start": 63.412,
+   "end": 67.892,
+   "text": "Last night, that wagon came back... and Gus was the one driving."
+  },
+  {
+   "i": 12,
+   "start": 69.292,
+   "end": 73.09,
+   "text": "He opened the back door... and patted the empty seat."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 980,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 8.117
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 990,
+   "bed": "room",
+   "start": 8.117,
+   "end": 19.914
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 1080,
+   "bed": "wind",
+   "start": 19.914,
+   "end": 25.265
+  },
+  {
+   "id": "s4",
+   "from_line": 4,
+   "cx": 1150,
+   "bed": "drone",
+   "start": 25.265,
+   "end": 31.777
+  },
+  {
+   "id": "s5",
+   "from_line": 5,
+   "cx": 1060,
+   "bed": "drone",
+   "start": 31.777,
+   "end": 40.341
+  },
+  {
+   "id": "s6",
+   "from_line": 7,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 40.341,
+   "end": 49.757
+  },
+  {
+   "id": "s7",
+   "from_line": 9,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 49.757,
+   "end": 55.97
+  },
+  {
+   "id": "s8",
+   "from_line": 10,
+   "cx": 1000,
+   "bed": "drone_deep",
+   "start": 55.97,
+   "end": 63.162
+  },
+  {
+   "id": "s9",
+   "from_line": 11,
+   "cx": 900,
+   "bed": "drone_deep",
+   "start": 63.162,
+   "end": 73.49000000000001
+  },
+  {
+   "id": "_end",
+   "start": 73.49000000000001,
+   "end": 77.29
+  }
+ ],
+ "total": 77.29
+}

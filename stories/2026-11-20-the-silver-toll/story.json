@@ -1,0 +1,44 @@
+{
+ "title": "The Silver Toll",
+ "slug": "2026-11-20-the-silver-toll",
+ "hook": "The old toll collector left one rule: if anyone pays with a silver dollar, lift the gate... and don't look inside the car.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "I work nights in the last toll booth before the mountain pass.",
+  "The old collector, Gus, left me one rule, taped above the coin tray.",
+  "If anyone pays with a silver dollar... lift the gate. And don't look inside the car.",
+  "For a month, it was only truckers, fog, and the hum of my little heater.",
+  "Then, at three a.m., a long gray station wagon rolled up. Headlights off.",
+  "The window cranked down. A hand, white as frost, dropped a silver dollar in my tray.",
+  "Clink.",
+  "I kept my eyes on the coin. I lifted the gate.",
+  "But as it rolled past... I glanced at the back windows.",
+  "Faces. Pale and still. Every one of them pressed to the glass... watching me.",
+  "And in the last seat, I saw Gus. The man who quit without saying goodbye.",
+  "Last night, that wagon came back... and Gus was the one driving.",
+  "He opened the back door... and patted the empty seat."
+ ],
+ "pauses": {"0": 0.6, "1": 0.6, "2": 1.0, "3": 0.7, "4": 1.2, "5": 0.6, "6": 1.4, "7": 0.8, "8": 1.0, "9": 1.2, "10": 2.2, "11": 1.4},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 980, "bed": "wind"},
+  {"id": "s2", "from_line": 1, "cx": 990, "bed": "room"},
+  {"id": "s3", "from_line": 3, "cx": 1080, "bed": "wind"},
+  {"id": "s4", "from_line": 4, "cx": 1150, "bed": "drone"},
+  {"id": "s5", "from_line": 5, "cx": 1060, "bed": "drone"},
+  {"id": "s6", "from_line": 7, "cx": 960, "bed": "drone_rise"},
+  {"id": "s7", "from_line": 9, "cx": 960, "bed": "drone_rise"},
+  {"id": "s8", "from_line": 10, "cx": 1000, "bed": "drone_deep"},
+  {"id": "s9", "from_line": 11, "cx": 900, "bed": "drone_deep"}
+ ],
+ "events": [
+  {"sfx": "creak", "at": {"line": 5, "edge": "start", "offset": 0.0}, "dur": 1.6, "pan": -0.3},
+  {"sfx": "lock", "at": {"line": 6, "edge": "start", "offset": -0.1}, "pan": 0.2},
+  {"sfx": "creak", "at": {"line": 7, "edge": "end", "offset": 0.1}, "dur": 2.0, "pan": 0.4, "gain": -3},
+  {"sfx": "heartbeat", "at": {"line": 9, "edge": "start", "offset": 0.0}, "dur": 7.0, "every": 0.9},
+  {"sfx": "hit", "at": {"line": 10, "edge": "end", "offset": 0.2}},
+  {"sfx": "riser", "at": {"line": 11, "edge": "start", "offset": 0.0}, "dur": 4.5}
+ ],
+ "end_card": ["Lift the gate.", "Don't look inside.", "They saved you a seat."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}
