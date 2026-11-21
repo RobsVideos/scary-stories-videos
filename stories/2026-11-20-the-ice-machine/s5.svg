@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter><linearGradient id="door5" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1c1216"/><stop offset="1" stop-color="#33222a"/></linearGradient>
+<linearGradient id="brass5" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e3c37a"/><stop offset="1" stop-color="#5e4318"/></linearGradient>
+<linearGradient id="spill5" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffc678" stop-opacity="0.4"/><stop offset="1" stop-color="#ffc678" stop-opacity="0"/></linearGradient></defs>
+<rect width="1920" height="1080" fill="#0a0709"/>
+<rect x="560" y="0" width="800" height="900" fill="url(#door5)"/>
+<rect x="620" y="60" width="680" height="360" fill="none" stroke="#120b0c" stroke-width="10"/>
+<rect x="620" y="470" width="680" height="380" fill="none" stroke="#120b0c" stroke-width="10"/>
+<circle cx="960" cy="300" r="22" fill="#2b2026" stroke="#8a7a56" stroke-width="6"/>
+<circle cx="960" cy="300" r="9" fill="#ffb54a"/>
+<circle cx="960" cy="300" r="34" fill="#ffb54a" opacity="0.6" filter="url(#blur30)"/>
+<text x="960" y="210" text-anchor="middle" font-family="Inter, DejaVu Sans, sans-serif" font-weight="700" font-size="54" fill="#b89a5a">7</text>
+<rect x="1230" y="360" width="60" height="40" rx="6" fill="#8a7a56"/>
+<path d="M1260 380 C1220 430 1180 450 1120 440" fill="none" stroke="#b9a46e" stroke-width="9" stroke-dasharray="20 8"/>
+<rect x="1100" y="420" width="40" height="34" rx="6" fill="#8a7a56"/>
+<circle cx="1270" cy="520" r="34" fill="url(#brass5)"/>
+<rect x="1240" y="470" width="80" height="20" rx="8" fill="url(#brass5)"/>
+<rect x="560" y="900" width="800" height="22" fill="#ffc678"/>
+<rect x="560" y="896" width="800" height="30" fill="#ffc678" filter="url(#blur8)"/>
+<rect x="780" y="900" width="120" height="22" fill="#050304"/><rect x="960" y="900" width="120" height="22" fill="#050304"/>
+<polygon points="560,922 1360,922 1600,1080 320,1080" fill="url(#spill5)"/>
+<polygon points="780,922 900,922 940,1080 760,1080" fill="#000" opacity="0.6"/>
+<polygon points="960,922 1080,922 1130,1080 960,1080" fill="#000" opacity="0.6"/>
+<rect x="0" y="0" width="560" height="1080" fill="#080507"/><rect x="1360" y="0" width="560" height="1080" fill="#080507"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

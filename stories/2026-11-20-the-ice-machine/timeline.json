@@ -1,0 +1,165 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 9.516,
+   "text": "On a road trip west, my sister and I stopped at a tiny motel in the middle of the desert."
+  },
+  {
+   "i": 1,
+   "start": 10.116,
+   "end": 14.959,
+   "text": "The night clerk handed us a key, an empty ice bucket... and one rule."
+  },
+  {
+   "i": 2,
+   "start": 15.759,
+   "end": 20.431,
+   "text": "If you hear the ice machine running after midnight... don't go out for ice."
+  },
+  {
+   "i": 3,
+   "start": 21.231,
+   "end": 25.369,
+   "text": "And if someone knocks with a full bucket... don't let them in."
+  },
+  {
+   "i": 4,
+   "start": 26.569,
+   "end": 31.263,
+   "text": "We laughed about it over vending machine snacks, then turned out the lights."
+  },
+  {
+   "i": 5,
+   "start": 32.163,
+   "end": 36.792,
+   "text": "At two a.m., a low, grinding hum woke me up. The ice machine."
+  },
+  {
+   "i": 6,
+   "start": 37.792,
+   "end": 40.011,
+   "text": "Then... a soft knock."
+  },
+  {
+   "i": 7,
+   "start": 42.611,
+   "end": 45.896,
+   "text": "\"Hey, it's me. Open up... I got us ice.\""
+  },
+  {
+   "i": 8,
+   "start": 46.896,
+   "end": 50.523,
+   "text": "It was my sister's voice. Right outside the door."
+  },
+  {
+   "i": 9,
+   "start": 51.523,
+   "end": 55.213,
+   "text": "I almost got up. Then I looked over at the other bed."
+  },
+  {
+   "i": 10,
+   "start": 56.213,
+   "end": 60.075,
+   "text": "My sister was right there... curled up, facing the wall."
+  },
+  {
+   "i": 11,
+   "start": 62.075,
+   "end": 65.915,
+   "text": "So I lay still, until the knocking finally stopped."
+  },
+  {
+   "i": 12,
+   "start": 67.115,
+   "end": 72.149,
+   "text": "In the morning, a bucket of ice sat outside our door... melting in the sun."
+  },
+  {
+   "i": 13,
+   "start": 73.749,
+   "end": 80.213,
+   "text": "Then the girl in my sister's bed rolled over, smiled... and whispered, \"Thanks for not letting her in.\""
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 1130,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 9.866
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 860,
+   "bed": "room",
+   "start": 9.866,
+   "end": 15.509
+  },
+  {
+   "id": "s3",
+   "from_line": 2,
+   "cx": 960,
+   "bed": "drone",
+   "start": 15.509,
+   "end": 26.319
+  },
+  {
+   "id": "s4",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "room",
+   "start": 26.319,
+   "end": 37.542
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 37.542,
+   "end": 51.273
+  },
+  {
+   "id": "s6",
+   "from_line": 9,
+   "cx": 940,
+   "bed": "drone_deep",
+   "start": 51.273,
+   "end": 66.865
+  },
+  {
+   "id": "s7",
+   "from_line": 12,
+   "cx": 900,
+   "bed": "wind",
+   "start": 66.865,
+   "end": 73.499
+  },
+  {
+   "id": "s8",
+   "from_line": 13,
+   "cx": 900,
+   "bed": "drone_deep",
+   "start": 73.499,
+   "end": 80.613
+  },
+  {
+   "id": "_end",
+   "start": 80.613,
+   "end": 84.413
+  }
+ ],
+ "total": 84.413
+}

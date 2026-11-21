@@ -1,0 +1,160 @@
+{
+ "title": "The Ice Machine",
+ "slug": "2026-11-20-the-ice-machine",
+ "hook": "The desert motel clerk gave us one rule: if someone knocks with a full bucket of ice after midnight... don't let them in.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "On a road trip west, my sister and I stopped at a tiny motel in the middle of the desert.",
+  "The night clerk handed us a key, an empty ice bucket... and one rule.",
+  "If you hear the ice machine running after midnight... don't go out for ice.",
+  "And if someone knocks with a full bucket... don't let them in.",
+  "We laughed about it over vending machine snacks, then turned out the lights.",
+  "At two a.m., a low, grinding hum woke me up. The ice machine.",
+  "Then... a soft knock.",
+  "\"Hey, it's me. Open up... I got us ice.\"",
+  "It was my sister's voice. Right outside the door.",
+  "I almost got up. Then I looked over at the other bed.",
+  "My sister was right there... curled up, facing the wall.",
+  "So I lay still, until the knocking finally stopped.",
+  "In the morning, a bucket of ice sat outside our door... melting in the sun.",
+  "Then the girl in my sister's bed rolled over, smiled... and whispered, \"Thanks for not letting her in.\""
+ ],
+ "pauses": {
+  "0": 0.6,
+  "1": 0.8,
+  "2": 0.8,
+  "3": 1.2,
+  "4": 0.9,
+  "5": 1.0,
+  "6": 2.6,
+  "7": 1.0,
+  "8": 1.0,
+  "9": 1.0,
+  "10": 2.0,
+  "11": 1.2,
+  "12": 1.6
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 1130,
+   "bed": "wind"
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 860,
+   "bed": "room"
+  },
+  {
+   "id": "s3",
+   "from_line": 2,
+   "cx": 960,
+   "bed": "drone"
+  },
+  {
+   "id": "s4",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "room"
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "drone_rise"
+  },
+  {
+   "id": "s6",
+   "from_line": 9,
+   "cx": 940,
+   "bed": "drone_deep"
+  },
+  {
+   "id": "s7",
+   "from_line": 12,
+   "cx": 900,
+   "bed": "wind"
+  },
+  {
+   "id": "s8",
+   "from_line": 13,
+   "cx": 900,
+   "bed": "drone_deep"
+  }
+ ],
+ "events": [
+  {
+   "sfx": "static",
+   "at": {
+    "line": 5,
+    "edge": "start",
+    "offset": 0.8
+   },
+   "dur": 4.0,
+   "gain": -10,
+   "pan": 0.4
+  },
+  {
+   "sfx": "knock3",
+   "at": {
+    "line": 6,
+    "edge": "end",
+    "offset": 0.4
+   }
+  },
+  {
+   "sfx": "whisper",
+   "at": {
+    "line": 7,
+    "edge": "start",
+    "offset": 0.0
+   },
+   "dur": 3.0,
+   "gain": -6,
+   "pan": -0.3
+  },
+  {
+   "sfx": "heartbeat",
+   "at": {
+    "line": 9,
+    "edge": "start",
+    "offset": 0.0
+   },
+   "dur": 8.0,
+   "every": 0.9
+  },
+  {
+   "sfx": "knock",
+   "at": {
+    "line": 11,
+    "edge": "start",
+    "offset": 0.3
+   },
+   "gain": -4
+  },
+  {
+   "sfx": "hit",
+   "at": {
+    "line": 13,
+    "edge": "start",
+    "offset": 0.0
+   }
+  }
+ ],
+ "end_card": [
+  "Never get ice",
+  "after midnight.",
+  "Not even for her."
+ ],
+ "hashtags": [
+  "#scarystories",
+  "#horrorstories",
+  "#creepy",
+  "#scary",
+  "#horrortok",
+  "#fyp"
+ ]
+}
