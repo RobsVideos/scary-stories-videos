@@ -1,0 +1,167 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 9.217,
+   "text": "I close the town library on Friday nights, and the head librarian gave me one rule."
+  },
+  {
+   "i": 1,
+   "start": 9.817,
+   "end": 16.409,
+   "text": "If a book comes through the return slot after nine... don't check it in. Leave it in the bin until morning."
+  },
+  {
+   "i": 2,
+   "start": 17.209,
+   "end": 19.769,
+   "text": "For two months, nothing came."
+  },
+  {
+   "i": 3,
+   "start": 20.869,
+   "end": 25.925,
+   "text": "Then last Friday, at nine fourteen, I heard the metal slot creak open."
+  },
+  {
+   "i": 4,
+   "start": 28.325,
+   "end": 29.055,
+   "text": "Thump."
+  },
+  {
+   "i": 5,
+   "start": 30.455,
+   "end": 37.239,
+   "text": "A small black book. No title. No barcode. Just an old paper checkout card, tucked inside the cover."
+  },
+  {
+   "i": 6,
+   "start": 37.939,
+   "end": 43.869,
+   "text": "The names on the card were night clerks. I knew them from the faded photos in the break room."
+  },
+  {
+   "i": 7,
+   "start": 44.569,
+   "end": 50.009,
+   "text": "Next to each name, a date in red ink... the day each one stopped showing up for work."
+  },
+  {
+   "i": 8,
+   "start": 50.809,
+   "end": 53.775,
+   "text": "The last line was empty. Waiting."
+  },
+  {
+   "i": 9,
+   "start": 55.375,
+   "end": 60.431,
+   "text": "I didn't touch it. I turned off the lights, locked the doors, and walked to my car."
+  },
+  {
+   "i": 10,
+   "start": 61.031,
+   "end": 65.425,
+   "text": "Behind me, the return slot creaked open... and stayed open."
+  },
+  {
+   "i": 11,
+   "start": 67.425,
+   "end": 70.967,
+   "text": "When I got home, there was something in my coat pocket."
+  },
+  {
+   "i": 12,
+   "start": 72.167,
+   "end": 78.204,
+   "text": "The checkout card. My name was on the last line... and the red stamp beside it said: Due tonight."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 1000,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 9.567
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 960,
+   "bed": "room",
+   "start": 9.567,
+   "end": 20.619
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "room",
+   "start": 20.619,
+   "end": 30.205
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "drone",
+   "start": 30.205,
+   "end": 37.689
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 1000,
+   "bed": "drone",
+   "start": 37.689,
+   "end": 44.319
+  },
+  {
+   "id": "s6",
+   "from_line": 7,
+   "cx": 980,
+   "bed": "drone_rise",
+   "start": 44.319,
+   "end": 55.125
+  },
+  {
+   "id": "s7",
+   "from_line": 9,
+   "cx": 960,
+   "bed": "wind",
+   "start": 55.125,
+   "end": 67.175
+  },
+  {
+   "id": "s8",
+   "from_line": 11,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 67.175,
+   "end": 71.917
+  },
+  {
+   "id": "s9",
+   "from_line": 12,
+   "cx": 980,
+   "bed": "drone_deep",
+   "start": 71.917,
+   "end": 78.604
+  },
+  {
+   "id": "_end",
+   "start": 78.604,
+   "end": 82.404
+  }
+ ],
+ "total": 82.404
+}

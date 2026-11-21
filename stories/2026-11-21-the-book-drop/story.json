@@ -1,0 +1,45 @@
+{
+ "title": "The Book Drop",
+ "slug": "2026-11-21-the-book-drop",
+ "hook": "The head librarian gave me one rule: if a book comes through the return slot after nine, don't check it in.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "I close the town library on Friday nights, and the head librarian gave me one rule.",
+  "If a book comes through the return slot after nine... don't check it in. Leave it in the bin until morning.",
+  "For two months, nothing came.",
+  "Then last Friday, at nine fourteen, I heard the metal slot creak open.",
+  "Thump.",
+  "A small black book. No title. No barcode. Just an old paper checkout card, tucked inside the cover.",
+  "The names on the card were night clerks. I knew them from the faded photos in the break room.",
+  "Next to each name, a date in red ink... the day each one stopped showing up for work.",
+  "The last line was empty. Waiting.",
+  "I didn't touch it. I turned off the lights, locked the doors, and walked to my car.",
+  "Behind me, the return slot creaked open... and stayed open.",
+  "When I got home, there was something in my coat pocket.",
+  "The checkout card. My name was on the last line... and the red stamp beside it said: Due tonight."
+ ],
+ "pauses": {"0": 0.6, "1": 0.8, "2": 1.1, "3": 2.4, "4": 1.4, "5": 0.7, "6": 0.7, "7": 0.8, "8": 1.6, "9": 0.6, "10": 2.0, "11": 1.2},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 1000, "bed": "wind"},
+  {"id": "s2", "from_line": 1, "cx": 960, "bed": "room"},
+  {"id": "s3", "from_line": 3, "cx": 960, "bed": "room"},
+  {"id": "s4", "from_line": 5, "cx": 960, "bed": "drone"},
+  {"id": "s5", "from_line": 6, "cx": 1000, "bed": "drone"},
+  {"id": "s6", "from_line": 7, "cx": 980, "bed": "drone_rise"},
+  {"id": "s7", "from_line": 9, "cx": 960, "bed": "wind"},
+  {"id": "s8", "from_line": 11, "cx": 960, "bed": "drone_deep"},
+  {"id": "s9", "from_line": 12, "cx": 980, "bed": "drone_deep"}
+ ],
+ "events": [
+  {"sfx": "clock", "at": {"line": 2, "edge": "start", "offset": 0.0}, "dur": 6.0, "pan": 0.4},
+  {"sfx": "creak", "at": {"line": 3, "edge": "end", "offset": 0.2}, "dur": 1.8, "pan": -0.2},
+  {"sfx": "hit", "at": {"line": 4, "edge": "start", "offset": -0.1}},
+  {"sfx": "lock", "at": {"line": 9, "edge": "start", "offset": 2.6}, "pan": 0.2},
+  {"sfx": "creak", "at": {"line": 10, "edge": "start", "offset": 0.6}, "dur": 2.4, "pan": 0.5, "gain": -2},
+  {"sfx": "heartbeat", "at": {"line": 11, "edge": "start", "offset": 0.0}, "dur": 7.0, "every": 0.9},
+  {"sfx": "boom", "at": {"line": 12, "edge": "end", "offset": 0.1}}
+ ],
+ "end_card": ["Never check in", "a book returned", "after nine."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#library", "#fyp"]
+}
