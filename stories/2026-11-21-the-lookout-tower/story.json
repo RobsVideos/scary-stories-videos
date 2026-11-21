@@ -1,0 +1,46 @@
+{
+ "title": "The Lookout Tower",
+ "slug": "2026-11-21-the-lookout-tower",
+ "hook": "The ranger gave me one rule for the fire lookout tower: after dark, the trapdoor stays shut... no matter who's knocking.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "I spent last summer alone in a fire lookout tower, sixty feet up. The only way in is a trapdoor in the floor.",
+  "The ranger who drove me up tapped the latch and said, After dark, this stays shut. No matter who's knocking.",
+  "I laughed. The nearest road was eleven miles away.",
+  "On my third night, I saw a flashlight down in the pines... moving slowly toward the tower.",
+  "Then the stairs started creaking. One step at a time... all the way up.",
+  "Something knocked on the trapdoor. Three times.",
+  "Then the ranger's voice said my name. Storm's rolling in, kid. Let me up.",
+  "My hand was on the latch... when I looked out the window.",
+  "No clouds. Just stars, all the way to the mountains. And no headlights on the road.",
+  "So I sat on that trapdoor until the knocking stopped... and the stairs went quiet.",
+  "I was still shaking when I heard it again.",
+  "A soft tap... on the glass behind me. Sixty feet up.",
+  "And the ranger's voice whispered, That's fine. I'll wait up here."
+ ],
+ "pauses": {"0": 0.7, "1": 0.8, "2": 1.0, "3": 0.9, "4": 2.6, "5": 2.6, "6": 1.0, "7": 1.2, "8": 1.0, "9": 1.2, "10": 2.2, "11": 1.4},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 960, "bed": "wind"},
+  {"id": "s2", "from_line": 1, "cx": 1050, "bed": "room"},
+  {"id": "s3", "from_line": 3, "cx": 960, "bed": "wind"},
+  {"id": "s4", "from_line": 4, "cx": 960, "bed": "drone"},
+  {"id": "s5", "from_line": 5, "cx": 1000, "bed": "drone_rise"},
+  {"id": "s5b", "from_line": 7, "cx": 1000, "bed": "drone", "cut": true},
+  {"id": "s6", "from_line": 8, "cx": 960, "bed": "wind"},
+  {"id": "s7", "from_line": 9, "cx": 960, "bed": "drone_deep"},
+  {"id": "s8", "from_line": 11, "cx": 960, "bed": "drone_deep"},
+  {"id": "s8b", "at": {"line": 12, "edge": "start", "offset": 0.3}, "cx": 940, "bed": "drone_deep", "cut": true}
+ ],
+ "events": [
+  {"sfx": "creak", "at": {"line": 4, "edge": "start", "offset": 0.4}, "dur": 2.0, "gain": -4},
+  {"sfx": "footsteps", "at": {"line": 4, "edge": "end", "offset": 0.1}, "dur": 2.4, "every": 0.8},
+  {"sfx": "knock3", "at": {"line": 5, "edge": "end", "offset": 0.3}},
+  {"sfx": "heartbeat", "at": {"line": 7, "edge": "start", "offset": 0.0}, "dur": 6.0, "every": 0.9},
+  {"sfx": "knock", "at": {"line": 10, "edge": "end", "offset": 0.4}, "gain": -6, "pan": 0.5},
+  {"sfx": "whisper", "at": {"line": 12, "edge": "start", "offset": 1.6}, "dur": 2.2, "pan": 0.4},
+  {"sfx": "boom", "at": {"line": 12, "edge": "end", "offset": 0.2}}
+ ],
+ "end_card": ["After dark,", "the trapdoor stays shut.", "Don't check the windows."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#firelookout", "#fyp"]
+}

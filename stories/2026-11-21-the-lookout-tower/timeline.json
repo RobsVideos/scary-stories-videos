@@ -1,0 +1,185 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 10.903,
+   "text": "I spent last summer alone in a fire lookout tower, sixty feet up. The only way in is a trapdoor in the floor."
+  },
+  {
+   "i": 1,
+   "start": 11.603,
+   "end": 18.28,
+   "text": "The ranger who drove me up tapped the latch and said, After dark, this stays shut. No matter who's knocking."
+  },
+  {
+   "i": 2,
+   "start": 19.08,
+   "end": 22.877,
+   "text": "I laughed. The nearest road was eleven miles away."
+  },
+  {
+   "i": 3,
+   "start": 23.877,
+   "end": 29.808,
+   "text": "On my third night, I saw a flashlight down in the pines... moving slowly toward the tower."
+  },
+  {
+   "i": 4,
+   "start": 30.708,
+   "end": 35.508,
+   "text": "Then the stairs started creaking. One step at a time... all the way up."
+  },
+  {
+   "i": 5,
+   "start": 38.108,
+   "end": 41.585,
+   "text": "Something knocked on the trapdoor. Three times."
+  },
+  {
+   "i": 6,
+   "start": 44.185,
+   "end": 49.177,
+   "text": "Then the ranger's voice said my name. Storm's rolling in, kid. Let me up."
+  },
+  {
+   "i": 7,
+   "start": 50.177,
+   "end": 53.825,
+   "text": "My hand was on the latch... when I looked out the window."
+  },
+  {
+   "i": 8,
+   "start": 55.025,
+   "end": 60.615,
+   "text": "No clouds. Just stars, all the way to the mountains. And no headlights on the road."
+  },
+  {
+   "i": 9,
+   "start": 61.615,
+   "end": 66.777,
+   "text": "So I sat on that trapdoor until the knocking stopped... and the stairs went quiet."
+  },
+  {
+   "i": 10,
+   "start": 67.977,
+   "end": 71.007,
+   "text": "I was still shaking when I heard it again."
+  },
+  {
+   "i": 11,
+   "start": 73.207,
+   "end": 77.303,
+   "text": "A soft tap... on the glass behind me. Sixty feet up."
+  },
+  {
+   "i": 12,
+   "start": 78.703,
+   "end": 83.076,
+   "text": "And the ranger's voice whispered, That's fine. I'll wait up here."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 11.353
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 1050,
+   "bed": "room",
+   "start": 11.353,
+   "end": 23.627
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "wind",
+   "start": 23.627,
+   "end": 30.458
+  },
+  {
+   "id": "s4",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "drone",
+   "start": 30.458,
+   "end": 37.858
+  },
+  {
+   "id": "s5",
+   "from_line": 5,
+   "cx": 1000,
+   "bed": "drone_rise",
+   "start": 37.858,
+   "end": 49.927,
+   "fade_out": false
+  },
+  {
+   "id": "s5b",
+   "from_line": 7,
+   "cx": 1000,
+   "bed": "drone",
+   "cut": true,
+   "start": 49.927,
+   "end": 54.775,
+   "fade_in": false
+  },
+  {
+   "id": "s6",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "wind",
+   "start": 54.775,
+   "end": 61.365
+  },
+  {
+   "id": "s7",
+   "from_line": 9,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 61.365,
+   "end": 72.957
+  },
+  {
+   "id": "s8",
+   "from_line": 11,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 72.957,
+   "end": 79.003,
+   "fade_out": false
+  },
+  {
+   "id": "s8b",
+   "at": {
+    "line": 12,
+    "edge": "start",
+    "offset": 0.3
+   },
+   "cx": 940,
+   "bed": "drone_deep",
+   "cut": true,
+   "start": 79.003,
+   "end": 83.476,
+   "fade_in": false
+  },
+  {
+   "id": "_end",
+   "start": 83.476,
+   "end": 87.276
+  }
+ ],
+ "total": 87.276
+}
