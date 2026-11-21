@@ -1,0 +1,187 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 7.873,
+   "text": "I drive a snowplow over the mountain pass, midnight to six."
+  },
+  {
+   "i": 1,
+   "start": 8.473,
+   "end": 15.3,
+   "text": "The old driver gave me one rule. If you ever see footprints in the fresh snow ahead of you... don't plow over them."
+  },
+  {
+   "i": 2,
+   "start": 16.0,
+   "end": 20.416,
+   "text": "Just stop, he said. Wait for them to end. He never told me why."
+  },
+  {
+   "i": 3,
+   "start": 21.216,
+   "end": 25.717,
+   "text": "Two weeks ago, in a whiteout near the summit, my headlights found them."
+  },
+  {
+   "i": 4,
+   "start": 26.317,
+   "end": 30.072,
+   "text": "Bare footprints. Walking right down the middle of the road."
+  },
+  {
+   "i": 5,
+   "start": 30.872,
+   "end": 36.675,
+   "text": "No cars. No cabins. Nothing up there for twenty miles... and it was nine below."
+  },
+  {
+   "i": 6,
+   "start": 37.675,
+   "end": 41.259,
+   "text": "So I stopped. Engine running. Wipers going."
+  },
+  {
+   "i": 7,
+   "start": 41.859,
+   "end": 46.019,
+   "text": "The snow was coming down hard... but it wasn't filling them in."
+  },
+  {
+   "i": 8,
+   "start": 47.019,
+   "end": 52.309,
+   "text": "Then new prints started to appear. One at a time. Slow. Coming toward the truck."
+  },
+  {
+   "i": 9,
+   "start": 54.709,
+   "end": 57.269,
+   "text": "They stopped at my front bumper."
+  },
+  {
+   "i": 10,
+   "start": 58.669,
+   "end": 61.827,
+   "text": "Then they walked around to the passenger door."
+  },
+  {
+   "i": 11,
+   "start": 64.427,
+   "end": 69.099,
+   "text": "I didn't look over. I kept my eyes straight ahead, and I held my breath."
+  },
+  {
+   "i": 12,
+   "start": 70.499,
+   "end": 74.659,
+   "text": "I heard the lock click open. I felt the cold pour in."
+  },
+  {
+   "i": 13,
+   "start": 76.059,
+   "end": 80.88,
+   "text": "Then the seat beside me creaked... and something whispered, You can drive now."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 8.223
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 990,
+   "bed": "wind",
+   "start": 8.223,
+   "end": 20.966
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "wind",
+   "start": 20.966,
+   "end": 30.622
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 1000,
+   "bed": "wind",
+   "start": 30.622,
+   "end": 37.425
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "drone",
+   "start": 37.425,
+   "end": 46.919,
+   "fade_out": false
+  },
+  {
+   "id": "s5b",
+   "at": {
+    "line": 8,
+    "edge": "start",
+    "offset": -0.1
+   },
+   "cx": 960,
+   "bed": "drone_rise",
+   "cut": true,
+   "start": 46.919,
+   "end": 54.459,
+   "fade_in": false
+  },
+  {
+   "id": "s6",
+   "from_line": 9,
+   "cx": 1150,
+   "bed": "drone",
+   "start": 54.459,
+   "end": 64.177
+  },
+  {
+   "id": "s7",
+   "from_line": 11,
+   "cx": 1300,
+   "bed": "drone_deep",
+   "start": 64.177,
+   "end": 76.259,
+   "fade_out": false
+  },
+  {
+   "id": "s7b",
+   "at": {
+    "line": 13,
+    "edge": "start",
+    "offset": 0.2
+   },
+   "cx": 1300,
+   "bed": "drone_deep",
+   "cut": true,
+   "start": 76.259,
+   "end": 81.28,
+   "fade_in": false
+  },
+  {
+   "id": "_end",
+   "start": 81.28,
+   "end": 85.08
+  }
+ ],
+ "total": 85.08
+}

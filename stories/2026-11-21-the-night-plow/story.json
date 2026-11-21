@@ -1,0 +1,46 @@
+{
+ "title": "The Night Plow",
+ "slug": "2026-11-21-the-night-plow",
+ "hook": "The old plow driver gave me one rule: if you see footprints in the fresh snow ahead of you... don't plow over them.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "I drive a snowplow over the mountain pass, midnight to six.",
+  "The old driver gave me one rule. If you ever see footprints in the fresh snow ahead of you... don't plow over them.",
+  "Just stop, he said. Wait for them to end. He never told me why.",
+  "Two weeks ago, in a whiteout near the summit, my headlights found them.",
+  "Bare footprints. Walking right down the middle of the road.",
+  "No cars. No cabins. Nothing up there for twenty miles... and it was nine below.",
+  "So I stopped. Engine running. Wipers going.",
+  "The snow was coming down hard... but it wasn't filling them in.",
+  "Then new prints started to appear. One at a time. Slow. Coming toward the truck.",
+  "They stopped at my front bumper.",
+  "Then they walked around to the passenger door.",
+  "I didn't look over. I kept my eyes straight ahead, and I held my breath.",
+  "I heard the lock click open. I felt the cold pour in.",
+  "Then the seat beside me creaked... and something whispered, You can drive now."
+ ],
+ "pauses": {"1": 0.7, "2": 0.8, "4": 0.8, "5": 1.0, "7": 1.0, "8": 2.4, "9": 1.4, "10": 2.6, "11": 1.4, "12": 1.4},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 960, "bed": "wind"},
+  {"id": "s2", "from_line": 1, "cx": 990, "bed": "wind"},
+  {"id": "s3", "from_line": 3, "cx": 960, "bed": "wind"},
+  {"id": "s4", "from_line": 5, "cx": 1000, "bed": "wind"},
+  {"id": "s5", "from_line": 6, "cx": 960, "bed": "drone"},
+  {"id": "s5b", "at": {"line": 8, "edge": "start", "offset": -0.1}, "cx": 960, "bed": "drone_rise", "cut": true},
+  {"id": "s6", "from_line": 9, "cx": 1150, "bed": "drone"},
+  {"id": "s7", "from_line": 11, "cx": 1300, "bed": "drone_deep"},
+  {"id": "s7b", "at": {"line": 13, "edge": "start", "offset": 0.2}, "cx": 1300, "bed": "drone_deep", "cut": true}
+ ],
+ "events": [
+  {"sfx": "footsteps", "at": {"line": 8, "edge": "end", "offset": 0.1}, "dur": 2.2, "every": 0.75, "pan": -0.1},
+  {"sfx": "hit", "at": {"line": 9, "edge": "end", "offset": 0.2}},
+  {"sfx": "footsteps", "at": {"line": 10, "edge": "end", "offset": 0.1}, "dur": 2.4, "every": 0.75, "pan": 0.6},
+  {"sfx": "heartbeat", "at": {"line": 11, "edge": "start", "offset": 0.0}, "dur": 6.5, "every": 0.9},
+  {"sfx": "lock", "at": {"line": 12, "edge": "start", "offset": 1.0}, "pan": 0.6},
+  {"sfx": "whisper", "at": {"line": 13, "edge": "start", "offset": 2.0}, "dur": 2.2, "pan": 0.5},
+  {"sfx": "boom", "at": {"line": 13, "edge": "end", "offset": 0.2}}
+ ],
+ "end_card": ["When the prints stop...", "don't look", "at the passenger seat."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#snowplow", "#fyp"]
+}
