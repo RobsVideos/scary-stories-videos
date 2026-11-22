@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter><linearGradient id="irwall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1715"/><stop offset="1" stop-color="#22332e"/></linearGradient>
+<linearGradient id="irfloor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1d2b27"/><stop offset="1" stop-color="#0a110f"/></linearGradient>
+<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#000" opacity="0.28"/></pattern><linearGradient id="deskl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3ec7a8" stop-opacity="0.25"/><stop offset="1" stop-color="#000" stop-opacity="0.4"/></linearGradient></defs>
+<rect width="1920" height="1080" fill="#040607"/>
+<rect x="0" y="0" width="1920" height="520" fill="#0b1415"/>
+<circle cx="960" cy="260" r="700" fill="#3ec7a8" opacity="0.25" filter="url(#blur30)"/>
+<polygon points="0,520 1920,520 1920,1080 0,1080" fill="#162022"/>
+<polygon points="0,520 1920,520 1920,1080 0,1080" fill="url(#deskl)"/>
+<g fill="#8b9a95">
+<path d="M560 1080 L600 760 C604 720 640 700 680 700 L800 700 C840 700 860 720 860 750 L880 1080Z"/>
+<rect x="600" y="637" width="46" height="130" rx="22"/><rect x="658" y="619" width="46" height="130" rx="22"/><rect x="716" y="619" width="46" height="130" rx="22"/><rect x="774" y="637" width="46" height="130" rx="22"/>
+<rect x="830" y="700" width="40" height="110" rx="20" transform="rotate(35 850 750)"/>
+<path d="M1360 1080 L1320 760 C1316 720 1280 700 1240 700 L1120 700 C1080 700 1060 720 1060 750 L1040 1080Z"/>
+<rect x="1134" y="637" width="46" height="130" rx="22"/><rect x="1192" y="619" width="46" height="130" rx="22"/><rect x="1250" y="619" width="46" height="130" rx="22"/><rect x="1308" y="637" width="46" height="130" rx="22"/>
+<rect x="1050" y="700" width="40" height="110" rx="20" transform="rotate(-35 1070 750)"/>
+</g>
+<g fill="#000" opacity="0.35">
+<path d="M560 1080 L600 860 L880 860 L880 1080Z"/><path d="M1360 1080 L1320 860 L1040 860 L1040 1080Z"/>
+</g>
+<rect x="0" y="0" width="1920" height="520" fill="url(#scan)" opacity="0.4"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

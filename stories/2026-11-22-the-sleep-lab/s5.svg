@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter><linearGradient id="irwall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d1715"/><stop offset="1" stop-color="#22332e"/></linearGradient>
+<linearGradient id="irfloor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1d2b27"/><stop offset="1" stop-color="#0a110f"/></linearGradient>
+<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#000" opacity="0.28"/></pattern></defs>
+<rect width="1920" height="1080" fill="#06080a"/>
+<rect x="420" y="220" width="1080" height="720" rx="20" fill="#151b1d"/>
+<rect x="420" y="220" width="1080" height="12" fill="#2a3739"/>
+<rect x="720" y="280" width="480" height="160" rx="8" fill="#071210"/>
+<path d="M740 370 L754 376 L769 327 L784 395 L799 363 L814 414 L829 344 L844 378 L859 325 L874 397 L889 361 L904 416 L919 342 L934 380 L949 323 L964 399 L979 359 L994 418 L1009 340 L1024 382 L1039 321 L1054 401 L1069 357 L1084 420 L1099 338 L1114 384 L1129 319 L1144 403 L1159 355" stroke="#56e0b8" stroke-width="5" fill="none"/>
+<path d="M740 370 L754 376 L769 327 L784 395 L799 363 L814 414 L829 344 L844 378 L859 325 L874 397 L889 361 L904 416 L919 342 L934 380 L949 323 L964 399 L979 359 L994 418 L1009 340 L1024 382 L1039 321 L1054 401 L1069 357 L1084 420 L1099 338 L1114 384 L1129 319 L1144 403 L1159 355" stroke="#56e0b8" stroke-width="12" fill="none" opacity="0.4" filter="url(#blur8)"/>
+<text x="740" y="310" font-family="DejaVu Sans Mono, monospace" font-size="24" fill="#56e0b8" opacity="0.8">RM 6 AUDIO</text>
+<rect x="560" y="500" width="14" height="300" rx="7" fill="#05080a"/><rect x="530" y="720" width="74" height="40" rx="6" fill="#8a9a9a"/><rect x="700" y="500" width="14" height="300" rx="7" fill="#05080a"/><rect x="670" y="697" width="74" height="40" rx="6" fill="#8a9a9a"/><rect x="840" y="500" width="14" height="300" rx="7" fill="#05080a"/><rect x="810" y="494" width="74" height="40" rx="6" fill="#8a9a9a"/><rect x="980" y="500" width="14" height="300" rx="7" fill="#05080a"/><rect x="950" y="711" width="74" height="40" rx="6" fill="#8a9a9a"/><rect x="1120" y="500" width="14" height="300" rx="7" fill="#05080a"/><rect x="1090" y="688" width="74" height="40" rx="6" fill="#8a9a9a"/><rect x="1260" y="500" width="14" height="300" rx="7" fill="#05080a"/><rect x="1230" y="665" width="74" height="40" rx="6" fill="#8a9a9a"/>
+<circle cx="1370" cy="560" r="80" fill="#0b0f10"/><circle cx="1370" cy="560" r="62" fill="#2c3638"/>
+<line x1="1370" y1="560" x2="1420" y2="510" stroke="#ff3b2f" stroke-width="8" stroke-linecap="round"/>
+<circle cx="1460" cy="260" r="8" fill="#ff3b2f"/><circle cx="1460" cy="260" r="30" fill="#ff3b2f" opacity="0.7" filter="url(#blur30)"/>
+<g fill="#020304">
+<path d="M700 1080 C690 960 730 870 790 830 C840 800 870 760 860 720 C858 700 880 690 896 704 C930 740 900 820 880 860 L940 1080Z"/>
+</g>
+<circle cx="960" cy="360" r="420" fill="#3ec7a8" opacity="0.14" filter="url(#blur30)"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

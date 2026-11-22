@@ -1,0 +1,182 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 9.025,
+   "text": "I work nights at a sleep clinic, watching strangers sleep on six small screens."
+  },
+  {
+   "i": 1,
+   "start": 9.625,
+   "end": 12.612,
+   "text": "The tech who trained me left one rule."
+  },
+  {
+   "i": 2,
+   "start": 13.212,
+   "end": 19.569,
+   "text": "If a patient ever sits up and stares into the camera... don't go in. Don't use the intercom. Just wait."
+  },
+  {
+   "i": 3,
+   "start": 20.369,
+   "end": 23.463,
+   "text": "For two months, all I saw was snoring."
+  },
+  {
+   "i": 4,
+   "start": 24.163,
+   "end": 28.024,
+   "text": "Then, at three a.m., the man in room six sat up."
+  },
+  {
+   "i": 5,
+   "start": 29.024,
+   "end": 32.971,
+   "text": "Slowly. Like something was lifting him by the collar."
+  },
+  {
+   "i": 6,
+   "start": 33.771,
+   "end": 37.888,
+   "text": "He turned to the camera, and he didn't blink. His lips were moving."
+  },
+  {
+   "i": 7,
+   "start": 38.588,
+   "end": 41.105,
+   "text": "I turned up the room audio."
+  },
+  {
+   "i": 8,
+   "start": 43.305,
+   "end": 46.505,
+   "text": "He was counting down. Five... four..."
+  },
+  {
+   "i": 9,
+   "start": 47.705,
+   "end": 51.951,
+   "text": "Room five sat up. Then room four. Then three. Then two."
+  },
+  {
+   "i": 10,
+   "start": 52.751,
+   "end": 56.249,
+   "text": "All of them, staring at me. All of them counting."
+  },
+  {
+   "i": 11,
+   "start": 57.249,
+   "end": 61.26,
+   "text": "I kept my hands flat on the desk, and I didn't breathe."
+  },
+  {
+   "i": 12,
+   "start": 62.66,
+   "end": 63.339,
+   "text": "One."
+  },
+  {
+   "i": 13,
+   "start": 65.939,
+   "end": 69.886,
+   "text": "That's when I remembered. There are only five patient rooms."
+  },
+  {
+   "i": 14,
+   "start": 70.686,
+   "end": 76.019,
+   "text": "Screen one is the camera above my desk... and on it, I wasn't sitting alone."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "room",
+   "start": 3.5,
+   "end": 9.375
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 780,
+   "bed": "room",
+   "start": 9.375,
+   "end": 20.119
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "drone",
+   "start": 20.119,
+   "end": 28.774,
+   "fade_out": false
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "drone",
+   "cut": true,
+   "start": 28.774,
+   "end": 38.338,
+   "fade_in": false
+  },
+  {
+   "id": "s5",
+   "from_line": 7,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 38.338,
+   "end": 47.455
+  },
+  {
+   "id": "s6",
+   "from_line": 9,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 47.455,
+   "end": 56.999
+  },
+  {
+   "id": "s7",
+   "from_line": 11,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 56.999,
+   "end": 65.689
+  },
+  {
+   "id": "s6b",
+   "from_line": 13,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 65.689,
+   "end": 70.436
+  },
+  {
+   "id": "s8",
+   "from_line": 14,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 70.436,
+   "end": 76.41900000000001
+  },
+  {
+   "id": "_end",
+   "start": 76.41900000000001,
+   "end": 80.21900000000001
+  }
+ ],
+ "total": 80.21900000000001
+}

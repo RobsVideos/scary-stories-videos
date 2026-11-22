@@ -1,0 +1,171 @@
+{
+ "title": "The Sleep Lab",
+ "slug": "2026-11-22-the-sleep-lab",
+ "hook": "I watch strangers sleep for a living. One rule: if a patient sits up and stares into the camera... don't go in.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "I work nights at a sleep clinic, watching strangers sleep on six small screens.",
+  "The tech who trained me left one rule.",
+  "If a patient ever sits up and stares into the camera... don't go in. Don't use the intercom. Just wait.",
+  "For two months, all I saw was snoring.",
+  "Then, at three a.m., the man in room six sat up.",
+  "Slowly. Like something was lifting him by the collar.",
+  "He turned to the camera, and he didn't blink. His lips were moving.",
+  "I turned up the room audio.",
+  "He was counting down. Five... four...",
+  "Room five sat up. Then room four. Then three. Then two.",
+  "All of them, staring at me. All of them counting.",
+  "I kept my hands flat on the desk, and I didn't breathe.",
+  "One.",
+  "That's when I remembered. There are only five patient rooms.",
+  "Screen one is the camera above my desk... and on it, I wasn't sitting alone."
+ ],
+ "pauses": {
+  "0": 0.6,
+  "1": 0.6,
+  "2": 0.8,
+  "3": 0.7,
+  "4": 1.0,
+  "5": 0.8,
+  "6": 0.7,
+  "7": 2.2,
+  "8": 1.2,
+  "9": 0.8,
+  "10": 1.0,
+  "11": 1.4,
+  "12": 2.6,
+  "13": 0.8
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "room"
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 780,
+   "bed": "room"
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "drone"
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "drone",
+   "cut": true
+  },
+  {
+   "id": "s5",
+   "from_line": 7,
+   "cx": 960,
+   "bed": "drone_rise"
+  },
+  {
+   "id": "s6",
+   "from_line": 9,
+   "cx": 960,
+   "bed": "drone_rise"
+  },
+  {
+   "id": "s7",
+   "from_line": 11,
+   "cx": 960,
+   "bed": "drone_deep"
+  },
+  {
+   "id": "s6b",
+   "from_line": 13,
+   "cx": 960,
+   "bed": "drone_deep"
+  },
+  {
+   "id": "s8",
+   "from_line": 14,
+   "cx": 960,
+   "bed": "drone_deep"
+  }
+ ],
+ "events": [
+  {
+   "sfx": "monitor",
+   "at": {
+    "line": 3,
+    "edge": "start",
+    "offset": 0.0
+   },
+   "dur": 5.0,
+   "pan": 0.4,
+   "gain": -4
+  },
+  {
+   "sfx": "creak",
+   "at": {
+    "line": 5,
+    "edge": "start",
+    "offset": -0.2
+   },
+   "dur": 2.0,
+   "pan": 0.3
+  },
+  {
+   "sfx": "whisper",
+   "at": {
+    "line": 7,
+    "edge": "end",
+    "offset": 0.2
+   },
+   "dur": 2.0,
+   "pan": -0.2
+  },
+  {
+   "sfx": "heartbeat",
+   "at": {
+    "line": 11,
+    "edge": "start",
+    "offset": 0.0
+   },
+   "dur": 6.0,
+   "every": 0.8
+  },
+  {
+   "sfx": "static",
+   "at": {
+    "line": 14,
+    "edge": "start",
+    "offset": -0.3
+   },
+   "dur": 1.2,
+   "gain": -6
+  },
+  {
+   "sfx": "hit",
+   "at": {
+    "line": 14,
+    "edge": "end",
+    "offset": 0.1
+   }
+  }
+ ],
+ "end_card": [
+  "Never check",
+  "screen one",
+  "after three."
+ ],
+ "hashtags": [
+  "#scarystories",
+  "#horrorstories",
+  "#creepy",
+  "#scary",
+  "#horrortok",
+  "#fyp"
+ ]
+}
