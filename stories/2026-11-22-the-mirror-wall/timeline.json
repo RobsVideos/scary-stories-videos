@@ -1,0 +1,180 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 8.364,
+   "text": "I clean a little dance studio downtown, after the last class goes home."
+  },
+  {
+   "i": 1,
+   "start": 8.964,
+   "end": 13.743,
+   "text": "One whole wall is mirror. And the owner, Miss Adele, gave me one rule."
+  },
+  {
+   "i": 2,
+   "start": 14.343,
+   "end": 19.655,
+   "text": "Never turn off the lights while you're facing the mirror. Always turn your back to it first."
+  },
+  {
+   "i": 3,
+   "start": 20.455,
+   "end": 23.911,
+   "text": "I figured she was worried I'd trip in the dark."
+  },
+  {
+   "i": 4,
+   "start": 24.611,
+   "end": 29.304,
+   "text": "For a whole year, I did it her way. Back to the glass. Click. Out the door."
+  },
+  {
+   "i": 5,
+   "start": 30.104,
+   "end": 35.416,
+   "text": "Then last night, my phone buzzed just as I reached for the switch... and I forgot."
+  },
+  {
+   "i": 6,
+   "start": 36.416,
+   "end": 40.107,
+   "text": "The lights went out. I was staring straight into the glass."
+  },
+  {
+   "i": 7,
+   "start": 41.107,
+   "end": 44.435,
+   "text": "And in the dark, I heard it. Tap. Tap. Tap."
+  },
+  {
+   "i": 8,
+   "start": 45.235,
+   "end": 48.925,
+   "text": "Like ballet shoes... on the other side of the mirror."
+  },
+  {
+   "i": 9,
+   "start": 51.525,
+   "end": 53.957,
+   "text": "I slapped the lights back on."
+  },
+  {
+   "i": 10,
+   "start": 54.957,
+   "end": 59.075,
+   "text": "There was my reflection. Same mop. Same tired face."
+  },
+  {
+   "i": 11,
+   "start": 59.875,
+   "end": 64.141,
+   "text": "But it moved a half second after I did. Every single time."
+  },
+  {
+   "i": 12,
+   "start": 65.741,
+   "end": 68.664,
+   "text": "I didn't finish mopping. I just left."
+  },
+  {
+   "i": 13,
+   "start": 70.064,
+   "end": 77.275,
+   "text": "This morning, Miss Adele called me. She asked why I came back at three a.m.... and danced in the dark until sunrise."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 8.714
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 960,
+   "bed": "room",
+   "start": 8.714,
+   "end": 24.361
+  },
+  {
+   "id": "s3",
+   "from_line": 4,
+   "cx": 1220,
+   "bed": "room",
+   "start": 24.361,
+   "end": 29.854
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 980,
+   "bed": "room",
+   "start": 29.854,
+   "end": 36.166
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "drone",
+   "start": 36.166,
+   "end": 42.707,
+   "fade_out": false
+  },
+  {
+   "id": "s5b",
+   "at": {
+    "line": 7,
+    "edge": "start",
+    "offset": 1.6
+   },
+   "cx": 900,
+   "bed": "drone_rise",
+   "cut": true,
+   "start": 42.707,
+   "end": 51.275,
+   "fade_in": false
+  },
+  {
+   "id": "s6",
+   "from_line": 9,
+   "cx": 980,
+   "bed": "drone_rise",
+   "start": 51.275,
+   "end": 65.491
+  },
+  {
+   "id": "s7",
+   "from_line": 12,
+   "cx": 900,
+   "bed": "wind",
+   "start": 65.491,
+   "end": 69.814
+  },
+  {
+   "id": "s8",
+   "from_line": 13,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 69.814,
+   "end": 77.67500000000001
+  },
+  {
+   "id": "_end",
+   "start": 77.67500000000001,
+   "end": 81.47500000000001
+  }
+ ],
+ "total": 81.47500000000001
+}

@@ -1,0 +1,184 @@
+{
+ "title": "The Mirror Wall",
+ "slug": "2026-11-22-the-mirror-wall",
+ "hook": "The dance studio I clean has one rule: never turn off the lights while you're facing the mirror.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "I clean a little dance studio downtown, after the last class goes home.",
+  "One whole wall is mirror. And the owner, Miss Adele, gave me one rule.",
+  "Never turn off the lights while you're facing the mirror. Always turn your back to it first.",
+  "I figured she was worried I'd trip in the dark.",
+  "For a whole year, I did it her way. Back to the glass. Click. Out the door.",
+  "Then last night, my phone buzzed just as I reached for the switch... and I forgot.",
+  "The lights went out. I was staring straight into the glass.",
+  "And in the dark, I heard it. Tap. Tap. Tap.",
+  "Like ballet shoes... on the other side of the mirror.",
+  "I slapped the lights back on.",
+  "There was my reflection. Same mop. Same tired face.",
+  "But it moved a half second after I did. Every single time.",
+  "I didn't finish mopping. I just left.",
+  "This morning, Miss Adele called me. She asked why I came back at three a.m.... and danced in the dark until sunrise."
+ ],
+ "pauses": {
+  "0": 0.6,
+  "1": 0.6,
+  "2": 0.8,
+  "3": 0.7,
+  "4": 0.8,
+  "5": 1.0,
+  "6": 1.0,
+  "7": 0.8,
+  "8": 2.6,
+  "9": 1.0,
+  "10": 0.8,
+  "11": 1.6,
+  "12": 1.4
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind"
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 960,
+   "bed": "room"
+  },
+  {
+   "id": "s3",
+   "from_line": 4,
+   "cx": 1220,
+   "bed": "room"
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 980,
+   "bed": "room"
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "drone"
+  },
+  {
+   "id": "s5b",
+   "at": {
+    "line": 7,
+    "edge": "start",
+    "offset": 1.6
+   },
+   "cx": 900,
+   "bed": "drone_rise",
+   "cut": true
+  },
+  {
+   "id": "s6",
+   "from_line": 9,
+   "cx": 980,
+   "bed": "drone_rise"
+  },
+  {
+   "id": "s7",
+   "from_line": 12,
+   "cx": 900,
+   "bed": "wind"
+  },
+  {
+   "id": "s8",
+   "from_line": 13,
+   "cx": 960,
+   "bed": "drone_deep"
+  }
+ ],
+ "events": [
+  {
+   "sfx": "lock",
+   "at": {
+    "line": 4,
+    "edge": "start",
+    "offset": 3.2
+   },
+   "gain": -4,
+   "pan": 0.4
+  },
+  {
+   "sfx": "phone",
+   "at": {
+    "line": 5,
+    "edge": "start",
+    "offset": 0.8
+   },
+   "dur": 1.6,
+   "gain": -8,
+   "pan": -0.3
+  },
+  {
+   "sfx": "hit",
+   "at": {
+    "line": 6,
+    "edge": "start",
+    "offset": 0.1
+   }
+  },
+  {
+   "sfx": "knock3",
+   "at": {
+    "line": 8,
+    "edge": "end",
+    "offset": 0.3
+   },
+   "gain": -5,
+   "pan": -0.2
+  },
+  {
+   "sfx": "heartbeat",
+   "at": {
+    "line": 10,
+    "edge": "start",
+    "offset": 0.0
+   },
+   "dur": 8.0,
+   "every": 0.85
+  },
+  {
+   "sfx": "footsteps",
+   "at": {
+    "line": 12,
+    "edge": "start",
+    "offset": 1.2
+   },
+   "dur": 3.0,
+   "every": 0.4,
+   "pan": 0.3
+  },
+  {
+   "sfx": "whisper",
+   "at": {
+    "line": 13,
+    "edge": "start",
+    "offset": 2.0
+   },
+   "dur": 5.0,
+   "pan": -0.3
+  }
+ ],
+ "end_card": [
+  "Turn your back",
+  "before you turn",
+  "off the lights."
+ ],
+ "hashtags": [
+  "#scarystories",
+  "#horrorstories",
+  "#creepy",
+  "#scary",
+  "#horrortok",
+  "#fyp"
+ ]
+}
