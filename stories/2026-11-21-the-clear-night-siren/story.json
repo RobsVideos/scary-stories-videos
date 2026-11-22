@@ -1,0 +1,46 @@
+{
+ "title": "The Clear-Night Siren",
+ "slug": "2026-11-21-the-clear-night-siren",
+ "hook": "If the tornado siren ever goes off on a clear night... don't go down to the basement.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "In my little town, the tornado siren only sounds for tests. First Wednesday of the month... at noon.",
+  "But my grandpa gave me one rule about it.",
+  "If that siren ever goes off on a clear night... don't go down to the basement.",
+  "Stay upstairs. Lights off. And wait.",
+  "Last night, the sky was perfectly clear. Stars everywhere. Not a breath of wind.",
+  "At two in the morning... the siren started to wail.",
+  "Porch lights snapped on all down the street. My neighbors ran for their cellars in their pajamas, dragging their kids by the hand.",
+  "I stayed upstairs, in the dark. Just like Grandpa said.",
+  "Ten minutes later, the siren stopped.",
+  "Then a calm voice came over the speaker on the pole. All clear. You can come out now.",
+  "One by one, the cellar doors swung open... and my neighbors climbed out.",
+  "Slow. Stiff. Not talking. Not one of them went back inside.",
+  "They just turned, all together... and looked up at my dark window.",
+  "They're still standing out there... waiting for me to come down."
+ ],
+ "pauses": {"5": 2.6, "7": 0.8, "8": 2.2, "9": 0.9, "11": 0.8, "12": 1.4},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 960, "bed": "wind"},
+  {"id": "s2", "from_line": 1, "cx": 900, "bed": "wind"},
+  {"id": "s3", "from_line": 2, "cx": 900, "bed": "room"},
+  {"id": "s4", "from_line": 4, "cx": 1000, "bed": "drone"},
+  {"id": "s5", "from_line": 6, "cx": 960, "bed": "drone_rise"},
+  {"id": "s6", "from_line": 7, "cx": 960, "bed": "room"},
+  {"id": "s7", "from_line": 9, "cx": 960, "bed": "drone"},
+  {"id": "s8", "from_line": 10, "cx": 960, "bed": "drone_deep"},
+  {"id": "s9", "from_line": 12, "cx": 960, "bed": "drone_deep"},
+  {"id": "s9b", "at": {"line": 12, "edge": "end", "offset": 0.2}, "cx": 960, "bed": "drone_deep", "cut": true}
+ ],
+ "events": [
+  {"sfx": "riser", "at": {"line": 5, "edge": "end", "offset": 0.1}, "dur": 2.5, "gain": 2},
+  {"sfx": "footsteps", "at": {"line": 6, "edge": "start", "offset": 1.5}, "dur": 5, "every": 0.3, "pan": -0.3},
+  {"sfx": "static", "at": {"line": 9, "edge": "start", "offset": -0.4}, "dur": 1.2, "pan": 0.2},
+  {"sfx": "creak", "at": {"line": 10, "edge": "start", "offset": 0.4}, "dur": 2.5, "pan": -0.2},
+  {"sfx": "hit", "at": {"line": 12, "edge": "end", "offset": 0.2}},
+  {"sfx": "heartbeat", "at": {"line": 13, "edge": "start", "offset": 0.0}, "dur": 5, "every": 0.9}
+ ],
+ "end_card": ["If the siren sounds", "on a clear night...", "stay upstairs."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}

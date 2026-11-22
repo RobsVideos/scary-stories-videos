@@ -1,0 +1,188 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 10.156,
+   "text": "In my little town, the tornado siren only sounds for tests. First Wednesday of the month... at noon."
+  },
+  {
+   "i": 1,
+   "start": 10.756,
+   "end": 14.169,
+   "text": "But my grandpa gave me one rule about it."
+  },
+  {
+   "i": 2,
+   "start": 14.769,
+   "end": 19.74,
+   "text": "If that siren ever goes off on a clear night... don't go down to the basement."
+  },
+  {
+   "i": 3,
+   "start": 20.34,
+   "end": 23.241,
+   "text": "Stay upstairs. Lights off. And wait."
+  },
+  {
+   "i": 4,
+   "start": 24.341,
+   "end": 29.845,
+   "text": "Last night, the sky was perfectly clear. Stars everywhere. Not a breath of wind."
+  },
+  {
+   "i": 5,
+   "start": 30.445,
+   "end": 33.965,
+   "text": "At two in the morning... the siren started to wail."
+  },
+  {
+   "i": 6,
+   "start": 36.565,
+   "end": 44.416,
+   "text": "Porch lights snapped on all down the street. My neighbors ran for their cellars in their pajamas, dragging their kids by the hand."
+  },
+  {
+   "i": 7,
+   "start": 45.016,
+   "end": 49.069,
+   "text": "I stayed upstairs, in the dark. Just like Grandpa said."
+  },
+  {
+   "i": 8,
+   "start": 49.869,
+   "end": 52.813,
+   "text": "Ten minutes later, the siren stopped."
+  },
+  {
+   "i": 9,
+   "start": 55.013,
+   "end": 60.496,
+   "text": "Then a calm voice came over the speaker on the pole. All clear. You can come out now."
+  },
+  {
+   "i": 10,
+   "start": 61.396,
+   "end": 66.388,
+   "text": "One by one, the cellar doors swung open... and my neighbors climbed out."
+  },
+  {
+   "i": 11,
+   "start": 66.988,
+   "end": 71.297,
+   "text": "Slow. Stiff. Not talking. Not one of them went back inside."
+  },
+  {
+   "i": 12,
+   "start": 72.097,
+   "end": 76.343,
+   "text": "They just turned, all together... and looked up at my dark window."
+  },
+  {
+   "i": 13,
+   "start": 77.743,
+   "end": 81.775,
+   "text": "They're still standing out there... waiting for me to come down."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 10.506
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 900,
+   "bed": "wind",
+   "start": 10.506,
+   "end": 14.519
+  },
+  {
+   "id": "s3",
+   "from_line": 2,
+   "cx": 900,
+   "bed": "room",
+   "start": 14.519,
+   "end": 24.091
+  },
+  {
+   "id": "s4",
+   "from_line": 4,
+   "cx": 1000,
+   "bed": "drone",
+   "start": 24.091,
+   "end": 36.315
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 36.315,
+   "end": 44.766
+  },
+  {
+   "id": "s6",
+   "from_line": 7,
+   "cx": 960,
+   "bed": "room",
+   "start": 44.766,
+   "end": 54.763
+  },
+  {
+   "id": "s7",
+   "from_line": 9,
+   "cx": 960,
+   "bed": "drone",
+   "start": 54.763,
+   "end": 61.146
+  },
+  {
+   "id": "s8",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 61.146,
+   "end": 71.847
+  },
+  {
+   "id": "s9",
+   "from_line": 12,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 71.847,
+   "end": 76.543,
+   "fade_out": false
+  },
+  {
+   "id": "s9b",
+   "at": {
+    "line": 12,
+    "edge": "end",
+    "offset": 0.2
+   },
+   "cx": 960,
+   "bed": "drone_deep",
+   "cut": true,
+   "start": 76.543,
+   "end": 82.17500000000001,
+   "fade_in": false
+  },
+  {
+   "id": "_end",
+   "start": 82.17500000000001,
+   "end": 85.97500000000001
+  }
+ ],
+ "total": 85.97500000000001
+}
