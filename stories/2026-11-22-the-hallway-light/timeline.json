@@ -1,0 +1,182 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 7.169,
+   "text": "When I was nine, my dad had one rule for our house."
+  },
+  {
+   "i": 1,
+   "start": 7.769,
+   "end": 11.289,
+   "text": "The hallway light stays on all night. Always."
+  },
+  {
+   "i": 2,
+   "start": 11.889,
+   "end": 17.756,
+   "text": "And if you ever wake up and it's off... don't get out of bed. Don't call for us. Just wait for morning."
+  },
+  {
+   "i": 3,
+   "start": 18.356,
+   "end": 20.959,
+   "text": "I thought he was scared of burglars."
+  },
+  {
+   "i": 4,
+   "start": 21.959,
+   "end": 27.036,
+   "text": "Then, one night in December, I woke up... and the crack under my door was black."
+  },
+  {
+   "i": 5,
+   "start": 28.636,
+   "end": 35.569,
+   "text": "Somewhere out in the dark hall, I heard my mom's voice. Honey? The power's out. Come here, I've got a flashlight."
+  },
+  {
+   "i": 6,
+   "start": 36.169,
+   "end": 40.735,
+   "text": "But there was no flashlight beam. Not under the door. Not anywhere."
+  },
+  {
+   "i": 7,
+   "start": 41.735,
+   "end": 45.831,
+   "text": "So I pulled the blanket over my head... and I didn't answer."
+  },
+  {
+   "i": 8,
+   "start": 47.231,
+   "end": 52.863,
+   "text": "The voice came closer. Right outside my door. It's okay, sweetheart. It's just me."
+  },
+  {
+   "i": 9,
+   "start": 54.063,
+   "end": 58.265,
+   "text": "It kept saying that... over and over... until the sun came up."
+  },
+  {
+   "i": 10,
+   "start": 60.665,
+   "end": 64.591,
+   "text": "At breakfast, Mom swore she'd slept straight through the night."
+  },
+  {
+   "i": 11,
+   "start": 65.391,
+   "end": 72.473,
+   "text": "Dad didn't say a word. He just got the stepladder from the garage, climbed all the way up, and screwed the bulb back in."
+  },
+  {
+   "i": 12,
+   "start": 73.673,
+   "end": 78.964,
+   "text": "Our ceilings are ten feet high. Whatever loosened that bulb... didn't need a ladder."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 7.519
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 960,
+   "bed": "room",
+   "start": 7.519,
+   "end": 18.106
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 1000,
+   "bed": "room",
+   "start": 18.106,
+   "end": 24.959,
+   "fade_out": false
+  },
+  {
+   "id": "s3b",
+   "at": {
+    "line": 4,
+    "edge": "start",
+    "offset": 3.0
+   },
+   "cx": 1000,
+   "bed": "drone",
+   "cut": true,
+   "start": 24.959,
+   "end": 28.386,
+   "fade_in": false
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "drone",
+   "start": 28.386,
+   "end": 41.485
+  },
+  {
+   "id": "s5",
+   "from_line": 7,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 41.485,
+   "end": 46.981
+  },
+  {
+   "id": "s6",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 46.981,
+   "end": 60.415
+  },
+  {
+   "id": "s7",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "room",
+   "start": 60.415,
+   "end": 65.141
+  },
+  {
+   "id": "s8",
+   "from_line": 11,
+   "cx": 960,
+   "bed": "room",
+   "start": 65.141,
+   "end": 73.423
+  },
+  {
+   "id": "s9",
+   "from_line": 12,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 73.423,
+   "end": 79.364
+  },
+  {
+   "id": "_end",
+   "start": 79.364,
+   "end": 83.164
+  }
+ ],
+ "total": 83.164
+}
