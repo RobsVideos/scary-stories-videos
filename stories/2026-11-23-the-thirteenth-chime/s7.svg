@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter></defs>
+<rect width="1920" height="1080" fill="#0c0a10"/>
+<g stroke="#15121a" stroke-width="3" opacity="0.7"><line x1="40" y1="0" x2="40" y2="1080"/><line x1="160" y1="0" x2="160" y2="1080"/><line x1="280" y1="0" x2="280" y2="1080"/><line x1="400" y1="0" x2="400" y2="1080"/><line x1="520" y1="0" x2="520" y2="1080"/><line x1="640" y1="0" x2="640" y2="1080"/><line x1="760" y1="0" x2="760" y2="1080"/><line x1="880" y1="0" x2="880" y2="1080"/><line x1="1000" y1="0" x2="1000" y2="1080"/><line x1="1120" y1="0" x2="1120" y2="1080"/><line x1="1240" y1="0" x2="1240" y2="1080"/><line x1="1360" y1="0" x2="1360" y2="1080"/><line x1="1480" y1="0" x2="1480" y2="1080"/><line x1="1600" y1="0" x2="1600" y2="1080"/><line x1="1720" y1="0" x2="1720" y2="1080"/><line x1="1840" y1="0" x2="1840" y2="1080"/></g>
+<rect x="840" y="330" width="240" height="380" rx="18" fill="#cfc6b2"/>
+<rect x="840" y="330" width="240" height="380" rx="18" fill="#000" opacity="0.45"/>
+<rect x="915" y="420" width="90" height="200" rx="12" fill="#a59c88"/>
+<rect x="930" y="535" width="60" height="75" rx="8" fill="#e3dac6"/>
+<rect x="930" y="535" width="60" height="75" rx="8" fill="#000" opacity="0.3"/>
+<path d="M990 430 L960 480 L985 500 L950 560 L970 590 L940 660" stroke="#1a1612" stroke-width="5" fill="none"/>
+<circle cx="960" cy="370" r="8" fill="#6d6555"/><circle cx="960" cy="670" r="8" fill="#6d6555"/>
+<g fill="#050407">
+<path d="M1000 640 C1080 620 1180 640 1260 700 C1330 750 1400 780 1500 790 L1500 900 C1380 900 1260 860 1170 800 C1100 760 1040 740 990 700Z"/>
+<rect x="940" y="590" width="90" height="34" rx="17" transform="rotate(-10 985 607)"/>
+<rect x="950" y="628" width="80" height="32" rx="16"/>
+</g>
+<polygon points="0,1080 600,760 1320,760 1920,1080" fill="#a9b4dc" opacity="0.04"/>
+<circle cx="1600" cy="200" r="220" fill="#5a6aa8" opacity="0.08" filter="url(#blur30)"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

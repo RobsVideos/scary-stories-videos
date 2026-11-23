@@ -1,0 +1,46 @@
+{
+ "title": "The Thirteenth Chime",
+ "slug": "2026-11-23-the-thirteenth-chime",
+ "hook": "My new town had one rule: if the clock in the square ever strikes thirteen, turn off every light.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "The week I moved to Alder Falls, my neighbor told me the town's only rule.",
+  "If the clock in the square ever strikes thirteen... turn off every light, and stay away from the windows.",
+  "I laughed. She didn't.",
+  "Two months later, the bells woke me just after midnight.",
+  "I counted in the dark. Eleven. Twelve.",
+  "Thirteen.",
+  "Up and down the street, porch lights went out, one by one. All except mine.",
+  "Through the gap in the curtains, I saw them. Tall gray shapes, walking slowly down the middle of the road.",
+  "Every dark house, they passed.",
+  "At mine... they stopped.",
+  "I hit the switch so hard it cracked, and I sat on the floor until sunrise.",
+  "In the morning, my neighbor was waiting at the fence, pale as paper.",
+  "A lit porch is an invitation, she whispered. But you turned it off in time.",
+  "Then she looked past me, through my kitchen window... and asked who was making breakfast."
+ ],
+ "pauses": {"1": 0.7, "2": 1.1, "3": 0.6, "4": 0.9, "5": 2.0, "6": 0.7, "7": 0.6, "8": 0.8, "9": 2.6, "10": 1.0, "11": 0.6, "12": 1.2},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 960, "bed": "wind"},
+  {"id": "s2", "from_line": 3, "cx": 1050, "bed": "room"},
+  {"id": "s3", "from_line": 5, "cx": 960, "bed": "drone"},
+  {"id": "s4", "from_line": 6, "cx": 960, "bed": "wind"},
+  {"id": "s4b", "at": {"line": 6, "edge": "start", "offset": 2.6}, "cx": 960, "bed": "wind", "cut": true},
+  {"id": "s5", "from_line": 7, "cx": 960, "bed": "drone_rise"},
+  {"id": "s6", "from_line": 9, "cx": 960, "bed": "drone"},
+  {"id": "s7", "from_line": 10, "cx": 1000, "bed": "room"},
+  {"id": "s8", "from_line": 11, "cx": 960, "bed": "wind"},
+  {"id": "s9", "from_line": 13, "cx": 960, "bed": "drone_deep"}
+ ],
+ "events": [
+  {"sfx": "clock", "at": {"line": 3, "edge": "start", "offset": 0.2}, "dur": 6.0, "pan": 0.5},
+  {"sfx": "boom", "at": {"line": 5, "edge": "start", "offset": -0.3}},
+  {"sfx": "footsteps", "at": {"line": 7, "edge": "start", "offset": 1.0}, "dur": 8.0, "every": 1.0, "gain": -4},
+  {"sfx": "heartbeat", "at": {"line": 9, "edge": "end", "offset": 0.2}, "dur": 2.6},
+  {"sfx": "lock", "at": {"line": 10, "edge": "start", "offset": 0.5}, "pan": 0.2},
+  {"sfx": "hit", "at": {"line": 13, "edge": "end", "offset": 0.3}}
+ ],
+ "end_card": ["When it strikes thirteen,", "turn off", "every light."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}

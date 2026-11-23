@@ -1,0 +1,188 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 8.641,
+   "text": "The week I moved to Alder Falls, my neighbor told me the town's only rule."
+  },
+  {
+   "i": 1,
+   "start": 9.241,
+   "end": 15.471,
+   "text": "If the clock in the square ever strikes thirteen... turn off every light, and stay away from the windows."
+  },
+  {
+   "i": 2,
+   "start": 16.171,
+   "end": 18.155,
+   "text": "I laughed. She didn't."
+  },
+  {
+   "i": 3,
+   "start": 19.255,
+   "end": 23.116,
+   "text": "Two months later, the bells woke me just after midnight."
+  },
+  {
+   "i": 4,
+   "start": 23.716,
+   "end": 26.959,
+   "text": "I counted in the dark. Eleven. Twelve."
+  },
+  {
+   "i": 5,
+   "start": 27.859,
+   "end": 28.904,
+   "text": "Thirteen."
+  },
+  {
+   "i": 6,
+   "start": 30.904,
+   "end": 35.917,
+   "text": "Up and down the street, porch lights went out, one by one. All except mine."
+  },
+  {
+   "i": 7,
+   "start": 36.617,
+   "end": 42.975,
+   "text": "Through the gap in the curtains, I saw them. Tall gray shapes, walking slowly down the middle of the road."
+  },
+  {
+   "i": 8,
+   "start": 43.575,
+   "end": 46.177,
+   "text": "Every dark house, they passed."
+  },
+  {
+   "i": 9,
+   "start": 46.977,
+   "end": 49.239,
+   "text": "At mine... they stopped."
+  },
+  {
+   "i": 10,
+   "start": 51.839,
+   "end": 56.703,
+   "text": "I hit the switch so hard it cracked, and I sat on the floor until sunrise."
+  },
+  {
+   "i": 11,
+   "start": 57.703,
+   "end": 62.097,
+   "text": "In the morning, my neighbor was waiting at the fence, pale as paper."
+  },
+  {
+   "i": 12,
+   "start": 62.697,
+   "end": 67.775,
+   "text": "A lit porch is an invitation, she whispered. But you turned it off in time."
+  },
+  {
+   "i": 13,
+   "start": 68.975,
+   "end": 74.265,
+   "text": "Then she looked past me, through my kitchen window... and asked who was making breakfast."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 19.005
+  },
+  {
+   "id": "s2",
+   "from_line": 3,
+   "cx": 1050,
+   "bed": "room",
+   "start": 19.005,
+   "end": 27.609
+  },
+  {
+   "id": "s3",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "drone",
+   "start": 27.609,
+   "end": 30.654
+  },
+  {
+   "id": "s4",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "wind",
+   "start": 30.654,
+   "end": 33.504,
+   "fade_out": false
+  },
+  {
+   "id": "s4b",
+   "at": {
+    "line": 6,
+    "edge": "start",
+    "offset": 2.6
+   },
+   "cx": 960,
+   "bed": "wind",
+   "cut": true,
+   "start": 33.504,
+   "end": 36.367,
+   "fade_in": false
+  },
+  {
+   "id": "s5",
+   "from_line": 7,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 36.367,
+   "end": 46.727
+  },
+  {
+   "id": "s6",
+   "from_line": 9,
+   "cx": 960,
+   "bed": "drone",
+   "start": 46.727,
+   "end": 51.589
+  },
+  {
+   "id": "s7",
+   "from_line": 10,
+   "cx": 1000,
+   "bed": "room",
+   "start": 51.589,
+   "end": 57.453
+  },
+  {
+   "id": "s8",
+   "from_line": 11,
+   "cx": 960,
+   "bed": "wind",
+   "start": 57.453,
+   "end": 68.725
+  },
+  {
+   "id": "s9",
+   "from_line": 13,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 68.725,
+   "end": 74.665
+  },
+  {
+   "id": "_end",
+   "start": 74.665,
+   "end": 78.465
+  }
+ ],
+ "total": 78.465
+}
