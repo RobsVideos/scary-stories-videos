@@ -1,0 +1,165 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 8.705,
+   "text": "I house-sat for a couple out by the lake. Their note on the fridge had one rule."
+  },
+  {
+   "i": 1,
+   "start": 9.305,
+   "end": 13.636,
+   "text": "Keep the dog door latched after dark. No matter what you hear."
+  },
+  {
+   "i": 2,
+   "start": 14.636,
+   "end": 21.911,
+   "text": "Their old golden retriever met me at the door, tail wagging like crazy. I figured they forgot to mention him."
+  },
+  {
+   "i": 3,
+   "start": 22.511,
+   "end": 27.524,
+   "text": "Every night, he slept at the foot of my bed. The first two nights were quiet."
+  },
+  {
+   "i": 4,
+   "start": 28.324,
+   "end": 34.02,
+   "text": "On the third night, I woke up to scratching... and the jingle of a collar... at the dog door."
+  },
+  {
+   "i": 5,
+   "start": 36.62,
+   "end": 41.228,
+   "text": "Then whining. Soft and pitiful. Like a dog left out in the cold."
+  },
+  {
+   "i": 6,
+   "start": 42.428,
+   "end": 47.74,
+   "text": "I looked down. The golden was still at the foot of the bed. Head up. Staring at the hallway."
+  },
+  {
+   "i": 7,
+   "start": 48.44,
+   "end": 51.085,
+   "text": "He didn't bark. He didn't even blink."
+  },
+  {
+   "i": 8,
+   "start": 52.485,
+   "end": 56.859,
+   "text": "The scratching went on until sunrise. Then it just... stopped."
+  },
+  {
+   "i": 9,
+   "start": 58.459,
+   "end": 63.365,
+   "text": "In the morning, I texted the owners. Your dog was so brave last night."
+  },
+  {
+   "i": 10,
+   "start": 64.165,
+   "end": 66.341,
+   "text": "They wrote back one line."
+  },
+  {
+   "i": 11,
+   "start": 68.341,
+   "end": 69.877,
+   "text": "We don't have a dog."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 880,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 9.055
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 950,
+   "bed": "room",
+   "start": 9.055,
+   "end": 14.386
+  },
+  {
+   "id": "s3",
+   "from_line": 2,
+   "cx": 960,
+   "bed": "room",
+   "start": 14.386,
+   "end": 22.261
+  },
+  {
+   "id": "s4",
+   "from_line": 3,
+   "cx": 980,
+   "bed": "room",
+   "start": 22.261,
+   "end": 28.074
+  },
+  {
+   "id": "s5",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "drone",
+   "start": 28.074,
+   "end": 42.178
+  },
+  {
+   "id": "s6",
+   "from_line": 6,
+   "cx": 980,
+   "bed": "drone_rise",
+   "start": 42.178,
+   "end": 52.235
+  },
+  {
+   "id": "s7",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "wind",
+   "start": 52.235,
+   "end": 58.209
+  },
+  {
+   "id": "s8",
+   "from_line": 9,
+   "cx": 960,
+   "bed": "room",
+   "start": 58.209,
+   "end": 66.841
+  },
+  {
+   "id": "s9",
+   "at": {
+    "line": 10,
+    "edge": "end",
+    "offset": 0.5
+   },
+   "cx": 1050,
+   "bed": "drone_deep",
+   "start": 66.841,
+   "end": 70.277
+  },
+  {
+   "id": "_end",
+   "start": 70.277,
+   "end": 74.077
+  }
+ ],
+ "total": 74.077
+}

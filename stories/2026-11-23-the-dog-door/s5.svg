@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter></defs>
+<rect width="1920" height="1080" fill="#08080e"/>
+<rect x="0" y="0" width="1920" height="900" fill="#0f0d14"/>
+<rect x="700" y="120" width="520" height="960" fill="#2a1d16"/><rect x="740" y="160" width="440" height="260" fill="#0b0d16"/><rect x="740" y="160" width="440" height="260" fill="#9fb4e8" opacity="0.18"/><line x1="960" y1="160" x2="960" y2="420" stroke="#2a1d16" stroke-width="10"/><line x1="740" y1="290" x2="1180" y2="290" stroke="#2a1d16" stroke-width="10"/><circle cx="1170" cy="510" r="14" fill="#a7853f"/><rect x="816" y="656" width="288" height="308" rx="18" fill="#cfc7b8"/><rect x="840" y="680" width="240" height="260" fill="#06070c"/><rect x="840" y="680" width="240" height="214" fill="#5a5a66" opacity="0.92"/><rect x="840" y="894" width="240" height="46" fill="#9fb4e8" opacity="0.55"/><rect x="840" y="894" width="240" height="46" fill="#9fb4e8" opacity="0.5" filter="url(#blur8)"/><rect x="900" y="918" width="120" height="34" rx="6" fill="#d24a3a"/><circle cx="960" cy="935" r="50" fill="#d24a3a" opacity="0.35" filter="url(#blur30)"/>
+<rect x="0" y="1000" width="1920" height="80" fill="#07060a"/>
+<circle cx="960" cy="1000" r="200" fill="#9fb4e8" opacity="0.18" filter="url(#blur30)"/>
+<!-- shadow of a paw under the flap -->
+<g fill="#000" opacity="0.85"><ellipse cx="930" cy="1050" rx="40" ry="18"/>
+<circle cx="900" cy="1020" r="10"/><circle cx="922" cy="1012" r="10"/><circle cx="946" cy="1012" r="10"/><circle cx="966" cy="1022" r="10"/></g>
+<path d="M850 780 l-30 -30 M1070 790 l30 -24 M960 735 l0 -36" stroke="#9fb4e8" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

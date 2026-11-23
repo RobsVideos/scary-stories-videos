@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter></defs>
+<rect width="1920" height="1080" fill="#07070c"/>
+<path d="M660 1080 C700 880 790 820 840 800 L1120 820 C1220 840 1260 1000 1290 1080Z" fill="#1e1410"/><circle cx="960" cy="520" r="340" fill="#6d8cff" opacity="0.28" filter="url(#blur30)"/><rect x="760" y="180" width="400" height="720" rx="44" fill="#0b0b10"/><rect x="776" y="198" width="368" height="684" rx="34" fill="#141826"/><rect x="776" y="198" width="368" height="74" rx="34" fill="#1d2234"/><circle cx="830" cy="235" r="20" fill="#3b4462"/><rect x="862" y="224" width="120" height="20" rx="8" fill="#56607f"/><rect x="840" y="330" width="290" height="118" rx="24" fill="#2f6bff"/><text x="860" y="380" font-family="Inter, DejaVu Sans, sans-serif" font-size="32" fill="#f2f2f7">Your dog was so</text><text x="860" y="424" font-family="Inter, DejaVu Sans, sans-serif" font-size="32" fill="#f2f2f7">brave last night.</text><ellipse cx="1150" cy="770" rx="60" ry="110" fill="#2a1c16" transform="rotate(-25 1150 770)"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

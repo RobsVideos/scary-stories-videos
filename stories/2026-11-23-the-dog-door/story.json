@@ -1,0 +1,170 @@
+{
+ "title": "The Dog Door",
+ "slug": "2026-11-23-the-dog-door",
+ "hook": "I house-sat by the lake. The note on the fridge had one rule: keep the dog door latched after dark... no matter what you hear.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "I house-sat for a couple out by the lake. Their note on the fridge had one rule.",
+  "Keep the dog door latched after dark. No matter what you hear.",
+  "Their old golden retriever met me at the door, tail wagging like crazy. I figured they forgot to mention him.",
+  "Every night, he slept at the foot of my bed. The first two nights were quiet.",
+  "On the third night, I woke up to scratching... and the jingle of a collar... at the dog door.",
+  "Then whining. Soft and pitiful. Like a dog left out in the cold.",
+  "I looked down. The golden was still at the foot of the bed. Head up. Staring at the hallway.",
+  "He didn't bark. He didn't even blink.",
+  "The scratching went on until sunrise. Then it just... stopped.",
+  "In the morning, I texted the owners. Your dog was so brave last night.",
+  "They wrote back one line.",
+  "We don't have a dog."
+ ],
+ "pauses": {
+  "0": 0.6,
+  "1": 1.0,
+  "2": 0.6,
+  "3": 0.8,
+  "4": 2.6,
+  "5": 1.2,
+  "6": 0.7,
+  "7": 1.4,
+  "8": 1.6,
+  "9": 0.8,
+  "10": 2.0
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 880,
+   "bed": "wind"
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 950,
+   "bed": "room"
+  },
+  {
+   "id": "s3",
+   "from_line": 2,
+   "cx": 960,
+   "bed": "room"
+  },
+  {
+   "id": "s4",
+   "from_line": 3,
+   "cx": 980,
+   "bed": "room"
+  },
+  {
+   "id": "s5",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "drone"
+  },
+  {
+   "id": "s6",
+   "from_line": 6,
+   "cx": 980,
+   "bed": "drone_rise"
+  },
+  {
+   "id": "s7",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "wind"
+  },
+  {
+   "id": "s8",
+   "from_line": 9,
+   "cx": 960,
+   "bed": "room"
+  },
+  {
+   "id": "s9",
+   "at": {
+    "line": 10,
+    "edge": "end",
+    "offset": 0.5
+   },
+   "cx": 1050,
+   "bed": "drone_deep"
+  }
+ ],
+ "events": [
+  {
+   "sfx": "creak",
+   "at": {
+    "line": 4,
+    "edge": "start",
+    "offset": 0.8
+   },
+   "dur": 2.5,
+   "pan": -0.3,
+   "gain": -3
+  },
+  {
+   "sfx": "knock",
+   "at": {
+    "line": 4,
+    "edge": "end",
+    "offset": 0.4
+   },
+   "pan": -0.3,
+   "gain": -4
+  },
+  {
+   "sfx": "creak",
+   "at": {
+    "line": 4,
+    "edge": "end",
+    "offset": 1.0
+   },
+   "dur": 1.6,
+   "pan": -0.3,
+   "gain": -5
+  },
+  {
+   "sfx": "whisper",
+   "at": {
+    "line": 5,
+    "edge": "start",
+    "offset": 0.2
+   },
+   "dur": 3.0,
+   "pan": -0.4,
+   "gain": -6
+  },
+  {
+   "sfx": "heartbeat",
+   "at": {
+    "line": 6,
+    "edge": "start",
+    "offset": 0.3
+   },
+   "dur": 7.0,
+   "every": 0.95
+  },
+  {
+   "sfx": "hit",
+   "at": {
+    "line": 11,
+    "edge": "start",
+    "offset": -0.2
+   }
+  }
+ ],
+ "end_card": [
+  "Keep the latch shut.",
+  "Whatever sleeps",
+  "at your feet."
+ ],
+ "hashtags": [
+  "#scarystories",
+  "#horrorstories",
+  "#creepy",
+  "#scary",
+  "#horrortok",
+  "#fyp"
+ ]
+}
