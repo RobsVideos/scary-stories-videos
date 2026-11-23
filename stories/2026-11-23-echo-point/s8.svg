@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter><linearGradient id="dawn" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a3550"/><stop offset="0.55" stop-color="#7a5a6a"/><stop offset="1" stop-color="#c8866a"/></linearGradient></defs>
+<rect width="1920" height="1080" fill="#1a1420"/>
+<rect x="0" y="0" width="1920" height="520" fill="url(#dawn)"/>
+<g fill="#0c0910"><rect x="0" y="0" width="1920" height="60"/><rect x="0" y="60" width="24" height="460"/><rect x="420" y="60" width="24" height="460"/><rect x="840" y="60" width="24" height="460"/><rect x="1260" y="60" width="24" height="460"/><rect x="1680" y="60" width="24" height="460"/><rect x="0" y="500" width="1920" height="30"/></g>
+<path d="M0 470 L400 430 L800 450 L1300 420 L1920 450 L1920 500 L0 500Z" fill="#2a1626" opacity="0.8"/>
+<rect x="560" y="520" width="800" height="560" rx="40" fill="#5a1a22"/>
+<rect x="600" y="560" width="720" height="300" rx="30" fill="#6a2028"/>
+<g fill="#0a070c"><circle cx="960" cy="523" r="43"/><path d="M910 775 L917 617 C924 581 996 581 1003 617 L1010 775Z"/><rect x="920" y="768" width="32" height="72"/><rect x="967" y="768" width="32" height="72"/><path d="M917 617 L899 725" stroke="#0a070c" stroke-width="22" stroke-linecap="round"/><path d="M1003 617 L1021 725" stroke="#0a070c" stroke-width="22" stroke-linecap="round"/></g>
+<path d="M936 546 Q960 560 984 546" stroke="#d9c8b8" stroke-width="4" fill="none"/>
+<rect x="300" y="800" width="1320" height="280" fill="#2d2630"/><rect x="300" y="800" width="1320" height="16" fill="#8a7f86"/>
+<ellipse cx="760" cy="880" rx="110" ry="30" fill="#e8e1d6"/><ellipse cx="760" cy="876" rx="60" ry="14" fill="#d9a44a"/>
+<rect x="1110" y="830" width="70" height="80" rx="8" fill="#e8e1d6"/><path d="M1180 850 q30 10 0 40" stroke="#e8e1d6" stroke-width="10" fill="none"/>
+<circle cx="1600" cy="260" r="300" fill="#ffb88a" opacity="0.18" filter="url(#blur30)"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

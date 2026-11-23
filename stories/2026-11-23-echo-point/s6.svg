@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter></defs>
+<rect width="1920" height="1080" fill="#08060b"/>
+<rect x="0" y="0" width="1920" height="700" fill="#120d18"/>
+<rect x="560" y="0" width="800" height="700" fill="#150f19"/>
+<rect x="540" y="0" width="20" height="700" fill="#09060b"/><rect x="1360" y="0" width="20" height="700" fill="#09060b"/>
+<rect x="600" y="80" width="720" height="260" fill="none" stroke="#0d0911" stroke-width="10"/>
+<rect x="600" y="380" width="720" height="260" fill="none" stroke="#0d0911" stroke-width="10"/>
+<rect x="560" y="700" width="800" height="28" fill="#ffb54a"/>
+<rect x="520" y="680" width="880" height="70" fill="#ffb54a" opacity="0.5" filter="url(#blur30)"/>
+<g fill="#040205"><rect x="720" y="700" width="120" height="28"/><rect x="1060" y="700" width="120" height="28"/>
+<path d="M880 700 L900 728 L920 700 L940 728 L960 700 L980 728 L1000 700Z" opacity="0.8"/></g>
+<rect x="0" y="728" width="1920" height="352" fill="#0a070d"/>
+<path d="M560 728 L380 1080 L1540 1080 L1360 728Z" fill="#ffb54a" opacity="0.08"/>
+<g fill="#040205" opacity="0.85"><path d="M720 728 L640 1080 L780 1080 L840 728Z"/><path d="M1060 728 L1140 1080 L1280 1080 L1180 728Z"/></g>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

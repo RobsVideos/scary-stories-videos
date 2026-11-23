@@ -1,0 +1,189 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 8.492,
+   "text": "On a road trip out west, we stopped at a canyon overlook called Echo Point."
+  },
+  {
+   "i": 1,
+   "start": 9.092,
+   "end": 14.02,
+   "text": "A rusted sign on the railing had one rule. Never shout your own name."
+  },
+  {
+   "i": 2,
+   "start": 15.02,
+   "end": 20.631,
+   "text": "My little brother Danny laughed, cupped his hands... and yelled his name as loud as he could."
+  },
+  {
+   "i": 3,
+   "start": 21.431,
+   "end": 25.143,
+   "text": "The canyon threw it back. Danny... Danny... Danny..."
+  },
+  {
+   "i": 4,
+   "start": 26.543,
+   "end": 30.66,
+   "text": "Then it just kept going. Long after any echo should have stopped."
+  },
+  {
+   "i": 5,
+   "start": 32.26,
+   "end": 37.508,
+   "text": "That night, at a motel off the highway, I woke up to a whisper outside our door."
+  },
+  {
+   "i": 6,
+   "start": 38.308,
+   "end": 39.78,
+   "text": "Danny... Danny..."
+  },
+  {
+   "i": 7,
+   "start": 41.38,
+   "end": 46.073,
+   "text": "Mom and Dad didn't stir. Danny was asleep in the bed next to mine."
+  },
+  {
+   "i": 8,
+   "start": 46.873,
+   "end": 51.268,
+   "text": "The whisper slid closer... right up to the crack under the door."
+  },
+  {
+   "i": 9,
+   "start": 52.668,
+   "end": 56.636,
+   "text": "And then, in the dark... Danny sat up and answered. I'm here."
+  },
+  {
+   "i": 10,
+   "start": 58.636,
+   "end": 63.351,
+   "text": "In the morning, he seemed fine. Just quiet. Smiling a little too much."
+  },
+  {
+   "i": 11,
+   "start": 64.351,
+   "end": 68.447,
+   "text": "But today at breakfast, he leaned across the table and asked me..."
+  },
+  {
+   "i": 12,
+   "start": 69.847,
+   "end": 71.66,
+   "text": "What's your name again?"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 8.842
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 960,
+   "bed": "wind",
+   "start": 8.842,
+   "end": 14.77
+  },
+  {
+   "id": "s3",
+   "from_line": 2,
+   "cx": 1000,
+   "bed": "wind",
+   "start": 14.77,
+   "end": 26.293
+  },
+  {
+   "id": "s3b",
+   "from_line": 4,
+   "cx": 1050,
+   "bed": "drone",
+   "start": 26.293,
+   "end": 32.01
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 1380,
+   "bed": "wind",
+   "start": 32.01,
+   "end": 41.13
+  },
+  {
+   "id": "s5",
+   "from_line": 7,
+   "cx": 900,
+   "bed": "room",
+   "start": 41.13,
+   "end": 46.623
+  },
+  {
+   "id": "s6",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 46.623,
+   "end": 53.868,
+   "fade_out": false
+  },
+  {
+   "id": "s7",
+   "at": {
+    "line": 9,
+    "edge": "start",
+    "offset": 1.2
+   },
+   "cx": 900,
+   "bed": "drone",
+   "cut": true,
+   "start": 53.868,
+   "end": 58.386,
+   "fade_in": false
+  },
+  {
+   "id": "s8",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "room",
+   "start": 58.386,
+   "end": 68.84700000000001,
+   "fade_out": false
+  },
+  {
+   "id": "s8b",
+   "at": {
+    "line": 11,
+    "edge": "end",
+    "offset": 0.4
+   },
+   "cx": 960,
+   "bed": "drone_deep",
+   "cut": true,
+   "start": 68.84700000000001,
+   "end": 72.06,
+   "fade_in": false
+  },
+  {
+   "id": "_end",
+   "start": 72.06,
+   "end": 75.86
+  }
+ ],
+ "total": 75.86
+}
