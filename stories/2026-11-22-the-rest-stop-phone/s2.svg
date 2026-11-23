@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter><linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c7ccd6" stop-opacity="0.5"/><stop offset="0.5" stop-color="#6c717c" stop-opacity="0.2"/><stop offset="1" stop-color="#2a2e36" stop-opacity="0.6"/></linearGradient></defs>
+<rect width="1920" height="1080" fill="#0c0e14"/>
+<rect x="520" y="0" width="880" height="1080" fill="#4e535c"/>
+<rect x="520" y="0" width="880" height="1080" fill="url(#steel)"/>
+<rect x="620" y="720" width="90" height="80" rx="10" fill="#262a31"/><rect x="740" y="720" width="90" height="80" rx="10" fill="#262a31"/><rect x="860" y="720" width="90" height="80" rx="10" fill="#262a31"/><rect x="620" y="830" width="90" height="80" rx="10" fill="#262a31"/><rect x="740" y="830" width="90" height="80" rx="10" fill="#262a31"/><rect x="860" y="830" width="90" height="80" rx="10" fill="#262a31"/><rect x="620" y="940" width="90" height="80" rx="10" fill="#262a31"/><rect x="740" y="940" width="90" height="80" rx="10" fill="#262a31"/><rect x="860" y="940" width="90" height="80" rx="10" fill="#262a31"/>
+<text x="665" y="775" text-anchor="middle" font-family="Inter, DejaVu Sans, sans-serif" font-size="40" fill="#c9ccd2">1</text><text x="785" y="775" text-anchor="middle" font-family="Inter, DejaVu Sans, sans-serif" font-size="40" fill="#c9ccd2">2</text><text x="905" y="775" text-anchor="middle" font-family="Inter, DejaVu Sans, sans-serif" font-size="40" fill="#c9ccd2">3</text><text x="665" y="885" text-anchor="middle" font-family="Inter, DejaVu Sans, sans-serif" font-size="40" fill="#c9ccd2">4</text><text x="785" y="885" text-anchor="middle" font-family="Inter, DejaVu Sans, sans-serif" font-size="40" fill="#c9ccd2">5</text><text x="905" y="885" text-anchor="middle" font-family="Inter, DejaVu Sans, sans-serif" font-size="40" fill="#c9ccd2">6</text><text x="665" y="995" text-anchor="middle" font-family="Inter, DejaVu Sans, sans-serif" font-size="40" fill="#c9ccd2">7</text><text x="785" y="995" text-anchor="middle" font-family="Inter, DejaVu Sans, sans-serif" font-size="40" fill="#c9ccd2">8</text><text x="905" y="995" text-anchor="middle" font-family="Inter, DejaVu Sans, sans-serif" font-size="40" fill="#c9ccd2">9</text>
+<rect x="1060" y="120" width="160" height="26" fill="#1a1c22"/>
+<g transform="rotate(-4 900 330)">
+<rect x="600" y="180" width="620" height="330" fill="#e9d98c"/>
+<rect x="600" y="180" width="620" height="330" fill="#7a5a10" opacity="0.15"/>
+<text x="910" y="270" text-anchor="middle" font-family="Inter, DejaVu Sans, sans-serif" font-size="56" font-weight="bold" fill="#6a1515">IF THIS PHONE RINGS</text>
+<text x="910" y="350" text-anchor="middle" font-family="Inter, DejaVu Sans, sans-serif" font-size="56" font-weight="bold" fill="#6a1515">IT'S FOR YOU</text>
+<rect x="680" y="390" width="460" height="80" fill="#6a1515"/>
+<text x="910" y="450" text-anchor="middle" font-family="Inter, DejaVu Sans, sans-serif" font-size="54" font-weight="bold" fill="#e9d98c">DO NOT ANSWER</text>
+<path d="M600 180 l60 0 l-60 50z" fill="#b8a960"/>
+</g>
+<rect x="520" y="0" width="880" height="1080" fill="#ffb24a" opacity="0.08"/>
+<circle cx="900" cy="120" r="300" fill="#ffb24a" opacity="0.15" filter="url(#blur30)"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

@@ -1,0 +1,177 @@
+{
+ "title": "The Rest Stop Phone",
+ "slug": "2026-11-22-the-rest-stop-phone",
+ "hook": "Every payphone on Route 9 has the same sticker: if this phone rings, it's for you. Do not answer.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "Every payphone on Route 9 has the same faded sticker.",
+  "It says: if this phone rings... it's for you. Do not answer.",
+  "My little sister and I were driving all night to our dad's place.",
+  "Around three a.m., I pulled over. She stayed asleep in the car.",
+  "The lot was empty. Just me, a humming vending machine... and that payphone.",
+  "Then it rang.",
+  "I didn't move. Twelve rings... then silence.",
+  "My cell buzzed. The caller ID was the payphone.",
+  "I let it ring out. One voicemail. No words. Just breathing.",
+  "Then, behind me, my sister's phone lit up inside the car.",
+  "I watched her answer it, half asleep. She nodded... and hung up.",
+  "I tapped on the glass. Who was that?",
+  "She stared right at me. It was you. You said to lock the doors... and not to let you back in.",
+  "The locks clicked shut.",
+  "And behind me, the payphone's receiver swung on its cord... and my own voice whispered, Good. Don't let him in."
+ ],
+ "pauses": {
+  "0": 0.6,
+  "1": 0.9,
+  "2": 0.6,
+  "3": 0.7,
+  "4": 0.8,
+  "5": 3.0,
+  "6": 0.8,
+  "7": 0.8,
+  "8": 0.9,
+  "9": 1.8,
+  "10": 0.9,
+  "11": 1.0,
+  "12": 1.0,
+  "13": 1.2
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 1000,
+   "bed": "wind"
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 910,
+   "bed": "wind"
+  },
+  {
+   "id": "s3",
+   "from_line": 2,
+   "cx": 1000,
+   "bed": "wind"
+  },
+  {
+   "id": "s4",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "drone"
+  },
+  {
+   "id": "s5",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "drone"
+  },
+  {
+   "id": "s6",
+   "from_line": 7,
+   "cx": 960,
+   "bed": "drone_rise"
+  },
+  {
+   "id": "s7",
+   "from_line": 9,
+   "cx": 990,
+   "bed": "drone_rise"
+  },
+  {
+   "id": "s8",
+   "from_line": 11,
+   "cx": 960,
+   "bed": "drone_deep"
+  },
+  {
+   "id": "s8b",
+   "from_line": 13,
+   "cx": 960,
+   "bed": "drone_deep",
+   "cut": true
+  },
+  {
+   "id": "s9",
+   "from_line": 14,
+   "cx": 960,
+   "bed": "drone_deep"
+  }
+ ],
+ "events": [
+  {
+   "sfx": "phone",
+   "at": {
+    "line": 5,
+    "edge": "end",
+    "offset": 0.2
+   },
+   "dur": 2.6,
+   "pan": 0.3
+  },
+  {
+   "sfx": "heartbeat",
+   "at": {
+    "line": 6,
+    "edge": "start",
+    "offset": 0.0
+   },
+   "dur": 4.0,
+   "every": 0.8,
+   "gain": -3
+  },
+  {
+   "sfx": "whisper",
+   "at": {
+    "line": 8,
+    "edge": "end",
+    "offset": 0.1
+   },
+   "dur": 1.8,
+   "pan": -0.2,
+   "gain": -3
+  },
+  {
+   "sfx": "phone",
+   "at": {
+    "line": 9,
+    "edge": "end",
+    "offset": 0.2
+   },
+   "dur": 1.8,
+   "pan": -0.4,
+   "gain": -6
+  },
+  {
+   "sfx": "lock",
+   "at": {
+    "line": 13,
+    "edge": "start",
+    "offset": 0.0
+   }
+  },
+  {
+   "sfx": "hit",
+   "at": {
+    "line": 14,
+    "edge": "end",
+    "offset": 0.1
+   }
+  }
+ ],
+ "end_card": [
+  "If it rings,",
+  "it's for you.",
+  "Don't answer."
+ ],
+ "hashtags": [
+  "#scarystories",
+  "#horrorstories",
+  "#creepy",
+  "#scary",
+  "#horrortok",
+  "#fyp"
+ ]
+}

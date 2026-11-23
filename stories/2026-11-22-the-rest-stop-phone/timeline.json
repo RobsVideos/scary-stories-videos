@@ -1,0 +1,190 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 7.681,
+   "text": "Every payphone on Route 9 has the same faded sticker."
+  },
+  {
+   "i": 1,
+   "start": 8.281,
+   "end": 12.42,
+   "text": "It says: if this phone rings... it's for you. Do not answer."
+  },
+  {
+   "i": 2,
+   "start": 13.32,
+   "end": 17.779,
+   "text": "My little sister and I were driving all night to our dad's place."
+  },
+  {
+   "i": 3,
+   "start": 18.379,
+   "end": 22.944,
+   "text": "Around three a.m., I pulled over. She stayed asleep in the car."
+  },
+  {
+   "i": 4,
+   "start": 23.644,
+   "end": 28.743,
+   "text": "The lot was empty. Just me, a humming vending machine... and that payphone."
+  },
+  {
+   "i": 5,
+   "start": 29.543,
+   "end": 30.78,
+   "text": "Then it rang."
+  },
+  {
+   "i": 6,
+   "start": 33.78,
+   "end": 37.087,
+   "text": "I didn't move. Twelve rings... then silence."
+  },
+  {
+   "i": 7,
+   "start": 37.887,
+   "end": 41.769,
+   "text": "My cell buzzed. The caller ID was the payphone."
+  },
+  {
+   "i": 8,
+   "start": 42.569,
+   "end": 46.943,
+   "text": "I let it ring out. One voicemail. No words. Just breathing."
+  },
+  {
+   "i": 9,
+   "start": 47.843,
+   "end": 52.109,
+   "text": "Then, behind me, my sister's phone lit up inside the car."
+  },
+  {
+   "i": 10,
+   "start": 53.909,
+   "end": 58.197,
+   "text": "I watched her answer it, half asleep. She nodded... and hung up."
+  },
+  {
+   "i": 11,
+   "start": 59.097,
+   "end": 61.999,
+   "text": "I tapped on the glass. Who was that?"
+  },
+  {
+   "i": 12,
+   "start": 62.999,
+   "end": 68.737,
+   "text": "She stared right at me. It was you. You said to lock the doors... and not to let you back in."
+  },
+  {
+   "i": 13,
+   "start": 69.737,
+   "end": 71.657,
+   "text": "The locks clicked shut."
+  },
+  {
+   "i": 14,
+   "start": 72.857,
+   "end": 79.727,
+   "text": "And behind me, the payphone's receiver swung on its cord... and my own voice whispered, Good. Don't let him in."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 1000,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 8.031
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 910,
+   "bed": "wind",
+   "start": 8.031,
+   "end": 13.07
+  },
+  {
+   "id": "s3",
+   "from_line": 2,
+   "cx": 1000,
+   "bed": "wind",
+   "start": 13.07,
+   "end": 23.394
+  },
+  {
+   "id": "s4",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "drone",
+   "start": 23.394,
+   "end": 29.293
+  },
+  {
+   "id": "s5",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "drone",
+   "start": 29.293,
+   "end": 37.637
+  },
+  {
+   "id": "s6",
+   "from_line": 7,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 37.637,
+   "end": 47.593
+  },
+  {
+   "id": "s7",
+   "from_line": 9,
+   "cx": 990,
+   "bed": "drone_rise",
+   "start": 47.593,
+   "end": 58.847
+  },
+  {
+   "id": "s8",
+   "from_line": 11,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 58.847,
+   "end": 69.487,
+   "fade_out": false
+  },
+  {
+   "id": "s8b",
+   "from_line": 13,
+   "cx": 960,
+   "bed": "drone_deep",
+   "cut": true,
+   "start": 69.487,
+   "end": 72.607,
+   "fade_in": false
+  },
+  {
+   "id": "s9",
+   "from_line": 14,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 72.607,
+   "end": 80.12700000000001
+  },
+  {
+   "id": "_end",
+   "start": 80.12700000000001,
+   "end": 83.927
+  }
+ ],
+ "total": 83.927
+}
