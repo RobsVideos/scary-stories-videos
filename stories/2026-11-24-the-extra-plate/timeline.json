@@ -1,0 +1,165 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 8.791,
+   "text": "Every Thanksgiving, my grandmother set one extra plate at the end of the table."
+  },
+  {
+   "i": 1,
+   "start": 9.391,
+   "end": 13.401,
+   "text": "Nobody sat there. Nobody asked why. That was the rule."
+  },
+  {
+   "i": 2,
+   "start": 14.201,
+   "end": 20.559,
+   "text": "This year was our first Thanksgiving without her. My aunt called the extra plate silly... and put it away."
+  },
+  {
+   "i": 3,
+   "start": 21.259,
+   "end": 25.461,
+   "text": "We ate. We laughed. For a few hours, it almost felt normal."
+  },
+  {
+   "i": 4,
+   "start": 26.261,
+   "end": 30.037,
+   "text": "Then, just before midnight, the dining room went cold."
+  },
+  {
+   "i": 5,
+   "start": 30.737,
+   "end": 34.748,
+   "text": "Every candle on the table leaned... toward the empty end."
+  },
+  {
+   "i": 6,
+   "start": 35.348,
+   "end": 38.719,
+   "text": "And in the dark, a chair slid out by itself."
+  },
+  {
+   "i": 7,
+   "start": 39.619,
+   "end": 41.475,
+   "text": "Something sat down."
+  },
+  {
+   "i": 8,
+   "start": 44.075,
+   "end": 50.603,
+   "text": "Nobody moved. The only sound was a fork... tapping slowly on the bare wood where the plate should have been."
+  },
+  {
+   "i": 9,
+   "start": 51.403,
+   "end": 58.059,
+   "text": "My little cousin started to cry. So I filled a clean plate, and set it down in front of the empty chair."
+  },
+  {
+   "i": 10,
+   "start": 58.859,
+   "end": 62.528,
+   "text": "The tapping stopped. The candles stood straight again."
+  },
+  {
+   "i": 11,
+   "start": 63.928,
+   "end": 67.021,
+   "text": "In the morning, the plate was scraped clean."
+  },
+  {
+   "i": 12,
+   "start": 67.821,
+   "end": 71.683,
+   "text": "And under it was a note, in my grandmother's handwriting."
+  },
+  {
+   "i": 13,
+   "start": 73.283,
+   "end": 76.568,
+   "text": "Next year... set two plates. It's bringing me."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 1000,
+   "bed": "room",
+   "start": 3.5,
+   "end": 13.951
+  },
+  {
+   "id": "s2",
+   "from_line": 2,
+   "cx": 900,
+   "bed": "room",
+   "start": 13.951,
+   "end": 26.011
+  },
+  {
+   "id": "s3",
+   "from_line": 4,
+   "cx": 920,
+   "bed": "wind",
+   "start": 26.011,
+   "end": 35.098
+  },
+  {
+   "id": "s4",
+   "from_line": 6,
+   "cx": 1150,
+   "bed": "drone_rise",
+   "start": 35.098,
+   "end": 43.825
+  },
+  {
+   "id": "s5",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "drone",
+   "start": 43.825,
+   "end": 51.153
+  },
+  {
+   "id": "s6",
+   "from_line": 9,
+   "cx": 1100,
+   "bed": "drone",
+   "start": 51.153,
+   "end": 63.678
+  },
+  {
+   "id": "s7",
+   "from_line": 11,
+   "cx": 1000,
+   "bed": "room",
+   "start": 63.678,
+   "end": 73.033
+  },
+  {
+   "id": "s8",
+   "from_line": 13,
+   "cx": 1150,
+   "bed": "drone_deep",
+   "start": 73.033,
+   "end": 76.968
+  },
+  {
+   "id": "_end",
+   "start": 76.968,
+   "end": 80.768
+  }
+ ],
+ "total": 80.768
+}

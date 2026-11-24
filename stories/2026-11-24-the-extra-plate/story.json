@@ -1,0 +1,44 @@
+{
+ "title": "The Extra Plate",
+ "slug": "2026-11-24-the-extra-plate",
+ "hook": "Every Thanksgiving, my grandmother set one extra plate. Nobody sat there. This year, we forgot it.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "Every Thanksgiving, my grandmother set one extra plate at the end of the table.",
+  "Nobody sat there. Nobody asked why. That was the rule.",
+  "This year was our first Thanksgiving without her. My aunt called the extra plate silly... and put it away.",
+  "We ate. We laughed. For a few hours, it almost felt normal.",
+  "Then, just before midnight, the dining room went cold.",
+  "Every candle on the table leaned... toward the empty end.",
+  "And in the dark, a chair slid out by itself.",
+  "Something sat down.",
+  "Nobody moved. The only sound was a fork... tapping slowly on the bare wood where the plate should have been.",
+  "My little cousin started to cry. So I filled a clean plate, and set it down in front of the empty chair.",
+  "The tapping stopped. The candles stood straight again.",
+  "In the morning, the plate was scraped clean.",
+  "And under it was a note, in my grandmother's handwriting.",
+  "Next year... set two plates. It's bringing me."
+ ],
+ "pauses": {"1": 0.8, "2": 0.7, "3": 0.8, "4": 0.7, "5": 0.6, "6": 0.9, "7": 2.6, "8": 0.8, "9": 0.8, "10": 1.4, "11": 0.8, "12": 1.6},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 1000, "bed": "room"},
+  {"id": "s2", "from_line": 2, "cx": 900, "bed": "room"},
+  {"id": "s3", "from_line": 4, "cx": 920, "bed": "wind"},
+  {"id": "s4", "from_line": 6, "cx": 1150, "bed": "drone_rise"},
+  {"id": "s5", "from_line": 8, "cx": 960, "bed": "drone"},
+  {"id": "s6", "from_line": 9, "cx": 1100, "bed": "drone"},
+  {"id": "s7", "from_line": 11, "cx": 1000, "bed": "room"},
+  {"id": "s8", "from_line": 13, "cx": 1150, "bed": "drone_deep"}
+ ],
+ "events": [
+  {"sfx": "clock", "at": {"line": 4, "edge": "start", "offset": 0.2}, "dur": 6.0, "pan": 0.5},
+  {"sfx": "creak", "at": {"line": 6, "edge": "start", "offset": 0.8}, "dur": 2.4, "pan": 0.4},
+  {"sfx": "hit", "at": {"line": 7, "edge": "end", "offset": 0.4}},
+  {"sfx": "knock3", "at": {"line": 8, "edge": "start", "offset": 2.2}, "gain": -9, "pan": 0.3},
+  {"sfx": "heartbeat", "at": {"line": 9, "edge": "start", "offset": 0.0}, "dur": 5.5, "every": 0.9},
+  {"sfx": "whisper", "at": {"line": 13, "edge": "start", "offset": 0.0}, "dur": 3.0, "pan": 0.3}
+ ],
+ "end_card": ["Always set", "the extra", "plate."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#thanksgiving", "#horrortok", "#fyp"]
+}
