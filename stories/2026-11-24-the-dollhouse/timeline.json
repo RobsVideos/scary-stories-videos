@@ -1,0 +1,187 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 9.687,
+   "text": "The Marlowe twins had a dollhouse built just like their real house... down to the tiniest chair."
+  },
+  {
+   "i": 1,
+   "start": 10.287,
+   "end": 14.553,
+   "text": "Their mom gave me one rule the night I started babysitting."
+  },
+  {
+   "i": 2,
+   "start": 15.153,
+   "end": 19.356,
+   "text": "Never move the dolls. Whatever they're doing... leave them be."
+  },
+  {
+   "i": 3,
+   "start": 20.156,
+   "end": 24.7,
+   "text": "There were four. A mother, a father... and two little girls in their beds."
+  },
+  {
+   "i": 4,
+   "start": 25.3,
+   "end": 31.081,
+   "text": "My second week, a fifth doll showed up. A girl with a brown ponytail... just like mine."
+  },
+  {
+   "i": 5,
+   "start": 31.781,
+   "end": 37.648,
+   "text": "Every night, she was somewhere new. The kitchen. The hallway. A little closer to the twins' room."
+  },
+  {
+   "i": 6,
+   "start": 38.348,
+   "end": 43.063,
+   "text": "Then one Friday, near midnight, I heard a tiny click from the playroom."
+  },
+  {
+   "i": 7,
+   "start": 44.263,
+   "end": 49.895,
+   "text": "The ponytail doll stood at the top of the dollhouse stairs... facing the twins' door."
+  },
+  {
+   "i": 8,
+   "start": 50.795,
+   "end": 54.976,
+   "text": "I broke the rule. I pulled her out, and shoved her in my pocket."
+  },
+  {
+   "i": 9,
+   "start": 55.676,
+   "end": 58.108,
+   "text": "The house went very quiet."
+  },
+  {
+   "i": 10,
+   "start": 59.708,
+   "end": 64.039,
+   "text": "Then, upstairs... the real stairs creaked. One step at a time."
+  },
+  {
+   "i": 11,
+   "start": 66.239,
+   "end": 71.444,
+   "text": "When Mrs. Marlowe got home, she saw the empty dollhouse stairs... and went white."
+  },
+  {
+   "i": 12,
+   "start": 72.144,
+   "end": 76.688,
+   "text": "That doll was you, she whispered. She keeps something off those stairs."
+  },
+  {
+   "i": 13,
+   "start": 77.688,
+   "end": 80.504,
+   "text": "So what did you just let climb them?"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 10.037
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 1090,
+   "bed": "room",
+   "start": 10.037,
+   "end": 19.906
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "room",
+   "start": 19.906,
+   "end": 25.05
+  },
+  {
+   "id": "s4",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "drone",
+   "start": 25.05,
+   "end": 31.531,
+   "fade_out": false
+  },
+  {
+   "id": "s4b",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "drone",
+   "cut": true,
+   "start": 31.531,
+   "end": 38.098,
+   "fade_in": false
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 38.098,
+   "end": 50.545
+  },
+  {
+   "id": "s6",
+   "from_line": 8,
+   "cx": 880,
+   "bed": "drone",
+   "start": 50.545,
+   "end": 59.458
+  },
+  {
+   "id": "s7",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 59.458,
+   "end": 65.989
+  },
+  {
+   "id": "s8",
+   "from_line": 11,
+   "cx": 960,
+   "bed": "wind",
+   "start": 65.989,
+   "end": 77.438,
+   "fade_out": false
+  },
+  {
+   "id": "s9",
+   "from_line": 13,
+   "cx": 960,
+   "bed": "drone_deep",
+   "cut": true,
+   "start": 77.438,
+   "end": 80.90400000000001,
+   "fade_in": false
+  },
+  {
+   "id": "_end",
+   "start": 80.90400000000001,
+   "end": 84.70400000000001
+  }
+ ],
+ "total": 84.70400000000001
+}

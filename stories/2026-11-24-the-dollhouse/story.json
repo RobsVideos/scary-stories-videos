@@ -1,0 +1,174 @@
+{
+ "title": "The Dollhouse",
+ "slug": "2026-11-24-the-dollhouse",
+ "hook": "The twins' dollhouse was a perfect copy of their real house. Their mom had one rule for the babysitter: never move the dolls.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "The Marlowe twins had a dollhouse built just like their real house... down to the tiniest chair.",
+  "Their mom gave me one rule the night I started babysitting.",
+  "Never move the dolls. Whatever they're doing... leave them be.",
+  "There were four. A mother, a father... and two little girls in their beds.",
+  "My second week, a fifth doll showed up. A girl with a brown ponytail... just like mine.",
+  "Every night, she was somewhere new. The kitchen. The hallway. A little closer to the twins' room.",
+  "Then one Friday, near midnight, I heard a tiny click from the playroom.",
+  "The ponytail doll stood at the top of the dollhouse stairs... facing the twins' door.",
+  "I broke the rule. I pulled her out, and shoved her in my pocket.",
+  "The house went very quiet.",
+  "Then, upstairs... the real stairs creaked. One step at a time.",
+  "When Mrs. Marlowe got home, she saw the empty dollhouse stairs... and went white.",
+  "That doll was you, she whispered. She keeps something off those stairs.",
+  "So what did you just let climb them?"
+ ],
+ "pauses": {
+  "0": 0.6,
+  "2": 0.8,
+  "4": 0.7,
+  "5": 0.7,
+  "6": 1.2,
+  "7": 0.9,
+  "8": 0.7,
+  "9": 1.6,
+  "10": 2.2,
+  "11": 0.7,
+  "12": 1.0
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind"
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 1090,
+   "bed": "room"
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "room"
+  },
+  {
+   "id": "s4",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "drone"
+  },
+  {
+   "id": "s4b",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "drone",
+   "cut": true
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "drone_rise"
+  },
+  {
+   "id": "s6",
+   "from_line": 8,
+   "cx": 880,
+   "bed": "drone"
+  },
+  {
+   "id": "s7",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "drone_deep"
+  },
+  {
+   "id": "s8",
+   "from_line": 11,
+   "cx": 960,
+   "bed": "wind"
+  },
+  {
+   "id": "s9",
+   "from_line": 13,
+   "cx": 960,
+   "bed": "drone_deep",
+   "cut": true
+  }
+ ],
+ "events": [
+  {
+   "sfx": "lock",
+   "at": {
+    "line": 6,
+    "edge": "end",
+    "offset": 0.3
+   },
+   "gain": -6,
+   "pan": 0.3
+  },
+  {
+   "sfx": "heartbeat",
+   "at": {
+    "line": 7,
+    "edge": "start",
+    "offset": 0.2
+   },
+   "dur": 7.0,
+   "every": 0.95
+  },
+  {
+   "sfx": "riser",
+   "at": {
+    "line": 9,
+    "edge": "start",
+    "offset": 0.0
+   },
+   "dur": 2.5,
+   "gain": -6
+  },
+  {
+   "sfx": "creak",
+   "at": {
+    "line": 10,
+    "edge": "start",
+    "offset": 0.9
+   },
+   "dur": 1.4,
+   "gain": -3
+  },
+  {
+   "sfx": "footsteps",
+   "at": {
+    "line": 10,
+    "edge": "end",
+    "offset": 0.2
+   },
+   "dur": 2.4,
+   "every": 0.8,
+   "gain": -4
+  },
+  {
+   "sfx": "hit",
+   "at": {
+    "line": 13,
+    "edge": "start",
+    "offset": -0.2
+   }
+  }
+ ],
+ "end_card": [
+  "Never move",
+  "the dolls.",
+  "Not even one."
+ ],
+ "hashtags": [
+  "#scarystories",
+  "#horrorstories",
+  "#creepy",
+  "#scary",
+  "#horrortok",
+  "#fyp"
+ ]
+}
