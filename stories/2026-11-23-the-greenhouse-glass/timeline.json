@@ -1,0 +1,174 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 8.577,
+   "text": "My grandfather grew roses in an old glass greenhouse behind his house."
+  },
+  {
+   "i": 1,
+   "start": 9.177,
+   "end": 12.975,
+   "text": "When he went into the hospital, I stayed to keep them watered."
+  },
+  {
+   "i": 2,
+   "start": 13.775,
+   "end": 19.748,
+   "text": "He left me one rule, written on a seed packet. If the glass fogs up at night... don't wipe it."
+  },
+  {
+   "i": 3,
+   "start": 20.948,
+   "end": 25.513,
+   "text": "The first two nights, the greenhouse sat clear and dark under the moon."
+  },
+  {
+   "i": 4,
+   "start": 26.513,
+   "end": 31.676,
+   "text": "On the third night, I saw it from the kitchen window. Every pane had gone white."
+  },
+  {
+   "i": 5,
+   "start": 32.476,
+   "end": 36.273,
+   "text": "Not from the cold. It was fogging from the inside."
+  },
+  {
+   "i": 6,
+   "start": 37.473,
+   "end": 42.273,
+   "text": "Then a small round patch cleared... and fogged again. Slow. Like breathing."
+  },
+  {
+   "i": 7,
+   "start": 43.673,
+   "end": 48.729,
+   "text": "I walked out there with a flashlight. I told myself it was just the sprinklers."
+  },
+  {
+   "i": 8,
+   "start": 49.529,
+   "end": 55.14,
+   "text": "Up close, I could hear it. A soft, wet breath against the glass... an inch from my face."
+  },
+  {
+   "i": 9,
+   "start": 57.34,
+   "end": 61.863,
+   "text": "I pulled my sleeve over my hand... and wiped one pane clean."
+  },
+  {
+   "i": 10,
+   "start": 63.463,
+   "end": 68.924,
+   "text": "There was nothing inside. Just the roses. Every single one, turned toward the house."
+  },
+  {
+   "i": 11,
+   "start": 70.524,
+   "end": 74.3,
+   "text": "This morning, the greenhouse glass was perfectly clear."
+  },
+  {
+   "i": 12,
+   "start": 75.7,
+   "end": 79.967,
+   "text": "But every window in my bedroom... is fogged from the inside."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 1000,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 13.525
+  },
+  {
+   "id": "s2",
+   "from_line": 2,
+   "cx": 960,
+   "bed": "room",
+   "start": 13.525,
+   "end": 20.698
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "wind",
+   "start": 20.698,
+   "end": 26.263
+  },
+  {
+   "id": "s4",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "room",
+   "start": 26.263,
+   "end": 37.223
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "drone",
+   "start": 37.223,
+   "end": 43.423
+  },
+  {
+   "id": "s6",
+   "from_line": 7,
+   "cx": 1080,
+   "bed": "wind",
+   "start": 43.423,
+   "end": 57.09
+  },
+  {
+   "id": "s7",
+   "from_line": 9,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 57.09,
+   "end": 70.274
+  },
+  {
+   "id": "s8",
+   "from_line": 11,
+   "cx": 960,
+   "bed": "room",
+   "start": 70.274,
+   "end": 74.8,
+   "fade_out": false
+  },
+  {
+   "id": "s8b",
+   "at": {
+    "line": 11,
+    "edge": "end",
+    "offset": 0.5
+   },
+   "cx": 960,
+   "bed": "drone_deep",
+   "cut": true,
+   "start": 74.8,
+   "end": 80.367,
+   "fade_in": false
+  },
+  {
+   "id": "_end",
+   "start": 80.367,
+   "end": 84.167
+  }
+ ],
+ "total": 84.167
+}
