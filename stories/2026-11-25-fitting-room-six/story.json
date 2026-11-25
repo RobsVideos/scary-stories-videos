@@ -1,0 +1,46 @@
+{
+ "title": "Fitting Room Six",
+ "slug": "2026-11-25-fitting-room-six",
+ "hook": "I close a clothing store at the mall. One rule: if a fitting room is locked after the lights go out... don't look under the door.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "I close a clothing store at the mall. Alone. Every night.",
+  "My manager gave me one rule. After the mall lights go out, if a fitting room is locked... don't look under the door.",
+  "Just knock twice, say \"we're closed,\" and walk away.",
+  "For a whole year, every door swung open empty.",
+  "Then one night, right after the big lights shut off, fitting room six was locked.",
+  "I knocked twice.",
+  "\"We're closed.\" No answer. No breathing. Just the hum of the lights... and my own heartbeat.",
+  "I should have walked away.",
+  "Instead, I got down on the cold floor... and looked under the door.",
+  "White sneakers. Scuffed toes. One red lace... exactly like mine.",
+  "Then the lock clicked... and the door swung slowly open.",
+  "The room was empty. Just the tall mirror... and me, kneeling in it.",
+  "I looked down. I was kneeling there in my socks.",
+  "And out in the dark mall... I heard my own footsteps, walking toward the exit."
+ ],
+ "pauses": {"0": 0.7, "1": 0.6, "2": 0.8, "3": 0.6, "4": 0.7, "5": 2.4, "6": 1.0, "7": 1.1, "8": 1.0, "9": 1.4, "10": 2.0, "11": 1.3, "12": 1.6},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 960, "bed": "room"},
+  {"id": "s2", "from_line": 1, "cx": 960, "bed": "room"},
+  {"id": "s3", "from_line": 4, "cx": 980, "bed": "drone"},
+  {"id": "s4", "from_line": 5, "cx": 960, "bed": "drone"},
+  {"id": "s5", "from_line": 8, "cx": 960, "bed": "drone_rise"},
+  {"id": "s6", "from_line": 10, "cx": 900, "bed": "drone"},
+  {"id": "s7", "from_line": 11, "cx": 960, "bed": "drone_rise"},
+  {"id": "s8", "from_line": 12, "cx": 960, "bed": "drone_deep"},
+  {"id": "s9", "from_line": 13, "cx": 960, "bed": "drone_deep"}
+ ],
+ "events": [
+  {"sfx": "knock", "at": {"line": 5, "edge": "end", "offset": 0.4}},
+  {"sfx": "knock", "at": {"line": 5, "edge": "end", "offset": 1.0}},
+  {"sfx": "heartbeat", "at": {"line": 6, "edge": "start", "offset": 2.0}, "dur": 8.0, "every": 0.9},
+  {"sfx": "lock", "at": {"line": 10, "edge": "start", "offset": 0.9}, "pan": 0.2},
+  {"sfx": "creak", "at": {"line": 10, "edge": "end", "offset": 0.1}, "dur": 1.8},
+  {"sfx": "hit", "at": {"line": 12, "edge": "start", "offset": 1.0}},
+  {"sfx": "footsteps", "at": {"line": 13, "edge": "start", "offset": 1.2}, "dur": 6.0, "every": 0.55, "pan": -0.3}
+ ],
+ "end_card": ["Never look", "under a locked", "fitting room door."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}

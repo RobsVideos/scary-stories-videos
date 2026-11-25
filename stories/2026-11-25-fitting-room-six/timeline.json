@@ -1,0 +1,173 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 7.66,
+   "text": "I close a clothing store at the mall. Alone. Every night."
+  },
+  {
+   "i": 1,
+   "start": 8.36,
+   "end": 15.379,
+   "text": "My manager gave me one rule. After the mall lights go out, if a fitting room is locked... don't look under the door."
+  },
+  {
+   "i": 2,
+   "start": 15.979,
+   "end": 19.712,
+   "text": "Just knock twice, say \"we're closed,\" and walk away."
+  },
+  {
+   "i": 3,
+   "start": 20.512,
+   "end": 24.224,
+   "text": "For a whole year, every door swung open empty."
+  },
+  {
+   "i": 4,
+   "start": 24.824,
+   "end": 29.859,
+   "text": "Then one night, right after the big lights shut off, fitting room six was locked."
+  },
+  {
+   "i": 5,
+   "start": 30.559,
+   "end": 32.031,
+   "text": "I knocked twice."
+  },
+  {
+   "i": 6,
+   "start": 34.431,
+   "end": 40.127,
+   "text": "\"We're closed.\" No answer. No breathing. Just the hum of the lights... and my own heartbeat."
+  },
+  {
+   "i": 7,
+   "start": 41.127,
+   "end": 43.089,
+   "text": "I should have walked away."
+  },
+  {
+   "i": 8,
+   "start": 44.189,
+   "end": 48.584,
+   "text": "Instead, I got down on the cold floor... and looked under the door."
+  },
+  {
+   "i": 9,
+   "start": 49.584,
+   "end": 54.363,
+   "text": "White sneakers. Scuffed toes. One red lace... exactly like mine."
+  },
+  {
+   "i": 10,
+   "start": 55.763,
+   "end": 59.645,
+   "text": "Then the lock clicked... and the door swung slowly open."
+  },
+  {
+   "i": 11,
+   "start": 61.645,
+   "end": 66.019,
+   "text": "The room was empty. Just the tall mirror... and me, kneeling in it."
+  },
+  {
+   "i": 12,
+   "start": 67.319,
+   "end": 70.817,
+   "text": "I looked down. I was kneeling there in my socks."
+  },
+  {
+   "i": 13,
+   "start": 72.417,
+   "end": 77.58,
+   "text": "And out in the dark mall... I heard my own footsteps, walking toward the exit."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "room",
+   "start": 3.5,
+   "end": 8.11
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 960,
+   "bed": "room",
+   "start": 8.11,
+   "end": 24.574
+  },
+  {
+   "id": "s3",
+   "from_line": 4,
+   "cx": 980,
+   "bed": "drone",
+   "start": 24.574,
+   "end": 30.309
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "drone",
+   "start": 30.309,
+   "end": 43.939
+  },
+  {
+   "id": "s5",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 43.939,
+   "end": 55.513
+  },
+  {
+   "id": "s6",
+   "from_line": 10,
+   "cx": 900,
+   "bed": "drone",
+   "start": 55.513,
+   "end": 61.395
+  },
+  {
+   "id": "s7",
+   "from_line": 11,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 61.395,
+   "end": 67.069
+  },
+  {
+   "id": "s8",
+   "from_line": 12,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 67.069,
+   "end": 72.167
+  },
+  {
+   "id": "s9",
+   "from_line": 13,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 72.167,
+   "end": 77.98
+  },
+  {
+   "id": "_end",
+   "start": 77.98,
+   "end": 81.78
+  }
+ ],
+ "total": 81.78
+}

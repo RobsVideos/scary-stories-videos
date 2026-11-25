@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter></defs>
+<rect width="1920" height="1080" fill="#07060b"/>
+<polygon points="0,0 1920,0 1060,420 860,420" fill="#05040a"/>
+<polygon points="0,0 860,420 860,640 0,1080" fill="#0b0a12"/>
+<polygon points="1920,0 1060,420 1060,640 1920,1080" fill="#0b0a12"/>
+<polygon points="100,48 160,77 160,997 100,1028" fill="#120f1a"/><polygon points="400,195 460,224 460,844 400,875" fill="#120f1a"/><polygon points="640,312 700,342 700,722 640,752" fill="#120f1a"/>
+<polygon points="1820,48 1760,77 1760,997 1820,1028" fill="#120f1a"/><polygon points="1520,195 1460,224 1460,844 1520,875" fill="#120f1a"/><polygon points="1280,312 1220,342 1220,722 1280,752" fill="#120f1a"/>
+<polygon points="0,1080 860,640 1060,640 1920,1080" fill="#0f0d16"/>
+<line x1="860" y1="640" x2="400" y2="1080" stroke="#07060a" stroke-width="2"/><line x1="880" y1="640" x2="512" y2="1080" stroke="#07060a" stroke-width="2"/><line x1="900" y1="640" x2="624" y2="1080" stroke="#07060a" stroke-width="2"/><line x1="920" y1="640" x2="736" y2="1080" stroke="#07060a" stroke-width="2"/><line x1="940" y1="640" x2="848" y2="1080" stroke="#07060a" stroke-width="2"/><line x1="960" y1="640" x2="960" y2="1080" stroke="#07060a" stroke-width="2"/><line x1="980" y1="640" x2="1072" y2="1080" stroke="#07060a" stroke-width="2"/><line x1="1000" y1="640" x2="1184" y2="1080" stroke="#07060a" stroke-width="2"/><line x1="1020" y1="640" x2="1296" y2="1080" stroke="#07060a" stroke-width="2"/><line x1="1040" y1="640" x2="1408" y2="1080" stroke="#07060a" stroke-width="2"/><line x1="1060" y1="640" x2="1520" y2="1080" stroke="#07060a" stroke-width="2"/>
+<rect x="860" y="420" width="200" height="220" fill="#1a2236"/>
+<rect x="870" y="440" width="85" height="200" fill="#3a4a70" opacity="0.7"/><rect x="965" y="440" width="85" height="200" fill="#3a4a70" opacity="0.7"/>
+<rect x="920" y="396" width="80" height="22" rx="3" fill="#5a0e0c"/><text x="960" y="413" text-anchor="middle" font-family="Inter, DejaVu Sans, sans-serif" font-weight="bold" font-size="16" fill="#ff2a22">EXIT</text>
+<circle cx="960" cy="407" r="60" fill="#ff2a22" opacity="0.5" filter="url(#blur30)"/>
+<circle cx="960" cy="540" r="160" fill="#6a80b8" opacity="0.25" filter="url(#blur30)"/>
+<polygon points="880,640 1040,640 1120,1080 800,1080" fill="#6a80b8" opacity="0.07"/>
+<g fill="#030205"><ellipse cx="960" cy="530.0" rx="21.000000000000004" ry="25.500000000000004"/><path d="M924.0 554.0 L996.0 554.0 L992.4 665.0 L927.6 665.0Z"/><path d="M938.4 662.0 L920.4 792 M981.6 662.0 L1003.2 786" stroke="#030205" stroke-width="24.0" stroke-linecap="round"/></g><ellipse cx="920.4" cy="796" rx="12" ry="6" fill="#e8e6e0"/><ellipse cx="1003.2" cy="790" rx="12" ry="6" fill="#e8e6e0"/>
+<ellipse cx="960" cy="806" rx="60" ry="6" fill="#000" opacity="0.5"/>
+<ellipse cx="960" cy="700" rx="1250" ry="60" fill="#5a6480" opacity="0.1" filter="url(#blur60)"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>
