@@ -1,0 +1,171 @@
+{
+ "title": "The Answering Machine",
+ "slug": "2026-11-25-the-answering-machine",
+ "hook": "Mom had one rule about Dad's old answering machine: if the red light is blinking, don't listen. Just erase it.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "My dad's old answering machine still sits on our kitchen counter... three years after his funeral.",
+  "Mom won't let anyone touch it. And she has one rule.",
+  "If that little red light is ever blinking... don't listen. Just erase it.",
+  "I thought it was grief. Nobody even calls that number anymore.",
+  "Then, one morning in December, I came down for breakfast... and the light was blinking.",
+  "Mom was still asleep. And I missed him so much.",
+  "So I pressed play.",
+  "Static. A long, tired breath. And then my dad's voice, low and shaking.",
+  "Don't let your mother go down to the basement tonight. No matter what she hears.",
+  "That night, I woke up at three a.m. to the basement door... creaking open.",
+  "I told myself it was a dream. I pulled the blanket over my head... and I didn't get up.",
+  "In the morning, Mom was at the stove, humming... like nothing ever happened.",
+  "And the red light was blinking again.",
+  "It was Mom's voice this time. Whispering. Honey... it's so dark down here. Who's in the kitchen with you?"
+ ],
+ "pauses": {
+  "5": 0.7,
+  "6": 2.2,
+  "8": 1.6,
+  "9": 2.0,
+  "11": 0.9,
+  "12": 1.6
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "room"
+  },
+  {
+   "id": "s2",
+   "from_line": 2,
+   "cx": 980,
+   "bed": "room"
+  },
+  {
+   "id": "s3",
+   "from_line": 4,
+   "cx": 1000,
+   "bed": "drone"
+  },
+  {
+   "id": "s4",
+   "from_line": 6,
+   "cx": 1000,
+   "bed": "drone"
+  },
+  {
+   "id": "s5",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "drone_rise"
+  },
+  {
+   "id": "s6",
+   "from_line": 9,
+   "cx": 880,
+   "bed": "drone_deep"
+  },
+  {
+   "id": "s7",
+   "from_line": 11,
+   "cx": 1180,
+   "bed": "room"
+  },
+  {
+   "id": "s8",
+   "from_line": 12,
+   "cx": 980,
+   "bed": "drone_rise"
+  },
+  {
+   "id": "s9",
+   "from_line": 13,
+   "cx": 960,
+   "bed": "drone_deep"
+  }
+ ],
+ "events": [
+  {
+   "sfx": "clock",
+   "at": {
+    "line": 0,
+    "edge": "start",
+    "offset": 0.2
+   },
+   "dur": 7.0,
+   "pan": 0.5,
+   "gain": -4
+  },
+  {
+   "sfx": "lock",
+   "at": {
+    "line": 6,
+    "edge": "end",
+    "offset": 0.2
+   },
+   "pan": 0.2
+  },
+  {
+   "sfx": "static",
+   "at": {
+    "line": 6,
+    "edge": "end",
+    "offset": 0.6
+   },
+   "dur": 2.0,
+   "gain": -3
+  },
+  {
+   "sfx": "whisper",
+   "at": {
+    "line": 8,
+    "edge": "start",
+    "offset": 0.0
+   },
+   "dur": 3.0,
+   "gain": -6
+  },
+  {
+   "sfx": "creak",
+   "at": {
+    "line": 9,
+    "edge": "end",
+    "offset": 0.2
+   },
+   "dur": 2.0
+  },
+  {
+   "sfx": "heartbeat",
+   "at": {
+    "line": 10,
+    "edge": "start",
+    "offset": 0.0
+   },
+   "dur": 6.0,
+   "every": 0.9
+  },
+  {
+   "sfx": "static",
+   "at": {
+    "line": 13,
+    "edge": "start",
+    "offset": -0.4
+   },
+   "dur": 1.2,
+   "gain": -6
+  }
+ ],
+ "end_card": [
+  "If the light",
+  "is blinking...",
+  "just erase it."
+ ],
+ "hashtags": [
+  "#scarystories",
+  "#horrorstories",
+  "#creepy",
+  "#scary",
+  "#horrortok",
+  "#fyp"
+ ]
+}

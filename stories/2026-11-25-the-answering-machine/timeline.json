@@ -1,0 +1,173 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 9.793,
+   "text": "My dad's old answering machine still sits on our kitchen counter... three years after his funeral."
+  },
+  {
+   "i": 1,
+   "start": 10.393,
+   "end": 14.105,
+   "text": "Mom won't let anyone touch it. And she has one rule."
+  },
+  {
+   "i": 2,
+   "start": 14.705,
+   "end": 19.484,
+   "text": "If that little red light is ever blinking... don't listen. Just erase it."
+  },
+  {
+   "i": 3,
+   "start": 20.084,
+   "end": 24.351,
+   "text": "I thought it was grief. Nobody even calls that number anymore."
+  },
+  {
+   "i": 4,
+   "start": 24.951,
+   "end": 30.412,
+   "text": "Then, one morning in December, I came down for breakfast... and the light was blinking."
+  },
+  {
+   "i": 5,
+   "start": 31.012,
+   "end": 34.681,
+   "text": "Mom was still asleep. And I missed him so much."
+  },
+  {
+   "i": 6,
+   "start": 35.381,
+   "end": 36.96,
+   "text": "So I pressed play."
+  },
+  {
+   "i": 7,
+   "start": 39.16,
+   "end": 44.28,
+   "text": "Static. A long, tired breath. And then my dad's voice, low and shaking."
+  },
+  {
+   "i": 8,
+   "start": 44.88,
+   "end": 49.552,
+   "text": "Don't let your mother go down to the basement tonight. No matter what she hears."
+  },
+  {
+   "i": 9,
+   "start": 51.152,
+   "end": 56.293,
+   "text": "That night, I woke up at three a.m. to the basement door... creaking open."
+  },
+  {
+   "i": 10,
+   "start": 58.293,
+   "end": 63.84,
+   "text": "I told myself it was a dream. I pulled the blanket over my head... and I didn't get up."
+  },
+  {
+   "i": 11,
+   "start": 64.44,
+   "end": 69.325,
+   "text": "In the morning, Mom was at the stove, humming... like nothing ever happened."
+  },
+  {
+   "i": 12,
+   "start": 70.225,
+   "end": 73.148,
+   "text": "And the red light was blinking again."
+  },
+  {
+   "i": 13,
+   "start": 74.748,
+   "end": 81.191,
+   "text": "It was Mom's voice this time. Whispering. Honey... it's so dark down here. Who's in the kitchen with you?"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "room",
+   "start": 3.5,
+   "end": 14.455
+  },
+  {
+   "id": "s2",
+   "from_line": 2,
+   "cx": 980,
+   "bed": "room",
+   "start": 14.455,
+   "end": 24.701
+  },
+  {
+   "id": "s3",
+   "from_line": 4,
+   "cx": 1000,
+   "bed": "drone",
+   "start": 24.701,
+   "end": 35.131
+  },
+  {
+   "id": "s4",
+   "from_line": 6,
+   "cx": 1000,
+   "bed": "drone",
+   "start": 35.131,
+   "end": 44.63
+  },
+  {
+   "id": "s5",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 44.63,
+   "end": 50.902
+  },
+  {
+   "id": "s6",
+   "from_line": 9,
+   "cx": 880,
+   "bed": "drone_deep",
+   "start": 50.902,
+   "end": 64.19
+  },
+  {
+   "id": "s7",
+   "from_line": 11,
+   "cx": 1180,
+   "bed": "room",
+   "start": 64.19,
+   "end": 69.975
+  },
+  {
+   "id": "s8",
+   "from_line": 12,
+   "cx": 980,
+   "bed": "drone_rise",
+   "start": 69.975,
+   "end": 74.498
+  },
+  {
+   "id": "s9",
+   "from_line": 13,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 74.498,
+   "end": 81.59100000000001
+  },
+  {
+   "id": "_end",
+   "start": 81.59100000000001,
+   "end": 85.391
+  }
+ ],
+ "total": 85.391
+}

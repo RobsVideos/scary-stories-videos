@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter></defs>
+<rect width="1920" height="1080" fill="#0c0f1c"/>
+<rect x="0" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="56" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="112" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="168" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="224" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="280" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="336" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="392" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="448" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="504" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="560" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="616" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="672" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="728" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="784" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="840" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="896" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="952" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="1008" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="1064" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="1120" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="1176" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="1232" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="1288" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="1344" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="1400" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="1456" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="1512" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="1568" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="1624" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="1680" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="1736" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="1792" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="1848" y="0" width="14" height="820" fill="#000" opacity="0.15"/><rect x="1904" y="0" width="14" height="820" fill="#000" opacity="0.15"/>
+<rect x="0" y="820" width="1920" height="260" fill="#161220"/>
+<rect x="560" y="150" width="300" height="300" fill="#16224a"/>
+<circle cx="700" cy="250" r="90" fill="#e8e2cf" opacity="0.15" filter="url(#blur30)"/><circle cx="700" cy="250" r="34" fill="#e8e2cf"/>
+<rect x="560" y="150" width="300" height="300" fill="none" stroke="#06070d" stroke-width="16"/><line x1="710" y1="150" x2="710" y2="450" stroke="#06070d" stroke-width="9"/>
+<polygon points="560,450 860,450 980,900 460,900" fill="#9fb4e8" opacity="0.05"/>
+<!-- bed -->
+<rect x="540" y="560" width="30" height="330" fill="#2a1a14"/>
+<rect x="560" y="680" width="760" height="150" rx="10" fill="#1f1a2a"/>
+<path d="M600 690 C640 600 760 590 860 640 C960 600 1120 590 1240 640 C1300 650 1320 690 1320 700 L600 700Z" fill="#3a3552"/>
+<path d="M610 700 C700 640 800 650 880 670 C980 640 1150 640 1310 690" stroke="#28243a" stroke-width="6" fill="none"/>
+<rect x="580" y="650" width="120" height="50" rx="18" fill="#4a4860"/>
+<rect x="1300" y="700" width="24" height="190" fill="#2a1a14"/>
+<!-- nightstand + clock -->
+<rect x="400" y="690" width="130" height="200" fill="#17111a"/>
+<rect x="410" y="640" width="110" height="50" rx="6" fill="#0a0608"/>
+<text x="465" y="678" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-weight="bold" font-size="36" fill="#ff2a22">3:00</text>
+<circle cx="465" cy="664" r="70" fill="#ff2a22" opacity="0.35" filter="url(#blur30)"/>
+<!-- door ajar -->
+<rect x="1180" y="250" width="240" height="570" fill="#05060a"/>
+<rect x="1180" y="250" width="240" height="570" fill="none" stroke="#06070d" stroke-width="12"/>
+<polygon points="1180,250 1330,280 1330,800 1180,820" fill="#1a1622"/>
+<rect x="1336" y="250" width="70" height="570" fill="#000"/>
+<polygon points="1336,820 1406,820 1470,900 1350,900" fill="#000" opacity="0.6"/>
+<ellipse cx="960" cy="900" rx="1250" ry="110" fill="#8a90b0" opacity="0.06" filter="url(#blur60)"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>
