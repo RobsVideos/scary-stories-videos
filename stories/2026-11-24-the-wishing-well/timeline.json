@@ -1,0 +1,167 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 8.663,
+   "text": "My grandmother's farm had an old stone well, sealed under a heavy wooden lid."
+  },
+  {
+   "i": 1,
+   "start": 9.263,
+   "end": 11.78,
+   "text": "She had one rule about it."
+  },
+  {
+   "i": 2,
+   "start": 12.58,
+   "end": 18.916,
+   "text": "Never drop anything down that well after dark. And if something ever comes back up... don't touch it."
+  },
+  {
+   "i": 3,
+   "start": 19.516,
+   "end": 24.124,
+   "text": "The summer I stayed with her, I broke that rule on my very first night."
+  },
+  {
+   "i": 4,
+   "start": 24.724,
+   "end": 29.673,
+   "text": "I slipped a penny through a crack in the lid... and wished for someone to play with."
+  },
+  {
+   "i": 5,
+   "start": 30.473,
+   "end": 32.671,
+   "text": "I never heard it land."
+  },
+  {
+   "i": 6,
+   "start": 34.671,
+   "end": 38.98,
+   "text": "The next morning, there was a penny on my pillow. Cold... and wet."
+  },
+  {
+   "i": 7,
+   "start": 39.78,
+   "end": 44.943,
+   "text": "Grandma went pale. She said, from now on, you stay inside after sunset."
+  },
+  {
+   "i": 8,
+   "start": 45.543,
+   "end": 49.447,
+   "text": "So every night, I watched the well from my bedroom window."
+  },
+  {
+   "i": 9,
+   "start": 50.247,
+   "end": 53.724,
+   "text": "On the last night of summer... the lid slid open."
+  },
+  {
+   "i": 10,
+   "start": 55.924,
+   "end": 59.764,
+   "text": "Then something tapped on my window. Three soft taps."
+  },
+  {
+   "i": 11,
+   "start": 62.364,
+   "end": 67.463,
+   "text": "And a voice, exactly like mine, whispered... let me in. I'm what you wished for."
+  },
+  {
+   "i": 12,
+   "start": 68.863,
+   "end": 75.583,
+   "text": "Mom came to get me the next morning. She hugged us both... and she doesn't remember ever having just one kid."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 9.013
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 980,
+   "bed": "wind",
+   "start": 9.013,
+   "end": 19.266
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 1000,
+   "bed": "wind",
+   "start": 19.266,
+   "end": 30.223
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 30.223,
+   "end": 34.421
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "room",
+   "start": 34.421,
+   "end": 39.53
+  },
+  {
+   "id": "s6",
+   "from_line": 7,
+   "cx": 960,
+   "bed": "room",
+   "start": 39.53,
+   "end": 49.997
+  },
+  {
+   "id": "s7",
+   "from_line": 9,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 49.997,
+   "end": 55.674
+  },
+  {
+   "id": "s8",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "drone",
+   "start": 55.674,
+   "end": 68.613
+  },
+  {
+   "id": "s9",
+   "from_line": 12,
+   "cx": 1100,
+   "bed": "drone_deep",
+   "start": 68.613,
+   "end": 75.983
+  },
+  {
+   "id": "_end",
+   "start": 75.983,
+   "end": 79.783
+  }
+ ],
+ "total": 79.783
+}

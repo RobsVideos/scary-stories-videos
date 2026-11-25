@@ -1,0 +1,43 @@
+{
+ "title": "The Wishing Well",
+ "slug": "2026-11-24-the-wishing-well",
+ "hook": "Grandma's well had one rule: never drop anything down it after dark. I dropped a penny... and made a wish.",
+ "voice": "am_onyx", "speed": 0.88,
+ "lines": [
+  "My grandmother's farm had an old stone well, sealed under a heavy wooden lid.",
+  "She had one rule about it.",
+  "Never drop anything down that well after dark. And if something ever comes back up... don't touch it.",
+  "The summer I stayed with her, I broke that rule on my very first night.",
+  "I slipped a penny through a crack in the lid... and wished for someone to play with.",
+  "I never heard it land.",
+  "The next morning, there was a penny on my pillow. Cold... and wet.",
+  "Grandma went pale. She said, from now on, you stay inside after sunset.",
+  "So every night, I watched the well from my bedroom window.",
+  "On the last night of summer... the lid slid open.",
+  "Then something tapped on my window. Three soft taps.",
+  "And a voice, exactly like mine, whispered... let me in. I'm what you wished for.",
+  "Mom came to get me the next morning. She hugged us both... and she doesn't remember ever having just one kid."
+ ],
+ "pauses": {"1": 0.8, "4": 0.8, "5": 2.0, "6": 0.8, "8": 0.8, "9": 2.2, "10": 2.6, "11": 1.4},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 960, "bed": "wind"},
+  {"id": "s2", "from_line": 1, "cx": 980, "bed": "wind"},
+  {"id": "s3", "from_line": 3, "cx": 1000, "bed": "wind"},
+  {"id": "s4", "from_line": 5, "cx": 960, "bed": "drone_deep"},
+  {"id": "s5", "from_line": 6, "cx": 960, "bed": "room"},
+  {"id": "s6", "from_line": 7, "cx": 960, "bed": "room"},
+  {"id": "s7", "from_line": 9, "cx": 960, "bed": "drone_rise"},
+  {"id": "s8", "from_line": 10, "cx": 960, "bed": "drone"},
+  {"id": "s9", "from_line": 12, "cx": 1100, "bed": "drone_deep"}
+ ],
+ "events": [
+  {"sfx": "riser", "at": {"line": 5, "edge": "start", "offset": 0.0}, "dur": 2.5, "gain": -8},
+  {"sfx": "creak", "at": {"line": 9, "edge": "end", "offset": 0.2}, "dur": 1.8, "gain": -2},
+  {"sfx": "knock3", "at": {"line": 10, "edge": "end", "offset": 0.3}, "gain": -8, "pan": 0.3},
+  {"sfx": "whisper", "at": {"line": 11, "edge": "start", "offset": 0.0}, "dur": 4.0, "gain": -8},
+  {"sfx": "heartbeat", "at": {"line": 11, "edge": "end", "offset": 0.0}, "dur": 4.0, "every": 0.95},
+  {"sfx": "hit", "at": {"line": 12, "edge": "start", "offset": -0.2}}
+ ],
+ "end_card": ["Never make a wish", "after dark.", "It might come true."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}

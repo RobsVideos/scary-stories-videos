@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter></defs>
+<rect width="1920" height="1080" fill="#08080c"/>
+<ellipse cx="960" cy="540" rx="760" ry="430" fill="#2b2d37"/><ellipse cx="960" cy="546" rx="680" ry="384" fill="#22232c"/><ellipse cx="960" cy="552" rx="600" ry="338" fill="#1b1c24"/><ellipse cx="960" cy="558" rx="520" ry="292" fill="#15161c"/><ellipse cx="960" cy="564" rx="440" ry="246" fill="#101116"/><ellipse cx="960" cy="570" rx="360" ry="200" fill="#0b0b10"/><ellipse cx="960" cy="576" rx="280" ry="154" fill="#07070a"/><ellipse cx="960" cy="582" rx="200" ry="108" fill="#040406"/><ellipse cx="960" cy="588" rx="120" ry="62" fill="#020203"/><ellipse cx="960" cy="540" rx="760" ry="430" fill="none" stroke="#000" stroke-width="5" stroke-dasharray="30 14" opacity="0.6"/><ellipse cx="960" cy="546" rx="680" ry="384" fill="none" stroke="#000" stroke-width="5" stroke-dasharray="27 13" opacity="0.6"/><ellipse cx="960" cy="552" rx="600" ry="338" fill="none" stroke="#000" stroke-width="5" stroke-dasharray="24 12" opacity="0.6"/><ellipse cx="960" cy="558" rx="520" ry="292" fill="none" stroke="#000" stroke-width="5" stroke-dasharray="21 11" opacity="0.6"/><ellipse cx="960" cy="564" rx="440" ry="246" fill="none" stroke="#000" stroke-width="5" stroke-dasharray="18 10" opacity="0.6"/><ellipse cx="960" cy="570" rx="360" ry="200" fill="none" stroke="#000" stroke-width="5" stroke-dasharray="15 9" opacity="0.6"/><ellipse cx="960" cy="576" rx="280" ry="154" fill="none" stroke="#000" stroke-width="5" stroke-dasharray="12 8" opacity="0.6"/><ellipse cx="960" cy="582" rx="200" ry="108" fill="none" stroke="#000" stroke-width="5" stroke-dasharray="9 7" opacity="0.6"/>
+<ellipse cx="960" cy="600" rx="70" ry="38" fill="#000"/>
+<circle cx="964" cy="598" r="4" fill="#d9a060"/><circle cx="964" cy="598" r="14" fill="#ffc070" opacity="0.5" filter="url(#blur30)"/>
+<path d="M300 60 C500 120 650 200 720 330" stroke="#5a4630" stroke-width="6" fill="none"/>
+<ellipse cx="960" cy="540" rx="900" ry="520" fill="none" stroke="#000" stroke-width="200" opacity="0.7" filter="url(#blur30)"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>
