@@ -1,0 +1,179 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 8.428,
+   "text": "The old man who ran the Ferris wheel gave me one rule for closing night."
+  },
+  {
+   "i": 1,
+   "start": 9.028,
+   "end": 14.639,
+   "text": "If a car ever stops at the very top after the lights go out... don't bring it down."
+  },
+  {
+   "i": 2,
+   "start": 15.639,
+   "end": 20.055,
+   "text": "I laughed. Every car was empty. I'd checked them all myself."
+  },
+  {
+   "i": 3,
+   "start": 20.655,
+   "end": 24.836,
+   "text": "At midnight, I pulled the big switch, and the whole fair went dark."
+  },
+  {
+   "i": 4,
+   "start": 25.636,
+   "end": 28.623,
+   "text": "Then, high above me, something creaked."
+  },
+  {
+   "i": 5,
+   "start": 31.223,
+   "end": 35.404,
+   "text": "One car was rocking at the top. Slow. Back and forth."
+  },
+  {
+   "i": 6,
+   "start": 36.204,
+   "end": 40.62,
+   "text": "And a small voice drifted down. Please... I want to get off."
+  },
+  {
+   "i": 7,
+   "start": 42.02,
+   "end": 46.244,
+   "text": "I knew the rule. I stood there in the cold for a long time."
+  },
+  {
+   "i": 8,
+   "start": 47.844,
+   "end": 50.276,
+   "text": "But it sounded so scared."
+  },
+  {
+   "i": 9,
+   "start": 51.276,
+   "end": 55.841,
+   "text": "So I pushed the lever. The wheel groaned... and the car came down to me."
+  },
+  {
+   "i": 10,
+   "start": 57.041,
+   "end": 61.628,
+   "text": "Empty. Just the safety bar, still locked... and the seat, still warm."
+  },
+  {
+   "i": 11,
+   "start": 62.628,
+   "end": 67.855,
+   "text": "I climbed in to check under the seat... and the bar slammed shut across my lap."
+  },
+  {
+   "i": 12,
+   "start": 69.655,
+   "end": 76.353,
+   "text": "The wheel began to turn. And far below, at the controls, a little boy in my jacket... waved goodbye."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 15.389
+  },
+  {
+   "id": "s2",
+   "from_line": 2,
+   "cx": 960,
+   "bed": "wind",
+   "start": 15.389,
+   "end": 20.405
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 900,
+   "bed": "wind",
+   "start": 20.405,
+   "end": 25.386
+  },
+  {
+   "id": "s4",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "drone",
+   "start": 25.386,
+   "end": 35.954
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "drone",
+   "start": 35.954,
+   "end": 41.77
+  },
+  {
+   "id": "s6",
+   "from_line": 7,
+   "cx": 990,
+   "bed": "wind",
+   "start": 41.77,
+   "end": 51.026
+  },
+  {
+   "id": "s7",
+   "from_line": 9,
+   "cx": 900,
+   "bed": "drone_rise",
+   "start": 51.026,
+   "end": 56.791
+  },
+  {
+   "id": "s8",
+   "from_line": 10,
+   "cx": 980,
+   "bed": "drone",
+   "start": 56.791,
+   "end": 67.25500000000001
+  },
+  {
+   "id": "s9",
+   "at": {
+    "line": 11,
+    "edge": "end",
+    "offset": -0.6
+   },
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 67.25500000000001,
+   "end": 69.405
+  },
+  {
+   "id": "s10",
+   "from_line": 12,
+   "cx": 1000,
+   "bed": "drone_deep",
+   "start": 69.405,
+   "end": 76.753
+  },
+  {
+   "id": "_end",
+   "start": 76.753,
+   "end": 80.553
+  }
+ ],
+ "total": 80.553
+}

@@ -1,0 +1,45 @@
+{
+ "title": "The Top Car",
+ "slug": "2026-11-25-the-top-car",
+ "hook": "The old Ferris wheel operator had one rule: if a car ever stops at the top after the lights go out... don't bring it down.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "The old man who ran the Ferris wheel gave me one rule for closing night.",
+  "If a car ever stops at the very top after the lights go out... don't bring it down.",
+  "I laughed. Every car was empty. I'd checked them all myself.",
+  "At midnight, I pulled the big switch, and the whole fair went dark.",
+  "Then, high above me, something creaked.",
+  "One car was rocking at the top. Slow. Back and forth.",
+  "And a small voice drifted down. Please... I want to get off.",
+  "I knew the rule. I stood there in the cold for a long time.",
+  "But it sounded so scared.",
+  "So I pushed the lever. The wheel groaned... and the car came down to me.",
+  "Empty. Just the safety bar, still locked... and the seat, still warm.",
+  "I climbed in to check under the seat... and the bar slammed shut across my lap.",
+  "The wheel began to turn. And far below, at the controls, a little boy in my jacket... waved goodbye."
+ ],
+ "pauses": {"0": 0.6, "1": 1.0, "2": 0.6, "3": 0.8, "4": 2.6, "5": 0.8, "6": 1.4, "7": 1.6, "8": 1.0, "9": 1.2, "10": 1.0, "11": 1.8},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 960, "bed": "wind"},
+  {"id": "s2", "from_line": 2, "cx": 960, "bed": "wind"},
+  {"id": "s3", "from_line": 3, "cx": 900, "bed": "wind"},
+  {"id": "s4", "from_line": 4, "cx": 960, "bed": "drone"},
+  {"id": "s5", "from_line": 6, "cx": 960, "bed": "drone"},
+  {"id": "s6", "from_line": 7, "cx": 990, "bed": "wind"},
+  {"id": "s7", "from_line": 9, "cx": 900, "bed": "drone_rise"},
+  {"id": "s8", "from_line": 10, "cx": 980, "bed": "drone"},
+  {"id": "s9", "at": {"line": 11, "edge": "end", "offset": -0.6}, "cx": 960, "bed": "drone_rise"},
+  {"id": "s10", "from_line": 12, "cx": 1000, "bed": "drone_deep"}
+ ],
+ "events": [
+  {"sfx": "creak", "at": {"line": 4, "edge": "end", "offset": 0.2}, "dur": 2.4, "pan": 0.2},
+  {"sfx": "whisper", "at": {"line": 6, "edge": "start", "offset": 1.2}, "dur": 3.0},
+  {"sfx": "heartbeat", "at": {"line": 7, "edge": "start", "offset": 0.2}, "dur": 6.0, "every": 0.9},
+  {"sfx": "creak", "at": {"line": 9, "edge": "start", "offset": 1.8}, "dur": 3.0, "pan": -0.2},
+  {"sfx": "lock", "at": {"line": 11, "edge": "end", "offset": -0.5}},
+  {"sfx": "hit", "at": {"line": 11, "edge": "end", "offset": -0.4}}
+ ],
+ "end_card": ["If it stops", "at the top...", "leave it there."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}
