@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter></defs>
+<rect width="1920" height="1080" fill="#1a1210"/>
+<g stroke="#140d0b" stroke-width="3" opacity="0.7"><line x1="0" y1="0" x2="0" y2="860"/><line x1="64" y1="0" x2="64" y2="860"/><line x1="128" y1="0" x2="128" y2="860"/><line x1="192" y1="0" x2="192" y2="860"/><line x1="256" y1="0" x2="256" y2="860"/><line x1="320" y1="0" x2="320" y2="860"/><line x1="384" y1="0" x2="384" y2="860"/><line x1="448" y1="0" x2="448" y2="860"/><line x1="512" y1="0" x2="512" y2="860"/><line x1="576" y1="0" x2="576" y2="860"/><line x1="640" y1="0" x2="640" y2="860"/><line x1="704" y1="0" x2="704" y2="860"/><line x1="768" y1="0" x2="768" y2="860"/><line x1="832" y1="0" x2="832" y2="860"/><line x1="896" y1="0" x2="896" y2="860"/><line x1="960" y1="0" x2="960" y2="860"/><line x1="1024" y1="0" x2="1024" y2="860"/><line x1="1088" y1="0" x2="1088" y2="860"/><line x1="1152" y1="0" x2="1152" y2="860"/><line x1="1216" y1="0" x2="1216" y2="860"/><line x1="1280" y1="0" x2="1280" y2="860"/><line x1="1344" y1="0" x2="1344" y2="860"/><line x1="1408" y1="0" x2="1408" y2="860"/><line x1="1472" y1="0" x2="1472" y2="860"/><line x1="1536" y1="0" x2="1536" y2="860"/><line x1="1600" y1="0" x2="1600" y2="860"/><line x1="1664" y1="0" x2="1664" y2="860"/><line x1="1728" y1="0" x2="1728" y2="860"/><line x1="1792" y1="0" x2="1792" y2="860"/><line x1="1856" y1="0" x2="1856" y2="860"/></g>
+<rect x="0" y="860" width="1920" height="220" fill="#24170f"/>
+<g stroke="#140c08" stroke-width="3"><line x1="0" y1="900" x2="1920" y2="900"/><line x1="0" y1="950" x2="1920" y2="950"/><line x1="0" y1="1010" x2="1920" y2="1010"/></g>
+<rect x="0" y="600" width="520" height="40" fill="#2e2018"/><rect x="0" y="640" width="500" height="220" fill="#1b120d"/>
+<rect x="30" y="670" width="200" height="160" fill="none" stroke="#120b08" stroke-width="6"/><rect x="260" y="670" width="200" height="160" fill="none" stroke="#120b08" stroke-width="6"/>
+<path d="M120 600 v-60 h60 v60" fill="#3a3530"/><rect x="300" y="520" width="90" height="80" rx="10" fill="#2a2420"/>
+<rect x="1460" y="250" width="300" height="300" fill="#0d1022"/>
+<rect x="1460" y="250" width="300" height="300" fill="#9fb4e8" opacity="0.08"/>
+<circle cx="1560" cy="330" r="63" fill="#f1e9d3" opacity="0.12" filter="url(#blur60)"/><circle cx="1560" cy="330" r="30" fill="#f1e9d3"/><g fill="#000" opacity="0.07"><circle cx="1552" cy="323" r="7"/><circle cx="1568" cy="338" r="5"/></g>
+<line x1="1610" y1="250" x2="1610" y2="550" stroke="#1a1210" stroke-width="10"/><line x1="1460" y1="400" x2="1760" y2="400" stroke="#1a1210" stroke-width="10"/>
+<rect x="1450" y="240" width="320" height="320" fill="none" stroke="#2a1d16" stroke-width="16"/>
+<rect x="770" y="190" width="380" height="670" fill="#2b1b13"/>
+<rect x="750" y="175" width="420" height="20" fill="#1c120d"/><rect x="750" y="175" width="20" height="685" fill="#1c120d"/><rect x="1150" y="175" width="20" height="685" fill="#1c120d"/>
+<rect x="820" y="240" width="280" height="250" fill="none" stroke="#1d120d" stroke-width="8"/>
+<rect x="820" y="540" width="280" height="270" fill="none" stroke="#1d120d" stroke-width="8"/>
+<circle cx="1110" cy="525" r="14" fill="#a7853f"/><rect x="1095" y="560" width="30" height="40" rx="4" fill="#5e4318"/>
+<g transform="rotate(-3 960 380)">
+<rect x="860" y="290" width="200" height="180" fill="#d9cfb4"/>
+<rect x="900" y="280" width="60" height="22" fill="#cfc39a" opacity="0.8" transform="rotate(-8 930 290)"/>
+<text x="960" y="345" text-anchor="middle" font-family="DejaVu Serif, serif" font-size="30" font-weight="bold" fill="#2a1d14">COUNT</text>
+<text x="960" y="385" text-anchor="middle" font-family="DejaVu Serif, serif" font-size="30" font-weight="bold" fill="#2a1d14">THE STEPS</text>
+<text x="960" y="440" text-anchor="middle" font-family="DejaVu Serif, serif" font-size="34" font-weight="bold" fill="#8c1c1c">NEVER 14</text>
+</g>
+<rect x="770" y="850" width="380" height="10" fill="#0a0604"/>
+
+<polygon points="770,860 1150,860 1250,1080 670,1080" fill="#000" opacity="0.25"/>
+
+<rect width="1920" height="1080" fill="#000" opacity="0.35"/>
+<rect x="770" y="852" width="380" height="8" fill="#ff3b2f" opacity="0.8"/>
+<rect x="760" y="846" width="400" height="20" fill="#ff3b2f" opacity="0.5" filter="url(#blur8)"/>
+<polygon points="770,860 1150,860 1260,1080 660,1080" fill="#ff3b2f" opacity="0.08"/>
+<g fill="#08050a" stroke="#08050a" stroke-linecap="round">
+<polygon points="1000,700 1260,700 1290,730 1030,730"/>
+<line x1="1035" y1="725" x2="1010" y2="900" stroke-width="22"/><line x1="1280" y1="725" x2="1300" y2="900" stroke-width="22"/>
+<line x1="1100" y1="730" x2="1090" y2="870" stroke-width="16"/>
+<line x1="1240" y1="710" x2="1130" y2="540" stroke-width="22"/><line x1="1020" y1="705" x2="1110" y2="540" stroke-width="18"/>
+<line x1="1120" y1="540" x2="1112" y2="530" stroke-width="26"/>
+</g>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

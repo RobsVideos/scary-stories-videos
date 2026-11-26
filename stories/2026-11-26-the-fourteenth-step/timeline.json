@@ -1,0 +1,165 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 7.468,
+   "text": "The cellar in my rental house has thirteen wooden steps."
+  },
+  {
+   "i": 1,
+   "start": 8.068,
+   "end": 16.495,
+   "text": "The landlord taped one rule to the cellar door. Count the steps every time. If you ever count fourteen... go back up. And don't look down."
+  },
+  {
+   "i": 2,
+   "start": 17.295,
+   "end": 20.495,
+   "text": "I laughed at it. Old house. Old man."
+  },
+  {
+   "i": 3,
+   "start": 21.595,
+   "end": 27.504,
+   "text": "But I counted anyway, every night, going down for firewood. Thirteen. Always thirteen."
+  },
+  {
+   "i": 4,
+   "start": 28.304,
+   "end": 29.968,
+   "text": "Until last night."
+  },
+  {
+   "i": 5,
+   "start": 32.368,
+   "end": 35.099,
+   "text": "Eleven... twelve... thirteen..."
+  },
+  {
+   "i": 6,
+   "start": 36.299,
+   "end": 39.499,
+   "text": "And my foot came down on one more step."
+  },
+  {
+   "i": 7,
+   "start": 40.899,
+   "end": 45.677,
+   "text": "It wasn't wood. It was soft... and warm. And very slowly... it breathed."
+  },
+  {
+   "i": 8,
+   "start": 46.877,
+   "end": 52.787,
+   "text": "I didn't look down. I backed up those stairs, counting every one out loud, and slammed the door."
+  },
+  {
+   "i": 9,
+   "start": 54.787,
+   "end": 58.755,
+   "text": "Then I called the landlord. He was quiet for a long time."
+  },
+  {
+   "i": 10,
+   "start": 59.755,
+   "end": 63.125,
+   "text": "Then he asked, How many did you count going back up?"
+  },
+  {
+   "i": 11,
+   "start": 64.325,
+   "end": 66.608,
+   "text": "I told him. Fourteen."
+  },
+  {
+   "i": 12,
+   "start": 68.208,
+   "end": 71.579,
+   "text": "He said, Then it isn't in the cellar anymore."
+  },
+  {
+   "i": 13,
+   "start": 73.779,
+   "end": 79.475,
+   "text": "The line went dead... and under my chair, the kitchen floor took one slow, warm breath."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 7.818
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 960,
+   "bed": "room",
+   "start": 7.818,
+   "end": 21.345
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 960,
+   "bed": "room",
+   "start": 21.345,
+   "end": 28.054
+  },
+  {
+   "id": "s4",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "drone",
+   "start": 28.054,
+   "end": 36.049
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 640,
+   "bed": "drone_rise",
+   "start": 36.049,
+   "end": 46.627
+  },
+  {
+   "id": "s6",
+   "from_line": 8,
+   "cx": 1000,
+   "bed": "drone",
+   "start": 46.627,
+   "end": 54.537
+  },
+  {
+   "id": "s7",
+   "from_line": 9,
+   "cx": 960,
+   "bed": "room",
+   "start": 54.537,
+   "end": 73.529
+  },
+  {
+   "id": "s8",
+   "from_line": 13,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 73.529,
+   "end": 79.875
+  },
+  {
+   "id": "_end",
+   "start": 79.875,
+   "end": 83.675
+  }
+ ],
+ "total": 83.675
+}

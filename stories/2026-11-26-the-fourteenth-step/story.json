@@ -1,0 +1,45 @@
+{
+ "title": "The Fourteenth Step",
+ "slug": "2026-11-26-the-fourteenth-step",
+ "hook": "The landlord taped one rule to the cellar door: count the steps every time. If you ever count fourteen... go back up. And don't look down.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "The cellar in my rental house has thirteen wooden steps.",
+  "The landlord taped one rule to the cellar door. Count the steps every time. If you ever count fourteen... go back up. And don't look down.",
+  "I laughed at it. Old house. Old man.",
+  "But I counted anyway, every night, going down for firewood. Thirteen. Always thirteen.",
+  "Until last night.",
+  "Eleven... twelve... thirteen...",
+  "And my foot came down on one more step.",
+  "It wasn't wood. It was soft... and warm. And very slowly... it breathed.",
+  "I didn't look down. I backed up those stairs, counting every one out loud, and slammed the door.",
+  "Then I called the landlord. He was quiet for a long time.",
+  "Then he asked, How many did you count going back up?",
+  "I told him. Fourteen.",
+  "He said, Then it isn't in the cellar anymore.",
+  "The line went dead... and under my chair, the kitchen floor took one slow, warm breath."
+ ],
+ "pauses": {"1": 0.8, "3": 0.8, "4": 2.4, "5": 1.2, "6": 1.4, "7": 1.2, "8": 2.0, "9": 1.0, "10": 1.2, "11": 1.6, "12": 2.2},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 960, "bed": "wind"},
+  {"id": "s2", "from_line": 1, "cx": 960, "bed": "room"},
+  {"id": "s3", "from_line": 3, "cx": 960, "bed": "room"},
+  {"id": "s4", "from_line": 4, "cx": 960, "bed": "drone"},
+  {"id": "s5", "from_line": 6, "cx": 640, "bed": "drone_rise"},
+  {"id": "s6", "from_line": 8, "cx": 1000, "bed": "drone"},
+  {"id": "s7", "from_line": 9, "cx": 960, "bed": "room"},
+  {"id": "s8", "from_line": 13, "cx": 960, "bed": "drone_deep"}
+ ],
+ "events": [
+  {"sfx": "creak", "at": {"line": 4, "edge": "end", "offset": 0.3}, "dur": 1.8},
+  {"sfx": "footsteps", "at": {"line": 5, "edge": "start", "offset": -0.1}, "dur": 3.6, "every": 1.15, "gain": -3},
+  {"sfx": "heartbeat", "at": {"line": 7, "edge": "start", "offset": 0.2}, "dur": 6.5, "every": 0.9},
+  {"sfx": "boom", "at": {"line": 8, "edge": "end", "offset": 0.1}},
+  {"sfx": "phone", "at": {"line": 9, "edge": "start", "offset": -0.6}, "dur": 2.0, "pan": 0.3, "gain": -6},
+  {"sfx": "static", "at": {"line": 13, "edge": "start", "offset": 0.9}, "dur": 1.2, "gain": -4},
+  {"sfx": "hit", "at": {"line": 13, "edge": "end", "offset": 0.2}}
+ ],
+ "end_card": ["Always count", "the steps.", "Never fourteen."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}

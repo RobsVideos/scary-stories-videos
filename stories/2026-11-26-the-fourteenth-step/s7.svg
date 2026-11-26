@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter></defs>
+<rect width="1920" height="1080" fill="#07070b"/>
+<rect x="0" y="700" width="1920" height="380" fill="#1c130e"/>
+<g stroke="#120b07" stroke-width="3"><line x1="0" y1="700" x2="-288" y2="1080"/><line x1="120" y1="700" x2="-132" y2="1080"/><line x1="240" y1="700" x2="24" y2="1080"/><line x1="360" y1="700" x2="180" y2="1080"/><line x1="480" y1="700" x2="336" y2="1080"/><line x1="600" y1="700" x2="492" y2="1080"/><line x1="720" y1="700" x2="648" y2="1080"/><line x1="840" y1="700" x2="804" y2="1080"/><line x1="960" y1="700" x2="960" y2="1080"/><line x1="1080" y1="700" x2="1116" y2="1080"/><line x1="1200" y1="700" x2="1272" y2="1080"/><line x1="1320" y1="700" x2="1428" y2="1080"/><line x1="1440" y1="700" x2="1584" y2="1080"/><line x1="1560" y1="700" x2="1740" y2="1080"/><line x1="1680" y1="700" x2="1896" y2="1080"/><line x1="1800" y1="700" x2="2052" y2="1080"/></g>
+<rect x="0" y="690" width="1920" height="14" fill="#2c1e15"/>
+<g transform="translate(560 560)"><path d="M0 0 h110 v120 c0 30 -110 30 -110 0z" fill="#2a2a32"/><path d="M110 30 c40 0 40 60 0 60" fill="none" stroke="#2a2a32" stroke-width="12"/></g>
+<ellipse cx="620" cy="700" rx="90" ry="10" fill="#000" opacity="0.5"/>
+<circle cx="980" cy="450" r="330" fill="#7fa0ff" opacity="0.22" filter="url(#blur30)"/>
+<g transform="rotate(8 980 470)">
+<rect x="850" y="170" width="260" height="520" rx="34" fill="#0c0c10"/>
+<rect x="866" y="200" width="228" height="460" rx="18" fill="#101a2e"/>
+<rect x="866" y="200" width="228" height="460" rx="18" fill="#3a5aa0" opacity="0.4"/>
+<circle cx="980" cy="320" r="48" fill="#5d6f96"/><circle cx="980" cy="305" r="18" fill="#2a3550"/><path d="M948 350 c10 -30 54 -30 64 0" fill="#2a3550"/>
+<text x="980" y="410" text-anchor="middle" font-family="Inter, DejaVu Sans, sans-serif" font-size="30" fill="#e6ecff">Landlord</text>
+<text x="980" y="450" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="24" fill="#b8c4e6">03:12</text>
+<circle cx="980" cy="590" r="34" fill="#d23a30"/>
+</g>
+<g fill="#0a0708">
+<path d="M760 1080 C770 900 820 760 880 640 C900 600 950 600 960 640 L1000 760 C1060 700 1120 690 1140 720 C1160 760 1120 860 1060 960 L1040 1080Z"/>
+<rect x="870" y="560" width="50" height="160" rx="25" transform="rotate(-18 895 640)"/>
+<rect x="1060" y="420" width="44" height="120" rx="22" transform="rotate(20 1080 480)"/>
+<rect x="1080" y="520" width="44" height="120" rx="22" transform="rotate(15 1100 580)"/>
+</g>
+<ellipse cx="960" cy="1000" rx="1250" ry="110" fill="#6a7aa0" opacity="0.08" filter="url(#blur60)"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>
