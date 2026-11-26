@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter></defs>
+<rect width="1920" height="1080" fill="#140f0e"/>
+<rect x="0" y="0" width="3" height="860" fill="#0d0908"/><rect x="70" y="0" width="3" height="860" fill="#0d0908"/><rect x="140" y="0" width="3" height="860" fill="#0d0908"/><rect x="210" y="0" width="3" height="860" fill="#0d0908"/><rect x="280" y="0" width="3" height="860" fill="#0d0908"/><rect x="350" y="0" width="3" height="860" fill="#0d0908"/><rect x="420" y="0" width="3" height="860" fill="#0d0908"/><rect x="490" y="0" width="3" height="860" fill="#0d0908"/><rect x="560" y="0" width="3" height="860" fill="#0d0908"/><rect x="630" y="0" width="3" height="860" fill="#0d0908"/><rect x="700" y="0" width="3" height="860" fill="#0d0908"/><rect x="770" y="0" width="3" height="860" fill="#0d0908"/><rect x="840" y="0" width="3" height="860" fill="#0d0908"/><rect x="910" y="0" width="3" height="860" fill="#0d0908"/><rect x="980" y="0" width="3" height="860" fill="#0d0908"/><rect x="1050" y="0" width="3" height="860" fill="#0d0908"/><rect x="1120" y="0" width="3" height="860" fill="#0d0908"/><rect x="1190" y="0" width="3" height="860" fill="#0d0908"/><rect x="1260" y="0" width="3" height="860" fill="#0d0908"/><rect x="1330" y="0" width="3" height="860" fill="#0d0908"/><rect x="1400" y="0" width="3" height="860" fill="#0d0908"/><rect x="1470" y="0" width="3" height="860" fill="#0d0908"/><rect x="1540" y="0" width="3" height="860" fill="#0d0908"/><rect x="1610" y="0" width="3" height="860" fill="#0d0908"/><rect x="1680" y="0" width="3" height="860" fill="#0d0908"/><rect x="1750" y="0" width="3" height="860" fill="#0d0908"/><rect x="1820" y="0" width="3" height="860" fill="#0d0908"/><rect x="1890" y="0" width="3" height="860" fill="#0d0908"/>
+<rect x="0" y="860" width="1920" height="220" fill="#1e1510"/><rect x="0" y="860" width="1920" height="4" fill="#0c0806"/><rect x="0" y="904" width="1920" height="4" fill="#0c0806"/><rect x="0" y="948" width="1920" height="4" fill="#0c0806"/><rect x="0" y="992" width="1920" height="4" fill="#0c0806"/><rect x="0" y="1036" width="1920" height="4" fill="#0c0806"/>
+<rect x="700" y="170" width="520" height="700" fill="#0b0808"/>
+<rect x="730" y="200" width="460" height="670" fill="#2a1c15"/>
+<rect x="790" y="250" width="340" height="250" fill="#0d1530"/>
+<rect x="790" y="250" width="340" height="250" fill="#7f95c8" opacity="0.18"/>
+<circle cx="1060" cy="300" r="22" fill="#e6e2d6" opacity="0.9"/>
+<rect x="790" y="430" width="340" height="70" fill="#1a2036"/>
+<line x1="960" y1="250" x2="960" y2="500" stroke="#2a1c15" stroke-width="10"/>
+<line x1="790" y1="375" x2="1130" y2="375" stroke="#2a1c15" stroke-width="10"/>
+<rect x="830" y="560" width="110" height="80" fill="#d9d2bd"/>
+<g stroke="#2b2b34" stroke-width="3"><line x1="842" y1="578" x2="926" y2="578"/><line x1="842" y1="592" x2="917" y2="592"/><line x1="842" y1="606" x2="908" y2="606"/><line x1="842" y1="620" x2="899" y2="620"/></g>
+<rect x="1110" y="560" width="40" height="70" rx="6" fill="#a7853f"/>
+<rect x="1100" y="590" width="60" height="12" fill="#c9a35a"/>
+<circle cx="1140" cy="680" r="16" fill="#a7853f"/>
+<polygon points="790,500 1130,500 1260,860 700,860" fill="#7f95c8" opacity="0.05"/>
+<g fill="#050304"><path d="M420 1080 L440 620 C440 540 480 500 540 500 C600 500 640 540 640 620 L660 1080Z"/><ellipse cx="540" cy="440" rx="62" ry="74"/></g>
+<circle cx="1520" cy="520" r="160" fill="#ffb54a" opacity="0.18" filter="url(#blur30)"/>
+<g fill="#0b0808"><rect x="1500" y="560" width="40" height="300"/><path d="M1450 470 L1590 470 L1560 560 L1480 560Z" fill="#3a2414"/></g>
+<path d="M1460 480 L1580 480 L1556 550 L1484 550Z" fill="#ffb54a" opacity="0.55"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

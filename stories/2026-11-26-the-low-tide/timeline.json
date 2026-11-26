@@ -1,0 +1,165 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 8.62,
+   "text": "The beach house I rented for the winter had a note taped inside the back door."
+  },
+  {
+   "i": 1,
+   "start": 9.22,
+   "end": 14.404,
+   "text": "When the tide goes out at night, you'll see footprints in the sand. Don't follow them."
+  },
+  {
+   "i": 2,
+   "start": 15.304,
+   "end": 21.085,
+   "text": "The first night, I watched from the deck as the water pulled back... farther than I'd ever seen."
+  },
+  {
+   "i": 3,
+   "start": 21.685,
+   "end": 27.893,
+   "text": "And there they were. Bare footprints, starting at the bottom of my steps... walking straight out into the dark."
+  },
+  {
+   "i": 4,
+   "start": 28.493,
+   "end": 33.763,
+   "text": "Every night, the same prints. Same path. Always ending where the water used to be."
+  },
+  {
+   "i": 5,
+   "start": 34.663,
+   "end": 39.655,
+   "text": "On the fourth night, I walked down... and set my bare foot beside the first one."
+  },
+  {
+   "i": 6,
+   "start": 40.255,
+   "end": 44.521,
+   "text": "It was a perfect match. Same size. Same crooked toe."
+  },
+  {
+   "i": 7,
+   "start": 45.721,
+   "end": 49.839,
+   "text": "Then, from far out on the flats... someone called my name."
+  },
+  {
+   "i": 8,
+   "start": 52.239,
+   "end": 56.655,
+   "text": "It was my own voice. Calm. Patient. Telling me to hurry."
+  },
+  {
+   "i": 9,
+   "start": 57.655,
+   "end": 61.623,
+   "text": "I ran back up the steps, locked the door, and didn't sleep."
+  },
+  {
+   "i": 10,
+   "start": 63.023,
+   "end": 67.503,
+   "text": "At sunrise, the tide was back in. The sand was smooth again."
+  },
+  {
+   "i": 11,
+   "start": 68.103,
+   "end": 72.519,
+   "text": "Except for one new set of footprints... coming up out of the water."
+  },
+  {
+   "i": 12,
+   "start": 73.519,
+   "end": 77.188,
+   "text": "They climbed my steps... and stopped at the back door."
+  },
+  {
+   "i": 13,
+   "start": 78.588,
+   "end": 83.516,
+   "text": "The note was still there. Same words... but now, it was in my handwriting."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 900,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 15.054
+  },
+  {
+   "id": "s2",
+   "from_line": 2,
+   "cx": 1150,
+   "bed": "wind",
+   "start": 15.054,
+   "end": 21.435
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 720,
+   "bed": "wind",
+   "start": 21.435,
+   "end": 34.413
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 955,
+   "bed": "drone",
+   "start": 34.413,
+   "end": 45.471
+  },
+  {
+   "id": "s5",
+   "from_line": 7,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 45.471,
+   "end": 57.405
+  },
+  {
+   "id": "s6",
+   "from_line": 9,
+   "cx": 880,
+   "bed": "room",
+   "start": 57.405,
+   "end": 62.773
+  },
+  {
+   "id": "s7",
+   "from_line": 10,
+   "cx": 880,
+   "bed": "drone",
+   "start": 62.773,
+   "end": 78.338
+  },
+  {
+   "id": "s8",
+   "from_line": 13,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 78.338,
+   "end": 83.91600000000001
+  },
+  {
+   "id": "_end",
+   "start": 83.91600000000001,
+   "end": 87.71600000000001
+  }
+ ],
+ "total": 87.71600000000001
+}

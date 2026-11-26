@@ -1,0 +1,43 @@
+{
+ "title": "The Low Tide",
+ "slug": "2026-11-26-the-low-tide",
+ "hook": "The beach house had one note on the back door: when the tide goes out at night, you'll see footprints in the sand. Don't follow them.",
+ "voice": "am_onyx", "speed": 0.88,
+ "lines": [
+  "The beach house I rented for the winter had a note taped inside the back door.",
+  "When the tide goes out at night, you'll see footprints in the sand. Don't follow them.",
+  "The first night, I watched from the deck as the water pulled back... farther than I'd ever seen.",
+  "And there they were. Bare footprints, starting at the bottom of my steps... walking straight out into the dark.",
+  "Every night, the same prints. Same path. Always ending where the water used to be.",
+  "On the fourth night, I walked down... and set my bare foot beside the first one.",
+  "It was a perfect match. Same size. Same crooked toe.",
+  "Then, from far out on the flats... someone called my name.",
+  "It was my own voice. Calm. Patient. Telling me to hurry.",
+  "I ran back up the steps, locked the door, and didn't sleep.",
+  "At sunrise, the tide was back in. The sand was smooth again.",
+  "Except for one new set of footprints... coming up out of the water.",
+  "They climbed my steps... and stopped at the back door.",
+  "The note was still there. Same words... but now, it was in my handwriting."
+ ],
+ "pauses": {"1": 0.9, "4": 0.9, "6": 1.2, "7": 2.4, "8": 1.0, "9": 1.4, "11": 1.0, "12": 1.4},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 900, "bed": "wind"},
+  {"id": "s2", "from_line": 2, "cx": 1150, "bed": "wind"},
+  {"id": "s3", "from_line": 3, "cx": 720, "bed": "wind"},
+  {"id": "s4", "from_line": 5, "cx": 955, "bed": "drone"},
+  {"id": "s5", "from_line": 7, "cx": 960, "bed": "drone_rise"},
+  {"id": "s6", "from_line": 9, "cx": 880, "bed": "room"},
+  {"id": "s7", "from_line": 10, "cx": 880, "bed": "drone"},
+  {"id": "s8", "from_line": 13, "cx": 960, "bed": "drone_deep"}
+ ],
+ "events": [
+  {"sfx": "heartbeat", "at": {"line": 6, "edge": "start", "offset": 0.0}, "dur": 5.0, "every": 0.9},
+  {"sfx": "whisper", "at": {"line": 7, "edge": "end", "offset": 0.3}, "dur": 2.2, "gain": -6, "pan": 0.3},
+  {"sfx": "footsteps", "at": {"line": 9, "edge": "start", "offset": 0.0}, "dur": 2.5, "every": 0.3, "gain": -5},
+  {"sfx": "lock", "at": {"line": 9, "edge": "start", "offset": 2.2}, "pan": 0.2},
+  {"sfx": "creak", "at": {"line": 12, "edge": "end", "offset": 0.2}, "dur": 1.6, "pan": -0.3},
+  {"sfx": "hit", "at": {"line": 13, "edge": "start", "offset": 0.0}}
+ ],
+ "end_card": ["When the tide goes out,", "don't follow", "the footprints."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}
