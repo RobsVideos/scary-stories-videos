@@ -1,0 +1,162 @@
+{
+ "title": "The Back Corner",
+ "slug": "2026-11-26-the-back-corner",
+ "hook": "The old man who runs the Christmas tree lot had one rule: the tall tree in the back corner is not for sale. Not to anyone. Not after midnight.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "Every December, I work nights at a Christmas tree lot, out on the edge of town.",
+  "The owner, old Hank, gave me one rule on my very first shift.",
+  "See that tall one in the back corner? The one with no price tag?",
+  "It's not for sale. If anyone asks for it after midnight... say no. Don't let them touch it.",
+  "For two weeks, nobody came. Just me, a space heater, and four hundred trees.",
+  "Then, a little after one in the morning... the front gate creaked open.",
+  "A family walked in. A mother, a father, two small kids. All in matching red scarves.",
+  "They didn't look at a single tree. They walked straight to the back corner.",
+  "We'll take this one, the father said. It wants to come home with us.",
+  "I told them no. They just smiled... and kept smiling.",
+  "Snow was coming down hard that night... but not one flake landed on them.",
+  "I locked myself in the trailer until the sun came up.",
+  "In the morning, the family was gone. No tire tracks. No footprints.",
+  "But the tall tree... was standing two rows closer to my trailer."
+ ],
+ "pauses": {
+  "3": 0.8,
+  "5": 2.4,
+  "8": 0.9,
+  "9": 1.4,
+  "10": 1.2,
+  "11": 1.0,
+  "12": 1.2
+ },
+ "scenes": [
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 1000,
+   "bed": "wind"
+  },
+  {
+   "id": "s2",
+   "from_line": 2,
+   "cx": 860,
+   "bed": "wind"
+  },
+  {
+   "id": "s3",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "room"
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 1000,
+   "bed": "wind"
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "drone"
+  },
+  {
+   "id": "s6",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "drone_rise"
+  },
+  {
+   "id": "s7",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "drone"
+  },
+  {
+   "id": "s8",
+   "from_line": 12,
+   "cx": 1100,
+   "bed": "wind"
+  },
+  {
+   "id": "s8b",
+   "from_line": 13,
+   "cx": 1100,
+   "bed": "drone_deep",
+   "cut": true
+  }
+ ],
+ "events": [
+  {
+   "sfx": "creak",
+   "at": {
+    "line": 5,
+    "edge": "end",
+    "offset": 0.2
+   },
+   "dur": 2.0,
+   "pan": 0.4
+  },
+  {
+   "sfx": "footsteps",
+   "at": {
+    "line": 6,
+    "edge": "start",
+    "offset": 0.0
+   },
+   "dur": 6.0,
+   "every": 0.6,
+   "gain": -6
+  },
+  {
+   "sfx": "whisper",
+   "at": {
+    "line": 8,
+    "edge": "start",
+    "offset": 0.2
+   },
+   "dur": 3.0,
+   "gain": -8
+  },
+  {
+   "sfx": "heartbeat",
+   "at": {
+    "line": 9,
+    "edge": "start",
+    "offset": 0.0
+   },
+   "dur": 8.0,
+   "every": 0.9
+  },
+  {
+   "sfx": "lock",
+   "at": {
+    "line": 11,
+    "edge": "start",
+    "offset": 1.0
+   },
+   "pan": 0.2
+  },
+  {
+   "sfx": "hit",
+   "at": {
+    "line": 13,
+    "edge": "start",
+    "offset": 0.0
+   }
+  }
+ ],
+ "end_card": [
+  "Never sell",
+  "the tree",
+  "in the back corner."
+ ],
+ "hashtags": [
+  "#scarystories",
+  "#horrorstories",
+  "#creepy",
+  "#scary",
+  "#horrortok",
+  "#fyp"
+ ]
+}

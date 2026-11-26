@@ -1,0 +1,176 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 8.684,
+   "text": "Every December, I work nights at a Christmas tree lot, out on the edge of town."
+  },
+  {
+   "i": 1,
+   "start": 9.284,
+   "end": 13.636,
+   "text": "The owner, old Hank, gave me one rule on my very first shift."
+  },
+  {
+   "i": 2,
+   "start": 14.236,
+   "end": 18.567,
+   "text": "See that tall one in the back corner? The one with no price tag?"
+  },
+  {
+   "i": 3,
+   "start": 19.167,
+   "end": 24.884,
+   "text": "It's not for sale. If anyone asks for it after midnight... say no. Don't let them touch it."
+  },
+  {
+   "i": 4,
+   "start": 25.684,
+   "end": 30.847,
+   "text": "For two weeks, nobody came. Just me, a space heater, and four hundred trees."
+  },
+  {
+   "i": 5,
+   "start": 31.447,
+   "end": 35.841,
+   "text": "Then, a little after one in the morning... the front gate creaked open."
+  },
+  {
+   "i": 6,
+   "start": 38.241,
+   "end": 44.172,
+   "text": "A family walked in. A mother, a father, two small kids. All in matching red scarves."
+  },
+  {
+   "i": 7,
+   "start": 44.772,
+   "end": 49.06,
+   "text": "They didn't look at a single tree. They walked straight to the back corner."
+  },
+  {
+   "i": 8,
+   "start": 49.66,
+   "end": 53.969,
+   "text": "We'll take this one, the father said. It wants to come home with us."
+  },
+  {
+   "i": 9,
+   "start": 54.869,
+   "end": 58.837,
+   "text": "I told them no. They just smiled... and kept smiling."
+  },
+  {
+   "i": 10,
+   "start": 60.237,
+   "end": 65.379,
+   "text": "Snow was coming down hard that night... but not one flake landed on them."
+  },
+  {
+   "i": 11,
+   "start": 66.579,
+   "end": 70.525,
+   "text": "I locked myself in the trailer until the sun came up."
+  },
+  {
+   "i": 12,
+   "start": 71.525,
+   "end": 76.091,
+   "text": "In the morning, the family was gone. No tire tracks. No footprints."
+  },
+  {
+   "i": 13,
+   "start": 77.291,
+   "end": 81.685,
+   "text": "But the tall tree... was standing two rows closer to my trailer."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 1000,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 13.986
+  },
+  {
+   "id": "s2",
+   "from_line": 2,
+   "cx": 860,
+   "bed": "wind",
+   "start": 13.986,
+   "end": 25.434
+  },
+  {
+   "id": "s3",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "room",
+   "start": 25.434,
+   "end": 31.197
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 1000,
+   "bed": "wind",
+   "start": 31.197,
+   "end": 37.991
+  },
+  {
+   "id": "s5",
+   "from_line": 6,
+   "cx": 960,
+   "bed": "drone",
+   "start": 37.991,
+   "end": 49.41
+  },
+  {
+   "id": "s6",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 49.41,
+   "end": 59.987
+  },
+  {
+   "id": "s7",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "drone",
+   "start": 59.987,
+   "end": 71.275
+  },
+  {
+   "id": "s8",
+   "from_line": 12,
+   "cx": 1100,
+   "bed": "wind",
+   "start": 71.275,
+   "end": 77.041,
+   "fade_out": false
+  },
+  {
+   "id": "s8b",
+   "from_line": 13,
+   "cx": 1100,
+   "bed": "drone_deep",
+   "cut": true,
+   "start": 77.041,
+   "end": 82.08500000000001,
+   "fade_in": false
+  },
+  {
+   "id": "_end",
+   "start": 82.08500000000001,
+   "end": 85.885
+  }
+ ],
+ "total": 85.885
+}
