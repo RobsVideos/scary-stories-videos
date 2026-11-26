@@ -1,0 +1,43 @@
+{
+ "title": "The Night Ice",
+ "slug": "2026-11-25-the-night-ice",
+ "hook": "The old rink manager had one rule: after the last flood of the ice, if you hear skating in the dark... don't turn the lights back on.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "The old rink manager gave me one rule for the night shift.",
+  "After the last flood of the ice, if you hear skating in the dark... don't turn the lights back on.",
+  "For six weeks, I laid down fresh ice, killed the lights, and locked up. Nothing ever happened.",
+  "Then, one night in December, I was halfway to the exit when I heard it.",
+  "Scrape... scrape... scrape. Long, slow strokes, circling the rink.",
+  "I froze. My hand was already on the light switch.",
+  "Then the skating stopped.",
+  "And a small voice, right against the glass, whispered... Can you turn the lights on? I can't find the door.",
+  "I didn't. I ran... and I left the back door swinging open behind me.",
+  "In the morning, my perfect ice had one set of tiny skate marks on it.",
+  "They circled the rink for hours... then went straight through the gate, down the hall, and out that open door.",
+  "She found the door.",
+  "This morning, there were long, thin scratches on my kitchen floor... going around, and around, and around."
+ ],
+ "pauses": {"0": 0.6, "1": 0.8, "2": 0.7, "3": 0.6, "4": 2.0, "5": 0.9, "6": 2.4, "7": 1.4, "8": 1.0, "9": 0.6, "10": 1.2, "11": 1.8},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 960, "bed": "wind"},
+  {"id": "s2", "from_line": 2, "cx": 980, "bed": "room"},
+  {"id": "s3", "from_line": 3, "cx": 1060, "bed": "drone"},
+  {"id": "s4", "from_line": 5, "cx": 1000, "bed": "drone"},
+  {"id": "s5", "from_line": 7, "cx": 980, "bed": "drone_rise"},
+  {"id": "s6", "from_line": 8, "cx": 1000, "bed": "wind"},
+  {"id": "s7", "from_line": 9, "cx": 1180, "bed": "room"},
+  {"id": "s8", "from_line": 12, "cx": 960, "bed": "drone_deep"}
+ ],
+ "events": [
+  {"sfx": "creak", "at": {"line": 4, "edge": "start", "offset": -0.2}, "dur": 6.0, "pan": -0.4},
+  {"sfx": "heartbeat", "at": {"line": 5, "edge": "start", "offset": 0.3}, "dur": 7.0, "every": 0.9},
+  {"sfx": "whisper", "at": {"line": 7, "edge": "start", "offset": 1.5}, "dur": 3.0, "pan": 0.3},
+  {"sfx": "footsteps", "at": {"line": 8, "edge": "start", "offset": 1.0}, "dur": 2.5, "every": 0.3},
+  {"sfx": "hit", "at": {"line": 11, "edge": "start", "offset": 0.0}},
+  {"sfx": "creak", "at": {"line": 12, "edge": "end", "offset": 0.2}, "dur": 2.5, "pan": 0.4}
+ ],
+ "end_card": ["If you hear skating", "in the dark...", "leave the lights off."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}

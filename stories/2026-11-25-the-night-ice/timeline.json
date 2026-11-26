@@ -1,0 +1,159 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 7.596,
+   "text": "The old rink manager gave me one rule for the night shift."
+  },
+  {
+   "i": 1,
+   "start": 8.196,
+   "end": 13.999,
+   "text": "After the last flood of the ice, if you hear skating in the dark... don't turn the lights back on."
+  },
+  {
+   "i": 2,
+   "start": 14.799,
+   "end": 20.751,
+   "text": "For six weeks, I laid down fresh ice, killed the lights, and locked up. Nothing ever happened."
+  },
+  {
+   "i": 3,
+   "start": 21.451,
+   "end": 26.037,
+   "text": "Then, one night in December, I was halfway to the exit when I heard it."
+  },
+  {
+   "i": 4,
+   "start": 26.637,
+   "end": 30.968,
+   "text": "Scrape... scrape... scrape. Long, slow strokes, circling the rink."
+  },
+  {
+   "i": 5,
+   "start": 32.968,
+   "end": 36.68,
+   "text": "I froze. My hand was already on the light switch."
+  },
+  {
+   "i": 6,
+   "start": 37.58,
+   "end": 39.585,
+   "text": "Then the skating stopped."
+  },
+  {
+   "i": 7,
+   "start": 41.985,
+   "end": 48.236,
+   "text": "And a small voice, right against the glass, whispered... Can you turn the lights on? I can't find the door."
+  },
+  {
+   "i": 8,
+   "start": 49.636,
+   "end": 54.521,
+   "text": "I didn't. I ran... and I left the back door swinging open behind me."
+  },
+  {
+   "i": 9,
+   "start": 55.521,
+   "end": 60.385,
+   "text": "In the morning, my perfect ice had one set of tiny skate marks on it."
+  },
+  {
+   "i": 10,
+   "start": 60.985,
+   "end": 67.449,
+   "text": "They circled the rink for hours... then went straight through the gate, down the hall, and out that open door."
+  },
+  {
+   "i": 11,
+   "start": 68.649,
+   "end": 70.079,
+   "text": "She found the door."
+  },
+  {
+   "i": 12,
+   "start": 71.879,
+   "end": 78.279,
+   "text": "This morning, there were long, thin scratches on my kitchen floor... going around, and around, and around."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 14.549
+  },
+  {
+   "id": "s2",
+   "from_line": 2,
+   "cx": 980,
+   "bed": "room",
+   "start": 14.549,
+   "end": 21.201
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 1060,
+   "bed": "drone",
+   "start": 21.201,
+   "end": 32.718
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 1000,
+   "bed": "drone",
+   "start": 32.718,
+   "end": 41.735
+  },
+  {
+   "id": "s5",
+   "from_line": 7,
+   "cx": 980,
+   "bed": "drone_rise",
+   "start": 41.735,
+   "end": 49.386
+  },
+  {
+   "id": "s6",
+   "from_line": 8,
+   "cx": 1000,
+   "bed": "wind",
+   "start": 49.386,
+   "end": 55.271
+  },
+  {
+   "id": "s7",
+   "from_line": 9,
+   "cx": 1180,
+   "bed": "room",
+   "start": 55.271,
+   "end": 71.629
+  },
+  {
+   "id": "s8",
+   "from_line": 12,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 71.629,
+   "end": 78.679
+  },
+  {
+   "id": "_end",
+   "start": 78.679,
+   "end": 82.479
+  }
+ ],
+ "total": 82.479
+}
