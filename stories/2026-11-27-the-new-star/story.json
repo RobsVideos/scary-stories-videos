@@ -1,0 +1,42 @@
+{
+ "title": "The New Star",
+ "slug": "2026-11-27-the-new-star",
+ "hook": "The observatory had one rule: if you see a star that isn't on the chart... never let it see the dome open.",
+ "voice": "am_onyx", "speed": 0.88,
+ "lines": [
+  "I spent one winter alone at a mountain observatory, keeping the big telescope running through the night.",
+  "Beside the eyepiece hung an old star chart... and one rule, written in the margin.",
+  "If you ever see a star that isn't on this chart... close the dome.",
+  "Don't point the telescope at it. And never let it see the dome open.",
+  "For two months, the sky matched that chart perfectly. Every single night.",
+  "Then, one night in January, I found it. A cold, white star, low over the pines... where the chart showed nothing.",
+  "I told myself it was a plane. A satellite. Anything.",
+  "But it didn't drift across the sky like the others...",
+  "It just kept getting brighter.",
+  "I slammed the switch to close the dome.",
+  "The motor groaned... and the roof stopped, halfway shut.",
+  "Through the gap, the new star blinked.",
+  "Then a second one opened right beside it... and both of them looked down. Into the dome. At me."
+ ],
+ "pauses": {"3": 0.9, "4": 1.0, "6": 0.9, "7": 1.4, "8": 2.0, "9": 1.6, "10": 2.2, "11": 2.0},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 960, "bed": "wind"},
+  {"id": "s2", "from_line": 1, "cx": 1000, "bed": "room"},
+  {"id": "s3", "from_line": 4, "cx": 960, "bed": "wind"},
+  {"id": "s4", "from_line": 5, "cx": 1000, "bed": "drone"},
+  {"id": "s4b", "from_line": 8, "cx": 1000, "bed": "drone_rise", "cut": true},
+  {"id": "s5", "from_line": 9, "cx": 960, "bed": "drone_rise"},
+  {"id": "s6", "from_line": 11, "cx": 960, "bed": "drone_deep"},
+  {"id": "s6b", "from_line": 12, "cx": 960, "bed": "drone_deep", "cut": true}
+ ],
+ "events": [
+  {"sfx": "hit", "at": {"line": 5, "edge": "end", "offset": 0.2}},
+  {"sfx": "riser", "at": {"line": 7, "edge": "start", "offset": 0.0}, "dur": 6.0},
+  {"sfx": "lock", "at": {"line": 9, "edge": "end", "offset": 0.1}},
+  {"sfx": "creak", "at": {"line": 10, "edge": "start", "offset": 0.4}, "dur": 3.0},
+  {"sfx": "boom", "at": {"line": 10, "edge": "end", "offset": 0.3}},
+  {"sfx": "hit", "at": {"line": 12, "edge": "start", "offset": 0.0}}
+ ],
+ "end_card": ["If a new star", "appears tonight...", "close the dome."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}

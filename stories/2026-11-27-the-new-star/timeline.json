@@ -1,0 +1,165 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 9.921,
+   "text": "I spent one winter alone at a mountain observatory, keeping the big telescope running through the night."
+  },
+  {
+   "i": 1,
+   "start": 10.521,
+   "end": 16.025,
+   "text": "Beside the eyepiece hung an old star chart... and one rule, written in the margin."
+  },
+  {
+   "i": 2,
+   "start": 16.625,
+   "end": 21.02,
+   "text": "If you ever see a star that isn't on this chart... close the dome."
+  },
+  {
+   "i": 3,
+   "start": 21.62,
+   "end": 26.164,
+   "text": "Don't point the telescope at it. And never let it see the dome open."
+  },
+  {
+   "i": 4,
+   "start": 27.064,
+   "end": 32.056,
+   "text": "For two months, the sky matched that chart perfectly. Every single night."
+  },
+  {
+   "i": 5,
+   "start": 33.056,
+   "end": 40.245,
+   "text": "Then, one night in January, I found it. A cold, white star, low over the pines... where the chart showed nothing."
+  },
+  {
+   "i": 6,
+   "start": 40.845,
+   "end": 44.749,
+   "text": "I told myself it was a plane. A satellite. Anything."
+  },
+  {
+   "i": 7,
+   "start": 45.649,
+   "end": 49.148,
+   "text": "But it didn't drift across the sky like the others..."
+  },
+  {
+   "i": 8,
+   "start": 50.548,
+   "end": 52.916,
+   "text": "It just kept getting brighter."
+  },
+  {
+   "i": 9,
+   "start": 54.916,
+   "end": 57.945,
+   "text": "I slammed the switch to close the dome."
+  },
+  {
+   "i": 10,
+   "start": 59.545,
+   "end": 63.215,
+   "text": "The motor groaned... and the roof stopped, halfway shut."
+  },
+  {
+   "i": 11,
+   "start": 65.415,
+   "end": 68.316,
+   "text": "Through the gap, the new star blinked."
+  },
+  {
+   "i": 12,
+   "start": 70.316,
+   "end": 76.289,
+   "text": "Then a second one opened right beside it... and both of them looked down. Into the dome. At me."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 960,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 10.271
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 1000,
+   "bed": "room",
+   "start": 10.271,
+   "end": 26.814
+  },
+  {
+   "id": "s3",
+   "from_line": 4,
+   "cx": 960,
+   "bed": "wind",
+   "start": 26.814,
+   "end": 32.806
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 1000,
+   "bed": "drone",
+   "start": 32.806,
+   "end": 50.298,
+   "fade_out": false
+  },
+  {
+   "id": "s4b",
+   "from_line": 8,
+   "cx": 1000,
+   "bed": "drone_rise",
+   "cut": true,
+   "start": 50.298,
+   "end": 54.666,
+   "fade_in": false
+  },
+  {
+   "id": "s5",
+   "from_line": 9,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 54.666,
+   "end": 65.165
+  },
+  {
+   "id": "s6",
+   "from_line": 11,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 65.165,
+   "end": 70.066,
+   "fade_out": false
+  },
+  {
+   "id": "s6b",
+   "from_line": 12,
+   "cx": 960,
+   "bed": "drone_deep",
+   "cut": true,
+   "start": 70.066,
+   "end": 76.68900000000001,
+   "fade_in": false
+  },
+  {
+   "id": "_end",
+   "start": 76.68900000000001,
+   "end": 80.489
+  }
+ ],
+ "total": 80.489
+}
