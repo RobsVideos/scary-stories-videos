@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter><linearGradient id="tk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000" stop-opacity="0.15"/><stop offset="0.7" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.25"/></linearGradient></defs>
+<rect width="1920" height="1080" fill="#09080b"/>
+<rect x="0" y="0" width="1920" height="600" fill="#110e12"/>
+<g fill="#1a161a"><rect x="60" y="80" width="200" height="140" rx="4"/><rect x="300" y="80" width="200" height="140" rx="4"/><rect x="540" y="80" width="200" height="140" rx="4"/><rect x="780" y="80" width="200" height="140" rx="4"/><rect x="1020" y="80" width="200" height="140" rx="4"/><rect x="1260" y="80" width="200" height="140" rx="4"/><rect x="1500" y="80" width="200" height="140" rx="4"/><rect x="1740" y="80" width="200" height="140" rx="4"/></g>
+<rect x="0" y="760" width="1920" height="320" fill="#211b1c"/>
+<rect x="0" y="760" width="1920" height="14" fill="#342a2a"/>
+<circle cx="960" cy="520" r="360" fill="#ffe6c0" opacity="0.12" filter="url(#blur30)"/>
+<!-- printer -->
+<rect x="760" y="580" width="400" height="200" rx="26" fill="#141318"/>
+<rect x="780" y="560" width="360" height="60" rx="16" fill="#1e1d24"/>
+<rect x="820" y="588" width="280" height="10" rx="4" fill="#050506"/>
+<circle cx="1110" cy="730" r="14" fill="#5aff8a" opacity="0.8" filter="url(#blur30)"/><circle cx="1110" cy="730" r="6" fill="#7aff9a"/>
+<!-- ticket -->
+<path d="M840 592 L1080 592 L1078 150 L1060 140 L1040 150 L1020 140 L1000 150 L980 140 L960 150 L940 140 L920 150 L900 140 L880 150 L860 140 L842 150Z" fill="#efe9dc"/>
+<path d="M840 592 L1080 592 L1078 150 L842 150Z" fill="url(#tk)"/>
+<text x="960" y="210" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="28" fill="#2a2a2a">LANE 1</text>
+<text x="960" y="250" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="22" fill="#555">03:04 AM</text>
+<line x1="870" y1="280" x2="1050" y2="280" stroke="#555" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="880" y="340" font-family="DejaVu Sans Mono, monospace" font-size="40" fill="#1a1a1a">1 x</text>
+<rect x="880" y="370" width="170" height="20" fill="#1a1a1a" opacity="0.85"/>
+<rect x="880" y="400" width="120" height="20" fill="#1a1a1a" opacity="0.85"/>
+<line x1="870" y1="450" x2="1050" y2="450" stroke="#555" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="960" y="500" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="26" fill="#9a1a14">TO GO</text>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

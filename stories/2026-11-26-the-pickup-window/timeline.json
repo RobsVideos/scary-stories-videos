@@ -1,0 +1,180 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 8.193,
+   "text": "The drive-thru headset at my job has one rule taped inside it."
+  },
+  {
+   "i": 1,
+   "start": 8.793,
+   "end": 13.273,
+   "text": "If someone orders and the lane is empty... don't read the order back."
+  },
+  {
+   "i": 2,
+   "start": 14.173,
+   "end": 21.064,
+   "text": "The guy who worked nights before me wrote it. Marcus. He walked out in the middle of a shift and never came back."
+  },
+  {
+   "i": 3,
+   "start": 21.864,
+   "end": 26.685,
+   "text": "Three a.m. Rain on the menu board. Then the car sensor chimed."
+  },
+  {
+   "i": 4,
+   "start": 28.085,
+   "end": 31.627,
+   "text": "A soft voice in my ear. Just one, please."
+  },
+  {
+   "i": 5,
+   "start": 32.827,
+   "end": 37.904,
+   "text": "I checked the camera. The lane was empty. Just rain, shining under the lights."
+  },
+  {
+   "i": 6,
+   "start": 38.504,
+   "end": 40.253,
+   "text": "I didn't say a word."
+  },
+  {
+   "i": 7,
+   "start": 41.653,
+   "end": 48.949,
+   "text": "The voice waited. Then the sensor chimed again. And again. Like something was rolling closer... one slow inch at a time."
+  },
+  {
+   "i": 8,
+   "start": 49.949,
+   "end": 55.261,
+   "text": "Then the order printer clicked on by itself. One ticket. One line. My name."
+  },
+  {
+   "i": 9,
+   "start": 56.461,
+   "end": 59.469,
+   "text": "Read it back to me, the voice whispered."
+  },
+  {
+   "i": 10,
+   "start": 61.269,
+   "end": 66.24,
+   "text": "I ripped the headset off. And on the camera... the lane wasn't empty anymore."
+  },
+  {
+   "i": 11,
+   "start": 67.24,
+   "end": 72.659,
+   "text": "A long line of cars stretched out into the dark. Headlights off. Engines silent."
+  },
+  {
+   "i": 12,
+   "start": 73.659,
+   "end": 77.989,
+   "text": "The first one rolled up to my window. Marcus was driving."
+  },
+  {
+   "i": 13,
+   "start": 79.389,
+   "end": 84.659,
+   "text": "He smiled, held up a ticket with my name on it... and said, Order's ready."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 1020,
+   "bed": "rain",
+   "start": 3.5,
+   "end": 8.543
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 980,
+   "bed": "room",
+   "start": 8.543,
+   "end": 21.614
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 1000,
+   "bed": "rain",
+   "start": 21.614,
+   "end": 32.577
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "drone",
+   "start": 32.577,
+   "end": 41.403
+  },
+  {
+   "id": "s5",
+   "from_line": 7,
+   "cx": 1080,
+   "bed": "drone_rise",
+   "start": 41.403,
+   "end": 49.699
+  },
+  {
+   "id": "s6",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "drone",
+   "start": 49.699,
+   "end": 61.019
+  },
+  {
+   "id": "s7",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 61.019,
+   "end": 73.409
+  },
+  {
+   "id": "s8",
+   "from_line": 12,
+   "cx": 960,
+   "bed": "rain",
+   "start": 73.409,
+   "end": 81.589,
+   "fade_out": false
+  },
+  {
+   "id": "s8b",
+   "at": {
+    "line": 13,
+    "edge": "start",
+    "offset": 2.2
+   },
+   "cx": 960,
+   "bed": "drone_deep",
+   "cut": true,
+   "start": 81.589,
+   "end": 85.05900000000001,
+   "fade_in": false
+  },
+  {
+   "id": "_end",
+   "start": 85.05900000000001,
+   "end": 88.85900000000001
+  }
+ ],
+ "total": 88.85900000000001
+}
