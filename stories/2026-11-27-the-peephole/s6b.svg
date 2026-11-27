@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter><filter id="bb30" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="30"/></filter><filter id="bb60" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="60"/></filter><filter id="bb12" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="12"/></filter><radialGradient id="fish" cx="960" cy="540" r="360" gradientUnits="userSpaceOnUse"><stop offset="0.55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.95"/></radialGradient><radialGradient id="iris" cx="960" cy="545" r="170" gradientUnits="userSpaceOnUse"><stop offset="0.4" stop-color="#ff3b2f" stop-opacity="0.2"/><stop offset="0.85" stop-color="#7a1410" stop-opacity="0.9"/><stop offset="1" stop-color="#1a0402"/></radialGradient><radialGradient id="eyeShade" cx="960" cy="545" r="420" gradientUnits="userSpaceOnUse"><stop offset="0.4" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.75"/></radialGradient></defs>
+<rect width="1920" height="1080" fill="#000"/>
+<defs><clipPath id="lens"><circle cx="960" cy="540" r="360"/></clipPath></defs>
+<g clip-path="url(#lens)">
+<rect width="1920" height="1080" fill="#0b0a0c"/>
+<ellipse cx="960" cy="540" rx="560" ry="420" fill="#2a1c1a" filter="url(#bb30)"/>
+<path d="M560 560 Q960 230 1360 560 Q960 820 560 560 Z" fill="#d8ccc0"/>
+<path d="M560 560 Q960 230 1360 560 Q960 820 560 560 Z" fill="url(#eyeShade)"/>
+<g stroke="#a04848" stroke-width="2" opacity="0.5" fill="none"><path d="M600 560 q80 -20 140 10"/><path d="M1320 560 q-80 30 -150 0"/><path d="M640 520 q60 0 110 30"/></g>
+<circle cx="960" cy="545" r="170" fill="#4a0e0c"/>
+<circle cx="960" cy="545" r="170" fill="url(#iris)"/>
+<circle cx="960" cy="545" r="78" fill="#030102"/>
+<ellipse cx="910" cy="495" rx="30" ry="20" fill="#fff" opacity="0.65"/>
+<path d="M540 560 Q960 180 1380 560 Q960 300 540 560 Z" fill="#1a100e"/>
+<path d="M540 560 Q960 860 1380 560 Q960 760 540 560 Z" fill="#1a100e"/>
+<circle cx="960" cy="545" r="200" fill="#ff2a18" opacity="0.18" filter="url(#bb30)"/>
+<circle cx="960" cy="540" r="360" fill="url(#fish)"/>
+</g>
+<circle cx="960" cy="540" r="362" fill="none" stroke="#000" stroke-width="30" filter="url(#bb12)"/>
+<ellipse cx="860" cy="400" rx="90" ry="40" fill="#ffffff" opacity="0.05" transform="rotate(-30 860 400)"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

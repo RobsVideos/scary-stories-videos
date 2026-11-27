@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter><linearGradient id="brass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e3c37a"/><stop offset="0.5" stop-color="#a7853f"/><stop offset="1" stop-color="#4e3712"/></linearGradient><linearGradient id="doorw" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a2618"/><stop offset="1" stop-color="#22160e"/></linearGradient><filter id="bb30" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="30"/></filter><filter id="bb60" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="60"/></filter><filter id="bb12" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="12"/></filter><linearGradient id="wl4" x1="0" x2="1"><stop offset="0" stop-color="#2c1c16"/><stop offset="1" stop-color="#140c0b"/></linearGradient><linearGradient id="wr4" x1="1" x2="0"><stop offset="0" stop-color="#2c1c16"/><stop offset="1" stop-color="#140c0b"/></linearGradient><linearGradient id="carpet" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#3a1414"/><stop offset="1" stop-color="#160808"/></linearGradient></defs>
+<rect width="1920" height="1080" fill="#100b0b"/>
+<polygon points="0,0 800,400 800,640 0,1080" fill="url(#wl4)"/>
+<polygon points="1920,0 1120,400 1120,640 1920,1080" fill="url(#wr4)"/>
+<polygon points="0,0 1920,0 1120,400 800,400" fill="#0b0808"/>
+<polygon points="0,1080 800,640 1120,640 1920,1080" fill="url(#carpet)"/>
+<g stroke="#2a0f10" stroke-width="3" opacity="0.6"><line x1="960" y1="640" x2="-400" y2="1080"/><line x1="960" y1="640" x2="-160" y2="1080"/><line x1="960" y1="640" x2="80" y2="1080"/><line x1="960" y1="640" x2="320" y2="1080"/><line x1="960" y1="640" x2="560" y2="1080"/><line x1="960" y1="640" x2="800" y2="1080"/><line x1="960" y1="640" x2="1040" y2="1080"/><line x1="960" y1="640" x2="1280" y2="1080"/><line x1="960" y1="640" x2="1520" y2="1080"/><line x1="960" y1="640" x2="1760" y2="1080"/><line x1="960" y1="640" x2="2000" y2="1080"/><line x1="960" y1="640" x2="2240" y2="1080"/></g>
+<polygon points="140,200 310,242 310,949 140,1000" fill="#1a0e0c"/><polygon points="1780,200 1610,242 1610,949 1780,1000" fill="#1a0e0c"/><polygon points="371,270 496,301 496,837 371,874" fill="#1a0e0c"/><polygon points="1549,270 1424,301 1424,837 1549,874" fill="#1a0e0c"/><polygon points="536,320 628,343 628,756 536,784" fill="#1a0e0c"/><polygon points="1384,320 1292,343 1292,756 1384,784" fill="#1a0e0c"/><polygon points="655,356 723,373 723,699 655,719" fill="#1a0e0c"/><polygon points="1265,356 1197,373 1197,699 1265,719" fill="#1a0e0c"/>
+<rect x="810" y="60" width="300" height="36" fill="#e8dcb8" opacity="0.15"/><rect x="875" y="230" width="170" height="20" fill="#e8dcb8" opacity="0.8"/><rect x="910" y="320" width="100" height="12" fill="#e8dcb8" opacity="0.7"/><rect x="930" y="372" width="60" height="7" fill="#e8dcb8" opacity="0.6"/>
+<circle cx="960" cy="250" r="140" fill="#e8dcb8" opacity="0.18" filter="url(#bb30)"/>
+<rect x="800" y="400" width="320" height="240" fill="#1c1210"/>
+<rect x="880" y="430" width="160" height="210" fill="url(#doorw)"/>
+<rect x="944" y="462" width="32" height="18" rx="3" fill="url(#brass)"/>
+<circle cx="960" cy="498" r="6" fill="url(#brass)"/>
+<rect x="912" y="402" width="96" height="24" rx="3" fill="#5a0a08"/>
+<text x="960" y="421" text-anchor="middle" font-family="Inter, DejaVu Sans, sans-serif" font-size="19" font-weight="bold" fill="#ff4a38">EXIT</text>
+<circle cx="960" cy="412" r="70" fill="#ff2a18" opacity="0.45" filter="url(#bb30)"/>
+<g transform="translate(960 650) scale(1.75) translate(-960 -650)">
+<ellipse cx="960" cy="458" rx="26" ry="34" fill="#030203"/>
+<path d="M920 640 L924 560 C914 520 922 500 960 494 C998 500 1006 520 996 560 L1000 640 Z" fill="#030203"/>
+<path d="M926 506 C900 540 900 580 906 620" stroke="#030203" stroke-width="12" fill="none" stroke-linecap="round"/>
+<path d="M994 506 C1022 520 1024 500 1000 470" stroke="#030203" stroke-width="12" fill="none" stroke-linecap="round"/>
+</g>
+<ellipse cx="960" cy="652" rx="150" ry="14" fill="#000" opacity="0.7"/>
+<ellipse cx="960" cy="700" rx="1250" ry="80" fill="#7a6a6a" opacity="0.08" filter="url(#blur60)"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

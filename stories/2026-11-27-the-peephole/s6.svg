@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter><filter id="bb30" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="30"/></filter><filter id="bb60" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="60"/></filter><filter id="bb12" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="12"/></filter><radialGradient id="fish" cx="960" cy="540" r="360" gradientUnits="userSpaceOnUse"><stop offset="0.55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.95"/></radialGradient></defs>
+<rect width="1920" height="1080" fill="#000"/>
+<defs><clipPath id="lens"><circle cx="960" cy="540" r="360"/></clipPath></defs>
+<g clip-path="url(#lens)">
+<rect width="1920" height="1080" fill="#0b0a0c"/>
+<g filter="url(#bb30)"><ellipse cx="960" cy="540" rx="300" ry="280" fill="#16131a"/>
+<path d="M700 300 Q960 220 1220 300" stroke="#2a2420" stroke-width="30" fill="none"/>
+<ellipse cx="960" cy="560" rx="180" ry="190" fill="#0a080b"/></g><circle cx="1150" cy="330" r="60" fill="#ff2a18" opacity="0.25" filter="url(#bb30)"/>
+<circle cx="960" cy="540" r="360" fill="url(#fish)"/>
+</g>
+<circle cx="960" cy="540" r="362" fill="none" stroke="#000" stroke-width="30" filter="url(#bb12)"/>
+<ellipse cx="860" cy="400" rx="90" ry="40" fill="#ffffff" opacity="0.05" transform="rotate(-30 860 400)"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

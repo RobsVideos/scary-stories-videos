@@ -1,0 +1,46 @@
+{
+ "title": "The Peephole",
+ "slug": "2026-11-27-the-peephole",
+ "hook": "My new apartment came with one rule: the tape over the peephole stays on. Never look out after two in the morning... no matter who knocks.",
+ "voice": "am_onyx",
+ "speed": 0.88,
+ "lines": [
+  "When I moved into apartment 4C, there was a strip of black tape over the peephole.",
+  "The super told me it stays there. Never peel it off. And never look out after two in the morning... no matter who knocks.",
+  "I thought he was joking. He wasn't smiling.",
+  "The first knock came on a Tuesday. Two-oh-one A.M.",
+  "Two soft taps... right at eye level.",
+  "Then a whisper through the crack of the door. It's okay... you can look.",
+  "It came back every night. Same time. Same taps. Same patient voice.",
+  "On the ninth night, I couldn't take it anymore. I peeled back the tape... and pressed my eye to the glass.",
+  "Nothing. Just a dark, blurry circle.",
+  "Then the circle blinked.",
+  "This morning I told the super. He unscrewed the peephole, turned it over in his hand... and went very quiet.",
+  "It had been installed backwards.",
+  "That tape was never there to stop me from looking out.",
+  "It was there to stop something from looking in."
+ ],
+ "pauses": {"1": 0.7, "2": 0.9, "3": 0.6, "4": 2.6, "5": 1.2, "6": 0.8, "7": 0.9, "8": 1.0, "9": 2.4, "10": 1.0, "11": 1.4, "12": 0.9},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 1000, "bed": "wind"},
+  {"id": "s2", "from_line": 1, "cx": 960, "bed": "room"},
+  {"id": "s3", "from_line": 3, "cx": 1110, "bed": "room"},
+  {"id": "s4", "from_line": 5, "cx": 960, "bed": "drone"},
+  {"id": "s5", "from_line": 7, "cx": 1000, "bed": "drone_rise"},
+  {"id": "s6", "from_line": 8, "cx": 960, "bed": "drone_rise"},
+  {"id": "s6b", "from_line": 9, "cx": 960, "bed": "drone_deep", "cut": true},
+  {"id": "s7", "from_line": 10, "cx": 960, "bed": "room"},
+  {"id": "s8", "from_line": 12, "cx": 960, "bed": "drone_deep"}
+ ],
+ "events": [
+  {"sfx": "clock", "at": {"line": 3, "edge": "start", "offset": 0.2}, "dur": 5.0, "pan": 0.4, "gain": -4},
+  {"sfx": "knock", "at": {"line": 4, "edge": "end", "offset": 0.4}},
+  {"sfx": "knock", "at": {"line": 4, "edge": "end", "offset": 1.2}},
+  {"sfx": "whisper", "at": {"line": 5, "edge": "start", "offset": 2.2}, "dur": 3.0, "pan": 0.3},
+  {"sfx": "heartbeat", "at": {"line": 7, "edge": "start", "offset": 0.0}, "dur": 10.0, "every": 0.85},
+  {"sfx": "hit", "at": {"line": 9, "edge": "end", "offset": 0.2}},
+  {"sfx": "boom", "at": {"line": 13, "edge": "end", "offset": 0.2}}
+ ],
+ "end_card": ["Never take the tape", "off the peephole."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}

@@ -1,0 +1,176 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 9.047,
+   "text": "When I moved into apartment 4C, there was a strip of black tape over the peephole."
+  },
+  {
+   "i": 1,
+   "start": 9.647,
+   "end": 16.857,
+   "text": "The super told me it stays there. Never peel it off. And never look out after two in the morning... no matter who knocks."
+  },
+  {
+   "i": 2,
+   "start": 17.557,
+   "end": 20.8,
+   "text": "I thought he was joking. He wasn't smiling."
+  },
+  {
+   "i": 3,
+   "start": 21.7,
+   "end": 25.711,
+   "text": "The first knock came on a Tuesday. Two-oh-one A.M."
+  },
+  {
+   "i": 4,
+   "start": 26.311,
+   "end": 29.404,
+   "text": "Two soft taps... right at eye level."
+  },
+  {
+   "i": 5,
+   "start": 32.004,
+   "end": 36.441,
+   "text": "Then a whisper through the crack of the door. It's okay... you can look."
+  },
+  {
+   "i": 6,
+   "start": 37.641,
+   "end": 42.676,
+   "text": "It came back every night. Same time. Same taps. Same patient voice."
+  },
+  {
+   "i": 7,
+   "start": 43.476,
+   "end": 49.577,
+   "text": "On the ninth night, I couldn't take it anymore. I peeled back the tape... and pressed my eye to the glass."
+  },
+  {
+   "i": 8,
+   "start": 50.477,
+   "end": 53.656,
+   "text": "Nothing. Just a dark, blurry circle."
+  },
+  {
+   "i": 9,
+   "start": 54.656,
+   "end": 56.683,
+   "text": "Then the circle blinked."
+  },
+  {
+   "i": 10,
+   "start": 59.083,
+   "end": 65.461,
+   "text": "This morning I told the super. He unscrewed the peephole, turned it over in his hand... and went very quiet."
+  },
+  {
+   "i": 11,
+   "start": 66.461,
+   "end": 69.213,
+   "text": "It had been installed backwards."
+  },
+  {
+   "i": 12,
+   "start": 70.613,
+   "end": 74.283,
+   "text": "That tape was never there to stop me from looking out."
+  },
+  {
+   "i": 13,
+   "start": 75.183,
+   "end": 78.361,
+   "text": "It was there to stop something from looking in."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 1000,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 9.397
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 960,
+   "bed": "room",
+   "start": 9.397,
+   "end": 21.45
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 1110,
+   "bed": "room",
+   "start": 21.45,
+   "end": 31.753999999999998
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "drone",
+   "start": 31.753999999999998,
+   "end": 43.226
+  },
+  {
+   "id": "s5",
+   "from_line": 7,
+   "cx": 1000,
+   "bed": "drone_rise",
+   "start": 43.226,
+   "end": 50.227
+  },
+  {
+   "id": "s6",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "drone_rise",
+   "start": 50.227,
+   "end": 54.406,
+   "fade_out": false
+  },
+  {
+   "id": "s6b",
+   "from_line": 9,
+   "cx": 960,
+   "bed": "drone_deep",
+   "cut": true,
+   "start": 54.406,
+   "end": 58.833,
+   "fade_in": false
+  },
+  {
+   "id": "s7",
+   "from_line": 10,
+   "cx": 960,
+   "bed": "room",
+   "start": 58.833,
+   "end": 70.363
+  },
+  {
+   "id": "s8",
+   "from_line": 12,
+   "cx": 960,
+   "bed": "drone_deep",
+   "start": 70.363,
+   "end": 78.76100000000001
+  },
+  {
+   "id": "_end",
+   "start": 78.76100000000001,
+   "end": 82.561
+  }
+ ],
+ "total": 82.561
+}
