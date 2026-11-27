@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter><linearGradient id="nsky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#04050b"/><stop offset="0.55" stop-color="#121a2e"/><stop offset="1" stop-color="#26304a"/></linearGradient><filter id="bb30" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="30"/></filter><filter id="bb60" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="60"/></filter></defs>
+<rect width="1920" height="1080" fill="#07070b"/>
+<!-- lid, opened up -->
+<path d="M420 40 L1500 40 L1580 330 L340 330Z" fill="#1c1d26"/>
+<path d="M460 70 L1460 70 L1520 300 L400 300Z" fill="#14151c"/>
+<path d="M420 40 L1500 40" stroke="#3a3c4a" stroke-width="6"/>
+<!-- taped note -->
+<g transform="rotate(-3 960 180)">
+<rect x="760" y="100" width="400" height="170" fill="#e8dfc4"/>
+<rect x="760" y="100" width="400" height="170" fill="#000" opacity="0.08"/>
+<rect x="740" y="88" width="90" height="30" fill="#d9cfa8" opacity="0.8" transform="rotate(-12 785 103)"/>
+<rect x="1100" y="88" width="90" height="30" fill="#d9cfa8" opacity="0.8" transform="rotate(10 1145 103)"/>
+<text x="960" y="170" text-anchor="middle" font-family="Comic Relief, DejaVu Sans, sans-serif" font-size="46" fill="#1d1a22">ONE FLARE.</text>
+<text x="960" y="232" text-anchor="middle" font-family="Comic Relief, DejaVu Sans, sans-serif" font-size="46" fill="#8c1414">JUST ONE.</text>
+</g>
+<!-- trunk cavity -->
+<path d="M300 380 L1620 380 L1720 1080 L200 1080Z" fill="#101118"/>
+<path d="M360 430 L1560 430 L1640 1000 L280 1000Z" fill="#191a22"/>
+<path d="M300 380 L1620 380" stroke="#2c2e3a" stroke-width="10"/>
+<!-- spare tire, blanket -->
+<ellipse cx="480" cy="840" rx="150" ry="70" fill="#0a0a0f"/><ellipse cx="480" cy="840" rx="70" ry="30" fill="#1a1b24"/>
+<path d="M1260 720 C1330 690 1480 700 1540 760 L1560 930 L1240 930Z" fill="#2a2433"/>
+<!-- flare kit box -->
+<path d="M720 600 L1160 600 L1180 920 L700 920Z" fill="#3b1210"/>
+<path d="M720 600 L1160 600 L1150 630 L730 630Z" fill="#5a1a14"/>
+<rect x="770" y="640" width="46" height="250" rx="8" fill="#a11a12"/><rect x="770" y="640" width="14" height="250" rx="6" fill="#d24a36" opacity="0.6"/><rect x="770" y="640" width="46" height="26" rx="6" fill="#2a1612"/><rect x="834" y="640" width="46" height="250" rx="8" fill="#a11a12"/><rect x="834" y="640" width="14" height="250" rx="6" fill="#d24a36" opacity="0.6"/><rect x="834" y="640" width="46" height="26" rx="6" fill="#2a1612"/><rect x="898" y="640" width="46" height="250" rx="8" fill="#a11a12"/><rect x="898" y="640" width="14" height="250" rx="6" fill="#d24a36" opacity="0.6"/><rect x="898" y="640" width="46" height="26" rx="6" fill="#2a1612"/><rect x="962" y="640" width="46" height="250" rx="8" fill="#a11a12"/><rect x="962" y="640" width="14" height="250" rx="6" fill="#d24a36" opacity="0.6"/><rect x="962" y="640" width="46" height="26" rx="6" fill="#2a1612"/><rect x="1026" y="640" width="46" height="250" rx="8" fill="#a11a12"/><rect x="1026" y="640" width="14" height="250" rx="6" fill="#d24a36" opacity="0.6"/><rect x="1026" y="640" width="46" height="26" rx="6" fill="#2a1612"/><rect x="1090" y="640" width="46" height="250" rx="8" fill="#a11a12"/><rect x="1090" y="640" width="14" height="250" rx="6" fill="#d24a36" opacity="0.6"/><rect x="1090" y="640" width="46" height="26" rx="6" fill="#2a1612"/>
+<path d="M700 860 L1180 860 L1180 920 L700 920Z" fill="#2a0c0a"/>
+<!-- dome light -->
+<circle cx="960" cy="330" r="16" fill="#ffe0a8"/>
+<circle cx="960" cy="400" r="300" fill="#ffb54a" opacity="0.18" filter="url(#bb30)"/>
+<polygon points="900,330 1020,330 1400,1000 520,1000" fill="#ffd9a0" opacity="0.06"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

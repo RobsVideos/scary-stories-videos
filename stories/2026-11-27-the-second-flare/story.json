@@ -1,0 +1,44 @@
+{
+ "title": "The Second Flare",
+ "slug": "2026-11-27-the-second-flare",
+ "hook": "Dad's rule for a night breakdown: light one flare. And if you ever see a second one down the road... lock the doors.",
+ "voice": "am_onyx", "speed": 0.88,
+ "lines": [
+  "My dad kept a box of road flares in my trunk... and one rule, taped inside the lid.",
+  "If you break down at night, light one flare behind the car. Just one.",
+  "And if you ever see a second flare down the road... lock the doors. Don't wave for help.",
+  "Last winter, my car died on an empty mountain road, an hour past midnight.",
+  "I lit one flare, set it behind the bumper, and climbed back inside to wait for the tow truck.",
+  "For twenty minutes... nothing. Just snow, and that red light hissing in the mirror.",
+  "Then, far down the road behind me... a second flare lit up.",
+  "I locked the doors. I didn't wave.",
+  "A minute later, a third flare lit. Closer.",
+  "Then a fourth. Close enough to see the snow falling around it... and nobody standing there.",
+  "Then, one by one... they all went out.",
+  "When the tow truck finally came, the driver found me curled up on the back seat.",
+  "He walked around with his flashlight, opened my trunk... and asked why my flare box was empty.",
+  "Dad always packs six. I'd only taken one."
+ ],
+ "pauses": {"2": 0.9, "5": 1.0, "6": 2.2, "7": 1.2, "8": 1.4, "9": 1.4, "10": 2.4, "12": 1.4},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 960, "bed": "room"},
+  {"id": "s2", "from_line": 3, "cx": 960, "bed": "wind"},
+  {"id": "s3", "from_line": 4, "cx": 960, "bed": "wind"},
+  {"id": "s4", "from_line": 6, "cx": 990, "bed": "drone"},
+  {"id": "s4b", "from_line": 8, "cx": 990, "bed": "drone_rise", "cut": true},
+  {"id": "s4c", "from_line": 9, "cx": 990, "bed": "drone_rise", "cut": true},
+  {"id": "s4d", "from_line": 10, "cx": 990, "bed": "drone_deep", "cut": true},
+  {"id": "s6", "from_line": 11, "cx": 900, "bed": "wind"},
+  {"id": "s7", "from_line": 12, "cx": 960, "bed": "drone_deep"}
+ ],
+ "events": [
+  {"sfx": "static", "at": {"line": 5, "edge": "start", "offset": 0.5}, "dur": 4.0, "gain": -14, "pan": -0.3},
+  {"sfx": "hit", "at": {"line": 6, "edge": "end", "offset": 0.2}},
+  {"sfx": "lock", "at": {"line": 7, "edge": "start", "offset": 0.1}, "pan": 0.3},
+  {"sfx": "heartbeat", "at": {"line": 8, "edge": "start", "offset": 0.0}, "dur": 9.0, "every": 0.85},
+  {"sfx": "boom", "at": {"line": 10, "edge": "end", "offset": 0.3}},
+  {"sfx": "hit", "at": {"line": 13, "edge": "start", "offset": 0.0}}
+ ],
+ "end_card": ["If you see", "a second flare...", "check your trunk."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}
