@@ -1,0 +1,44 @@
+{
+ "title": "The Back Door",
+ "slug": "2026-11-27-the-back-door",
+ "hook": "The old bus driver left one rule: if anything knocks on the back emergency door... don't stop, and don't look.",
+ "voice": "am_onyx", "speed": 0.88,
+ "lines": [
+  "I drive a school bus on a dark country route, long before the sun comes up.",
+  "The driver who had it before me left one rule, scratched into the sun visor.",
+  "If anything knocks on the back emergency door... don't stop. And don't look.",
+  "All fall, it was easy. Sleepy kids. Frosty fields. Twelve quiet stops.",
+  "Then one morning in December, out between the last farm and the river bridge...",
+  "three slow knocks... from the back of the bus.",
+  "Every kid went silent. Every single one.",
+  "I gripped the wheel, and kept my eyes on the road.",
+  "Three more knocks. Slower this time... patient.",
+  "Then nothing. Just the engine, and my own breathing, for miles.",
+  "At the school, the kids filed off like always, and I finally let go of the wheel.",
+  "Until the last little girl stopped on the steps... and looked back down the empty aisle.",
+  "'Mister,' she whispered. 'Why didn't you let him out?'",
+  "Behind me, very softly... three knocks. From the very back seat."
+ ],
+ "pauses": {"2": 0.9, "4": 2.8, "5": 1.0, "6": 1.0, "7": 2.8, "8": 1.2, "9": 1.6, "11": 1.0, "12": 1.8, "13": 2.4},
+ "scenes": [
+  {"id": "s1", "from_line": 0, "cx": 980, "bed": "wind"},
+  {"id": "s2", "from_line": 1, "cx": 960, "bed": "room"},
+  {"id": "s3", "from_line": 3, "cx": 1000, "bed": "wind"},
+  {"id": "s4", "from_line": 5, "cx": 960, "bed": "drone"},
+  {"id": "s4b", "from_line": 8, "cx": 960, "bed": "drone_rise", "cut": true},
+  {"id": "s5", "from_line": 9, "cx": 960, "bed": "drone"},
+  {"id": "s6", "from_line": 10, "cx": 1000, "bed": "wind"},
+  {"id": "s7", "from_line": 11, "cx": 1060, "bed": "drone_rise"},
+  {"id": "s8", "from_line": 13, "cx": 960, "bed": "drone_deep", "cut": true}
+ ],
+ "events": [
+  {"sfx": "knock3", "at": {"line": 4, "edge": "end", "offset": 0.5}, "pan": -0.2},
+  {"sfx": "heartbeat", "at": {"line": 6, "edge": "start", "offset": 0.0}, "dur": 9.0, "every": 0.85},
+  {"sfx": "knock3", "at": {"line": 7, "edge": "end", "offset": 0.5}, "gain": -3, "pan": -0.2},
+  {"sfx": "riser", "at": {"line": 11, "edge": "start", "offset": 0.5}, "dur": 5.0},
+  {"sfx": "hit", "at": {"line": 12, "edge": "end", "offset": 0.2}},
+  {"sfx": "knock3", "at": {"line": 13, "edge": "end", "offset": 0.3}, "gain": -4}
+ ],
+ "end_card": ["If it knocks", "from the back...", "don't let it out."],
+ "hashtags": ["#scarystories", "#horrorstories", "#creepy", "#scary", "#horrortok", "#fyp"]
+}

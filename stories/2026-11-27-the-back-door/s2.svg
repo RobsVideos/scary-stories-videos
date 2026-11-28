@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter><linearGradient id="dawn" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#03040a"/><stop offset="0.55" stop-color="#111a30"/><stop offset="1" stop-color="#3a3550"/></linearGradient><filter id="bb30" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="30"/></filter></defs>
+<rect width="1920" height="1080" fill="#07080d"/>
+<rect x="0" y="0" width="1920" height="300" fill="#12131a"/>
+<circle cx="100" cy="150" r="6" fill="#26272f"/><circle cx="320" cy="150" r="6" fill="#26272f"/><circle cx="540" cy="150" r="6" fill="#26272f"/><circle cx="760" cy="150" r="6" fill="#26272f"/><circle cx="980" cy="150" r="6" fill="#26272f"/><circle cx="1200" cy="150" r="6" fill="#26272f"/><circle cx="1420" cy="150" r="6" fill="#26272f"/><circle cx="1640" cy="150" r="6" fill="#26272f"/><circle cx="1860" cy="150" r="6" fill="#26272f"/>
+<path d="M0 560 L1920 560 L1920 1080 L0 1080Z" fill="#0b0c12"/>
+<!-- windshield view: road in headlights -->
+<path d="M120 300 L1800 300 L1800 600 L120 600Z" fill="#0a0f1d"/>
+<path d="M760 600 L940 360 L980 360 L1160 600Z" fill="#2a2a2c" opacity="0.7"/>
+<path d="M960 600 L960 360" stroke="#c9b46a" stroke-width="4" stroke-dasharray="30 26" opacity="0.6"/>
+<ellipse cx="960" cy="560" rx="420" ry="120" fill="#fff0c0" opacity="0.12" filter="url(#blur60)"/>
+<!-- mirror -->
+<rect x="940" y="270" width="40" height="70" fill="#1c1d24"/>
+<rect x="640" y="120" width="640" height="200" rx="30" fill="#2b2d36"/>
+<rect x="660" y="138" width="600" height="164" rx="22" fill="#141a2a"/>
+<!-- aisle in the mirror: dim seats -->
+<path d="M720 300 L860 160 L1060 160 L1200 300Z" fill="#0c101c"/>
+<rect x="700" y="170" width="90" height="18" fill="#3a2418" opacity="0.8"/><rect x="1130" y="170" width="90" height="18" fill="#3a2418" opacity="0.8"/><rect x="718" y="194" width="84" height="18" fill="#3a2418" opacity="0.8"/><rect x="1118" y="194" width="84" height="18" fill="#3a2418" opacity="0.8"/><rect x="736" y="218" width="78" height="18" fill="#3a2418" opacity="0.8"/><rect x="1106" y="218" width="78" height="18" fill="#3a2418" opacity="0.8"/><rect x="754" y="242" width="72" height="18" fill="#3a2418" opacity="0.8"/><rect x="1094" y="242" width="72" height="18" fill="#3a2418" opacity="0.8"/><rect x="772" y="266" width="66" height="18" fill="#3a2418" opacity="0.8"/><rect x="1082" y="266" width="66" height="18" fill="#3a2418" opacity="0.8"/>
+<rect x="935" y="160" width="50" height="40" fill="#ff2f22" opacity="0.5"/>
+<rect x="660" y="138" width="600" height="164" rx="22" fill="#9fb4e8" opacity="0.07"/>
+<!-- scratched note on the sun visor -->
+<rect x="580" y="345" width="760" height="230" rx="14" fill="#2a241c"/>
+<rect x="580" y="345" width="760" height="230" rx="14" fill="none" stroke="#14110c" stroke-width="6"/>
+<text x="960" y="410" text-anchor="middle" font-family="Comic Relief, DejaVu Sans, sans-serif" font-size="44" fill="#d9cdb0" opacity="0.9">IF IT KNOCKS ON</text>
+<text x="960" y="470" text-anchor="middle" font-family="Comic Relief, DejaVu Sans, sans-serif" font-size="44" fill="#d9cdb0" opacity="0.9">THE BACK DOOR...</text>
+<text x="960" y="535" text-anchor="middle" font-family="Comic Relief, DejaVu Sans, sans-serif" font-size="44" fill="#ff6a55" opacity="0.9">DON'T STOP. DON'T LOOK.</text>
+<!-- steering wheel -->
+<circle cx="960" cy="1060" r="330" fill="none" stroke="#050507" stroke-width="56"/>
+<rect x="930" y="760" width="60" height="320" fill="#050507"/>
+<circle cx="960" cy="1060" r="80" fill="#050507"/>
+<circle cx="960" cy="435" r="400" fill="#ffd28a" opacity="0.06" filter="url(#bb30)"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

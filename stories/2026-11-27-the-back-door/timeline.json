@@ -1,0 +1,179 @@
+{
+ "lines": [
+  {
+   "i": 0,
+   "start": 3.5,
+   "end": 8.62,
+   "text": "I drive a school bus on a dark country route, long before the sun comes up."
+  },
+  {
+   "i": 1,
+   "start": 9.22,
+   "end": 14.105,
+   "text": "The driver who had it before me left one rule, scratched into the sun visor."
+  },
+  {
+   "i": 2,
+   "start": 14.705,
+   "end": 19.676,
+   "text": "If anything knocks on the back emergency door... don't stop. And don't look."
+  },
+  {
+   "i": 3,
+   "start": 20.576,
+   "end": 25.867,
+   "text": "All fall, it was easy. Sleepy kids. Frosty fields. Twelve quiet stops."
+  },
+  {
+   "i": 4,
+   "start": 26.467,
+   "end": 31.544,
+   "text": "Then one morning in December, out between the last farm and the river bridge..."
+  },
+  {
+   "i": 5,
+   "start": 34.344,
+   "end": 37.693,
+   "text": "three slow knocks... from the back of the bus."
+  },
+  {
+   "i": 6,
+   "start": 38.693,
+   "end": 42.192,
+   "text": "Every kid went silent. Every single one."
+  },
+  {
+   "i": 7,
+   "start": 43.192,
+   "end": 46.691,
+   "text": "I gripped the wheel, and kept my eyes on the road."
+  },
+  {
+   "i": 8,
+   "start": 49.491,
+   "end": 53.032,
+   "text": "Three more knocks. Slower this time... patient."
+  },
+  {
+   "i": 9,
+   "start": 54.232,
+   "end": 58.605,
+   "text": "Then nothing. Just the engine, and my own breathing, for miles."
+  },
+  {
+   "i": 10,
+   "start": 60.205,
+   "end": 65.496,
+   "text": "At the school, the kids filed off like always, and I finally let go of the wheel."
+  },
+  {
+   "i": 11,
+   "start": 66.096,
+   "end": 71.451,
+   "text": "Until the last little girl stopped on the steps... and looked back down the empty aisle."
+  },
+  {
+   "i": 12,
+   "start": 72.451,
+   "end": 75.587,
+   "text": "'Mister,' she whispered. 'Why didn't you let him out?'"
+  },
+  {
+   "i": 13,
+   "start": 77.387,
+   "end": 81.781,
+   "text": "Behind me, very softly... three knocks. From the very back seat."
+  }
+ ],
+ "scenes": [
+  {
+   "id": "_title",
+   "start": 0.0,
+   "end": 3.5
+  },
+  {
+   "id": "s1",
+   "from_line": 0,
+   "cx": 980,
+   "bed": "wind",
+   "start": 3.5,
+   "end": 8.97
+  },
+  {
+   "id": "s2",
+   "from_line": 1,
+   "cx": 960,
+   "bed": "room",
+   "start": 8.97,
+   "end": 20.326
+  },
+  {
+   "id": "s3",
+   "from_line": 3,
+   "cx": 1000,
+   "bed": "wind",
+   "start": 20.326,
+   "end": 34.094
+  },
+  {
+   "id": "s4",
+   "from_line": 5,
+   "cx": 960,
+   "bed": "drone",
+   "start": 34.094,
+   "end": 49.241,
+   "fade_out": false
+  },
+  {
+   "id": "s4b",
+   "from_line": 8,
+   "cx": 960,
+   "bed": "drone_rise",
+   "cut": true,
+   "start": 49.241,
+   "end": 53.982,
+   "fade_in": false
+  },
+  {
+   "id": "s5",
+   "from_line": 9,
+   "cx": 960,
+   "bed": "drone",
+   "start": 53.982,
+   "end": 59.955
+  },
+  {
+   "id": "s6",
+   "from_line": 10,
+   "cx": 1000,
+   "bed": "wind",
+   "start": 59.955,
+   "end": 65.846
+  },
+  {
+   "id": "s7",
+   "from_line": 11,
+   "cx": 1060,
+   "bed": "drone_rise",
+   "start": 65.846,
+   "end": 77.137,
+   "fade_out": false
+  },
+  {
+   "id": "s8",
+   "from_line": 13,
+   "cx": 960,
+   "bed": "drone_deep",
+   "cut": true,
+   "start": 77.137,
+   "end": 82.18100000000001,
+   "fade_in": false
+  },
+  {
+   "id": "_end",
+   "start": 82.18100000000001,
+   "end": 85.98100000000001
+  }
+ ],
+ "total": 85.98100000000001
+}

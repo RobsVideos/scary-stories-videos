@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter><linearGradient id="dawn2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0a0d1a"/><stop offset="0.55" stop-color="#2a2f4c"/><stop offset="1" stop-color="#6a5566"/></linearGradient><filter id="bb30" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="30"/></filter></defs>
+<rect width="1920" height="1080" fill="#07080d"/>
+<!-- open door frame, pale dawn outside -->
+<rect x="500" y="120" width="420" height="900" fill="url(#dawn2)"/>
+<rect x="500" y="120" width="420" height="900" fill="#8a7a8a" opacity="0.15"/>
+<rect x="470" y="100" width="30" height="940" fill="#1b1c22"/><rect x="920" y="100" width="30" height="940" fill="#1b1c22"/>
+<rect x="470" y="100" width="480" height="30" fill="#1b1c22"/>
+<!-- steps -->
+<path d="M500 820 L920 820 L920 860 L500 860Z" fill="#23242c"/>
+<path d="M500 920 L920 920 L920 960 L500 960Z" fill="#23242c"/>
+<path d="M500 860 L920 860 L920 920 L500 920Z" fill="#14151b"/>
+<path d="M500 960 L920 960 L920 1080 L500 1080Z" fill="#0f1015"/>
+<rect x="490" y="820" width="440" height="8" fill="#7a5a12"/>
+<!-- handrail -->
+<path d="M960 300 L960 880" stroke="#5a5c66" stroke-width="16" stroke-linecap="round"/>
+<!-- girl: small, turned, looking back up and over her shoulder -->
+<g fill="#050508">
+<path d="M660 820 L650 640 C640 590 680 560 720 560 C760 560 800 590 790 640 L780 820Z"/>
+<circle cx="725" cy="510" r="58"/>
+<path d="M670 500 C660 560 640 600 630 640 L660 640 C670 600 680 560 690 520Z"/>
+<path d="M780 500 C800 560 810 600 815 640 L790 640 C785 600 775 560 760 520Z"/>
+<rect x="650" y="600" width="60" height="120" rx="14" fill="#3a1414"/>
+</g>
+<ellipse cx="745" cy="500" rx="10" ry="6" fill="#cfd6ea" opacity="0.5"/>
+<!-- the aisle she is looking down (right): dark, empty, red glow far back -->
+<path d="M950 100 L1920 0 L1920 1080 L950 1080Z" fill="#0b0c12"/>
+<path d="M1100 1080 L1500 560 L1620 560 L1920 900 L1920 1080Z" fill="#121319"/>
+<rect x="1180" y="700" width="150" height="110" rx="10" fill="#2e1810"/><rect x="1250" y="660" width="132" height="98" rx="10" fill="#2e1810"/><rect x="1320" y="620" width="114" height="86" rx="10" fill="#2e1810"/><rect x="1390" y="580" width="96" height="74" rx="10" fill="#2e1810"/><rect x="1460" y="540" width="78" height="62" rx="10" fill="#2e1810"/>
+<circle cx="1600" cy="520" r="90" fill="#ff2f22" opacity="0.45" filter="url(#bb30)"/>
+<rect x="1570" y="500" width="70" height="20" fill="#ff2f22" opacity="0.8"/>
+<rect x="1540" y="530" width="130" height="200" fill="#04050a"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>

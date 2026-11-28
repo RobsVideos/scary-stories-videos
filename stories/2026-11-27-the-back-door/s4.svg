@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><defs>
+<radialGradient id="vig" cx="960" cy="540" r="1100" gradientUnits="userSpaceOnUse">
+<stop offset="0.5" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.85"/></radialGradient>
+<filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<filter id="blur60"><feGaussianBlur stdDeviation="60"/></filter><filter id="bb30" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="30"/></filter></defs>
+<rect width="1920" height="1080" fill="#08090e"/>
+<polygon points="0,0 700,180 700,560 0,1080" fill="#14161f"/>
+<polygon points="1920,0 1220,180 1220,560 1920,1080" fill="#14161f"/>
+<polygon points="0,0 1920,0 1220,180 700,180" fill="#0d0e14"/>
+<line x1="100" y1="26" x2="1820" y2="26" stroke="#1d1f29" stroke-width="5"/><line x1="240" y1="62" x2="1680" y2="62" stroke="#1d1f29" stroke-width="5"/><line x1="380" y1="98" x2="1540" y2="98" stroke="#1d1f29" stroke-width="5"/><line x1="520" y1="134" x2="1400" y2="134" stroke="#1d1f29" stroke-width="5"/><line x1="660" y1="170" x2="1260" y2="170" stroke="#1d1f29" stroke-width="5"/>
+<!-- side windows: black, frosted -->
+<polygon points="120,69 181,97 210,507 120,534" fill="#0a0e1c"/><polygon points="320,121 391,149 410,447 320,474" fill="#0a0e1c"/><polygon points="500,168 580,195 590,393 500,420" fill="#0a0e1c"/>
+<polygon points="1800,69 1739,97 1710,507 1800,534" fill="#0a0e1c"/><polygon points="1600,121 1529,149 1510,447 1600,474" fill="#0a0e1c"/><polygon points="1420,168 1340,195 1330,393 1420,420" fill="#0a0e1c"/>
+<polygon points="0,1080 700,560 1220,560 1920,1080" fill="#101119"/>
+<polygon points="840,1080 900,560 1020,560 1080,1080" fill="#1b1c24"/>
+<!-- emergency door -->
+<rect x="830" y="200" width="260" height="360" fill="#1a1c24"/>
+<rect x="852" y="222" width="216" height="170" fill="#04060c"/>
+<rect x="852" y="222" width="216" height="170" fill="#7d8fbf" opacity="0.07"/>
+
+<rect x="860" y="440" width="200" height="16" rx="6" fill="#55575f"/>
+<rect x="1020" y="420" width="40" height="56" rx="8" fill="#6e6f77"/>
+<rect x="880" y="160" width="160" height="32" rx="4" fill="#2a0806"/>
+<text x="960" y="185" text-anchor="middle" font-family="Inter, DejaVu Sans, sans-serif" font-weight="bold" font-size="22" fill="#ff2f22" opacity="0.85">EMERGENCY EXIT</text>
+<circle cx="960" cy="176" r="120" fill="#ff2f22" opacity="0.2975" filter="url(#bb30)"/>
+<rect x="830" y="200" width="260" height="360" fill="#ff2f22" opacity="0.05"/>
+<rect x="1020" y="460" width="180" height="50" rx="8" fill="#3a1e14"/><rect x="1020" y="460" width="180" height="9" rx="8" fill="#55301f"/><rect x="720" y="460" width="180" height="50" rx="8" fill="#3a1e14"/><rect x="720" y="460" width="180" height="9" rx="8" fill="#55301f"/><rect x="1040" y="538" width="256" height="66" rx="10" fill="#3a1e14"/><rect x="1040" y="538" width="256" height="12" rx="8" fill="#55301f"/><circle cx="752" cy="520" r="25" fill="#08080c"/><rect x="624" y="538" width="256" height="66" rx="10" fill="#3a1e14"/><rect x="624" y="538" width="256" height="12" rx="8" fill="#55301f"/><rect x="1060" y="616" width="332" height="82" rx="11" fill="#3a1e14"/><rect x="1060" y="616" width="332" height="15" rx="8" fill="#55301f"/><rect x="528" y="616" width="332" height="82" rx="11" fill="#3a1e14"/><rect x="528" y="616" width="332" height="15" rx="8" fill="#55301f"/><circle cx="1284" cy="669" r="36" fill="#08080c"/><rect x="1080" y="694" width="408" height="98" rx="13" fill="#3a1e14"/><rect x="1080" y="694" width="408" height="18" rx="8" fill="#55301f"/><rect x="432" y="694" width="408" height="98" rx="13" fill="#3a1e14"/><rect x="432" y="694" width="408" height="18" rx="8" fill="#55301f"/><rect x="1100" y="772" width="484" height="114" rx="14" fill="#3a1e14"/><rect x="1100" y="772" width="484" height="21" rx="8" fill="#55301f"/><circle cx="578" cy="743" r="41" fill="#08080c"/><rect x="336" y="772" width="484" height="114" rx="14" fill="#3a1e14"/><rect x="336" y="772" width="484" height="21" rx="8" fill="#55301f"/><rect x="1120" y="850" width="560" height="130" rx="16" fill="#3a1e14"/><rect x="1120" y="850" width="560" height="23" rx="8" fill="#55301f"/><rect x="240" y="850" width="560" height="130" rx="16" fill="#3a1e14"/><rect x="240" y="850" width="560" height="23" rx="8" fill="#55301f"/>
+<ellipse cx="960" cy="900" rx="700" ry="120" fill="#ffb060" opacity="0.05" filter="url(#blur60)"/>
+<rect width="1920" height="1080" fill="url(#vig)"/></svg>
